@@ -3,21 +3,19 @@ project:
 
 book:
   title: "ADA-Oeffentliche-Verwaltung-Website"
-  author: "Norah Jones"
-  date: "8/25/2023"
   chapters:
     - index.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd
+  navbar:
+    background: white
 
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
-  pdf:
-    documentclass: scrreprt
+    theme: flatly
 
 
 
