@@ -2,11 +2,13 @@ project:
   type: book
 
 book:
-  title: "ADA-Oeffentliche-Verwaltung-Website"
+  title: "Angewandte Datenanalyse für die öffentliche Verwaltung"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - Modul_1.qmd
+    - Modul_2.qmd
+    - Modul_3.qmd
+    - Modul_4.qmd
     - references.qmd
   navbar:
     background: white
