@@ -1,8 +1,15 @@
 # Einführung, Problemerfassung und Daten verstehen
+<p align="center">
+<img src="icons/files.png" width="80" height="80" class="center">
+</p> 
+ 
 ## Gliederung
 1. Intro
-2. 
-
+2. Wie sehen die ForumSTAR Daten aus, bevor sie zur csv-Datei werden? Was ist eine relationale Datenbank?
+3. Open Data, FAIR Data, FAIR vs Open 
+4. Eintragung von Rechtspfleger:innen u.ä., Internet
+5. Webscraping/APIs: Bekannte Persönlichkeiten
+6. Linkage: Verbinden von verschiedenen Datenquellen: z.B. ForumSTAR-csv mit WikiData
 
 ## Lernziele
 * Problemstellung - Daten nutzen, um eigene Probleme zu lösen. 

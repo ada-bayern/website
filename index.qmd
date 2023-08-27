@@ -1,4 +1,8 @@
 ## Workshop-Serie {.unnumbered}
+<p align="center">
+<img src="icons/workshop.png" width="100" height="100" class="center">
+</p> 
+
 
 In der öffentlichen Verwaltung liegen **vielfältige Daten** vor. Daneben gibt es eine Vielzahl **öffentlich nutzbarer externer Datenquellen**. Zusätzlich ist **offene und frei verfügbare Software** (zum Beispiel R)---vom Daten sammeln, für statistische Analysen, Machine Learning Modelle, Anwendungen von Künstlicher Intelligenz, bis zum Ergebnisreporting---der neue Standard in Wissenschaft und Industrie. 
 
@@ -7,3 +11,5 @@ Die Kombination aus vielfältigen Datenquellen und vielseitiger Software birgt e
 In der Praxis müssen von der Idee bis zur Umsetzung von Datenprojekten viele Hürden genommen werden. Unser Ziel der Workshop-Serie Angewandte Datenanalyse (ADA) für die öffentliche Verwaltung ist, dass **Daten in der öffentlichen Verwaltung effektiver genutzt werden**. Wir wollen Beschäftigte im öffentlichen Sektor zum (besseren) **Umgang mit Daten befähigen**, die **Datenkompetenz stärken**, und so **zur verstärkten Umsetzung von Datenprojekten beitragen**. Anhand von konkreten **Beispielen aus der Verwaltungspraxis** möchten wir **Digitalisierung greifbar und interaktiv erlebbar** machen. 
 
 [**Hier können Sie sich für die Workshop-Serie anmelden.**](https://pretix.eu/berd/adabayern-2023/)
+
+![](icons/Logos.png) 

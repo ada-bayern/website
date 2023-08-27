@@ -1,4 +1,9 @@
 # Einführung, Umgang mit Arbeitsumgebung, Software und Datenanalyse (Intro Stats/ML/KI + konkretes Anwendungsbeispiel)
+
+
+<p align="center">
+<img src="icons/software.png" width="80" height="80" class="center">
+</p> 
 ## Gliederung
 1. Einstieg R und Workbook Intro
 2. Überblick ForumSTAR-Excel
