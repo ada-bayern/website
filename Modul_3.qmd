@@ -1,3 +1,17 @@
-# Einführung, Problemerfassung und Daten verstehen
+# Nachvollziehbares Reporting, Visualisierung und Dashboards 
+## Gliederung
+1. Visualisierung der ForumSTAR Daten
+2. Visualisierung der Analyse (Stichprobenziehung) 
+3. Best practices für Visualisierungen
+4. Überblick über Dashboards
+## Lernziele
+* Grafische Datenanalyse
+  - Kommunizieren über Grafiken: Balkendiagramme, Karten und co.
+  - Best practices für Visualisierungen
+* Ergebnisse kommunizieren
+  - Workbooks für Reporting verwenden
+  - Dashboards/Shiny
 
-Text und Links
+
+## Material
+* [Slides](google.com)

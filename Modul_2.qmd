@@ -1,3 +1,19 @@
-# Einführung, Problemerfassung und Daten verstehen
+# Einführung, Umgang mit Arbeitsumgebung, Software und Datenanalyse (Intro Stats/ML/KI + konkretes Anwendungsbeispiel)
+## Gliederung
+1. Einstieg R und Workbook Intro
+2. Überblick ForumSTAR-Excel
+3. Analyseplan für die Stichprobenziehung
+4. Datenprobleme angehen: fehlende Werte und co.
 
-Text und Links
+## Lernziele
+* Potentiale erkennen
+  - Überblick über Tools
+  - Sichere Arbeitsumgebung
+* Mit den Daten arbeiten
+* Die Daten analysieren (I)
+  - Welche Analyse soll durchgeführt werden?
+  - Daten vorbereiten
+  - Daten analysieren
+
+## Material
+* [Slides](google.com)

@@ -1,3 +1,22 @@
 # Einführung, Problemerfassung und Daten verstehen
+## Gliederung
+1. Intro
+2. 
 
-Text und Links
+
+## Lernziele
+* Problemstellung - Daten nutzen, um eigene Probleme zu lösen. 
+* Inventar eigener Daten
+  - Was sind Daten?
+  - Was ist der Wert von Daten?
+  - Wie ist der Wert messbar?
+  - Was kann mit den verfügbaren Daten erreicht werden und was nicht?
+* Die Daten verstehen und sammeln
+  - Wie entstehen die verfügbaren Daten?
+  - Welche externen Datenquellen können genutzt werden?
+  - Wie können externe Daten gesammelt werden? Daten aus dem Internet, Open Data, und co.
+  - Wie können interne und externe Daten zusammen genutzt werden?
+* Preview Potentiale sehen
+
+## Material
+* [Slides](https://docs.google.com/presentation/d/1-v_uc1GCfBuG2XZwmrzhS-vrZnmA897JUzh6nugfyc4/edit?usp=sharing)
