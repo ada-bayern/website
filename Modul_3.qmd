@@ -2,11 +2,11 @@
 <p align="center">
 <img src="icons/stats.png" width="80" height="80" class="center">
 </p> 
-## Gliederung
-1. Visualisierung der ForumSTAR Daten
-2. Visualisierung der Analyse (Stichprobenziehung) 
-3. Best practices für Visualisierungen
-4. Überblick über Dashboards
+## Themen
+* Visualisierung der ForumSTAR Daten
+* Visualisierung der Analyse (Stichprobenziehung) 
+* Best practices für Visualisierungen
+* Überblick über Dashboards
 ## Lernziele
 * Grafische Datenanalyse
   - Kommunizieren über Grafiken: Balkendiagramme, Karten und co.

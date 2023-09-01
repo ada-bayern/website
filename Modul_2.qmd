@@ -4,11 +4,11 @@
 <p align="center">
 <img src="icons/software.png" width="80" height="80" class="center">
 </p> 
-## Gliederung
-1. Einstieg R und Workbook Intro
-2. Überblick ForumSTAR-Excel
-3. Analyseplan für die Stichprobenziehung
-4. Datenprobleme angehen: fehlende Werte und co.
+## Themen
+* Einstieg R und Workbook Intro
+* Überblick ForumSTAR-Excel
+* Analyseplan für die Stichprobenziehung
+* Datenprobleme angehen: fehlende Werte und co.
 
 ## Lernziele
 * Potentiale erkennen

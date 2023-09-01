@@ -2,10 +2,10 @@
 <p align="center">
 <img src="icons/data-analytics.png" width="80" height="80" class="center">
 </p> 
-## Gliederung
-1. Identifikation von bekannten Persönlichkeiten
-2. Machine Learning: Können wir lernen “Was wird vermutlich in Zukunft von Interesse sein?”
-3. Rechtlicher Rahmen 
+## Themen
+* Identifikation von bekannten Persönlichkeiten
+* Machine Learning: Können wir lernen “Was wird vermutlich in Zukunft von Interesse sein?”
+* Rechtlicher Rahmen 
 
 ## Lernziele
 * Die Daten analysieren (II)
