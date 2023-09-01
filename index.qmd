@@ -3,7 +3,7 @@
 
 In der öffentlichen Verwaltung liegen **vielfältige Daten** vor. Daneben gibt es eine Vielzahl **öffentlich nutzbarer externer Datenquellen**. Zusätzlich ist **offene und frei verfügbare Software** (zum Beispiel R)---vom Daten sammeln, für statistische Analysen, Machine Learning Modelle, Anwendungen von Künstlicher Intelligenz, bis zum Ergebnisreporting---der neue Standard in Wissenschaft und Industrie. 
 
-Die Kombination aus vielfältigen Datenquellen und vielseitiger Software birgt ein **großes Potential für die öffentliche Verwaltung**.  
+Die Kombination aus [vielfältigen Datenquellen](https://bund.dev/apis) und vielseitiger Software birgt ein **großes Potential für die öffentliche Verwaltung**.  
 
 In der Praxis müssen von der Idee bis zur Umsetzung von Datenprojekten viele Hürden genommen werden. Unser Ziel der Workshop-Serie Angewandte Datenanalyse (ADA) für die öffentliche Verwaltung ist, dass **Daten in der öffentlichen Verwaltung effektiver genutzt werden**. Wir wollen Beschäftigte im öffentlichen Sektor zum (besseren) **Umgang mit Daten befähigen**, die **Datenkompetenz stärken**, und so **zur verstärkten Umsetzung von Datenprojekten beitragen**. Anhand von konkreten **Beispielen aus der Verwaltungspraxis** möchten wir **Digitalisierung greifbar und interaktiv erlebbar** machen. 
 
