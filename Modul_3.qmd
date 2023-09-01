@@ -7,13 +7,21 @@
 * Visualisierung der Analyse (Stichprobenziehung) 
 * Best practices für Visualisierungen
 * Überblick über Dashboards
+
 ## Lernziele
-* Grafische Datenanalyse
-  - Kommunizieren über Grafiken: Balkendiagramme, Karten und co.
-  - Best practices für Visualisierungen
-* Ergebnisse kommunizieren
-  - Workbooks für Reporting verwenden
-  - Dashboards/Shiny
+
+::: {.callout-tip collapse="true"}
+## Grafische Datenanalyse
+- Kommunizieren über Grafiken: Balkendiagramme, Karten und co.
+- Best practices für Visualisierungen
+:::
+
+::: {.callout-tip collapse="true"}
+## Ergebnisse kommunizieren
+- Workbooks für Reporting verwenden
+- Dashboards/Shiny
+:::
+
 
 
 ## Material

@@ -1,4 +1,4 @@
-# Einführung, Umgang mit Arbeitsumgebung, Software und Datenanalyse (Intro Stats/ML/KI + konkretes Anwendungsbeispiel)
+# Einführung, Umgang mit Arbeitsumgebung, Software und Datenanalyse
 
 
 <p align="center">
@@ -11,14 +11,23 @@
 * Datenprobleme angehen: fehlende Werte und co.
 
 ## Lernziele
-* Potentiale erkennen
-  - Überblick über Tools
-  - Sichere Arbeitsumgebung
-* Mit den Daten arbeiten
-* Die Daten analysieren (I)
-  - Welche Analyse soll durchgeführt werden?
-  - Daten vorbereiten
-  - Daten analysieren
+
+::: {.callout-tip collapse="true"}
+## Potentiale erkennen
+- Überblick über Tools
+- Sichere Arbeitsumgebung
+:::
+::: {.callout-tip}
+## Mit den Daten arbeiten
+:::
+
+::: {.callout-tip collapse="true"}
+## Die Daten analysieren (I)
+- Welche Analyse soll durchgeführt werden?
+- Daten vorbereiten
+- Daten analysieren
+:::
+
 
 ## Material
 * [Slides](google.com)
