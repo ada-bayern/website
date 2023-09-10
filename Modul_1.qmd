@@ -15,7 +15,7 @@
 ![FAIR prinicples](icons/fair.jpg){width=60% fig-alt="F=findable, A=accessible, I=interoperable, R=reusable"}
 :::
 
-::: {.callout-tip}
+::: {.callout-tip} 
 ## Lernziele
 Am Ende dieses Moduls können Sie...
 
