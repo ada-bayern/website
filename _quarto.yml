@@ -9,16 +9,16 @@ book:
     - Modul_2.qmd
     - Modul_3.qmd
     - Modul_4.qmd
-    - references.qmd
+    - team.qmd
   navbar:
     background: white
-
-bibliography: references.bib
 
 format:
   html:
     theme: flatly
     number-depth: 0
+
+suppress-bibliography: true
 
 
 

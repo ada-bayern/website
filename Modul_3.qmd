@@ -1,7 +1,7 @@
 # Nachvollziehbares Reporting, Visualisierung und Dashboards 
 <p align="center">
 <img src="icons/stats.png" width="80" height="80" class="center">
-</p> 
+</p>  
 ## Themen
 * Visualisierung der ForumSTAR Daten
 * Visualisierung der Analyse (Stichprobenziehung) 

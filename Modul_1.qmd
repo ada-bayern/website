@@ -15,34 +15,15 @@
 ![FAIR prinicples](icons/fair.jpg){width=60% fig-alt="F=findable, A=accessible, I=interoperable, R=reusable"}
 :::
 
+::: {.callout-tip}
 ## Lernziele
-::: {.callout-tip}
-## Problemstellung - Daten nutzen, um eigene Probleme zu lösen.
+Am Ende dieses Moduls können Sie...
+
+* ... beschreiben, was Evidenzbasierte Verwaltung ist.
+* ... einschätzen, wann Evidenzbasierte Verwaltung genutzt werden kann.
+* ... einige Fragen benennen, die man mit Daten beantworten kann.
+* ... Probleme schildern, die in Ihrem Umfeld mit Daten gelöst werden könnten
 :::
-
-::: {.callout-tip collapse="true"}
-## Inventar eigener Daten
-* Was sind Daten?
-* Was ist der Wert von Daten?
-* Wie ist der Wert messbar?
-* Was kann mit den verfügbaren Daten erreicht werden und was nicht?
-
-:::
-
-::: {.callout-tip collapse="true"}
-## Daten verstehen und sammeln
-
-* Wie entstehen die verfügbaren Daten?
-* Welche externen Datenquellen können genutzt werden?
-* Wie können externe Daten gesammelt werden? Daten aus dem Internet, Open Data, und co.
-* Wie können interne und externe Daten zusammen genutzt werden?
-
-:::
-
-::: {.callout-tip}
-## Preview Potentiale sehen
-:::
-
 
 ## Material
 * [Slides](https://docs.google.com/presentation/d/1-v_uc1GCfBuG2XZwmrzhS-vrZnmA897JUzh6nugfyc4/edit?usp=sharing)
