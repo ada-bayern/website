@@ -1,13 +1,18 @@
 # Einführung, Problemerfassung und Daten verstehen
+
 <p align="center">
 <img src="icons/files.png" width="80" height="80" class="center">
 </p> 
- 
+
+**18.09.2023, 10:00 - 15:00 Uhr**
+
 ## Themen
-* Intro
-* Wie sehen die ForumSTAR Daten aus, bevor sie zur csv-Datei werden? Was ist eine relationale Datenbank?
+In **Modul 1** setzen wir den Rahmen, um Probleme zu erfassen und vorliegende Daten zu verstehen. Es werden keine Vorkenntnisse in der Datenanalyse erwartet. Sie können sich auf folgende Themen freuen:
+
+* Einführung in die Workshop-Serie
+* Vorstellung einer relationalen Datenbank anhand der ForumSTAR Daten 
 * Open Data, FAIR Data, FAIR vs Open 
-* Eintragung von Rechtspfleger:innen u.ä., Internet
+* Eintragung von Rechtspfleger:innen, Internet
 * Webscraping/APIs: Bekannte Persönlichkeiten
 * Linkage: Verbinden von verschiedenen Datenquellen: z.B. ForumSTAR-csv mit WikiData
 

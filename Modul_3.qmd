@@ -2,24 +2,34 @@
 <p align="center">
 <img src="icons/stats.png" width="80" height="80" class="center">
 </p>  
+
+**02.10.2023, 10:00 - 15:00 Uhr**
+
 ## Themen
+In **Modul 3** werden die Guidelines für nachvollziehbares Reporting und gute Visualisierungen besprochen. Es werden keine Vorkenntnisse in der Datenanalyse erwartet. Sie können sich auf folgende Themen freuen:
+
 * Visualisierung der ForumSTAR Daten
 * Visualisierung der Analyse (Stichprobenziehung) 
 * Best practices für Visualisierungen
 * Überblick über Dashboards
 
-## Lernziele
-
-::: {.callout-tip collapse="true"}
-## Grafische Datenanalyse
-- Kommunizieren über Grafiken: Balkendiagramme, Karten und co.
-- Best practices für Visualisierungen
+::: captioned-image-container
+![Beispiel Shiny-Dashboard](icons/shiny.png){width=100% fig-alt="Beispiel Shiny-Dashboard"}
 :::
 
-::: {.callout-tip collapse="true"}
-## Ergebnisse kommunizieren
-- Workbooks für Reporting verwenden
-- Dashboards/Shiny
+::: {.callout-tip}
+## Lernziele
+Am Ende dieses Moduls können Sie…
+
+**Grafische Datenanalyse**
+
+* ... Ergebnisse über Grafiken kommunizieren. (Balkendiagramme, Karten und co.)
+* ... kennen Sie Best practices für Visualisierungen.
+
+**Ergebnisse kommunizieren**
+
+* ... Workbooks für Reporting verwenden.
+* ... sich tiefer in Dashboards / Shiny Apps hineinarbeiten.
 :::
 
 

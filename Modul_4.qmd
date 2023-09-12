@@ -2,47 +2,32 @@
 <p align="center">
 <img src="icons/data-analytics.png" width="80" height="80" class="center">
 </p> 
+
+**13.10.2023, 13:00 - 17:00 Uhr**
+
 ## Themen
-* Identifikation von bekannten Persönlichkeiten
+In **Modul 4** vertiefen wir die Datenanalyse Techniken und präsentieren Möglichkeiten, wie Ergebnisse in bestehende Prozesse eingebaut werden können. Es werden keine Vorkenntnisse in der Datenanalyse erwartet. Sie können sich auf folgende Themen freuen:
+
+* Fallstudie: Identifikation von bekannten Persönlichkeiten
 * Machine Learning: Können wir lernen “Was wird vermutlich in Zukunft von Interesse sein?”
-* Rechtlicher Rahmen 
+* Einblick in den rechtlichen Rahmen 
  
+
+::: captioned-image-container
+![Beispiel von Enamorado et al. (2019) zum Informationsgehalt von Tippfehlern](icons/typo_ml.png){width=100% fig-alt="Beispiel von Enamorado et al. (2019) zum Informationsgehalt von Tippfehlern"}
+:::
+
+::: {.callout-tip }
 ## Lernziele 
-::: {.callout-tip collapse="true"}
-## Die Daten analysieren (II)
-- Welche Analyse soll durchgeführt werden?
-:::
+Am Ende dieses Moduls können Sie...
 
-::: {.callout-tip collapse="true"}
-## Rechtlicher Rahmen
-- Was muss bedacht werden?
-- Privacy und Datenschutz
-- Lizenzen
-:::
-
-::: {.callout-tip collapse="true"}
-## Wie können die Ergebnisse in bestehende Prozesse eingebaut werden?
-- Wer braucht was, wann, wo?
+* ... externe Datenquellen hinsichtlich ihres Nutzens beurteilen.
+* ... die Möglichkeiten und Grenzen der Record Linkage Methode einschätzen.
 :::
 
 
-## Lernziele 
-::: {.callout-tip collapse="true"}
-## Die Daten analysieren (II)
-- Welche Analyse soll durchgeführt werden?
-:::
 
-::: {.callout-tip collapse="true"}
-## Rechtlicher Rahmen
-- Was muss bedacht werden?
-- Privacy und Datenschutz
-- Lizenzen
-:::
 
-::: {.callout-tip collapse="true"}
-## Wie können die Ergebnisse in bestehende Prozesse eingebaut werden?
-- Wer braucht was, wann, wo?
-:::
 
 
 

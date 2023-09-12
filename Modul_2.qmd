@@ -4,28 +4,35 @@
 <p align="center">
 <img src="icons/software.png" width="80" height="80" class="center">
 </p> 
+
+**19.09.2023, 10:00 - 15:00 Uhr**
+
 ## Themen
-* Einstieg R und Workbook Intro
-* Überblick ForumSTAR-Excel
+In **Modul 2** beginnen wir mit der Einführung in die benötigte Software und Arbeitsumgebung. Es werden keine Vorkenntnisse in der Datenanalyse erwartet. Sie können sich auf folgende Themen freuen:
+
+* Einführung in die Software *R* und Workbooks als Arbeitsumgebung
+* Überblick über die ForumSTAR-Excel Daten
 * Analyseplan für die Stichprobenziehung
-* Datenprobleme angehen: fehlende Werte und co.
+* Umgang mit Datenprobleme (fehlende Werte und co.)
 
-## Lernziele
-
-::: {.callout-tip collapse="true"}
-## Potentiale erkennen
-- Überblick über Tools
-- Sichere Arbeitsumgebung
+::: captioned-image-container
+![Visualisierung einer geschichteten Zufallsstichprobe](icons/strat_sample.png){width=100% fig-alt="Visualisierung einer geschichteten Zufallsstichprobe"}
 :::
+
 ::: {.callout-tip}
-## Mit den Daten arbeiten
-:::
+## Lernziele
+Am Ende dieses Moduls können Sie…
 
-::: {.callout-tip collapse="true"}
-## Die Daten analysieren (I)
-- Welche Analyse soll durchgeführt werden?
-- Daten vorbereiten
-- Daten analysieren
+**Potentiale erkennen**
+
+* ... einen Überblick der Tools darlegen.
+* ... in der Arbeitsumgebung arbeiten.
+
+**Die Daten analysieren (I)**
+
+* ... beurteilen welche Analyse durchgeführt werden soll.
+* ... die Daten vorbereiten.
+* ... die Daten analysieren.
 :::
 
 

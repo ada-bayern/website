@@ -1,5 +1,5 @@
 ## Workshop-Serie {.unnumbered}
-![](icons/Logo_BERD_Academy.png){width=60% fig-align="center" fig-alt="https://www.berd-nfdi.de/berd-academy/"}
+![](icons/banner.png){width=100% fig-align="center" fig-alt="https://www.berd-nfdi.de/berd-academy/"}
 
 In der öffentlichen Verwaltung liegen **vielfältige Daten** vor. Daneben gibt es eine Vielzahl **öffentlich nutzbarer externer Datenquellen**. Zusätzlich ist **offene und frei verfügbare Software** (zum Beispiel R)---vom Daten sammeln, für statistische Analysen, Machine Learning Modelle, Anwendungen von Künstlicher Intelligenz, bis zum Ergebnisreporting---der neue Standard in Wissenschaft und Industrie. 
 
