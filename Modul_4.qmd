@@ -12,6 +12,7 @@ In **Modul 4** vertiefen wir die Datenanalyse Techniken und präsentieren Mögli
 * Machine Learning: Können wir lernen “Was wird vermutlich in Zukunft von Interesse sein?”
 * Einblick in den rechtlichen Rahmen 
  
+ Des weiteren präsentieren wir die Ergebnisse der einzelnen Teams.
 
 ::: captioned-image-container
 ![Beispiel von Enamorado et al. (2019) zum Informationsgehalt von Tippfehlern](icons/typo_ml.png){width=100% fig-alt="Beispiel von Enamorado et al. (2019) zum Informationsgehalt von Tippfehlern"}
@@ -23,11 +24,9 @@ Am Ende dieses Moduls können Sie...
 
 * ... externe Datenquellen hinsichtlich ihres Nutzens beurteilen.
 * ... die Möglichkeiten und Grenzen der Record Linkage Methode einschätzen.
+* ... Datenprojekte präsentieren und deren Nutzen einordnen.
+* ... einschätzen, was rechtlich in einem solchen Projekt beachtet werden muss.
 :::
-
-
-
-
 
 
 

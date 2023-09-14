@@ -18,6 +18,15 @@ Am Ende dieser Workshop-Serie, können Sie...
 
 :::
 
+### Ablauf
+In dieser Workshop-Serie betrachten wir all Bestandteile eines klassischen 
+Daten-Analyse-Projekts. Dabei geht es vor allem darum, Berührungsängste abzubauen
+und Kompetenzen aufzubauen, um als Team solche Projekte anzugehen. Denn 
+**Datenarbeit ist Teamarbeit** und diverse Expertisen sind gefragt.
+
+![](icons/Ablauf-Workshop-Serie.jpg){width=60% fig-alt="Frage Definieren, Analysestrategie finden, Daten erfassen, Daten betrachten + bereinigen, Daten analysieren, Ergebnisse aufbereiten + präsentieren, Entscheidungen treffen"}
+
+
 
 [**Hier können Sie sich für die Workshop-Serie anmelden.**](https://pretix.eu/berd/adabayern-2023/)
 

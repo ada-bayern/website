@@ -16,9 +16,9 @@ In **Modul 1** setzen wir den Rahmen, um Probleme zu erfassen und vorliegende Da
 * Webscraping/APIs: Bekannte Persönlichkeiten
 * Linkage: Verbinden von verschiedenen Datenquellen: z.B. ForumSTAR-csv mit WikiData
 
-::: captioned-image-container
-![FAIR prinicples](icons/fair.jpg){width=60% fig-alt="F=findable, A=accessible, I=interoperable, R=reusable"}
-:::
+![FAIR prinicples](icons/Daten-Fragen.jpg){width=47% fig-alt="F=findable, A=accessible, I=interoperable, R=reusable"}
+![FAIR prinicples](icons/fair.jpg){width=47% fig-alt="F=findable, A=accessible, I=interoperable, R=reusable"}
+
 
 ::: {.callout-tip} 
 ## Lernziele
