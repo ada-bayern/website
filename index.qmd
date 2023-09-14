@@ -31,4 +31,17 @@ und Kompetenzen aufzubauen, um als Team solche Projekte anzugehen. Denn
 ## Anmeldung
 [**Hier können Sie sich für die Workshop-Serie anmelden.**](https://pretix.eu/berd/adabayern-2023/)
 
+::: {.callout-note}
+## Workshop-Serie ausgebucht, Warteliste offen
+Wir freuen uns über die vielen Anmeldungen, die wir bereits erhalten haben.
+
+Leider gibt es für diese Workshop-Serie ein Teilnahme-Limit. Wir haben eine
+Warteliste eingerichtet. Nachrücker erhalten Bescheid, falls sich jemand abmeldet.
+
+Gerne sprechen wir
+mit Ihnen über Möglichkeiten, **weitere Workshops** zu organisieren. Schreiben Sie
+uns gerne eine [E-Mail](mailto:data-analytics@stat.uni-muenchen.de) oder sprechen
+Sie uns [persönlich](/team.html) an. 
+:::
+
 ![](icons/Logos.png) 
