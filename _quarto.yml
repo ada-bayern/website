@@ -10,6 +10,8 @@ book:
     - Modul_3.qmd
     - Modul_4.qmd
     - team.qmd
+    - kontakt.qmd
+    - impressum.qmd
   navbar:
     background: white
   
