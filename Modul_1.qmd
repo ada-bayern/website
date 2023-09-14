@@ -1,4 +1,4 @@
-# Einführung, Problemerfassung und Daten verstehen
+# Problemerfassung und Daten als Lösung
 
 <p align="center">
 <img src="icons/files.png" width="80" height="80" class="center">

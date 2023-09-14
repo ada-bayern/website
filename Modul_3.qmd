@@ -1,4 +1,4 @@
-# Nachvollziehbares Reporting, Visualisierung und Dashboards 
+# Visualisierung und Reporting
 <p align="center">
 <img src="icons/stats.png" width="80" height="80" class="center">
 </p>  
@@ -23,7 +23,7 @@ Am Ende dieses Moduls können Sie…
 
 **Grafische Datenanalyse**
 
-* ... Ergebnisse über Grafiken kommunizieren. (Balkendiagramme, Karten und co.)
+* ... Ergebnisse über Grafiken kommunizieren (Balkendiagramme, Karten und co.).
 * ... gute Beispiele für Datenvisualisierungen erkennen.
 
 **Ergebnisse kommunizieren**

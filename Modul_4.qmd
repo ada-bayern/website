@@ -1,4 +1,5 @@
-# Ergebnisse in bestehende Prozesse einbauen, Operationalisieren und rechtlicher Rahmen
+# Ergebnispräsentation und Umsetzung
+
 <p align="center">
 <img src="icons/data-analytics.png" width="80" height="80" class="center">
 </p> 
