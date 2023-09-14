@@ -10,11 +10,12 @@
 In **Modul 1** setzen wir den Rahmen, um Probleme zu erfassen und vorliegende Daten zu verstehen. Es werden keine Vorkenntnisse in der Datenanalyse erwartet. Sie können sich auf folgende Themen freuen:
 
 * Einführung in die Workshop-Serie
-* Vorstellung einer relationalen Datenbank anhand der ForumSTAR Daten 
-* Open Data, FAIR Data, FAIR vs Open 
-* Eintragung von Rechtspfleger:innen, Internet
-* Webscraping/APIs: Bekannte Persönlichkeiten
-* Linkage: Verbinden von verschiedenen Datenquellen: z.B. ForumSTAR-csv mit WikiData
+* Datenarbeit als Teamarbeit
+* Evidenzbasierte Verwaltung
+* Beantwortung von Fragen mit Daten
+* Daten: Was ist das eigentlich?
+* Datenquellen und Entstehung von Daten
+* Sicher mit Daten arbeiten: Cloud-Computing als Möglichkeit
 
 ![FAIR prinicples](icons/Daten-Fragen.jpg){width=47% fig-alt="F=findable, A=accessible, I=interoperable, R=reusable"}
 ![FAIR prinicples](icons/fair.jpg){width=47% fig-alt="F=findable, A=accessible, I=interoperable, R=reusable"}

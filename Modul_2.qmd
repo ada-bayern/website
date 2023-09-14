@@ -10,10 +10,11 @@
 ## Themen
 In **Modul 2** beginnen wir mit der Einführung in die benötigte Software und Arbeitsumgebung. Es werden keine Vorkenntnisse in der Datenanalyse erwartet. Sie können sich auf folgende Themen freuen:
 
-* Einführung in die Software *R* und Workbooks als Arbeitsumgebung
-* Überblick über die ForumSTAR-Excel Daten
-* Analyseplan für die Stichprobenziehung
-* Umgang mit Datenprobleme (fehlende Werte und co.)
+* Erste Schritte im Cloud-Computing
+* Überblick über die vorliegenden Daten
+* Erste Analysen mit der Software *R*
+* Umgang mit Daten(problemen)
+* Stichprobenziehung als Strategie
 
 ::: captioned-image-container
 ![Visualisierung einer geschichteten Zufallsstichprobe](icons/strat_sample.png){width=100% fig-alt="Visualisierung einer geschichteten Zufallsstichprobe"}
@@ -25,14 +26,14 @@ Am Ende dieses Moduls können Sie…
 
 **Potentiale erkennen**
 
-* ... einen Überblick der Tools darlegen.
-* ... in der Arbeitsumgebung arbeiten.
+* ... Cloud-Computing als Möglichkeit für sichere Datenanalyse einschätzen.
+* ... in der Cloud-Arbeitsumgebung arbeiten.
 
 **Die Daten analysieren (I)**
 
-* ... beurteilen welche Analyse durchgeführt werden soll.
-* ... die Daten vorbereiten.
-* ... die Daten analysieren.
+* ... die Daten vorbereiten und verstehen.
+* ... erste Datenanalysen durchführung und die Ergebnisse interpretieren.
+* ... eine Entscheidung über eine gute Strategie für die Stichprobenziehung fällen.
 :::
 
 ## Material
