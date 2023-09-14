@@ -12,6 +12,8 @@ book:
     - team.qmd
   navbar:
     background: white
+  
+toc-title: Inhalt
 
 format:
   html:

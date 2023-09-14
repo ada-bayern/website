@@ -33,6 +33,5 @@ Am Ende dieses Moduls können Sie…
 :::
 
 
-
 ## Material
 * [Slides](https://docs.google.com/presentation/d/1XCg9LtLGBm18sTrXH9mNtJw0utkZi8rZBdhHh5wgTF0/edit?usp=drive_link)

@@ -7,6 +7,7 @@ Die Kombination aus [vielfältigen Datenquellen](https://bund.dev/apis) und viel
 
 In der Praxis müssen von der Idee bis zur Umsetzung von Datenprojekten viele Hürden genommen werden. Unser Ziel der Workshop-Serie Angewandte Datenanalyse (ADA) für die öffentliche Verwaltung ist, dass **Daten in der öffentlichen Verwaltung effektiver genutzt werden**. Wir wollen Beschäftigte im öffentlichen Sektor zum (besseren) **Umgang mit Daten befähigen**, die **Datenkompetenz stärken**, und so **zur verstärkten Umsetzung von Datenprojekten beitragen**. Anhand von konkreten **Beispielen aus der Verwaltungspraxis** möchten wir **Digitalisierung greifbar und interaktiv erlebbar** machen. 
 
+![](icons/chart.png){fig-align="center" width=30%}
 
 ::: {.callout-tip}
 ## Lernziele
@@ -18,16 +19,16 @@ Am Ende dieser Workshop-Serie, können Sie...
 
 :::
 
-### Ablauf
+## Ablauf
 In dieser Workshop-Serie betrachten wir all Bestandteile eines klassischen 
 Daten-Analyse-Projekts. Dabei geht es vor allem darum, Berührungsängste abzubauen
 und Kompetenzen aufzubauen, um als Team solche Projekte anzugehen. Denn 
 **Datenarbeit ist Teamarbeit** und diverse Expertisen sind gefragt.
 
-![](icons/Ablauf-Workshop-Serie.jpg){width=60% fig-alt="Frage Definieren, Analysestrategie finden, Daten erfassen, Daten betrachten + bereinigen, Daten analysieren, Ergebnisse aufbereiten + präsentieren, Entscheidungen treffen"}
+![](icons/Ablauf-Workshop-Serie.jpg){width=60% fig-align="center" fig-alt="Frage Definieren, Analysestrategie finden, Daten erfassen, Daten betrachten + bereinigen, Daten analysieren, Ergebnisse aufbereiten + präsentieren, Entscheidungen treffen"}
 
 
-
+## Anmeldung
 [**Hier können Sie sich für die Workshop-Serie anmelden.**](https://pretix.eu/berd/adabayern-2023/)
 
 ![](icons/Logos.png) 

@@ -35,6 +35,5 @@ Am Ende dieses Moduls können Sie…
 * ... die Daten analysieren.
 :::
 
-
 ## Material
 * [Slides](https://docs.google.com/presentation/d/1V2W5lfUeO_J8t630tBsoWx41EEF2MDr3getVNXuFmU4/edit?usp=sharing)
