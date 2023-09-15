@@ -21,7 +21,7 @@ In **Modul 3** werden die Guidelines für nachvollziehbares Reporting und gute V
 ## Lernziele
 Am Ende dieses Moduls können Sie…
 
-**Grafische Datenanalyse**
+**Grafische Datenanalyse** 
 
 * ... Ergebnisse über Grafiken kommunizieren (Balkendiagramme, Karten und co.).
 * ... gute Beispiele für Datenvisualisierungen erkennen.
@@ -32,7 +32,5 @@ Am Ende dieses Moduls können Sie…
 * ... einschätzen, wann Dashboards nützlich sind für die Kommunikation von Datenanalysen.
 :::
 
-<!--
 ## Material
-* [Slides](https://docs.google.com/presentation/d/1XCg9LtLGBm18sTrXH9mNtJw0utkZi8rZBdhHh5wgTF0/edit?usp=drive_link)
--->
+* *Materialien werden hier zu einem späteren Zeitpunkt verlinkt*

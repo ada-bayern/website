@@ -46,7 +46,5 @@ Am Ende dieses Moduls können Sie...
 :::
 
 
-<!--
 ## Material
-* [Slides](https://docs.google.com/presentation/d/1TXdbiWfWiOUV-La5DBq6hskf_yLRGaZnjliae1-R0q0/edit?usp=drive_link)
--->
+* *Materialien werden hier zu einem späteren Zeitpunkt verlinkt*
