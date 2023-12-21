@@ -36,16 +36,6 @@ Am Ende dieser Workshop-Serie, können Sie...
 
 
 
-::: {.callout-tip}
-## Lernziele
-Am Ende dieser Workshop-Serie, können Sie...
-
-* ... Stichprobenziehung für die Archivierung von Gerichtsakten dürchführen.
-* ... Die Cloud-Infrastruktur für die jährliche Stichprobenziehung nutzen.
-* ... Die Datenanalyse-Aufgaben für die Archivierung von Gerichtsakten auf neue Daten anpassen.
-
-:::
-
 ## Anmeldung
 Die Anmeldung ist derzeit noch nicht geöffnet. 
 Bitte wenden Sie sich an [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de).
