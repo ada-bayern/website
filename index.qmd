@@ -1,4 +1,4 @@
-## Workshop-Serie {.unnumbered}
+## ADA Bayern {.unnumbered}
 ![](icons/banner.png){width=100% fig-align="center" fig-alt="https://www.berd-nfdi.de/berd-academy/"}
 
 In der öffentlichen Verwaltung liegen **vielfältige Daten** vor. Daneben gibt es eine Vielzahl **öffentlich nutzbarer externer Datenquellen**. Zusätzlich ist **offene und frei verfügbare Software** (zum Beispiel R)---vom Daten sammeln, für statistische Analysen, Machine Learning Modelle, Anwendungen von Künstlicher Intelligenz, bis zum Ergebnisreporting---der neue Standard in Wissenschaft und Industrie. 
@@ -9,39 +9,3 @@ In der Praxis müssen von der Idee bis zur Umsetzung von Datenprojekten viele H�
 
 ![](icons/chart.png){fig-align="center" width=30%}
 
-::: {.callout-tip}
-## Lernziele
-Am Ende dieser Workshop-Serie, können Sie...
-
-* ... einschätzen, welche Fragen in Ihrem Umfeld mit Daten beanwortet werden können.
-* ... in Projekten mit Daten ihre Fachexpertise einbringen, ohne Berührungsängste zu haben.
-* ... mit Data Scientists und IT-Personal über Cloud-Computing und Datenanalysen sprechen.
-
-:::
-
-## Ablauf
-In dieser Workshop-Serie betrachten wir all Bestandteile eines klassischen 
-Daten-Analyse-Projekts. Dabei geht es vor allem darum, Berührungsängste abzubauen
-und Kompetenzen aufzubauen, um als Team solche Projekte anzugehen. Denn 
-**Datenarbeit ist Teamarbeit** und diverse Expertisen sind gefragt.
-
-![](icons/Ablauf-Workshop-Serie.jpg){width=60% fig-align="center" fig-alt="Frage Definieren, Analysestrategie finden, Daten erfassen, Daten betrachten + bereinigen, Daten analysieren, Ergebnisse aufbereiten + präsentieren, Entscheidungen treffen"}
-
-
-## Anmeldung
-[**Hier können Sie sich für die Workshop-Serie anmelden.**](https://pretix.eu/berd/adabayern-2023/)
-
-::: {.callout-note}
-## Workshop-Serie ausgebucht, Warteliste offen
-Wir freuen uns über die vielen Anmeldungen, die wir bereits erhalten haben.
-
-Leider gibt es für diese Workshop-Serie ein Teilnahme-Limit. Wir haben eine
-Warteliste eingerichtet. Nachrücker erhalten Bescheid, falls sich jemand abmeldet.
-
-Gerne sprechen wir
-mit Ihnen über Möglichkeiten, **weitere Workshops** zu organisieren. Schreiben Sie
-uns gerne eine [E-Mail](mailto:data-analytics@stat.uni-muenchen.de) oder sprechen
-Sie uns [persönlich](/team.html) an. 
-:::
-
-![](icons/Logos.png) 
