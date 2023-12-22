@@ -1,4 +1,4 @@
-## Workshop Serie 2: Implementation Daten-basierter Archivierung von Gerichtsakten 
+## Workshop Serie 2: Implementation Daten-basierter Archivierung von Gerichtsakten {.unnumbered}
 
 08.02. - 13.03.2024
 
