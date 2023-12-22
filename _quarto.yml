@@ -4,11 +4,18 @@ project:
 book:
   title: "Angewandte Datenanalyse für die öffentliche Verwaltung"
   chapters:
-    - index.qmd
-    - Modul_1.qmd
-    - Modul_2.qmd
-    - Modul_3.qmd
-    - Modul_4.qmd
+    - part: index.qmd
+    - part: WS1.qmd
+      chapters:
+        - Modul_1.qmd
+        - Modul_2.qmd
+        - Modul_3.qmd
+        - Modul_4.qmd
+    - part: "Kommende Workshop-Serien"
+      chapters: 
+        - WS2.qmd
+        - WS3.qmd
+  appendices:
     - team.qmd
     - kontakt.qmd
     - impressum.qmd
@@ -16,6 +23,10 @@ book:
     background: white
   
 toc-title: Inhalt
+toc-expand: false
+
+language:
+  section-title-appendices: "Über ADA Bayern"
 
 format:
   html:
@@ -25,4 +36,6 @@ format:
 suppress-bibliography: true
 
 
-
+website:
+  sidebar:
+    collapse-level: 1

@@ -1,0 +1,43 @@
+## Workshop Serie 3: Daten-basierte Archivierung von Gerichtsakten 
+
+21.03. - 30.04.2024
+
+
+## Ablauf
+
+| Veranstaltung      | Datum  | Zeit        |
+|--------------------|--------|-------------|
+| Kick-Off           | 21.03. | 14:30 - 16:00|
+| Modul 1            | 09.04. | 10:00 - 15:30|
+| Modul 2            | 10.04. | 10:00 - 15:30|
+| Modul 3            | 11.04. | 10:00 - 15:30|
+| Gruppenarbeit 1    | 17.04. | 12:00 - 13:30|
+| Gruppenarbeit 2    | 24.04. | 12:00 - 13:30|
+| Abschlusstermin    | 30.04. | 10:00 - 15:30|
+
+
+In dieser Workshop-Serie betrachten wir alle Bestandteile eines klassischen 
+Daten-Analyse-Projekts. Dabei geht es vor allem darum, Berührungsängste abzubauen
+und Kompetenzen aufzubauen, um als Team solche Projekte anzugehen. Denn 
+**Datenarbeit ist Teamarbeit** und diverse Expertisen sind gefragt.
+
+Diese Workshop-Serie ist eine inhaltliche Wiederholung der Workshop-Serie 1.
+
+
+::: {.callout-tip}
+## Lernziele
+Am Ende dieser Workshop-Serie, können Sie...
+
+* ... einschätzen, welche Fragen in Ihrem Umfeld mit Daten beanwortet werden können.
+* ... in Projekten mit Daten ihre Fachexpertise einbringen, ohne Berührungsängste zu haben.
+* ... mit Data Scientists und IT-Personal über Cloud-Computing und Datenanalysen sprechen.
+
+:::
+
+
+
+## Anmeldung
+Die Anmeldung ist derzeit noch nicht geöffnet. 
+Bitte wenden Sie sich an [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de).
+
+![](icons/Logos.png) 
