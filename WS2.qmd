@@ -64,7 +64,6 @@ Die Inhalte der Module finden sich auf den kommenden Seiten.
 * [Modul 4](WS2_Modul_4.html) - Umsetzung: Implementierung der Stichprobenziehung im Kontext des Gesamtablaufs
 
 ## Anmeldung
-Die Anmeldung ist derzeit noch nicht geöffnet. 
-Bitte wenden Sie sich an [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de).
+Sie haben Interesse an der Teilnahme in dieser Weiterbildiung? Bitte schreiben sie uns: [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de).
 
 ![](icons/Logos.png) 
