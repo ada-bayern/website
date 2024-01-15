@@ -11,6 +11,12 @@ book:
         - Modul_2.qmd
         - Modul_3.qmd
         - Modul_4.qmd
+    - part: WS2.qmd
+      chapters:
+        - WS2_Modul_1.qmd
+        - WS2_Modul_2.qmd
+        - WS2_Modul_3.qmd
+        - WS2_Modul_4.qmd
     - part: "Kommende Workshop-Serien"
       chapters: 
         - WS2.qmd

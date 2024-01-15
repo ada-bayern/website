@@ -35,6 +35,9 @@ Am Ende dieser Workshop-Serie, können Sie...
 
 :::
 
+### Modul
+
+
 ## Anmeldung
 Die Anmeldung ist derzeit noch nicht geöffnet. 
 Bitte wenden Sie sich an [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de).
