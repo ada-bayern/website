@@ -35,8 +35,26 @@ Am Ende dieser Workshop-Serie, können Sie...
 
 :::
 
-### Modul
 
+### Kick-Off
+::: {.callout-tip}
+## Kick-Off
+
+Am Ende des Kick-Offs können Sie...
+
+* ... das Thema der Workshop-Serie beschreiben.
+* ... den Kontext des Projekts erklären.
+* ... auf die Cloud-Plattform zugreifen.
+
+:::
+
+### Module
+Die Inhalte der Module finden sich auf den kommenden Seiten.
+
+* [Modul 1](WS2_Modul_1.html) - Einführung, Problemerfassung und Arbeitsabläufe
+* [Modul 2](WS2_Modul_2.html) - Umsetzung: Implementierung der Stichprobenziehung
+* [Modul 3](WS2_Modul_3.html) - Umsetzung: Implementierung der Stichprobenziehung im Kontext des Gesamtablaufs
+* [Modul 4](WS2_Modul_4.html) - Umsetzung: Implementierung der Stichprobenziehung im Kontext des Gesamtablaufs
 
 ## Anmeldung
 Die Anmeldung ist derzeit noch nicht geöffnet. 
