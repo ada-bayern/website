@@ -14,12 +14,16 @@
 | Modul 4            | 23.02.     | 10:00 - 15:30| voraussichtlich Bayerisches Hauptstaatsarchiv |
 | Gruppenarbeit 1    | 28.02.     | 12:00 - 13:30| Online (Zoom) |
 | Gruppenarbeit 2    | 06.03.     | 12:00 - 13:30| Online (Zoom) |
-| Abschlusstermin    | 13.03.     | 10:00 - 15:30| LMU |
+| Gruppenarbeit 3    | 13.03.     | 10:00 - 12:00| LMU |
+| Abschlussvorstellungen  | 13.03.     | 12:00 - 15:30| LMU |
 
 ### Orte
+
 - **Zoom**: Der Zoom-Link wird den Teilnehmenden per Mail mitgeteilt. Sollten Sie keine E-Mail erhalten haben, melden Sie sich bitte bei us (siehe [Kontakt](kontakt.html)).
 - **LMU**: Die Termine an der LMU findet im Institut für Statistik, Ludwigstr. 33, 4. Stock statt.
 - **Weitere**: Die Räumlichkeiten für Modul 4 werden derzeit geklärt.
+
+### Inhalte
 
 In dieser Workshop-Serie bauen wir auf die Inhalte der Workshop-Serie 1 auf
 und setzen das gelernte in die Praxis um. Gemeinsam erarbeiten wir Arbeitsabläufe,
@@ -39,7 +43,7 @@ Am Ende dieser Workshop-Serie, können Sie...
 :::
 
 
-### Kick-Off
+#### Kick-Off
 ::: {.callout-tip}
 ## Kick-Off
 
@@ -51,7 +55,7 @@ Am Ende des Kick-Offs können Sie...
 
 :::
 
-### Module
+#### Module
 Die Inhalte der Module finden sich auf den kommenden Seiten.
 
 * [Modul 1](WS2_Modul_1.html) - Einführung, Problemerfassung und Arbeitsabläufe
