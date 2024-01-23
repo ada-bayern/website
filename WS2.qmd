@@ -21,7 +21,7 @@
 
 - **Zoom**: Der Zoom-Link wird den Teilnehmenden per Mail mitgeteilt. Sollten Sie keine E-Mail erhalten haben, melden Sie sich bitte bei us (siehe [Kontakt](kontakt.html)).
 - **LMU**: Die Termine an der LMU findet im Institut für Statistik, Ludwigstr. 33, 4. Stock statt.
-- **Weitere**: Die Räumlichkeiten für Modul 4 werden derzeit geklärt.
+
 
 ### Inhalte
 
