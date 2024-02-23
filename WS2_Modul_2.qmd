@@ -13,4 +13,5 @@ Am Ende dieses Moduls können Sie...
 
 :::
 
-
+## Material
+* [Slides](https://drive.google.com/file/d/1JIrrc5DDtqi-6mkxeoM6TVQHsOrzGtrl/view?usp=drive_link)
