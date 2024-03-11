@@ -17,10 +17,11 @@ book:
         - WS2_Modul_2.qmd
         - WS2_Modul_3.qmd
         - WS2_Modul_4.qmd
-    - part: "Kommende Workshop-Serien"
-      chapters: 
-        - WS2.qmd
-        - WS3.qmd
+    - part: WS3.qmd
+      chapters:
+        - WS3_Modul_1.qmd
+        - WS3_Modul_2.qmd
+        - WS3_Modul_3.qmd
   appendices:
     - team.qmd
     - kontakt.qmd
