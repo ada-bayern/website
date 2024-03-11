@@ -7,21 +7,20 @@
 
 | Veranstaltung      | Datum  | Zeit        | Ort |
 |--------------------|--------|-------------|-------------|
-| Kick-Off 1          | 21.03. | 14:30 - 16:00| Online (Zoom) |
-| Kick-Off 2          | 08.04. | 15:00 - 16:30| Online (Zoom) |
+| Kick-Off 1*          | 21.03. | 14:30 - 16:00| Online (Zoom) |
+| Kick-Off 2*          | 08.04. | 15:00 - 16:30| Online (Zoom) |
 | Modul 1            | 09.04. | 10:00 - 15:30| LMU |
 | Modul 2            | 10.04. | 10:00 - 15:30| LMU |
 | Modul 3            | 11.04. | 10:00 - 15:30| LMU |
 | Gruppenarbeit 1    | 17.04. | 12:00 - 13:30| Online (Zoom) |
 | Gruppenarbeit 2    | 24.04. | 12:00 - 13:30| Online (Zoom) |
 | Abschlusstermin    | 30.04. | 10:00 - 15:30| LMU / Hybrid (Zoom) |
-
-Kick-Off: es muss nur ein Kick-Off-Termin besucht werden.
+*Kick-Off: es muss nur ein Kick-Off-Termin besucht werden.
 
 ### Orte
 
 - **Zoom**: Der Zoom-Link wird den Teilnehmenden per Mail mitgeteilt. Sollten Sie keine E-Mail erhalten haben, melden Sie sich bitte bei us (siehe [Kontakt](kontakt.html)).
-- **LMU**: Die genauen Räumlichkeiten werden noch bekannt gegeben.
+- **LMU**: LMU Hauptgebäude, Geschwister-Scholl-Platz 1, [Raum E 206](https://www.lmu.de/raumfinder/index.html#/building/bw0000/map?room=001902348_)
 
 ### Inhalte
 
