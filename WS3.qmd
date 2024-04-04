@@ -20,7 +20,7 @@
 ### Orte
 
 - **Zoom**: Der Zoom-Link wird den Teilnehmenden per Mail mitgeteilt. Sollten Sie keine E-Mail erhalten haben, melden Sie sich bitte bei us (siehe [Kontakt](kontakt.html)).
-- **LMU**: LMU Hauptgebäude, Geschwister-Scholl-Platz 1, [Raum E 206](https://www.lmu.de/raumfinder/index.html#/building/bw0000/map?room=001902348_)
+- **LMU**: Institut für Statistik der LMU München, Ludwigstr. 33, 4. Stock
 
 ### Inhalte
 
