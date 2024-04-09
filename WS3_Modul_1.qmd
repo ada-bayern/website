@@ -30,4 +30,5 @@ Am Ende dieses Moduls können Sie...
 * ... Probleme schildern, die in Ihrem Umfeld mit Daten gelöst werden könnten
 :::
 
-
+## Material
+* [Slides](https://drive.google.com/file/d/1LKjMsyAIjNhZ7Gt9Z-gKVdaPCPuIqYNr/view?usp=sharing)

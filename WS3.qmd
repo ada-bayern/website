@@ -52,6 +52,8 @@ Am Ende des Kick-Offs können Sie...
 * ... den Kontext des Projekts erklären.
 * ... auf die Cloud-Plattform zugreifen.
 
+[Slides](https://drive.google.com/file/d/1xs5R_lJmABsYu0VYprpSZ1Wo6GP_hX4e/view?usp=drive_link)
+
 :::
 
 ## Anmeldung
