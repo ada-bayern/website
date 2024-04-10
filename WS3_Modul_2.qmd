@@ -34,3 +34,6 @@ Am Ende dieses Moduls können Sie…
 * ... eine Entscheidung über eine gute Strategie für die Stichprobenziehung fällen.
 :::
 
+## Material
+
+[Slides](https://drive.google.com/file/d/1HJh-ngOhUFtpWtTfeQFRw8S3c2ibpJgm/view?usp=drive_link)
