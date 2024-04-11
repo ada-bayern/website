@@ -29,3 +29,8 @@ Am Ende dieses Moduls können Sie…
 * ... Notebooks für Reporting verwenden.
 * ... einschätzen, wann Dashboards nützlich sind für die Kommunikation von Datenanalysen.
 :::
+
+
+## Material
+
+[Slides](https://drive.google.com/file/d/1A48YSy1VbGvS8MhYFa9ithZ9EWkPnFdJ/view?usp=drive_link)
