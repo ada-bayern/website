@@ -7,6 +7,7 @@ Wir sind ein Team aus Data Scientists und Statistiker:innen. Unser Ziel ist es, 
 
 Wir wollen Beschäftigte im öffentlichen Sektor zum (besseren) Umgang mit Daten befähigen, die Datenkompetenz stärken, und so zur verstärkten Umsetzung von Datenprojekten beitragen. Anhand von konkreten Beispielen aus der Verwaltungspraxis möchten wir Digitalisierung greifbar und interaktiv erlebbar machen.
 
+![](icons/Stmd_Logo_unterstuetzt.jpg){fig-align="center" width=50%}
 
 ## Prof. Dr. Frauke Kreuter
 <p align="center">

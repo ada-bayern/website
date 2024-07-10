@@ -22,7 +22,7 @@ book:
         - WS3_Modul_1.qmd
         - WS3_Modul_2.qmd
         - WS3_Modul_3.qmd
-  appendices:
+  appendices: 
     - team.qmd
     - kontakt.qmd
     - impressum.qmd
@@ -38,7 +38,8 @@ language:
 format:
   html:
     theme: flatly
-    number-depth: 0
+    number-sections: false
+    toc-expand: false
 
 suppress-bibliography: true
 
