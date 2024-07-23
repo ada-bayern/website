@@ -5,24 +5,24 @@ book:
   title: "Angewandte Datenanalyse für die öffentliche Verwaltung"
   chapters:
     - part: index.qmd
-    - part: WS1.qmd
+    - part: WS4.qmd
+    - part: WS3.qmd
       chapters:
-        - Modul_1.qmd
-        - Modul_2.qmd
-        - Modul_3.qmd
-        - Modul_4.qmd
+        - WS3_Modul_1.qmd
+        - WS3_Modul_2.qmd
+        - WS3_Modul_3.qmd
     - part: WS2.qmd
       chapters:
         - WS2_Modul_1.qmd
         - WS2_Modul_2.qmd
         - WS2_Modul_3.qmd
         - WS2_Modul_4.qmd
-    - part: WS3.qmd
+    - part: WS1.qmd
       chapters:
-        - WS3_Modul_1.qmd
-        - WS3_Modul_2.qmd
-        - WS3_Modul_3.qmd
-    - part: WS4.qmd
+        - Modul_1.qmd
+        - Modul_2.qmd
+        - Modul_3.qmd
+        - Modul_4.qmd
   appendices: 
     - team.qmd
     - kontakt.qmd
