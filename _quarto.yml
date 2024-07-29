@@ -4,8 +4,8 @@ project:
 book:
   title: "Angewandte Datenanalyse für die öffentliche Verwaltung"
   chapters:
-    - part: index.qmd
-    - part: WS4.qmd
+    - index.qmd
+    - WS4.qmd
     - part: WS3.qmd
       chapters:
         - WS3_Modul_1.qmd
