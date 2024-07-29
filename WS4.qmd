@@ -1,0 +1,50 @@
+## Workshop Serie 4: Einzelbaumerkennung {.unnumbered}
+
+11.10. - 08.11.2024
+
+::: {.callout-note}
+## Planung
+Diese Workshop-Serie ist derzeit in Planung. Daher können sich die Details noch verändern.
+:::
+
+## Ablauf
+
+| Veranstaltung              | Datum       | Zeit         | Beschreibung                                                |
+|----------------------------|-------------|--------------|-------------------------------------------------------------|
+| Kick-Off (online)          | 11.10.      | 14:00-15:30  | Willkommen und Einführung                                   |
+| Modul 1 (LMU)              | 15.10.      | 13:00-16:30  | Einführung, Problemerfassung und Daten                      |
+| Modul 2 (LMU)              | 16.10.      | 09:30-15:30  | Datenprodukt konzipieren, Infrastruktur und Software (optional: Parkspaziergang im Anschluss) |
+| Modul 3 (LMU)              | 17.10.      | 09:30-12:30  | Arbeitsabläufe und Prototypen                               |
+| Follow-Up 1 (online)       | 23.10.      | 12:30-14:00  |                                                             |
+| Follow-Up 2 (online)       | 30.10.      | 12:30-14:00  |                                                             |
+| Abschluss (hybrid)         | 08.11.      | 13:00-15:00  | Ergebnispräsentationen und Ausblick                         |
+
+
+### Orte
+
+- **Online**: Der Zoom-Link wird den Teilnehmenden per Mail mitgeteilt. Sollten Sie keine E-Mail erhalten haben, melden Sie sich bitte bei us (siehe [Kontakt](kontakt.html)).
+- **LMU**: Institut für Statistik der LMU München, Ludwigstr. 33, 4. Stock
+
+### Inhalte
+
+#### Hintergrund
+Das Thema Einzelbaumerkennung inklusive Baumeigenschaften (Art, Maße, Totholz ja/nein, Borkenkäferbefall-Status, etc.) ist für viele Behörden, öffentliche Einrichtungen, Kommunen, etc. relevant. 
+Bild-Daten von Drohnen, Flugzeugen und Satelliten (Sentinel) werden gesammelt oder bereits genutzt, um die Einzelbaumerkennung (z.B. mit Hilfe vortrainerter Modelle) durchzuführen. Für bestimmte Flächen werden weitere Daten - wie Laserscanner-Messungen oder “manuelle” Messungen von Koordinaten, Höhe, Art usw. - erhoben, die für das Training von Einzelbaumerkennungs-Modellen genutzt werden können (z.B. für Deep Learning Modelle).
+
+Die Nutzungsmöglichkeiten von Einzelbaumerkennung sind vielfältig und umfassen neben verschiedenen Forschungsansätzen und der statistischen Baumerfassung für Naturschutz- und Wald-Politik auch die Möglichkeit, jedem Baum eine E-Mail-Adresse zu geben, damit Bürger:innen ihnen schreiben können ;). Nach derzeitigem Planungsstand sollen aber Stadtplaner:innen, staatliche Forstmitarbeitende und andere Verwaltungsmitarbeitende die von mehr Wissen über Standort, Art, und Eigenschaften der Bäume profitieren können, im Mittelpunkt unseres Workshops stehen. Entsprechend sollen praxisnahe Zielsetzungen wie Waldmanagement, Baumpflege oder die Mortalität von Stadtbäumen genauer beleuchtet werden.
+
+
+#### Workshop-Serie zum Thema Baum- und Waldmanagement mit Fernerkundungsdaten
+In dieser ersten Workshop-Serie zum Thema Baum- und Waldmanagement möchten wir relevante Stakeholder in einen Raum bringen und zentrale Fragen wie “Welche Bäume gibt es wo?”, “Wie viele Bäume gibt es im Gebiet XY?”, “Wie groß ist die Biomasse?”, “Welche Eigenschaften hat jeder Baum (z.B. Baumgesundheit)?”, “Kann man die auf einer Karte (ggf. mit Pop-Ups für Eigenschaften) anzeigen?”, “Welche Infrastruktur und Daten werden benötigt, um dies auf Bayern-Ebene umzusetzen?”, usw. gemeinsam angehen. 
+
+
+
+
+
+## Anmeldung
+
+Anmeldung ist derzeit noch nicht möglich.
+
+Bei Interesse oder Fragen wenden Sie sich gerne an [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de).
+
+![](icons/Logos.png) 
