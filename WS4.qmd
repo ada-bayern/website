@@ -1,11 +1,13 @@
 ## Workshop Serie 4: Einzelbaumerkennung {.unnumbered}
 
-11.10. - 08.11.2024
+**11.10. - 08.11.2024**
 
 ::: {.callout-note}
 ## Planung
 Diese Workshop-Serie ist derzeit in Planung. Daher können sich die Details noch verändern.
 :::
+
+In dieser Workshop-Serie beschäftigen wir uns mit dem Thema Einzelbaumerkennung und insbesondere mit der Frage, wie Infrastruktur für die Datenanalyse aussehen könnte.
 
 ## Ablauf
 
@@ -35,9 +37,7 @@ Die Nutzungsmöglichkeiten von Einzelbaumerkennung sind vielfältig und umfassen
 
 
 #### Workshop-Serie zum Thema Baum- und Waldmanagement mit Fernerkundungsdaten
-In dieser ersten Workshop-Serie zum Thema Baum- und Waldmanagement möchten wir relevante Stakeholder in einen Raum bringen und zentrale Fragen wie “Welche Bäume gibt es wo?”, “Wie viele Bäume gibt es im Gebiet XY?”, “Wie groß ist die Biomasse?”, “Welche Eigenschaften hat jeder Baum (z.B. Baumgesundheit)?”, “Kann man die auf einer Karte (ggf. mit Pop-Ups für Eigenschaften) anzeigen?”, “Welche Infrastruktur und Daten werden benötigt, um dies auf Bayern-Ebene umzusetzen?”, usw. gemeinsam angehen. 
-
-
+In dieser ersten Workshop-Serie zum Thema Baum- und Waldmanagement möchten wir relevante Stakeholder zusammenbringen und zentrale Fragen wie “Welche Bäume gibt es wo?”, “Wie viele Bäume gibt es im Gebiet XY?”, “Wie groß ist die Biomasse?”, “Welche Eigenschaften hat jeder Baum (z.B. Baumgesundheit)?”, “Kann man die auf einer Karte (ggf. mit Pop-Ups für Eigenschaften) anzeigen?”, und insbesondere **“Welche Infrastruktur und Daten werden benötigt, um dies umzusetzen?”**, usw. gemeinsam angehen. 
 
 
 
