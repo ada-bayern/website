@@ -11,15 +11,31 @@ In dieser Workshop-Serie beschäftigen wir uns mit dem Thema Einzelbaumerkennung
 
 ## Ablauf
 
-| Veranstaltung              | Datum       | Zeit         | Beschreibung                                                |
-|----------------------------|-------------|--------------|-------------------------------------------------------------|
-| Kick-Off (online)          | 11.10.      | 14:00-15:30  | Willkommen und Einführung                                   |
-| Modul 1 (LMU)              | 15.10.      | 13:00-16:30  | Einführung, Problemerfassung und Daten                      |
-| Modul 2 (LMU)              | 16.10.      | 09:30-15:30  | Datenprodukt konzipieren, Infrastruktur und Software (optional: Parkspaziergang im Anschluss) |
-| Modul 3 (LMU)              | 17.10.      | 09:30-12:30  | Arbeitsabläufe und Prototypen                               |
-| Follow-Up 1 (online)       | 23.10.      | 12:30-14:00  |                                                             |
-| Follow-Up 2 (online)       | 30.10.      | 12:30-14:00  |                                                             |
-| Abschluss (hybrid)         | 08.11.      | 13:00-15:00  | Ergebnispräsentationen und Ausblick                         |
+| Veranstaltung       | Datum     | Zeit          | Ort      | Beschreibung                                                                                                                                                                                                                      |
+|---------------------|-----------|---------------|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Kick-Off            | 11.10.    | 14:00-15:30    | online   | Willkommen und Einführung                                                                                                                                                                                                      |
+| Teil 1, Tag 1       | 15.10.    | 13:00-16:30    | LMU      | (1) Einführung<br>(2) Problemerfassung und Daten: Nutzung von Fernerkundungsdaten für das Baum- und Forstmanagement                                                                                                                   |
+| Teil 1, Tag 2       | 16.10.    | 09:30-15:30    | LMU      | (1) Funktionsweisen von Algorithmen zur Nutzung von Fernerkundungsdaten<br>(2) Herausforderungen an die IT-Infrastruktur<br>(3) Brainstorming zu möglichen Anwendungen & Datenprodukten<br>(4) Welche Möglichkeiten bietet die Cloud?<br>(optional: Parkspaziergang im Anschluss) |
+| Teil 2              | 17.10.    | 09:30-15:30    | LMU      | Nur für IT-Interessierte:<br>  (1) Konzeption einer Cloud-Umgebung (Prototyp) zur vereinfachten Arbeit mit Fernerkundungsdaten<br>  (2) Feststellung technischer Anforderungen<br>  (3) Fortführung der Diskussion vom Vormittag<br>  (4) Arbeitsabläufe und nächste Schritte |
+| Follow-Up 1         | 23.10.    | 12:30-14:00    | online   |                                                                                                                                                                                                                                      |
+| Follow-Up 2         | 30.10.    | 12:30-14:00    | online   |                                                                                                                                                                                                                                      |
+| Abschluss           | 08.11.    | 13:00-15:00    | hybrid   | Zwischenstand und Ausblick (in Abhängigkeit von den Ergebnissen des Workshops)                                                                                                                                                 |
+
+
+
+
+Der Workshop vor Ort besteht aus zwei Teilen.
+
+Der **erste Teil** findet am 15.10. und am 16.10. statt. Dabei soll das Thema “Baum- und Waldmanagement mit Fernerkundungsdaten” in einer Gesamtschau ausgeleuchtet werden, insbesondere in Hinblick auf Anwendungen in der öffentlichen Verwaltung. Ziel des ersten Teiles ist es, anwenderorientiert und allgemeinverständlich zu besprechen,
+welche Art von Luft- und Satellitenbildern für welche Zwecke nutzbar sind,
+mithilfe welcher Technologien aus dem Bereich des Cloud-Computing und der Künstlichen Intelligenz diese Bilder automatisch ausgewertet werden können und
+welchen Mehrwert das Baum- und Forstmanagement bereits aus der Nutzung solcher Datenprodukte zieht und mögliche Verbesserungen in diesem Rahmen.
+
+Der **zweite Teil** findet am 17.10. statt. Er richtet sich an alle, die sich intensiv und tiefergehend mit Infrastruktur- und IT-Herausforderungen bei der Nutzung von Fernerkundungsdaten beschäftigen wollen. Wesentliche Anwendungsfälle sind bislang nur schwer realisierbar, weil die bestehende technische Infrastruktur an ihre Grenzen stößt, insbesondere wenn mehrere Terabyte an Bilddaten vorliegen. Ziel des zweiten Teiles ist es,
+eine skalierbare und für unterschiedliche Anwendungsfälle nutzbare Cloud-Lösung konzeptionell zu durchdenken und technische Anforderungen zu besprechen.
+Aufbauend auf den Ergebnissen aus der Diskussion soll im Idealfall im Nachgang ein einsatzbereiter Prototyp in der Cloud umgesetzt werden.
+
+Für die Teilnahme am zweiten Teil (17.10.) wird die Teilnahme am ersten Teil (15.10. - 16.10.) vorausgesetzt. Bitte melden Sie sich explizit für die einzelnen Tage an.
 
 
 ### Orte
