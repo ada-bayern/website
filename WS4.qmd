@@ -58,6 +58,9 @@ Die Nutzungsmöglichkeiten von Einzelbaumerkennung sind vielfältig und umfassen
 #### Workshop-Serie zum Thema Baum- und Waldmanagement mit Fernerkundungsdaten
 In dieser ersten Workshop-Serie zum Thema Baum- und Waldmanagement möchten wir relevante Stakeholder zusammenbringen und zentrale Fragen wie “Welche Bäume gibt es wo?”, “Wie viele Bäume gibt es im Gebiet XY?”, “Wie groß ist die Biomasse?”, “Welche Eigenschaften hat jeder Baum (z.B. Baumgesundheit)?”, “Kann man die auf einer Karte (ggf. mit Pop-Ups für Eigenschaften) anzeigen?”, und insbesondere **“Welche Infrastruktur und Daten werden benötigt, um dies umzusetzen?”**, usw. gemeinsam angehen. 
 
+### Für Studierende
+
+Studierende im Masterstudiengang sind ebenfalls herzlich eingeladen, sich anzumelden. Wir hoffen, dass die Diskussionen und Gespräche im Rahmen des Workshops als Ausgungspunkt für spannende Seminar- und Masterarbeiten dienen. Statistikstudierende können durch ihre aktive Teilnahme mit abschließender mündlicher Prüfung 3 ECTS erwerben, die im Rahmen der Wahlpflichtmodule "Selected Topics in ..." angerechnet werden können. Wegen Platzmangel können wir leider nur sehr wenigen Studierenden eine Teilnahme ermöglichen.
 
 
 ![](icons/Logos.png) 
