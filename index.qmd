@@ -15,6 +15,8 @@ In der Praxis müssen von der Idee bis zur Umsetzung von Datenprojekten viele H�
 
 Anhand von konkreten **Beispielen aus der Verwaltungspraxis** möchten wir **Digitalisierung greifbar und interaktiv erlebbar** machen.  
 
-Haben Sie ein Problem, das Sie mich uns gemeinsam lösen möchten? [Kontaktieren Sie uns!](kontakt.qmd)
-   
+Haben Sie ein Problem, das Sie mich uns gemeinsam lösen möchten? [Kontaktieren Sie uns!](kontakt.qmd)   
+
 ![](icons/Stmd_Logo_unterstuetzt.jpg){fig-align="center" width=50%}
+
+![](icons/Logo_BERD-NFDI.png){fig-align="center" width=17%}   
