@@ -8,7 +8,11 @@ book:
       chapters:
       - team.qmd
       - kontakt.qmd
-    - WS4.qmd
+    - part: WS4.qmd
+      chapters:
+        - WS4_Modul_1.qmd
+        - WS4_Modul_2.qmd
+        - WS4_Modul_3.qmd
     - part: WS3.qmd
       chapters:
         - WS3_Modul_1.qmd
