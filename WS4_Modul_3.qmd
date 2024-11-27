@@ -13,4 +13,6 @@ In **Modul 3** setzen wir den Rahmen, um Probleme zu erfassen und vorliegende Da
 
 ## Material
 
-[Slides](https://drive.google.com/file/d/1E19iUQ-IJnvDBFs-t56oYehfIFLgD7C4/view?usp=sharing)
+[Slides](slides/ADA4_Modul_3.pdf)
+
+<!-- (https://drive.google.com/file/d/1E19iUQ-IJnvDBFs-t56oYehfIFLgD7C4/view?usp=sharing) -->

@@ -10,4 +10,6 @@ In **Modul 1** setzen wir den Rahmen, um Probleme zu erfassen und vorliegende Da
 
 ## Material
 
-[Slides](https://drive.google.com/file/d/1HDsEjkkGjJQPBg10oMNJk4hMsKLC8oeM/view?usp=sharing)
+[Slides](slides/ADA4_Modul_1.pdf)
+
+<!-- (https://drive.google.com/file/d/1HDsEjkkGjJQPBg10oMNJk4hMsKLC8oeM/view?usp=sharing) -->

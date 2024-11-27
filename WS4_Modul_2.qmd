@@ -13,4 +13,6 @@ In **Modul 2** gehen wir auf Infrastrukturbedürfnisse und -möglichkeiten ein u
 
 ## Material
 
-[Slides](https://drive.google.com/file/d/1vuTZM5g1TizrktK2h75g6LeYqgqfgTD8/view?usp=sharing)
+[Slides](slides/ADA4_Modul_2.pdf)
+
+<!-- (https://drive.google.com/file/d/1vuTZM5g1TizrktK2h75g6LeYqgqfgTD8/view?usp=sharing) -->
