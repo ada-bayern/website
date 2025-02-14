@@ -1,4 +1,8 @@
-## ADA Bayern {.unnumbered}
+---
+title: "Home"
+---
+
+# ADA Bayern {.unnumbered}
 ![](icons/banner.png){width=100% fig-align="center" fig-alt="https://www.berd-nfdi.de/berd-academy/"}
 
 In der öffentlichen Verwaltung liegen **vielfältige Daten** vor, die potentiell genutzt werden können um Fragen zu beantworten und Probleme zu lösen. Wir können Sie unterstützen dieses Potential zu entfachen.

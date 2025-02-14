@@ -1,0 +1,17 @@
+---
+title: "Modul 4: Nachhaltige Implementierung, Wissensweitergabe und Infrastrukturerhalt"
+---
+
+::: {.callout-tip} 
+### Lernziele
+
+Am Ende dieses Moduls können Sie...
+
+* ... einen nachhaltigen Prozess etablieren, wie die Daten übertragen, die Analysen durchgeführt und Archivierungsentscheidungen dokumentiert werden.
+* ... ihr Wissen an andere weitergeben.
+* ... einschätzen, wie die benötigte Infrastruktur erhalten werden kann.
+
+:::
+### Material
+* [Slides](https://drive.google.com/file/d/1GO1fSWAI5PalsmMDgyI69vodOROpNHuL/view?usp=drive_link)
+

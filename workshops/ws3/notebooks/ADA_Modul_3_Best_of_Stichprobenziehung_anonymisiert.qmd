@@ -1,0 +1,464 @@
+---
+title: "ADA Bayern"
+subtitle: "Modul 3: Best of Stichprobenziehung"
+format:
+  html:
+    toc: true
+    number-sections: true
+    highlight-style: github
+    embed-resources: true
+    df-print: paged
+editor: visual
+---
+
+## Ziel des Notebooks
+
+In diesem Notebook fassen wir die Inhalte der einfachen und stratifizierten Stichprobenziehung nochmal zusammen. Das Ziel ist es dieses Wissen für das Projekt zu nutzen. Wir wollen interessante Spalten für die Stratifizierung identifizieren und den Code in diesem Notebook für das Projekt anpassen.
+
+## Software-Pakete laden und einlesen der Daten
+
+In diesem Schritt lesen wir die Daten in R ein. Der Code ist genau wie zuvor. Diesmal verstecken wir den Code in einer anderen Datei, die wir hier aufrufen. So bleibt das Notebook übersichtlicher. Im gleichen Schritt bereiten wir unsere Daten auch schon für die Stichprobenziehung vor[^1].
+
+[^1]: Mit der Funktion `source()` können wir R Code aus anderen Dateien ausführen. Hier liegt der Code in der Datei `ADA_daten_vorbereiten.R` . In der Datei ist der Code den wir in Modul 2 zum Laden der Software Pakete sowie zur Vobereitung der Daten verwendet haben.
+
+```{r}
+source("ADA_daten_vorbereiten.R")
+```
+
+## Ziehung einer einfachen Zufallsstichprobe
+
+Für die Ziehung einer einfachen Zufallsstichprobe benötigen wir eine wohl definierte Grundgesamtheit. In unserem Fall bilden alle Akten aus dem Jahr 2018 (alle bayerischen Amtsgerichte, nur Registerzeichen C) die Grundgesamtheit. Der Umfang der Grundgesamtheit, hier die Anzahl aller Akten in einem Jahr, wird mit $N$ bezeichnet.
+
+Außerdem benötigen wir die Stichprobengröße, also die Anzahl der Akten die ausgewählt werden sollen. Die Stichprobengröße wird mit $n$ bezeichnet.
+
+Im folgenden Code lesen wir zunächst die Anzahl der Akten aus[^2].
+
+[^2]: Wir nutzen dafür `nrow()` Funktion um die Anzahl (`n`) der Zeilen (`row`) im Datensatz `akten` zählen.
+
+```{r}
+N <- akten %>% 
+  nrow()
+
+N
+```
+
+Dann legen wir den Stichprobenumfang $n$ auf 200 fest[^3].
+
+[^3]: Wir generieren ein neues Objekt `n` dem wir den Wert 200 zuweisen.
+
+```{r}
+n <- 200
+n
+```
+
+Als Auswahlwahrscheinlichkeit bezeichnet man die Wahrscheinlichkeit, mit der eine Einheit (hier eine Akte, technisch eine Zeile) in die Stichprobe gelangt[^4].
+
+[^4]: Dafür berechnen wir den Quotienten $n$/$N$ und multiplizieren in mit 100 um Prozentangaben zu bekommen.
+
+```{r}
+100 * n/N
+```
+
+**Mit welcher Wahrscheinlichkeit (in Prozent) wird eine Akte ausgewählt?**
+
+Nun können wir eine einfache Zufallsstichprobe ziehen[^5]. Als Ergebnis erhalten wir $n=200$ zufällig gewählte Werte aus der Spalte Index.
+
+[^5]: Dafür verwenden wir die Funktion `sample()` (das englische "to draw a sample" bedeutet "eine Stichprobe ziehen"). Wir nehmen die Einträge in der Index Spalte und ziehen eine Zufallsstichprobe mit der Stichprobengröße $n$ (`size = n`) ohne Zurücklegen (`replace = FALSE`).
+
+```{r}
+Index_stichprobe <- sample(akten$Index, size = n, replace = FALSE)
+Index_stichprobe
+```
+
+Wenn wir den gleichen Code noch einmal ausführen, bekommen wir eine neue Zufallsstichprobe.
+
+```{r}
+Index_stichprobe <- sample(akten$Index, size = n, replace = FALSE)
+Index_stichprobe
+```
+
+Mit den Indizes in der Stichprobe können wir nun die entsprechenden Zeilen in unserem Datensatz `akten` auswählen. Das machen wir über einen einfachen Abgleich der Indizes[^6].
+
+[^6]: Mit `akten$Index %in% Index_stichprobe` wird einzeln für jede Zeile (`akten$Index`) überprüft, ob diese Zeile in (Operator `%in%`) der gezogenen Stichprobe (`Index_stichprobe`) ist. Mithilfe der eckigen Klammern (`akten[c(TRUE, FALSE, …, FALSE),]`) werden nur diejenigen Zeilen aus der `akten`-Tabelle zurückgegeben, wo dies der Fall ist. Das Ergebnis der Auswahl sind die 200 Akten in unserer Stichprobe.
+
+```{r}
+akten_stichprobe <- akten[akten$Index %in% Index_stichprobe, ]
+```
+
+### Wie groß sollte unsere Stichprobe sein?
+
+Als einfache Regel gilt, je größer die Stichprobe, desto genauer können wir die Grundgesamtheit abbilden.
+
+Was bedeutet "genau"? Jede Wiederholung der Stichprobenziehung ergibt eine neue Stichprobe. Das heißt, die Akten, die Teil der Stichprobe sind, unterscheiden sich von Wiederholung zu Wiederholung. Berechnen wir nun, zum Beispiel, einen Mittelwert auf Grundlage der Stichprobe, unterscheiden sich die Ergebnisse der Berechnung. Je größer die Stichprobe ist, desto kleiner werden die Unterschiede und desto näher wird (in der Regel) das Stichprobenmittel dem Mittelwert aus der Grundgesamtheit kommen.
+
+### Graphische Darstellung
+
+Nun wollen wir die einfache Zufallsstichprobe vergleichen, mit dem was aktuell angeboten wird. Dazu betrachten wir den Anteil angebotener Akten pro Gericht und stellen dies dar. Berechne zunächst die Anteile.
+
+```{r}
+anteil_anzubietend <- akten %>%
+  mutate(AkteAnzubieten = case_when(
+    `Archivstatus` == "anzubieten" ~ "Ja",
+    is.na(`Archivstatus`) ~ "Nein",
+    TRUE ~ "Nein")) %>%
+  group_by(`Bezirk`, `AkteAnzubieten`, .drop = FALSE) %>%
+  summarise(n = n()) %>%
+  mutate(anteil = n / sum(n)) %>%
+  filter(`AkteAnzubieten` == "Ja")
+
+anteil_anzubietend
+```
+
+Nun stellen wir die Anteile auf einer Karte dar.
+
+```{r}
+# In Karte übernehmen
+karte_amtsgerichte$`Anzubietende Akten` <- anteil_anzubietend$anteil[match(karte_amtsgerichte$court, anteil_anzubietend$Bezirk)]
+karte_amtsgerichte$`Anzubietende Akten`[karte_amtsgerichte$`Anzubietende Akten` == 0] <- NA
+
+# und Plotten
+ggplot(data = karte_amtsgerichte, aes(fill = `Anzubietende Akten`)) +
+  geom_sf(aes(geometry = geometry), color = "transparent") +
+  geom_sf_text(
+    aes(geometry = geometry, label = court),
+    size = 1.5,
+    col = "black",
+    fun.geometry = function(x)
+      st_centroid(x)
+  ) +
+  scale_fill_viridis_b(option = "viridis") +
+  theme_void()
+```
+
+Schweinfurt und Kitzingen bieten einen besonders hohen Anteil an, mehr als 3 Prozent! Von vielen Gerichten wird aber auch keine einzige Akte angeboten.
+
+**Woran liegt diese ungleiche Verteilung?**
+
+Nun sollen $n = 372$ Akten (so viele wie 2018 angeboten wurden) zufällig gezogen werden. In dem Indikator `inSample` in `akten_kopie` wird abgespeichert, ob die Akte gezogen wurde oder nicht.
+
+```{r}
+n <- 372
+set.seed(20230919)
+Index_stichprobe <- sample(akten$Index, size = n, replace = FALSE)
+
+akten_kopie <- akten
+akten_kopie$inSample[akten$Index %in% Index_stichprobe] <- "Ja"
+```
+
+Berechne die Anteile der zufällig ausgewählten Akten in jedem Bezirk.
+
+```{r}
+anteil_anzubietend_zufaellig <- akten_kopie %>%
+  mutate(AkteAnzubieten = case_when(
+    `inSample` == "Ja" ~ "Ja",
+    is.na(`inSample`) ~ "Nein",
+    TRUE ~ "Nein")) %>%
+  group_by(`Bezirk`, `AkteAnzubieten`, .drop = FALSE) %>%
+  summarise(n = n()) %>%
+  mutate(anteil = n / sum(n)) %>%
+  filter(`AkteAnzubieten` == "Ja")
+
+anteil_anzubietend_zufaellig
+```
+
+Auf einer Karte können wir nun erneut darstellen, wie viele Akten angeboten werden wenn dies rein zufällig erfolgen würde.
+
+```{r}
+# in Karte übernehmen
+karte_amtsgerichte$`Anzubietende Akten` <- anteil_anzubietend_zufaellig$anteil[match(karte_amtsgerichte$court, anteil_anzubietend_zufaellig$Bezirk)]
+karte_amtsgerichte$`Anzubietende Akten`[karte_amtsgerichte$`Anzubietende Akten` == 0] <- NA
+
+# und plotten
+ggplot(data = karte_amtsgerichte, aes(fill = `Anzubietende Akten`)) +
+  geom_sf(aes(geometry = geometry), color = "transparent") +
+  geom_sf_text(
+    aes(geometry = geometry, label = court),
+    size = 1.5,
+    col = "black",
+    fun.geometry = function(x)
+      st_centroid(x)
+  ) +
+  scale_fill_viridis_b(option = "viridis") +
+  theme_void()
+
+```
+
+Die meisten Gerichte würden bei zufälliger Auswahl mindestens eine Akte anbieten. Man beachte aber auch die Skala: Es ist höchst unwahrscheinlich, dass ein Gericht auch nur 1% seiner Akten zur Archivierung anbieten würde.
+
+## Diskussion: Was muss berücksichtigt werden? Was sind Vor- und Nachteile einer einfachen Zufallsstichprobe?
+
+1.  Welche Faktoren beeinflussen, wie groß die Stichprobe sein kann?
+2.  Als Grundgesamtheit wurde hier "alle C-Verfahren in einem Jahr in Bayern" verwendet. Ist dies so sinnvoll und praktikabel oder gibt es bessere Alternativen?
+3.  Ist die einfache Zufallsstichprobe zur Auswahl von Akten geeignet? Welche Vor- und Nachteile hat das Verfahren?
+
+#### Vorteile
+
+-   keine systematische Auswahl von Akten (z.B. anhand von Nachnamen)
+-   Repräsentative Stichprobe
+-   Alle Akten haben dieselbe Auswahlwahrscheinlichkeit
+
+#### Nachteile
+
+-   Nicht alle Gerichte/Landkreise/Regionen tauchen immer in der Stichprobe auf
+-   Alle Akten haben dieselbe Auswahlwahrscheinlichkeit
+
+## Ziehung einer stratifizierten Zufallsstichprobe, stratifiziert nach Amtsgerichtsbezirken
+
+Bei einer stratifizierten Stichprobe werden zusätzlich verfügbare Information aus der Grundgesamtheit zur Stichprobenziehung verwendet.
+
+Vielleicht wollen wir sicherstellen, dass Akten aus allen Amtsgerichtsbezirken archiviert werden? Dann könnten Historiker in Zukunft verschiedenen Regionen Bayerns untereinander vergleichen. Mit diesem Gedanken sollen nun zufällig zehn Akten pro Bezirk gezogen werden.
+
+Von jedem Amtsgerichtsbezirk (jeder Bezirk bildet hier ein sogenanntes Stratum) benötigen wir die Gesamtzahl der zur Verfügung stehenden Akten.
+
+```{r}
+beschreibung_stichprobe <- akten %>% 
+  group_by(`Bezirk`) %>%
+  summarise(`Anzahl Akten` = n()) %>%
+  arrange(`Bezirk`)
+```
+
+Nun sollen aus jedem Bezirk zehn Akten zufällig ausgewählt werden.
+
+```{r}
+beschreibung_stichprobe <- beschreibung_stichprobe %>% 
+  mutate(`Stichprobengröße` = 10)
+```
+
+Zur Vorbereitung der Stichprobenziehung werden die Infos aus `beschreibung_stichprobe` an die Grundgesamtheit herangespielt.
+
+```{r}
+akten_fuer_stratifizierung_nach_gericht <- akten %>%
+  left_join(beschreibung_stichprobe, by = "Bezirk")
+```
+
+Nun erfolgt die Stichprobenziehung[^7].
+
+[^7]: Mit `set.seed` wird zunächst ein Seed gesetzt, so dass immer dieselbe Stichprobe gezogen wird.
+
+    Bezirk soll unsere Stratumsvariable sein. Daher werden mittels `group_by` die nachfolgenden Schritte für jedes Gericht einzeln getrennt voneinander durchgeführt.
+
+    Alle Akten eines jeden Gerichts werden durchnummeriert von 1 bis zur Gesamtzahl der Akten vom jeweiligen Gericht `n()`, die Nummern werden anschließend mittels `sample` gemischt und jede Akte bekommt in der Variablen `samp` eine Nummer zugewiesen. Akten mit einer Nummer kleiner oder gleich 10 (vorgegeben in der Variablen `anzahl_akten_pro_gericht`) werden herausge`filter`t und bleiben in der Stichprobe erhalten.
+
+    Abschließend wird die Hilfsvariable `samp` gelöscht, indem ihr der Wert `NULL` zugewiesen wird.
+
+```{r}
+set.seed(20230919)
+stratifizierte_stichprobe_nach_gericht <- akten_fuer_stratifizierung_nach_gericht %>%
+  group_by(Bezirk) %>%
+  mutate(samp = sample(n())) %>%
+  filter(samp <= `Stichprobengröße`) %>%
+  ungroup()
+
+stratifizierte_stichprobe_nach_gericht$samp <- NULL
+```
+
+Alle nötigen Infos zur Beschreibung der Stichprobe sind in der folgenden Tabelle vorhanden:
+
+```{r}
+beschreibung_stichprobe
+```
+
+Kurze Prüfung. Haben wir tatsächlich zehn Akten pro Gericht gezogen?
+
+```{r}
+stratifizierte_stichprobe_nach_gericht %>%
+  group_by(`Bezirk`) %>%
+  summarise(n())
+```
+
+**Wie viele Akten liegen insgesamt in der Stichprobe vor?**
+
+```{r}
+nrow(stratifizierte_stichprobe_nach_gericht)
+```
+
+### Ist die stratifizierte Stichprobe repräsentativ?
+
+Akten aus kleinen Amtsgerichtsbezirken hatten in dieser Stichprobe eine deutlich höhere Wahrscheinlichkeit, in die Stichprobe zu gelangen, als zum Beispiel aus dem Amtsgericht München. Wenn man dies unberücksichtigt lässt, können keine statistisch validen Aussagen über die Grundgesamtheit getroffen werden.
+
+Für repräsentative statistische Aussagen müssen Gewichte verwendet werden. Akten mit geringer Auswahlwahrscheinlichkeit stehen für eine größere Anzahl von Akten und erhalten damit ein größeres Gewicht.
+
+Die Auswahlwahrscheinlichkeit berechnet sich in jedem Stratum getrennt als
+
+-   Auswahlwahrscheinlichkeit = Anzahl (Stichprobe) / Anzahl (Grundgesamtheit)
+
+Das Gewicht (= Hochrechnungsfaktor) ergibt sich als
+
+-   Hochrechnungsfaktor = 1 / Auswahlwahrscheinlichkeit
+
+Eine Akte mit einem Hochrechnungsfaktor von z.B. 20 wurde also mit einer Wahrscheinlichkeit von 5% in die Stichprobe gezogen und steht nun repräsentativ für 20 Akten, die alternativ hätten gezogen werden können.
+
+Auswahlwahrscheinlichkeit und Hochrechnungsfaktor lassen sich allein aus den Angaben zur Beschreibung der Stichprobe wie folgt berechnen.
+
+```{r}
+stratifizierte_stichprobe_nach_gericht <- stratifizierte_stichprobe_nach_gericht %>%
+  mutate(Auswahlwahrscheinlichkeit = `Stichprobengröße` / `Anzahl Akten`) %>%
+  mutate(Hochrechnungsfaktor = 1 / Auswahlwahrscheinlichkeit)
+```
+
+Hier zeigt sich also, warum diese Dokumentation der Stichprobe so wichtig ist.
+
+Als Beispiel soll nun die mittlere Anzahl der Prozessbeteiligten geschätzt werden.
+
+In der Grundgesamtheit können wir dies berechnen als
+
+$$
+\bar{y} = \frac{\sum_{grundgesamtheit} 1 \cdot y_i}{N}
+$$
+
+```{r}
+mean(akten$`Anzahl Beteiligte`)
+```
+
+Anhand der Stichprobe können wir mittels folgender Formel ungefähr den selben Wert erhalten
+
+$$
+\hat{\bar{y}}=\frac{\sum_{stichprobe} hrf_i \cdot y_i}{\sum_{stichprobe} hrf_i}
+$$
+
+```{r}
+sum(stratifizierte_stichprobe_nach_gericht$Hochrechnungsfaktor * stratifizierte_stichprobe_nach_gericht$`Anzahl Beteiligte`) / sum(stratifizierte_stichprobe_nach_gericht$Hochrechnungsfaktor)
+```
+
+Zum selben Ergebnis führt auch der folgende Code[^8].
+
+[^8]: Die Funktionen `svydesign`, `svymean` und `confint` kommen aus dem `survey`-package. Mit `svydesign` lässt sich das Design der Stichprobe beschreiben. Die anderen Funktionen nutzen dieses Design zur Berechnung vom gewichteten Mittelwert bzw. zur Berechnung des Konfidenzintervalls.
+
+```{r}
+my_stratified_design <- svydesign(id = ~0, strata = ~Bezirk, data = stratifizierte_stichprobe_nach_gericht, fpc = ~Auswahlwahrscheinlichkeit)
+
+svymean(~`Anzahl Beteiligte`, my_stratified_design, na.rm = TRUE)
+```
+
+Zusätzlich lässt sich noch das Konfidenzintervall berechnen, welches mit 95%-Wahrscheinlichkeit den wahren Wert aus der Grundgesamtheit überdeckt. Damit kann die Genauigkeit der Schätzung beurteilt werden.
+
+```{r}
+confint(svymean(~`Anzahl Beteiligte`, my_stratified_design, na.rm = TRUE))
+```
+
+Eine naive Schätzung der mittleren Anzahl Prozessbeteiligter berechnet einfach nur den Mittelwert der Stichprobe und lässt dabei die unterschiedlichen Auswahlwahrscheinlichkeiten außer Acht.
+
+```{r}
+mean(stratifizierte_stichprobe_nach_gericht$`Anzahl Beteiligte`)
+```
+
+Anders als die Schätzung oben ist dieser Wert nicht zur Beschreibung der Grundgesamtheit geeignet. Nur wenn Gewichte (=Hochrechnungsfaktoren) verwendet werden, können aus der Stichprobe Ergebnisse abgeleitet werden, die repräsentativ für die Grundgesamtheit sind.
+
+## Ziehung einer stratifizierten Stichprobe, stratifiziert nach Verfahrensdauer
+
+Eine stratifizierte Stichprobe kann noch aus einem anderen Grund sinnvoll sein: In diesem Beispiel sollen Akten mit einer langen Verfahrensdauer besonders häufig archiviert werden, da diese Akten besonders umfangreich und informativ sein könnten.
+
+Zunächst betrachten wir einen kurze Zusammenfassung der Verfahrensdauer.
+
+```{r}
+#| eval: false
+summary(akten$`Dauer des Verfahrens in Tagen`)
+```
+
+Die stetige Variable `Dauer des Verfahrens in Tagen` diskretisieren wir:
+
+-   kurzes Verfahren, wenn die Verfahrensdauer weniger als 100 Tage betrug
+
+-   mittleres Verfahren bei 100-1500 Tagen
+
+-   langes Verfahren ab 1500 Tagen Verfahrensdauer
+
+Bei fehlenden Werten wird von einem kurzen Verfahren ausgegangen.
+
+```{r}
+akten <- akten %>% mutate(
+    verfahrensdauer = case_when(
+      `Dauer des Verfahrens in Tagen` < 100 ~ "kurzes Verfahren",
+      `Dauer des Verfahrens in Tagen` >= 100 & `Dauer des Verfahrens in Tagen` < 1500 ~ "mittleres Verfahren",
+      `Dauer des Verfahrens in Tagen` >= 1500 ~ "langes Verfahren",
+      is.na(`Dauer des Verfahrens in Tagen`) ~ "kurzes Verfahren",
+      TRUE ~ as.character(`Dauer des Verfahrens in Tagen`)
+    )
+)
+```
+
+Die Variable `verfahrensdauer` dient zur Stratifizierung. Zur Beschreibung der Stichprobe wird zunächst gezählt, wie viele Akten eine kurze/mittlere/lange Verfahrensdauer haben.
+
+```{r}
+beschreibung_stichprobe <- akten %>% 
+  group_by(verfahrensdauer) %>%
+  summarise(akten_pro_stratum = n()) %>%
+  arrange(verfahrensdauer)
+
+beschreibung_stichprobe
+```
+
+Wir setzen die Stichprobengröße für jedes einzelne Stratum händisch. Dabei sollen alle 178 langen Verfahren archiviert werden.
+
+```{r}
+beschreibung_stichprobe <- beschreibung_stichprobe %>% mutate(
+     anzahl_akten_pro_schicht = case_when(
+      verfahrensdauer == "kurzes Verfahren" ~ 50,
+      verfahrensdauer == "mittleres Verfahren" ~ 100,
+      verfahrensdauer == "langes Verfahren" ~ 178)
+)
+
+beschreibung_stichprobe
+```
+
+Mit dem bereits oben beschriebenen Code kann hier wieder die Stichprobe gezogen werden.
+
+```{r}
+akten_fuer_stratifizierung_nach_verfahrensdauer <- akten %>%
+  left_join(beschreibung_stichprobe, by = "verfahrensdauer")
+
+set.seed(46)
+stratifizierte_stichprobe_nach_verfahrensdauer <- akten_fuer_stratifizierung_nach_verfahrensdauer %>%
+  group_by(verfahrensdauer) %>%
+  mutate(samp = sample(n())) %>%
+  filter(samp <= anzahl_akten_pro_schicht) %>%
+  ungroup()
+
+stratifizierte_stichprobe_nach_gericht$samp <- NULL
+```
+
+Ein kurzer Check, ob die Stichprobenziehung erfolgreich war.
+
+```{r}
+table(stratifizierte_stichprobe_nach_verfahrensdauer$verfahrensdauer)
+```
+
+## Diskussion: Was muss berücksichtigt werden? Was sind Vor- und Nachteile einer stratifizierten Stichprobe?
+
+-   Ist die stratifizierte Stichprobe zur Auswahl von Akten geeignet? Welche Vor- und Nachteile hat das Verfahren?
+
+-   Anhand welcher Variablen definiert man einzelne Strata? Welche Schwellwerte verwendet man bei kontinuierlichen Variablen?
+
+-   Wie viele Akten werden aus jedem Stratum gezogen? (Proportionale Allokation, Equal Allokation, Optimal Allokation, oder noch was anderes?)
+
+**Vorteile**:
+
+-   Unterschiedliche Auswahlwahrscheinlichkeiten in jedem Stratum
+
+-   Konfidenzintervalle werden schmaler wenn Selektionswahrscheinlichkeiten und Zielvariable korreliert sind.
+
+-   Garantierte Mindestzahl an Fällen in jedem Stratum (zum Beispiel zehn Akten pro Gericht)
+
+-   Jedes Stratum einer stratifizierten Zufallsstichprobe lässt sich auch einzeln auswerten (einfach wie eine einfache Zufallsstichprobe, jedoch ist die Grundgesamtheit nun beschränkt auf das Stratum).
+
+-   Einfach verständlich und gut dokumentierbar
+
+**Nachteile:**
+
+-   Unterschiedliche Auswahlwahrscheinlichkeiten in jedem Stratum
+
+-   Kein Effizienzgewinn (unter Umstand. sogar -verlust), wenn Selektionswahrscheinlichkeiten und Zielvariablen nicht (bzw. negativ) korreliert sind
+
+-   Mehr Dokumentationsaufwand
+
+## Diskussion: Wie wollen wir als Gruppe Akten für die Archivierung auswählen?
+
+-   Einfache Zufallsstichprobe vs. stratifiziert?
+
+-   Wenn stratifiziert, wie wählen wir die Strata aus?
+
+-   Oder gar keine Zufallsstichprobe (zum Beispiel zehn Akten je Gericht mit den meisten Beteiligten?)
+
+-   Wie viele Akten wählen wir?
+
+-   Welche Informationen zum Auswahlprozess müssen wir dokumentieren und kommunizieren?

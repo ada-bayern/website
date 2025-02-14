@@ -1,0 +1,76 @@
+---
+title: "Workshop Serie 2"
+---
+
+## Implementation Daten-basierter Archivierung von Gerichtsakten
+
+08.02. - 13.03.2024
+
+
+### Ablauf
+
+| Veranstaltung      | Datum      | Zeit        | Ort |
+|--------------------|------------|-------------|-------------|
+| Kick-Off           | 08.02.     | 11:00 - 13:00| Online (Zoom) |
+| Modul 1            | 20.02.     | 10:00 - 15:30| LMU |
+| Modul 2            | 21.02.     | 10:00 - 15:30| LMU |
+| Modul 3            | 22.02.     | 10:00 - 15:30| LMU |
+| Modul 4            | 23.02.     | 10:00 - 15:30| LMU |
+| Gruppenarbeit 1    | 28.02.     | 12:00 - 13:30| Online (Zoom) |
+| Gruppenarbeit 2    | 06.03.     | 12:00 - 13:30| Online (Zoom) |
+| Gruppenarbeit 3    | 13.03.     | 10:00 - 12:00| LMU |
+| Abschlussvorstellungen  | 13.03.     | 12:00 - 15:30| LMU |
+
+### Orte
+
+- **Zoom**: Der Zoom-Link wird den Teilnehmenden per Mail mitgeteilt. Sollten Sie keine E-Mail erhalten haben, melden Sie sich bitte bei us (siehe [Kontakt](kontakt.html)).
+- **LMU**: Die Termine an der LMU findet im Institut für Statistik, Ludwigstr. 33, 4. Stock statt.
+
+
+### Inhalte
+
+In dieser Workshop-Serie bauen wir auf die Inhalte der Workshop-Serie 1 auf
+und setzen das gelernte in die Praxis um. Gemeinsam erarbeiten wir Arbeitsabläufe,
+die sowohl aus Datenanlyseperspektive als auch aus Perspektive der Staatsarchive
+und der Justiz IT Sinn ergeben. 
+Denn **Datenarbeit ist Teamarbeit** und diverse Expertisen sind gefragt.
+
+
+::: {.callout-tip}
+## Lernziele
+Am Ende dieser Workshop-Serie, können Sie...
+
+* ... Stichprobenziehung für die Archivierung von Gerichtsakten dürchführen.
+* ... Die Cloud-Infrastruktur für die jährliche Stichprobenziehung nutzen.
+* ... Die Datenanalyse-Aufgaben für die Archivierung von Gerichtsakten auf neue Daten anpassen.
+
+:::
+
+
+#### Kick-Off
+::: {.callout-tip}
+## Kick-Off
+
+Am Ende des Kick-Offs können Sie...
+
+* ... das Thema der Workshop-Serie beschreiben.
+* ... den Kontext des Projekts erklären.
+* ... auf die Cloud-Plattform zugreifen.
+
+:::
+
+
+[Kick-Off Slides](https://drive.google.com/file/d/1p-61QzQCNSZMvAYd8jllf1QNmdKhPBur/view?usp=drive_link)
+
+#### Module
+Die Inhalte der Module finden sich auf den kommenden Seiten.
+
+* [Modul 1](WS2_Modul_1.html) - Einführung, Problemerfassung und Arbeitsabläufe
+* [Modul 2](WS2_Modul_2.html) - Umsetzung: Implementierung der Stichprobenziehung
+* [Modul 3](WS2_Modul_3.html) - Umsetzung: Implementierung der Stichprobenziehung im Kontext des Gesamtablaufs
+* [Modul 4](WS2_Modul_4.html) - Nachhaltige Implementierung: Wissensweitergabe und Infrastrukturerhalt
+
+## Anmeldung
+Sie haben Interesse an der Teilnahme in dieser Weiterbildiung? Bitte schreiben sie uns: [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de).
+
+![](../../icons/Logos.png) 

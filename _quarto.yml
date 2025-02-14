@@ -1,56 +1,78 @@
 project:
-  type: book
+  type: website
 
-book:
-  title: "Angewandte Datenanalyse für die öffentliche Verwaltung"
-  chapters:
-    - part: index.qmd
-      chapters:
+website:
+  title: "ADA Bayern"
+  navbar:
+    left:
+      - text: "Geplante Workshopserien"
+        menu:
+        - "In Arbeit"
+      - text: "Durchgeführte Workshopserien"
+        menu: 
+        - text: "Workshop Serie 4: Einzelbaumerkennung"
+          href: workshops/ws4/WS4.qmd
+        - text: "Workshop Serie 3: Daten-basierte Archivierung von Gerichtsakten"
+          href: workshops/ws3/WS3.qmd
+        - text: "Workshop Serie 2: Daten-basierte Archivierung von Gerichtsakten"
+          href: workshops/ws2/WS2.qmd
+        - text: "Workshop Serie 1: Daten-basierte Archivierung von Gerichtsakten"
+          href: workshops/ws1/WS1.qmd
       - team.qmd
       - kontakt.qmd
-    - part: WS4.qmd
-      chapters:
-        - WS4_Modul_1.qmd
-        - WS4_Modul_2.qmd
-        - WS4_Modul_3.qmd
-    - part: WS3.qmd
-      chapters:
-        - WS3_Modul_1.qmd
-        - WS3_Modul_2.qmd
-        - WS3_Modul_3.qmd
-    - part: WS2.qmd
-      chapters:
-        - WS2_Modul_1.qmd
-        - WS2_Modul_2.qmd
-        - WS2_Modul_3.qmd
-        - WS2_Modul_4.qmd
-    - part: WS1.qmd
-      chapters:
-        - Modul_1.qmd
-        - Modul_2.qmd
-        - Modul_3.qmd
-        - Modul_4.qmd
-  appendices: 
-    - kontakt.qmd
-    - impressum.qmd
-  navbar:
-    background: white
-  
-toc-title: Inhalt
-toc-expand: false
+      - impressum.qmd
 
-language:
-  section-title-appendices: "Impressum & Kontakt"
+  sidebar:
+    - title: "Workshop Serie 4: Einzelbaumerkennung"
+      style: "docked"
+      background: light
+      contents:
+        - workshops/ws4/WS4.qmd
+        - section: "Module"
+          contents:
+          - workshops/ws4/WS4_Modul_1.qmd
+          - workshops/ws4/WS4_Modul_2.qmd
+          - workshops/ws4/WS4_Modul_3.qmd
+
+    - title: "Workshop Serie 3: Daten-basierte Archivierung von Gerichtsakten"
+      style: "docked"
+      background: light
+      contents:
+        - workshops/ws3/WS3.qmd
+        - section: "Module"
+          contents:
+          - workshops/ws3/WS3_Modul_1.qmd
+          - workshops/ws3/WS3_Modul_2.qmd
+          - workshops/ws3/WS3_Modul_3.qmd
+
+    - title: "Workshop Serie 2: Daten-basierte Archivierung von Gerichtsakten"
+      style: "docked"
+      background: light
+      contents:
+        - workshops/ws2/WS2.qmd
+        - section: "Module"
+          contents:
+          - workshops/ws2/WS2_Modul_1.qmd
+          - workshops/ws2/WS2_Modul_2.qmd
+          - workshops/ws2/WS2_Modul_3.qmd
+          - workshops/ws2/WS2_Modul_4.qmd
+
+    - title: "Workshop Serie 1: Daten-basierte Archivierung von Gerichtsakten"
+      style: "docked"
+      background: light
+      contents:
+        - workshops/ws1/WS2=1.qmd
+        - section: "Module"
+          contents:
+          - workshops/ws1/WS1_Modul_1.qmd
+          - workshops/ws1/WS1_Modul_2.qmd
+          - workshops/ws1/WS1_Modul_3.qmd
+          - workshops/ws1/WS1_Modul_4.qmd
 
 format:
   html:
-    theme: flatly
-    number-sections: false
-    toc-expand: false
-
-suppress-bibliography: true
-
-
-website:
-  sidebar:
-    collapse-level: 1
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: false
