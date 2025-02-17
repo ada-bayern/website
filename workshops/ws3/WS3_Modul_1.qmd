@@ -34,4 +34,6 @@ Am Ende dieses Moduls können Sie...
 
 ### Material
 
-[Slides](https://drive.google.com/file/d/1LKjMsyAIjNhZ7Gt9Z-gKVdaPCPuIqYNr/view?usp=sharing)
+[Slides](slides/ADA3_Modul_1.pdf)
+
+<!-- (https://drive.google.com/file/d/1LKjMsyAIjNhZ7Gt9Z-gKVdaPCPuIqYNr/view?usp=sharing) -->
