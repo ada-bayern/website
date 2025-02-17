@@ -1,4 +1,6 @@
-# Visualisierung und Reporting
+---
+title: "Modul 3: Visualisierung und Reporting"
+---
 <p align="center">
 <img src="../../icons/stats.png" width="80" height="80" class="center">
 </p>  
@@ -34,4 +36,4 @@ Am Ende dieses Moduls können Sie…
 
 ### Material
 * [Slides](https://drive.google.com/file/d/1qHiv8tLRKyspFUZtaOYxO2WhzSY-OKrR/view?usp=sharing)
-* [Notebook 3 - Best of Stichprobenziehung](notebooks/ADA_Modul_3_Best_of_Stichprobenziehung_anonymisiert.qmd)
+* [Notebook 3 - Best of Stichprobenziehung](notebooks/ADA_Modul_3_Best_of_Stichprobenziehung_anonymisiert.Rmd)

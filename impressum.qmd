@@ -2,8 +2,6 @@
 title: "Impressum"
 ---
 
-# Impressum {.unnumbered}
-
 Angaben gemäß § 5 TMG
 
 

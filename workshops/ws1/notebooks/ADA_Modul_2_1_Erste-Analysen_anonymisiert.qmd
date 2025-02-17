@@ -9,6 +9,8 @@ format:
     embed-resources: true
     df-print: paged
 editor: visual
+execute:
+  eval: false
 ---
 
 ## Ziel des Notebooks

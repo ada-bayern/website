@@ -1,5 +1,5 @@
 ---
-title: "Modul4: Ergebnispräsentation und Umsetzung"
+title: "Modul 4: Ergebnispräsentation und Umsetzung"
 ---
 
 <p align="center">

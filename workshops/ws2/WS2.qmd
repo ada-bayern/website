@@ -65,10 +65,10 @@ Am Ende des Kick-Offs können Sie...
 #### Module
 Die Inhalte der Module finden sich auf den kommenden Seiten.
 
-* [Modul 1](WS2_Modul_1.html) - Einführung, Problemerfassung und Arbeitsabläufe
-* [Modul 2](WS2_Modul_2.html) - Umsetzung: Implementierung der Stichprobenziehung
-* [Modul 3](WS2_Modul_3.html) - Umsetzung: Implementierung der Stichprobenziehung im Kontext des Gesamtablaufs
-* [Modul 4](WS2_Modul_4.html) - Nachhaltige Implementierung: Wissensweitergabe und Infrastrukturerhalt
+* [Modul 1](WS2_Modul_1.qmd) - Einführung, Problemerfassung und Arbeitsabläufe
+* [Modul 2](WS2_Modul_2.qmd) - Umsetzung: Implementierung der Stichprobenziehung
+* [Modul 3](WS2_Modul_3.qmd) - Umsetzung: Implementierung der Stichprobenziehung im Kontext des Gesamtablaufs
+* [Modul 4](WS2_Modul_4.qmd) - Nachhaltige Implementierung: Wissensweitergabe und Infrastrukturerhalt
 
 ## Anmeldung
 Sie haben Interesse an der Teilnahme in dieser Weiterbildiung? Bitte schreiben sie uns: [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de).

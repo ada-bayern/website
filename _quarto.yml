@@ -4,6 +4,7 @@ project:
 website:
   title: "ADA Bayern"
   navbar:
+    background: darkgreen
     left:
       - text: "Geplante Workshopserien"
         menu:
@@ -18,6 +19,7 @@ website:
           href: workshops/ws2/WS2.qmd
         - text: "Workshop Serie 1: Daten-basierte Archivierung von Gerichtsakten"
           href: workshops/ws1/WS1.qmd
+      - workflow.qmd
       - team.qmd
       - kontakt.qmd
       - impressum.qmd
@@ -61,7 +63,7 @@ website:
       style: "docked"
       background: light
       contents:
-        - workshops/ws1/WS2=1.qmd
+        - workshops/ws1/WS1.qmd
         - section: "Module"
           contents:
           - workshops/ws1/WS1_Modul_1.qmd

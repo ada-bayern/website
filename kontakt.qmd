@@ -2,7 +2,6 @@
 title: "Kontakt"
 ---
 
-# Kontakt {.unnumbered}
 <p align="center">
 <img src="icons/team.png" width="80" height="80" class="center">
 </p>  
