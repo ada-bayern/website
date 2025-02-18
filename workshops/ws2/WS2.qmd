@@ -70,7 +70,7 @@ Die Inhalte der Module finden sich auf den kommenden Seiten.
 * [Modul 3](WS2_Modul_3.qmd) - Umsetzung: Implementierung der Stichprobenziehung im Kontext des Gesamtablaufs
 * [Modul 4](WS2_Modul_4.qmd) - Nachhaltige Implementierung: Wissensweitergabe und Infrastrukturerhalt
 
-## Anmeldung
-Sie haben Interesse an der Teilnahme in dieser Weiterbildiung? Bitte schreiben sie uns: [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de).
+<!-- ## Anmeldung
+Sie haben Interesse an der Teilnahme in dieser Weiterbildiung? Bitte schreiben sie uns: [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de). -->
 
 ![](../../icons/Logos.png) 

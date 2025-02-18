@@ -6,20 +6,20 @@ website:
   navbar:
     background: darkgreen
     left:
-      - text: "Geplante Workshopserien"
+      #- product.qmd
+      - text: "Aktuelle Workshopserien"
         menu:
-        - "In Arbeit"
-      - text: "Durchgeführte Workshopserien"
+        - text: "In Arbeit"
+      - text: "Portfolio"
         menu: 
         - text: "Workshop Serie 4: Einzelbaumerkennung"
           href: workshops/ws4/WS4.qmd
         - text: "Workshop Serie 3: Daten-basierte Archivierung von Gerichtsakten"
           href: workshops/ws3/WS3.qmd
-        - text: "Workshop Serie 2: Daten-basierte Archivierung von Gerichtsakten"
+        - text: "Workshop Serie 2: Daten-basierte Archivierung von Gerichtsakten (Implementation)"
           href: workshops/ws2/WS2.qmd
         - text: "Workshop Serie 1: Daten-basierte Archivierung von Gerichtsakten"
           href: workshops/ws1/WS1.qmd
-      - workflow.qmd
       - team.qmd
       - kontakt.qmd
       - impressum.qmd

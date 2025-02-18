@@ -9,11 +9,10 @@ title: "Workshop Serie 4"
 In dieser Workshop-Serie beschäftigen wir uns mit dem Thema Einzelbaumerkennung und insbesondere mit der Frage, wie Infrastruktur für die Datenanalyse aussehen könnte.
 
 
-
-### Anmeldung
+<!-- ### Anmeldung
 Bitte melden Sie sich über [Pretix](https://pretix.eu/berd/ada-bayern/) an.
 
-Bei Fragen wenden Sie sich gerne an [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de).
+Bei Fragen wenden Sie sich gerne an [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de). -->
 
 
 ### Ablauf

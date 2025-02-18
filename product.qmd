@@ -1,0 +1,84 @@
+---
+title: "Angebot"
+draft: true
+---
+
+## Was wir bieten
+
+### Projektbezogenes Arbeiten
+
+In jedem Projekt entwerfen wir einen maßgeschneiderten Workshop, der sich genau auf Ihre Fragestellung bezieht. Ziel unserer Arbeit ist es, Ihrer Organisation mit unserer Expertise zu helfen, sinnvolle Lösungen für Datenfragen zu finden und Ihre Kompetenz im Umgang mit Daten aller Art zu stärken. *Mehr*
+
+
+### Forschungsnähe
+
+Ein großer Teil unseres Teams ist am Institut für Statistik der LMU angesiedelt und arbeitet täglich an datenbezogenen Forschungsfragen. Uns treibt das Bedürfnis an, unser erworbenes Wissen in die Praxis umzusetzen. *Mehr*
+
+
+### Sichere Infrastruktur
+
+Zum gemeinsamen Entwerfen und Testen von Lösungsprototypen bieten wir eine sichere und datenschutzgerechte Cloudumgebung an. *Mehr*
+
+
+### Behördengerechter Datenschutz
+
+In unserer bisherigen Arbeit mit öffentlichen Behörden, haben wir Erfahrung mit verschiedensten Arten von sensiblen und personenbezogenen Daten gesammelt. Kommen Sie auf uns zu, um die Art und Auflagen Ihrer Daten zu besprechen. *Mehr*
+
+
+
+## Die ADA-Timeline
+
+#### Organisatorische Vorbereitung
+- Koordination von Terminen
+- Expert:innen anfragen (falls notwendig)
+- Datenschutz- und rechtliche Themen klären
+- Interessentenkreis ermitteln
+
+#### Inhaltliche Vorbereitung
+- Problemverständnis
+  - Expert:innenblick auf eine Fragestellung
+  - Analyse von Aspekten, welche für das Problem relevant sind, z.B.
+    - Infrastruktur
+    - Prozesse
+    - vorhandene Daten
+  - Diskussion möglicher Lösungsansätze
+- Identifikation der benötigten Expertise
+  - Interne Expert:innen aus dem ADA Team
+  - Externe Expert:innen für fachspezifische Probleme aus unserem Netzwerk
+- Konzeption des Workshops
+  - Materialien vorbereiten
+  - Format festlegen
+  - Infrastruktur vorbereiten
+  
+#### Workshop
+- Gezielte Wissensvermittlung und Wissensaustausch
+- Vernetzen relevanter Stakeholder
+- Hilfe zur Selbsthilfe bei Datenfragen
+- Projektarbeit
+  - Gemeinsames Erarbeiten des Problems und eines Lösungswegs
+  - Entwicklung eines Prototypen der Lösung
+
+#### Nachbereitung
+- Wer übernimmt die weitere Koordination des Projektes
+- Definition der nächsten Schritte
+  - Mögliche Optionen (wird individuell bestimmt):
+    - Studentisches Projekt über den Lehrstuhl für Statistik und Data Science in Sozial- und Geisteswissenschaften
+    - Eigene Weiterentwicklung ohne ADA
+    - Ausschreibung
+    - ADA-Folgeprojekt
+- Dokumentation
+- Übergabe der Ergebnisse, an den Partner, der die nächsten Schritte umsetzen soll
+
+#### Zeit nach ADA
+- Implementation der Lösung
+
+
+
+## Die ADA-Cloud
+
+*Inhalt folgt in Kürze*
+
+## Datenschutz in unseren Projekten
+
+
+

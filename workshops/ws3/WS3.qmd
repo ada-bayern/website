@@ -61,10 +61,12 @@ Am Ende des Kick-Offs können Sie...
 
 :::
 
+<!-- 
+
 ## Anmeldung
 
 Bitte melden Sie sich über [Pretix](https://pretix.eu/berd/adabayern-3/) an.
 
-Fragen gerne an [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de).
+Fragen gerne an [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de). -->
 
 ![](../../icons/Logos.png) 
