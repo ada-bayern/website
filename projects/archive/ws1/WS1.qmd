@@ -1,11 +1,10 @@
 ---
-title: "Workshop Serie 1"
+title: Daten-basierte Archivierung von Gerichtsakten
+
+subtitle: "Workshop-Serie 1"
 ---
 
-## Daten-basierte Archivierung von Gerichtsakten
-
-19.09. - 13.10.2023
-
+**19.09. - 13.10.2023**
 
 ### Ablauf
 In dieser Workshop-Serie betrachten wir alle Bestandteile eines klassischen 
@@ -13,7 +12,7 @@ Daten-Analyse-Projekts. Dabei geht es vor allem darum, Berührungsängste abzuba
 und Kompetenzen aufzubauen, um als Team solche Projekte anzugehen. Denn 
 **Datenarbeit ist Teamarbeit** und diverse Expertisen sind gefragt.
 
-![](../../icons/Ablauf-Workshop-Serie.jpg){width=60% fig-align="center" fig-alt="Frage Definieren, Analysestrategie finden, Daten erfassen, Daten betrachten + bereinigen, Daten analysieren, Ergebnisse aufbereiten + präsentieren, Entscheidungen treffen"}
+![](/icons/Ablauf-Workshop-Serie.jpg){width=60% fig-align="center" fig-alt="Frage Definieren, Analysestrategie finden, Daten erfassen, Daten betrachten + bereinigen, Daten analysieren, Ergebnisse aufbereiten + präsentieren, Entscheidungen treffen"}
 
 ::: {.callout-tip}
 ### Lernziele
@@ -39,6 +38,6 @@ Gerne sprechen wir
 mit Ihnen über Möglichkeiten, **weitere Workshops** zu organisieren. Schreiben Sie
 uns gerne eine [E-Mail](mailto:data-analytics@stat.uni-muenchen.de) oder sprechen
 Sie uns [persönlich](/team.html) an.
-::: -->
+::: 
 
-![](../../icons/Logos.png) 
+![](/icons/Logos.png) -->

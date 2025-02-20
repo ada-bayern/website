@@ -1,8 +1,7 @@
 ---
-title: "Workshop Serie 4"
+title: "Einzelbaumerkennung"
+subtitle: "Workshop-Serie"
 ---
-
-## Einzelbaumerkennung
 
 **11.10. - 08.11.2024**
 
@@ -44,11 +43,6 @@ Aufbauend auf den Ergebnissen aus der Diskussion soll im Idealfall im Nachgang e
 Für die Teilnahme am zweiten Teil (17.10.) wird die Teilnahme am ersten Teil (15.10. - 16.10.) vorausgesetzt. Bitte melden Sie sich explizit für die einzelnen Tage an.
 
 
-### Orte
-
-- **Online**: Der Zoom-Link wird den Teilnehmenden per Mail mitgeteilt. Sollten Sie keine E-Mail erhalten haben, melden Sie sich bitte bei us (siehe [Kontakt](kontakt.html)).
-- **LMU**: Institut für Statistik der LMU München, Ludwigstr. 33, 4. Stock
-
 ### Inhalte
 
 #### Hintergrund
@@ -61,9 +55,15 @@ Die Nutzungsmöglichkeiten von Einzelbaumerkennung sind vielfältig und umfassen
 #### Workshop-Serie zum Thema Baum- und Waldmanagement mit Fernerkundungsdaten
 In dieser ersten Workshop-Serie zum Thema Baum- und Waldmanagement möchten wir relevante Stakeholder zusammenbringen und zentrale Fragen wie “Welche Bäume gibt es wo?”, “Wie viele Bäume gibt es im Gebiet XY?”, “Wie groß ist die Biomasse?”, “Welche Eigenschaften hat jeder Baum (z.B. Baumgesundheit)?”, “Kann man die auf einer Karte (ggf. mit Pop-Ups für Eigenschaften) anzeigen?”, und insbesondere **“Welche Infrastruktur und Daten werden benötigt, um dies umzusetzen?”**, usw. gemeinsam angehen. 
 
-### Für Studierende
 
-Studierende im Masterstudiengang sind ebenfalls herzlich eingeladen, sich anzumelden. Wir hoffen, dass die Diskussionen und Gespräche im Rahmen des Workshops als Ausgungspunkt für spannende Seminar- und Masterarbeiten dienen. Statistikstudierende können nach aktiver Teilnahme durch eine abschließende mündliche Prüfung 3 ECTS erwerben, die im Rahmen der Master-Wahlpflichtmodule "Selected Topics in ..." angerechnet werden können. Wegen Platzmangel können wir leider nur sehr wenigen Studierenden eine Teilnahme ermöglichen.
+<!-- ### Orte
+
+- **Online**: Der Zoom-Link wird den Teilnehmenden per Mail mitgeteilt. Sollten Sie keine E-Mail erhalten haben, melden Sie sich bitte bei us (siehe [Kontakt](kontakt.html)).
+- **LMU**: Institut für Statistik der LMU München, Ludwigstr. 33, 4. Stock -->
+
+<!-- ### Für Studierende
+
+Studierende im Masterstudiengang sind ebenfalls herzlich eingeladen, sich anzumelden. Wir hoffen, dass die Diskussionen und Gespräche im Rahmen des Workshops als Ausgungspunkt für spannende Seminar- und Masterarbeiten dienen. Statistikstudierende können nach aktiver Teilnahme durch eine abschließende mündliche Prüfung 3 ECTS erwerben, die im Rahmen der Master-Wahlpflichtmodule "Selected Topics in ..." angerechnet werden können. Wegen Platzmangel können wir leider nur sehr wenigen Studierenden eine Teilnahme ermöglichen. 
 
 
-![](../../icons/Logos.png) 
+![](/icons/Logos.png) -->

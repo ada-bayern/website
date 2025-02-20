@@ -6,70 +6,78 @@ website:
   navbar:
     background: darkgreen
     left:
-      #- product.qmd
-      - text: "Aktuelle Workshopserien"
+      - about.qmd
+      - text: "Aktuelle Projekte"
         menu:
-        - text: "In Arbeit"
-      - text: "Portfolio"
+        - text: "Digitalisierte Präferenzerfassung von Referendar:innen"
+          href: projects/stmuk.qmd
+        - text: "Digitalisierung und Automatisierung von gleichstellungsbezogenen Daten"
+          href: projects/stmas.qmd
+      - text: "Abgeschlossene Projekte"
         menu: 
-        - text: "Workshop Serie 4: Einzelbaumerkennung"
-          href: workshops/ws4/WS4.qmd
-        - text: "Workshop Serie 3: Daten-basierte Archivierung von Gerichtsakten"
-          href: workshops/ws3/WS3.qmd
-        - text: "Workshop Serie 2: Daten-basierte Archivierung von Gerichtsakten (Implementation)"
-          href: workshops/ws2/WS2.qmd
-        - text: "Workshop Serie 1: Daten-basierte Archivierung von Gerichtsakten"
-          href: workshops/ws1/WS1.qmd
-      - team.qmd
-      - kontakt.qmd
-      - impressum.qmd
+        - text: "Einzelbaumerkennung"
+          href: projects/einzelbaum.qmd
+        - text: "Daten-basierte Archivierung von Gerichtsakten"
+          href: projects/archive.qmd
+        # - text: "Workshop-Serie 3: Daten-basierte Archivierung von Gerichtsakten"
+        #   href: projects/archive/ws3/WS3.qmd
+        # - text: "Workshop-Serie 2: Daten-basierte Archivierung von Gerichtsakten (Implementation)"
+        #   href: projects/archive/ws2/WS2.qmd
+        # - text: "Workshop-Serie 1: Daten-basierte Archivierung von Gerichtsakten"
+        #   href: projects/archive/ws1/WS1.qmd
+
+  page-footer:
+    left: |
+      ![](/icons/Logo_BERD-NFDI.png){fig-alt="BERD@NFDI" height="80px"}
+      .
+      ![](/icons/Logo_LMU.svg){fig-alt="LMU München" height="80px"}
+    center:
+      - text: "Team"
+        href: team.qmd
+      - text: "Kontakt"
+        href: kontakt.qmd
+      - text: "Impressum & Datenschutz"
+        href: impressum.qmd
+    right: |
+      ![](/icons/Stmd_Logo_unterstuetzt.jpg){fig-alt="Gefördert durch StMD" height="80px"}
 
   sidebar:
-    - title: "Workshop Serie 4: Einzelbaumerkennung"
+    - title: "Einzelbaumerkennung"
+      href: projects/einzelbaum.qmd
       style: "docked"
       background: light
+      collapse-level: 1
       contents:
-        - workshops/ws4/WS4.qmd
-        - section: "Module"
+        - section: "Workshop-Serie"
+          href: projects/einzelbaum/WS.qmd
           contents:
-          - workshops/ws4/WS4_Modul_1.qmd
-          - workshops/ws4/WS4_Modul_2.qmd
-          - workshops/ws4/WS4_Modul_3.qmd
+          - projects/einzelbaum/Modul_1.qmd
+          - projects/einzelbaum/Modul_2.qmd
+          - projects/einzelbaum/Modul_3.qmd
 
-    - title: "Workshop Serie 3: Daten-basierte Archivierung von Gerichtsakten"
-      style: "docked"
-      background: light
+    - title: "Daten-basierte Archivierung von Gerichtsakten"
+      href: projects/archive.qmd
       contents:
-        - workshops/ws3/WS3.qmd
-        - section: "Module"
+        - section: "Workshop-Serie 3"
+          href: projects/archive/ws3/WS3.qmd
           contents:
-          - workshops/ws3/WS3_Modul_1.qmd
-          - workshops/ws3/WS3_Modul_2.qmd
-          - workshops/ws3/WS3_Modul_3.qmd
-
-    - title: "Workshop Serie 2: Daten-basierte Archivierung von Gerichtsakten"
-      style: "docked"
-      background: light
-      contents:
-        - workshops/ws2/WS2.qmd
-        - section: "Module"
+          - projects/archive/ws3/WS3_Modul_1.qmd
+          - projects/archive/ws3/WS3_Modul_2.qmd
+          - projects/archive/ws3/WS3_Modul_3.qmd
+        - section: "Workshop-Serie 2"
+          href: projects/archive/ws2/WS2.qmd
           contents:
-          - workshops/ws2/WS2_Modul_1.qmd
-          - workshops/ws2/WS2_Modul_2.qmd
-          - workshops/ws2/WS2_Modul_3.qmd
-          - workshops/ws2/WS2_Modul_4.qmd
-
-    - title: "Workshop Serie 1: Daten-basierte Archivierung von Gerichtsakten"
-      style: "docked"
-      background: light
-      contents:
-        - workshops/ws1/WS1.qmd
-        - section: "Module"
+          - projects/archive/ws2/WS2_Modul_1.qmd
+          - projects/archive/ws2/WS2_Modul_2.qmd
+          - projects/archive/ws2/WS2_Modul_3.qmd
+          - projects/archive/ws2/WS2_Modul_4.qmd
+        - section: "Workshop-Serie 1"
+          href: projects/archive/ws1/WS1.qmd
           contents:
-          - workshops/ws1/WS1_Modul_1.qmd
-          - workshops/ws1/WS1_Modul_2.qmd
-          - workshops/ws1/WS1_Modul_3.qmd
-          - workshops/ws1/WS1_Modul_4.qmd
+          - projects/archive/ws1/WS1_Modul_1.qmd
+          - projects/archive/ws1/WS1_Modul_2.qmd
+          - projects/archive/ws1/WS1_Modul_3.qmd
+          - projects/archive/ws1/WS1_Modul_4.qmd
 
 format:
   html:

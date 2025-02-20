@@ -2,15 +2,15 @@
 title: "Team"
 ---
 
-<p align="center">
+<!-- <p align="center">
 <img src="icons/team.png" width="80" height="80" class="center">
-</p>  
+</p>   -->
 
 Wir sind ein Team aus Data Scientists und Statistiker:innen. Unser Ziel ist es, dazu beizutragen, dass Daten in der öffentlichen Verwaltung effektiver genutzt werden.
 
 Wir wollen Beschäftigte im öffentlichen Sektor zum (besseren) Umgang mit Daten befähigen, die Datenkompetenz stärken, und so zur verstärkten Umsetzung von Datenprojekten beitragen. Anhand von konkreten Beispielen aus der Verwaltungspraxis möchten wir Digitalisierung greifbar und interaktiv erlebbar machen.
 
-![](icons/Stmd_Logo_unterstuetzt.jpg){fig-align="center" width=50%}
+<!-- ![](icons/Stmd_Logo_unterstuetzt.jpg){fig-align="center" width=50%} -->
 
 ## Prof. Dr. Frauke Kreuter
 <p align="center">

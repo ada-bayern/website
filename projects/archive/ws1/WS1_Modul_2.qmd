@@ -2,10 +2,7 @@
 title: "Modul 2: Cloud-Computing und Datenanalyse"
 ---
 
-
-<p align="center">
-<img src="../../icons/software.png" width="80" height="80" class="center">
-</p> 
+![](/icons/software.png){fig-align="center" width="80" height="80" class="center"}
 
 **19.09.2023, 10:00 - 15:00 Uhr**
 
@@ -19,7 +16,7 @@ In **Modul 2** beginnen wir mit der Einführung in die benötigte Software und A
 * Stichprobenziehung als Strategie
 
 ::: captioned-image-container
-![Visualisierung einer Zufallsstichprobe](../../icons/Stichprobe.jpg){width=100% fig-alt="Visualisierung einer Zufallsstichprobe"}
+![Visualisierung einer Zufallsstichprobe](/icons/Stichprobe.jpg){width=100% fig-alt="Visualisierung einer Zufallsstichprobe"}
 :::
 
 ::: {.callout-tip}

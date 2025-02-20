@@ -2,9 +2,7 @@
 title: "Modul 3: Visualisierung und Reporting"
 ---
 
-<p align="center">
-<img src="../../icons/stats.png" width="80" height="80" class="center">
-</p>  
+![]("/icons/stats.png){fig-align="center" width="80" height="80" class="center"}
 
 ### Themen
 In **Modul 3** werden die Guidelines für nachvollziehbares Reporting und gute Visualisierungen besprochen. Es werden keine Vorkenntnisse in der Datenanalyse erwartet. Sie können sich auf folgende Themen freuen:
@@ -15,7 +13,7 @@ In **Modul 3** werden die Guidelines für nachvollziehbares Reporting und gute V
 * Überblick über Reporting und Dashboards für Datenanalyse-Projekte
 
 ::: captioned-image-container
-![Anzahl der Fälle pro Amtsgerichtbezirk](../../icons/akten_karte.png){width=100% fig-alt="Aktenkarte"}
+![Anzahl der Fälle pro Amtsgerichtbezirk](/icons/akten_karte.png){width=100% fig-alt="Aktenkarte"}
 :::
 
 ::: {.callout-tip}

@@ -1,10 +1,9 @@
 ---
-title: "Workshop Serie 2"
+title: Implementation Daten-basierter Archivierung von Gerichtsakten
+subtitle: "Workshop-Serie 2"
 ---
 
-## Implementation Daten-basierter Archivierung von Gerichtsakten
-
-08.02. - 13.03.2024
+**08.02. - 13.03.2024**
 
 
 ### Ablauf
@@ -21,10 +20,10 @@ title: "Workshop Serie 2"
 | Gruppenarbeit 3    | 13.03.     | 10:00 - 12:00| LMU |
 | Abschlussvorstellungen  | 13.03.     | 12:00 - 15:30| LMU |
 
-### Orte
+<!-- ### Orte
 
 - **Zoom**: Der Zoom-Link wird den Teilnehmenden per Mail mitgeteilt. Sollten Sie keine E-Mail erhalten haben, melden Sie sich bitte bei us (siehe [Kontakt](kontakt.html)).
-- **LMU**: Die Termine an der LMU findet im Institut für Statistik, Ludwigstr. 33, 4. Stock statt.
+- **LMU**: Die Termine an der LMU findet im Institut für Statistik, Ludwigstr. 33, 4. Stock statt. -->
 
 
 ### Inhalte
@@ -62,15 +61,15 @@ Am Ende des Kick-Offs können Sie...
 
 [Kick-Off Slides](https://drive.google.com/file/d/1p-61QzQCNSZMvAYd8jllf1QNmdKhPBur/view?usp=drive_link)
 
-#### Module
+<!-- #### Module
 Die Inhalte der Module finden sich auf den kommenden Seiten.
 
 * [Modul 1](WS2_Modul_1.qmd) - Einführung, Problemerfassung und Arbeitsabläufe
 * [Modul 2](WS2_Modul_2.qmd) - Umsetzung: Implementierung der Stichprobenziehung
 * [Modul 3](WS2_Modul_3.qmd) - Umsetzung: Implementierung der Stichprobenziehung im Kontext des Gesamtablaufs
-* [Modul 4](WS2_Modul_4.qmd) - Nachhaltige Implementierung: Wissensweitergabe und Infrastrukturerhalt
+* [Modul 4](WS2_Modul_4.qmd) - Nachhaltige Implementierung: Wissensweitergabe und Infrastrukturerhalt -->
 
 <!-- ## Anmeldung
-Sie haben Interesse an der Teilnahme in dieser Weiterbildiung? Bitte schreiben sie uns: [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de). -->
+Sie haben Interesse an der Teilnahme in dieser Weiterbildiung? Bitte schreiben sie uns: [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de).
 
-![](../../icons/Logos.png) 
+![](../../icons/Logos.png)  -->

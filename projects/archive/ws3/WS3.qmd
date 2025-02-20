@@ -1,11 +1,9 @@
 ---
-title: "Workshop Serie 3"
+title: Daten-basierte Archivierung von Gerichtsakten
+subtitle: "Workshop-Serie 3"
 ---
 
-## Daten-basierte Archivierung von Gerichtsakten
-
-21.03. - 30.04.2024
-
+**21.03. - 30.04.2024**
 
 ### Ablauf
 
@@ -22,10 +20,10 @@ title: "Workshop Serie 3"
 | Abschlusstermin    | 30.04. | 13:30 - 15:30| LMU / Hybrid (Zoom) |
 *Kick-Off: es muss nur ein Kick-Off-Termin besucht werden.
 
-### Orte
+<!-- ### Orte
 
 - **Zoom**: Der Zoom-Link wird den Teilnehmenden per Mail mitgeteilt. Sollten Sie keine E-Mail erhalten haben, melden Sie sich bitte bei us (siehe [Kontakt](kontakt.html)).
-- **LMU**: Institut für Statistik der LMU München, Ludwigstr. 33, 4. Stock
+- **LMU**: Institut für Statistik der LMU München, Ludwigstr. 33, 4. Stock -->
 
 ### Inhalte
 
@@ -67,6 +65,6 @@ Am Ende des Kick-Offs können Sie...
 
 Bitte melden Sie sich über [Pretix](https://pretix.eu/berd/adabayern-3/) an.
 
-Fragen gerne an [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de). -->
+Fragen gerne an [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de). 
 
-![](../../icons/Logos.png) 
+![](../../icons/Logos.png) -->

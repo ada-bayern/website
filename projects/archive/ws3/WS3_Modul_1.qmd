@@ -2,9 +2,7 @@
 title: "Modul 1: Problemerfassung und Daten als Lösung"
 ---
 
-<p align="center">
-<img src="../../icons/files.png" width="80" height="80" class="center">
-</p> 
+![](/icons/files.png){fig-align="center" width="80" height="80" class="center"}
 
 
 ### Themen
@@ -18,8 +16,8 @@ In **Modul 1** setzen wir den Rahmen, um Probleme zu erfassen und vorliegende Da
 * Datenquellen und Entstehung von Daten
 * Sicher mit Daten arbeiten: Cloud-Computing als Möglichkeit
 
-![](../../icons/Daten-Fragen.jpg){width=47%}
-![FAIR prinicples](../../icons/fair.jpg){width=47% fig-alt="F=findable, A=accessible, I=interoperable, R=reusable"}
+![](/icons/Daten-Fragen.jpg){width=47%}
+![FAIR prinicples](/icons/fair.jpg){width=47% fig-alt="F=findable, A=accessible, I=interoperable, R=reusable"}
 
 
 ::: {.callout-tip} 
