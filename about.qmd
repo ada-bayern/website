@@ -14,18 +14,19 @@ Darüber hinaus und basierend auf den Ergebnissen des Workshops kann ADA bei Bed
 - Vermittlung (und Betreuung) von Studierenden für Consulting-Projekte oder für Abschlussarbeiten
 - Durchführung von wissenschaftlicher Begleitforschung
 
+
 ## Was uns ausmacht
 #### Projektbezogenes Arbeiten
-In jedem Projekt entwerfen wir einen maßgeschneiderten Workshop, der sich genau auf Ihre Fragestellung bezieht. Ziel unserer Arbeit ist es, Ihrer Organisation mit unserer Expertise zu helfen, sinnvolle Lösungen für Datenfragen zu finden und Ihre Kompetenz im Umgang mit Daten aller Art zu stärken. [*Mehr*](#wie-wir-arbeiten-(ein-ada-projekt-in-4-phasen))
+In jedem Projekt entwerfen wir einen maßgeschneiderten Workshop, der sich genau auf Ihre Fragestellung bezieht. Ziel unserer Arbeit ist es, Ihrer Organisation mit unserer Expertise zu helfen, sinnvolle Lösungen für Datenfragen zu finden und Ihre Kompetenz im Umgang mit Daten aller Art zu stärken.
 
 #### Forschungsnähe
-Ein großer Teil unseres Teams ist am Institut für Statistik der LMU angesiedelt und arbeitet täglich an datenbezogenen Forschungsfragen. Uns treibt das Bedürfnis an, unser erworbenes Wissen in die Praxis umzusetzen. *Mehr*
+Ein großer Teil unseres Teams ist am Institut für Statistik der LMU angesiedelt und arbeitet täglich an datenbezogenen Forschungsfragen. Uns treibt das Bedürfnis an, unser erworbenes Wissen in die Praxis umzusetzen.
 
 #### Sichere Infrastruktur
-Zum gemeinsamen Entwerfen und Testen von Lösungsprototypen bieten wir eine sichere und datenschutzgerechte Cloudumgebung an. *Mehr*
+Zum gemeinsamen Entwerfen und Testen von Lösungsprototypen bieten wir eine sichere und datenschutzgerechte Cloudumgebung an.
 
 #### Behördengerechter Datenschutz
-In unserer bisherigen Arbeit mit öffentlichen Behörden, haben wir Erfahrung mit verschiedensten Arten von sensiblen und personenbezogenen Daten gesammelt. Kommen Sie auf uns zu, um die Art und Auflagen Ihrer Daten zu besprechen. *Mehr*
+In unserer bisherigen Arbeit mit öffentlichen Behörden, haben wir Erfahrung mit verschiedensten Arten von sensiblen und personenbezogenen Daten gesammelt. Kommen Sie auf uns zu, um die Art und Auflagen Ihrer Daten zu besprechen.
 
 
 ## Wer wir sind
@@ -34,7 +35,7 @@ Wir sind ein Team mit einem breiten Erfahrungschatz an statistische/datenwissens
 
 ## Wie wir arbeiten (Ein ADA-Projekt in 4 Phasen)
 
-![ADA-Timeline](/icons/timeline.png)
+<!-- ![ADA-Timeline](/icons/timeline.png) -->
 
 ### Vorbereitung
 ##### Organisatorische Vorbereitung
