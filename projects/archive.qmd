@@ -22,7 +22,7 @@ Hier geht es zu den Seiten der Workshop-Serien:
 Die Workshop-Serie zur datenbasierten Archivierung von Gerichtsakten wurde erfolgreich beendet und führte zu folgenden Ergebnissen:
 
 - Ein zentrales Resultat war die Stärkung der Datenkompetenz der Teilnehmer:innen, die nun in der Lage sind, datenbasierte Projekte selbstbewusst und effektiv anzugehen.
-- Im Nachgang der Workshops wurde ein studentisches Projekt initiiert, in dessen Rahmen eine Shiny-App für die jährliche Stichprobenziehung entwickelt wurde. Diese App ist mittlerweile erfolgreich im laufenden Betrieb und unterstützt die Staatlichen Archive Bayerns bei der effizienten und automatisierten Verarbeitung von Gerichtsakten.
+- Im Nachgang der Workshops wurde ein studentisches Projekt initiiert, in dessen Rahmen eine Shiny-App für die jährliche Stichprobenziehung entwickelt wurde. Diese App ist mittlerweile erfolgreich im laufenden Betrieb und unterstützt die Staatlichen Archive Bayerns bei der effizienten und automatisierten Verarbeitung von Gerichtsakten. Der Code ist auf frei auf [GitHub](https://github.com/ada-bayern/Stichprobenziehung) verfügbar: 
 
 <!-- - GitHub-Link zur Shiny-App
 - Bild -->

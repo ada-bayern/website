@@ -25,6 +25,9 @@ website:
         #   href: projects/archive/ws2/WS2.qmd
         # - text: "Workshop-Serie 1: Daten-basierte Archivierung von Gerichtsakten"
         #   href: projects/archive/ws1/WS1.qmd
+    tools:
+      - icon: github
+        href: https://github.com/ada-bayern/
 
   page-footer:
     left: |
