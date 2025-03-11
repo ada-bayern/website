@@ -1,0 +1,20 @@
+---
+subtitle: Einzelbaumerkennung
+title: "Modul 2: Konzeption eines Datenprodukts, Infrastruktur und Software"
+---
+
+### Themen
+In **Modul 2** gehen wir auf Infrastrukturbedürfnisse und -möglichkeiten ein und diskutieren dabei insbesondere die Nutzung von Cloud-Anbietern. Sie können sich auf folgende Themen freuen:
+
+* Einführung in Cloud-Computing und Cloud-Anbieter
+* Erfahrungen von ADA Bayern im Cloud-Bereich
+* Infrastrukturanforderungen von Einzelbaumerkennungsdaten und -systemen
+* Allgemeine aktuelle Herausforderungen der IT-Infrastruktur
+* Mögliche Anwendungen/Produkte
+
+
+### Material
+
+[Slides](slides/ADA4_Modul_2.pdf)
+
+<!-- (https://drive.google.com/file/d/1vuTZM5g1TizrktK2h75g6LeYqgqfgTD8/view?usp=sharing) -->

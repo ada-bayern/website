@@ -1,0 +1,29 @@
+---
+title: Daten-basierte Archivierung von Gerichtsakten
+---
+
+**September 2023 - Dezember 2024**
+
+### Inhalt
+Im Herbst 2023 und Frühjahr 2024 führten wir eine umfassende Workshop-Serie zur datenbasierten Archivierung von Gerichtsakten durch. Ziel dieser Serie war es, die Teilnehmer:innen in die Lage zu versetzen, datenbasierte Projekte ohne Berührungsängste anzugehen und ihre Fachexpertise effektiv einzubringen. Die Workshops umfassten alle Bestandteile eines klassischen Daten-Analyse-Projekts und legten besonderen Wert auf Teamarbeit und die Integration verschiedener Expertisen. Die Teilnehmer:innen lernten, welche Fragen in ihrem Umfeld mit Daten beantwortet werden können, wie sie mit Data Scientists und IT-Personal über Cloud-Computing und Datenanalysen kommunizieren und wie sie die Cloud-Infrastruktur für die jährliche Stichprobenziehung nutzen können. Die Serie beinhaltete praxisnahe Pilotlösungen und gezielte Wissensvermittlung durch ADA-Expert:innen, um die Kompetenzen der Teilnehmer:innen zu stärken und den Umgang mit datenbasierten Projekten zu erleichtern.
+
+In diesem Projekt wurden gemeinsam mit Mitarbeitenden der Staatlichen Archive Bayerns die Grundlagen und praktischen Anwendungen von Datenanalyseprojekten im Kontext der Archivierung von Gerichtsakten erarbeitet. Ziel dieser Serie war es, die Teilnehmer:innen in die Lage zu versetzen, datenbasierte Projekte ohne Berührungsängste anzugehen und ihre Fachexpertise effektiv einzubringen.
+
+Die Workshops umfassten alle Bestandteile eines klassischen Daten-Analyse-Projekts und legten besonderen Wert auf Teamarbeit und die Integration verschiedener Expertisen. Die Teilnehmer:innen lernten, welche Fragen in ihrem Umfeld mit Daten beantwortet werden können, wie sie mit Data Scientists und IT-Personal über Cloud-Computing und Datenanalysen kommunizieren und wie sie die Cloud-Infrastruktur für die jährliche Stichprobenziehung nutzen können. Die Serie beinhaltete praxisnahe Pilotlösungen und gezielte Wissensvermittlung durch ADA-Experten, um die Kompetenzen der Teilnehmer:innen zu stärken und den Umgang mit datenbasierten Projekten zu erleichtern.
+
+### Workshops
+Hier geht es zu den Seiten der Workshop-Serien:
+
+- [Workshop-Serie 1](archive/ws1/WS1.qmd)
+- [Workshop-Serie 2](archive/ws2/WS2.qmd)
+- [Workshop-Serie 3](archive/ws3/WS3.qmd)
+
+### Ergebnis
+Die Workshop-Serie zur datenbasierten Archivierung von Gerichtsakten wurde erfolgreich beendet und führte zu folgenden Ergebnissen:
+
+- Ein zentrales Resultat war die Stärkung der Datenkompetenz der Teilnehmer:innen, die nun in der Lage sind, datenbasierte Projekte selbstbewusst und effektiv anzugehen.
+- Im Nachgang der Workshops wurde ein studentisches Projekt initiiert, in dessen Rahmen eine Shiny-App für die jährliche Stichprobenziehung entwickelt wurde. Diese App ist mittlerweile erfolgreich im laufenden Betrieb und unterstützt die Staatlichen Archive Bayerns bei der effizienten und automatisierten Verarbeitung von Gerichtsakten.
+
+<!-- - GitHub-Link zur Shiny-App
+- Bild -->
+<!-- - Rezension von Dr. Unger? -->

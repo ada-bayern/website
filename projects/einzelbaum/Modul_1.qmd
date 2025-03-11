@@ -1,0 +1,18 @@
+---
+subtitle: Einzelbaumerkennung
+title: "Modul 1: Einführung, Problemerfassung und Daten"
+---
+
+### Themen
+In **Modul 1** setzen wir den Rahmen, um Probleme zu erfassen und vorliegende Daten und Arbeitsabläufe zu verstehen. Sie können sich auf folgende Themen freuen:
+
+* Einführung in die Workshop-Serie
+* Vorstellung der Problemstellung einzelner Behörden
+* Typische Arbeitsabläufe im Kontext fernerkundungsdatengetriebener Waldinventur
+
+
+### Material
+
+[Slides](slides/ADA4_Modul_1.pdf)
+
+<!-- (https://drive.google.com/file/d/1HDsEjkkGjJQPBg10oMNJk4hMsKLC8oeM/view?usp=sharing) -->

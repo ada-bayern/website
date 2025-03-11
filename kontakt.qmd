@@ -1,8 +1,11 @@
-# Kontakt {.unnumbered}
-<p align="center">
+---
+title: "Kontakt"
+---
+
+<!-- <p align="center">
 <img src="icons/team.png" width="80" height="80" class="center">
-</p>  
+</p>   -->
 
 Sie erreichen uns unter [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de).
 
-Gerne sprechen wir mit Ihnen auch über zukünftige Workshops. 
+Gerne sprechen wir mit Ihnen auch über zukünftige Projekte. 

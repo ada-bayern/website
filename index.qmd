@@ -1,11 +1,20 @@
-## ADA Bayern {.unnumbered}
+---
+title: "Angewandte Datenanalyse für die öffentliche Verwaltung in Bayern"
+title-block-banner: true
+toc: true 
+toc-title: "Auf dieser Seite"
+toccolor: "green"
+---
+
 ![](icons/banner.png){width=100% fig-align="center" fig-alt="https://www.berd-nfdi.de/berd-academy/"}
 
 In der öffentlichen Verwaltung liegen **vielfältige Daten** vor, die potentiell genutzt werden können um Fragen zu beantworten und Probleme zu lösen. Wir können Sie unterstützen dieses Potential zu entfachen.
 
-In Workshop-Serien, bei denen wir in Teamarbeit voneinander lernen und **Lösungen entwickeln**. Denn Data Science ist ein Teamsport, der nicht ohne Sie als Inhaltsexpert:innen funktioniert. Wir stellen eine sichere Cloud-Umgebung bereit, damit wir gemeinsam und effektiv mit den Daten arbeiten können. Dazu nutzen wir Open Source Software und stellen die entstandenen Produkte und Materialien unter offenen Lizenzen zur Verfügung.
+Dafür entwickeln wir maßgeschneiderte Workshop-Serien, bei denen wir in Teamarbeit voneinander lernen und **Lösungen entwickeln**. Denn Data Science ist ein Teamsport, der nicht ohne Sie als Inhaltsexpert:innen funktioniert. Wir stellen eine sichere Cloud-Umgebung bereit, damit wir gemeinsam und effektiv mit den Daten arbeiten können. Dazu nutzen wir Open Source Software und stellen die entstandenen Produkte und Materialien unter offenen Lizenzen zur Verfügung.
 
 ![](icons/ada-bausteine.jpg){fig-align="center" width=70% fig-alt="Probleme lösen, Teamarbeit, Gemeinsam Lernen, Cloud"}
+
+## Unser Ziel
 
 In der Praxis müssen von der Idee bis zur Umsetzung von Datenprojekten viele Hürden genommen werden. Unser Ziel ist, dass **Daten in der öffentlichen Verwaltung effektiver genutzt werden**. Wir wollen 
 
@@ -15,8 +24,23 @@ In der Praxis müssen von der Idee bis zur Umsetzung von Datenprojekten viele H�
 
 Anhand von konkreten **Beispielen aus der Verwaltungspraxis** möchten wir **Digitalisierung greifbar und interaktiv erlebbar** machen.  
 
-Haben Sie ein Problem, das Sie mich uns gemeinsam lösen möchten? [Kontaktieren Sie uns!](kontakt.qmd)   
+Haben Sie ein Problem, das Sie mit uns gemeinsam lösen möchten? [Kontaktieren Sie uns!](kontakt.qmd)
 
+
+## Was wir bieten
+
+Im Kern des ADA-Angebots stehen mehrtägige Data Science-Workshops für öffentliche Einrichtungen, die auf die Bedürfnisse der Anwender zugeschnitten sind. Wir begreifen Data Science als Teamsport, der einen intensiven Austausch zwischen Fachexpert:innen, Informatiker:innen, Statistiker:innen/Datenwissenschaftler:innen und ggf. weiteren Personenkreisen erfordert. Ausgehend vom vorab definierten Projektziel lernen die Teilnehmer die verfügbaren Daten kennen, interpretieren sie kontextabhängig und erarbeiten in Kleingruppen Data Science-Lösungen und Einsatzstrategien für den Verwaltungsalltag. ADA strukturiert und moderiert die Diskussion, stellt wichtige Grundlagen in Vorträgen bereit und bindet spezialisiertes Expertenwissen ein. So gelingt Digitalisierung.
+
+Darüber hinaus und basierend auf den Ergebnissen des Workshops kann ADA bei Bedarf bei der praktischen Implementierung unterstützen, z.B.:
+
+- Beratung bei IT-Herausforderungen sowie beim beim Aufsetzen von Cloud-Lösungen
+- Vermittlung (und Betreuung) von Studierenden für Consulting-Projekte oder für Abschlussarbeiten
+- Durchführung von wissenschaftlicher Begleitforschung
+
+[*Mehr*](about.qmd)
+
+<!-- ---
+![](../../icons/Logos.png)
 ![](icons/Stmd_Logo_unterstuetzt.jpg){fig-align="center" width=50%}
 
-![](icons/Logo_BERD-NFDI.png){fig-align="center" width=17%}   
+![](icons/Logo_BERD-NFDI.png){fig-align="center" width=17%}    -->

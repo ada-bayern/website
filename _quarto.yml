@@ -1,56 +1,88 @@
 project:
-  type: book
+  type: website
 
-book:
-  title: "Angewandte Datenanalyse für die öffentliche Verwaltung"
-  chapters:
-    - part: index.qmd
-      chapters:
-      - team.qmd
-      - kontakt.qmd
-    - part: WS4.qmd
-      chapters:
-        - WS4_Modul_1.qmd
-        - WS4_Modul_2.qmd
-        - WS4_Modul_3.qmd
-    - part: WS3.qmd
-      chapters:
-        - WS3_Modul_1.qmd
-        - WS3_Modul_2.qmd
-        - WS3_Modul_3.qmd
-    - part: WS2.qmd
-      chapters:
-        - WS2_Modul_1.qmd
-        - WS2_Modul_2.qmd
-        - WS2_Modul_3.qmd
-        - WS2_Modul_4.qmd
-    - part: WS1.qmd
-      chapters:
-        - Modul_1.qmd
-        - Modul_2.qmd
-        - Modul_3.qmd
-        - Modul_4.qmd
-  appendices: 
-    - kontakt.qmd
-    - impressum.qmd
+website:
+  title: "ADA Bayern"
   navbar:
-    background: white
-  
-toc-title: Inhalt
-toc-expand: false
+    background: darkgreen
+    left:
+      - about.qmd
+      - text: "Aktuelle Projekte"
+        menu:
+        - text: "Digitalisierte Präferenzerfassung von Referendar:innen"
+          href: projects/stmuk.qmd
+        - text: "Digitalisierung und Automatisierung von gleichstellungsbezogenen Daten"
+          href: projects/stmas.qmd
+      - text: "Abgeschlossene Projekte"
+        menu: 
+        - text: "Einzelbaumerkennung"
+          href: projects/einzelbaum.qmd
+        - text: "Daten-basierte Archivierung von Gerichtsakten"
+          href: projects/archive.qmd
+        # - text: "Workshop-Serie 3: Daten-basierte Archivierung von Gerichtsakten"
+        #   href: projects/archive/ws3/WS3.qmd
+        # - text: "Workshop-Serie 2: Daten-basierte Archivierung von Gerichtsakten (Implementation)"
+        #   href: projects/archive/ws2/WS2.qmd
+        # - text: "Workshop-Serie 1: Daten-basierte Archivierung von Gerichtsakten"
+        #   href: projects/archive/ws1/WS1.qmd
 
-language:
-  section-title-appendices: "Impressum & Kontakt"
+  page-footer:
+    left: |
+      ![](/icons/Logo_BERD-NFDI.png){fig-alt="BERD@NFDI" height="80px"}
+      .
+      ![](/icons/Logo_LMU.svg){fig-alt="LMU München" height="80px"}
+    center:
+      - text: "Team"
+        href: team.qmd
+      - text: "Kontakt"
+        href: kontakt.qmd
+      - text: "Impressum & Datenschutz"
+        href: impressum.qmd
+    right: |
+      ![](/icons/Stmd_Logo_unterstuetzt.jpg){fig-alt="Gefördert durch StMD" height="80px"}
+
+  sidebar:
+    - title: "Einzelbaumerkennung"
+      href: projects/einzelbaum.qmd
+      style: "docked"
+      background: light
+      collapse-level: 1
+      contents:
+        - section: "Workshop-Serie"
+          href: projects/einzelbaum/WS.qmd
+          contents:
+          - projects/einzelbaum/Modul_1.qmd
+          - projects/einzelbaum/Modul_2.qmd
+          - projects/einzelbaum/Modul_3.qmd
+
+    - title: "Daten-basierte Archivierung von Gerichtsakten"
+      href: projects/archive.qmd
+      contents:
+        - section: "Workshop-Serie 3"
+          href: projects/archive/ws3/WS3.qmd
+          contents:
+          - projects/archive/ws3/WS3_Modul_1.qmd
+          - projects/archive/ws3/WS3_Modul_2.qmd
+          - projects/archive/ws3/WS3_Modul_3.qmd
+        - section: "Workshop-Serie 2"
+          href: projects/archive/ws2/WS2.qmd
+          contents:
+          - projects/archive/ws2/WS2_Modul_1.qmd
+          - projects/archive/ws2/WS2_Modul_2.qmd
+          - projects/archive/ws2/WS2_Modul_3.qmd
+          - projects/archive/ws2/WS2_Modul_4.qmd
+        - section: "Workshop-Serie 1"
+          href: projects/archive/ws1/WS1.qmd
+          contents:
+          - projects/archive/ws1/WS1_Modul_1.qmd
+          - projects/archive/ws1/WS1_Modul_2.qmd
+          - projects/archive/ws1/WS1_Modul_3.qmd
+          - projects/archive/ws1/WS1_Modul_4.qmd
 
 format:
   html:
-    theme: flatly
-    number-sections: false
-    toc-expand: false
-
-suppress-bibliography: true
-
-
-website:
-  sidebar:
-    collapse-level: 1
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: false

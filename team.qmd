@@ -1,13 +1,16 @@
-# Team {.unnumbered}
-<p align="center">
+---
+title: "Team"
+---
+
+<!-- <p align="center">
 <img src="icons/team.png" width="80" height="80" class="center">
-</p>  
+</p>   -->
 
 Wir sind ein Team aus Data Scientists und Statistiker:innen. Unser Ziel ist es, dazu beizutragen, dass Daten in der öffentlichen Verwaltung effektiver genutzt werden.
 
 Wir wollen Beschäftigte im öffentlichen Sektor zum (besseren) Umgang mit Daten befähigen, die Datenkompetenz stärken, und so zur verstärkten Umsetzung von Datenprojekten beitragen. Anhand von konkreten Beispielen aus der Verwaltungspraxis möchten wir Digitalisierung greifbar und interaktiv erlebbar machen.
 
-![](icons/Stmd_Logo_unterstuetzt.jpg){fig-align="center" width=50%}
+<!-- ![](icons/Stmd_Logo_unterstuetzt.jpg){fig-align="center" width=50%} -->
 
 ## Prof. Dr. Frauke Kreuter
 <p align="center">
@@ -38,3 +41,15 @@ Wir wollen Beschäftigte im öffentlichen Sektor zum (besseren) Umgang mit Daten
 <img src="icons/felix_profile_128.jpg" class="center"  >
 </p> 
 [Felix Henninger](https://felixhenninger.com/) ist wissenschaftlicher Mitarbeiter und Softwareentwickler am Lehrstuhl für Statistik und Data Science für die Sozial- und Geisteswissenschaften an der Ludwig-Maximilians-Universität München. Sein Ziel ist es, fortgeschrittene Methoden der Datenerfassung und -analyse für Forscher:innen und Praktiker:innen zugänglich zu machen.
+
+# Leonhard Kestel
+<p align="center">
+<img src="icons/leo_profile_128.png" class="center"  >
+</p> 
+[Leonhard Kestel](https://www.stat.lmu.de/soda/en/team/contact-page/contact-page_5952.html) ist Mitarbeiter und Softwareentwickler am Lehrstuhl für Statistik und Data Science für die Sozial- und Geisteswissenschaften an der Ludwig-Maximilians-Universität München. Dort beschäftigt er sich mit der Anwendung von Machine Learning Methoden in Sozial-, Geistes- und Geowissenschaften. 
+
+# Julia von Barttenwerffer
+<p align="center">
+<img src="icons/julia_profile_128.png" class="center"  >
+</p> 
+[Julia von Barttenwerffer](https://www.stat.lmu.de/soda/en/team/contact-page/contact-page_5888.html) arbeitet als Projektmanagerin am Lehrstuhl für Statistik und Data Science für die Sozial- und Geisteswissenschaften an der Ludwig-Maximilians-Universität München. Durch ihre zehnjährige Erfahrung als Unternehmensberaterin und Projektmanagerin an der Schnittstelle von Strategie, Business und IT legt sie besonderen Wert auf praxisnahe, umsetzbare Lösungen. Sie ist überzeugt, dass der enge Austausch mit verschiedenen Stakeholdern entscheidend für den Erfolg eines Projekts ist. Ein Forschungsinteresse von Julia von Bartenwerffer ist die Frage, wie Technologie genutzt werden kann, um Lernen in verschiedenen Kontexten zu verbessern. Besonders interessiert sie sich dabei für den Kompetenzaufbau im öffentlichen Sektor sowie für die Schnittstelle zwischen Lerntechnologien und digitaler Gesundheit.

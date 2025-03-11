@@ -1,0 +1,40 @@
+---
+title: "Modul 3: Visualisierung und Reporting"
+---
+
+![](/icons/stats.png){fig-align="center"width="80" height="80" class="center"} 
+
+**02.10.2023, 10:00 - 15:00 Uhr**
+
+### Themen
+In **Modul 3** werden die Guidelines für nachvollziehbares Reporting und gute Visualisierungen besprochen. Es werden keine Vorkenntnisse in der Datenanalyse erwartet. Sie können sich auf folgende Themen freuen:
+
+* Visualisierung der vorliegenden Daten
+* Visualisierung der Analyse (Stichprobenziehung) 
+* Best practices für Visualisierungen
+* Überblick über Reporting und Dashboards für Datenanalyse-Projekte
+
+::: captioned-image-container
+![Anzahl der Fälle pro Amtsgerichtbezirk](/icons/akten_karte.png){width=100% fig-alt="Aktenkarte"}
+:::
+
+::: {.callout-tip}
+### Lernziele
+Am Ende dieses Moduls können Sie…
+
+**Grafische Datenanalyse** 
+
+* ... Ergebnisse über Grafiken kommunizieren (Balkendiagramme, Karten und co.).
+* ... gute Beispiele für Datenvisualisierungen erkennen.
+
+**Ergebnisse kommunizieren**
+
+* ... Notebooks für Reporting verwenden.
+* ... einschätzen, wann Dashboards nützlich sind für die Kommunikation von Datenanalysen.
+:::
+
+### Material
+* [Slides](slides/ADA_Modul_3.pdf)
+* [Notebook 3 - Best of Stichprobenziehung](notebooks/ADA_Modul_3_Best_of_Stichprobenziehung_anonymisiert.Rmd)
+
+<!-- (https://drive.google.com/file/d/1qHiv8tLRKyspFUZtaOYxO2WhzSY-OKrR/view?usp=sharing) -->
