@@ -38,6 +38,7 @@ Am Ende dieses Moduls können Sie…
 
 ### Material
 * [Slides](slides/ADA_Modul_2.pdf)
+* [Notebooks](notebooks/ada_archive_modul_2.zip)
 <!-- * [Notebook 2.1 - Erste Analysen](notebooks/ADA_Modul_2_1_Erste-Analysen_anonymisiert.Rmd)
 * [Notebook 2.2 - Einfache Zufallsstichprobe](notebooks/ADA_Modul_2_2_Einfache_Zufallsstichprobe_anonymisiert.Rmd)
 * [Notebook 2.3 - Stratifizierte Zufallsstichprobe](notebooks/ADA_Modul_2_3_Stratifizierte_Stichprobenziehung_anonymisiert.Rmd) -->

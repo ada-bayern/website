@@ -35,6 +35,7 @@ Am Ende dieses Moduls können Sie…
 
 ### Material
 * [Slides](slides/ADA_Modul_3.pdf)
+* [Notebook](notebooks/ada_archive_modul_3.zip)
 <!-- * [Notebook 3 - Best of Stichprobenziehung](notebooks/ADA_Modul_3_Best_of_Stichprobenziehung_anonymisiert.Rmd) -->
 
 <!-- (https://drive.google.com/file/d/1qHiv8tLRKyspFUZtaOYxO2WhzSY-OKrR/view?usp=sharing) -->
