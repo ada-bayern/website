@@ -35,8 +35,8 @@ website:
       ![](/icons/Logo_BERD-NFDI.png){fig-alt="BERD@NFDI" height="80px"}
       .
       ![](/icons/Logo_LMU.svg){fig-alt="LMU München" height="80px"}
-      .
-      ![](/icons/SODA_Logo_RGB_mitUZ_RGB_LMU-green.svg){fig-alt="SODA@LMU" height="80px"}
+      <!-- .
+      ![](/icons/SODA_Logo_RGB_mitUZ_RGB_LMU-green.svg){fig-alt="SODA@LMU" height="80px"} -->
     center:
       - text: "Team"
         href: team.qmd
