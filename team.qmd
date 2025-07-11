@@ -48,7 +48,7 @@ Wir wollen Beschäftigte im öffentlichen Sektor zum (besseren) Umgang mit Daten
 </p> 
 [Leonhard Kestel](https://www.stat.lmu.de/soda/en/team/contact-page/contact-page_5952.html) ist Mitarbeiter und Softwareentwickler am Lehrstuhl für Statistik und Data Science für die Sozial- und Geisteswissenschaften an der Ludwig-Maximilians-Universität München. Dort beschäftigt er sich mit der Anwendung von Machine Learning Methoden in Sozial-, Geistes- und Geowissenschaften. Speizifisch interessiert er sich für eine faire und interpretierbare Nutzung von KI.
 
-# Julia von Barttenwerffer
+# Julia von Bartenwerffer
 <p align="center">
 <img src="icons/julia_profile_128.png" class="center"  >
 </p> 

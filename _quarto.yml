@@ -6,7 +6,8 @@ website:
   navbar:
     background: "#00883a"
     left:
-      - about.qmd
+      - text: "Über uns"
+        href: about.qmd
       - text: "Aktuelle Projekte"
         menu:
         - text: "Digitalisierte Präferenzerfassung von Referendar:innen"
@@ -44,25 +45,23 @@ website:
       - text: "Impressum & Datenschutz"
         href: impressum.qmd
     right: |
-      ![](/icons/Stmd_Logo_unterstuetzt.jpg){fig-alt="Gefördert durch StMD" height="80px"}
+      ![](/icons/stmd_logo.png){fig-alt="Gefördert durch StMD" height="80px"}
 
   sidebar:
-    - title: "Einzelbaumerkennung"
-      href: projects/einzelbaum.qmd
-      style: "docked"
-      background: light
-      collapse-level: 1
-      contents:
-        - section: "Workshop-Serie"
-          href: projects/einzelbaum/WS.qmd
-          contents:
-          - projects/einzelbaum/Modul_1.qmd
-          - projects/einzelbaum/Modul_2.qmd
-          - projects/einzelbaum/Modul_3.qmd
-
-    - title: "Daten-basierte Archivierung von Gerichtsakten"
-      href: projects/archive.qmd
-      contents:
+  - title: "Abgeschlossene Projekte"
+    style: "docked"
+    #background: light
+    collapse-level: 1
+    contents:
+      - section: "Einzelbaumerkennung"
+        href: projects/einzelbaum.qmd
+        contents:
+        - projects/einzelbaum/Modul_1.qmd
+        - projects/einzelbaum/Modul_2.qmd
+        - projects/einzelbaum/Modul_3.qmd
+      - section: "Daten-basierte Archivierung von Gerichtsakten"
+        href: projects/archive.qmd
+        contents:
         - section: "Workshop-Serie 3"
           href: projects/archive/ws3/WS3.qmd
           contents:
@@ -83,6 +82,21 @@ website:
           - projects/archive/ws1/WS1_Modul_2.qmd
           - projects/archive/ws1/WS1_Modul_3.qmd
           - projects/archive/ws1/WS1_Modul_4.qmd
+
+  - title: "Aktuelle Projekte"
+    contents:
+    - text: "Digitalisierte Präferenzerfassung von Referendar:innen"
+      href: projects/stmuk.qmd
+    - text: "Digitalisierung und Automatisierung von gleichstellungsbezogenen Daten"
+      href: projects/stmas.qmd
+  - title: "Über uns"
+    contents:
+    - text: "Angebot"
+      href: about.qmd
+    - text: "Team"
+      href: team.qmd
+    - text: "Kontakt"
+      href: kontakt.qmd
 
 format:
   html:
