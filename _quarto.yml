@@ -2,9 +2,12 @@ project:
   type: website
 
 website:
-  title: "ADA Bayern"
+  title: "ADA"
+  image: "icons/ADA_G_SecondaryLogo_FullColor_Positive.png"
+  favicon: "icons/ADA_Favicon.png"
   navbar:
-    background: "#00883a"
+    background: "#cfff63"
+    foreground: "#1c1c1c"
     left:
       - text: "Über uns"
         href: about.qmd
@@ -31,6 +34,8 @@ website:
         href: https://github.com/ada-bayern/
 
   page-footer:
+    background: "#fffbf3"
+    foreground: "#1c1c1c"
     left: |
       ![](/icons/Logo_BERD-NFDI.png){fig-alt="BERD@NFDI" height="80px"}
       .
@@ -50,7 +55,8 @@ website:
   sidebar:
   - title: "Abgeschlossene Projekte"
     style: "docked"
-    #background: light
+    background: "#fffbf3"
+    foreground: "#1c1c1c"
     collapse-level: 1
     contents:
       - section: "Einzelbaumerkennung"
@@ -104,4 +110,7 @@ format:
       - cosmo
       - brand
     css: styles.css
+    backgroundcolor: "#fffbf3"
+    fontcolor: "#1c1c1c"
+    #mainfont: Open Sans
     toc: false
