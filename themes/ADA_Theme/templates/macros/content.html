@@ -1,0 +1,313 @@
+{#- Create absolute path without domain part from the base_url -#}
+{%- macro base_path() -%}
+{%- set base_without_protocol = config.base_url | trim_start_matches(pat="https://") | trim_start_matches(pat="http://")
+-%}
+{%- set temp = base_without_protocol | split(pat="/") -%}
+{% set base_without_domain = base_without_protocol | trim_start_matches(pat=temp[0]) | trim_end_matches(pat="/") | safe
+%}
+{{- base_without_domain ~ '/' | safe -}}
+{%- endmacro -%}
+
+
+{%- macro clean_path(path) -%}
+
+{%- set temp = path | split(pat="/") -%}
+{%- set out = "" -%}
+{%- for section in temp %}
+{{- section -}}
+{%- set section1 = section | slugify -%}
+{%- set out= out ~ section1 ~ "/" -%}
+
+{%- endfor -%}
+{{- out -}}
+{%- endmacro -%}
+
+
+{%- macro include_script(file, additional_tags="") -%}
+<script
+    src="{{ content::base_path() }}{{ file | safe }}?{{ get_hash(path=file, base64=true) | truncate(length=6, end="")}}"
+    {% if config.mode=="build" %} integrity="sha384-{{ get_hash(path=file, sha_type=384, base64=true) | safe }}" {%
+    endif %} {{ additional_tags | safe }}></script>
+{%- endmacro -%}
+
+{%- macro include_stylesheet(file) -%}
+<link rel="stylesheet"
+    href="{{ content::base_path() }}{{ file | safe }}?{{ get_hash(path=file, base64=true) | truncate(length=6, end="")}}"
+    {% if config.mode=="build" %} integrity="sha384-{{ get_hash(path=file, sha_type=384, base64=true) | safe }}" {%
+    endif %}>
+{%- endmacro -%}
+
+{% macro navbar_button(url, text, text_class) %}
+
+<a href="{{ content::base_path() }}{{ url }}" {% if current_path and ((url !="" and url in current_path) or (url=="" and
+    current_path | trim_end_matches(pat=lang ~'/') | trim_end_matches(pat='/' )=="" )) %} class="active" {# Highlight
+    button, if button URL is part of the current path. #} {% else %} class="" {% endif %}>
+    <span class="{{ text_class }}">{{ text }}</span>
+</a>
+{% endmacro %}
+
+{% macro navbar_tab(url, text, text_class,class="") %}
+<li {% if current_path and ((url !="" and url in current_path) or (url=="" and current_path | trim_end_matches(pat=lang
+    ~'/') | trim_end_matches(pat='/' )=="" )) %} class="tab active" {# Highlight button, if button URL is part of the
+    current path. #} {% else %} class="tab {% if class %}{{ class }}{% endif %}" {% endif %}>
+    <a href="{{ content::base_path() }}{{ url }}">
+        <span class="{{ text_class }}">{{ text }}</span>
+    </a>
+</li>
+{% endmacro %}
+
+
+{% macro card(title,content, type="search",color="",icon="",link="") %}
+
+<div class="card {{ type }} {%if color%}{{ color }}{% endif %}{%if icon %} {{ icon }}{% endif %}">
+    <div class="card-title ">{{ title }}</div>
+    <div class="card-content">{{ content | markdown | safe }}</div>
+    {% if link %}
+    <div class="card-link button"><a href="{{ link.url | safe }}">{{ link.text}}</a></div>
+    {% endif %}
+</div>
+
+{% endmacro %}
+{%macro highlight_project(path)%}
+{%set project = get_section(path=path) %}
+
+<div class="container bg-dark highlight-project">
+    <div class="tab-alt">Erfolgsprojekt</div>
+    <div class="container-wrapper">
+        <div class="project-header">
+
+          
+            <div class="tags">
+                {% if project.extra.type %}
+                {% for type in project.extra.type %}
+                <span class="type">{{ type }}</span>
+                {% endfor %}
+                {% endif %}
+
+                {% if project.extra.tags %}
+                {% for tag in project.extra.tags %}
+                <span class="tag">{{ tag }}</span>
+                {% endfor %}
+                {% endif %}
+            </div>
+            <div class="project-date">
+                <span class="start-date">{{ project.extra.start_date |date(format="%B %Y", locale="de_DE") }}</span>
+                {% if project.extra.end_date %}<span class="start-date"> - {{ project.extra.end_date
+                    |date(format="%B
+                    %Y",
+                    locale="de_DE")
+                    }}</span>{% endif %}
+            </div>
+            {% if project.title %}<h1 class="project-title">{{ project.title }}</h1>{% endif %}
+            <div class="markdown">{{project.description | safe }}</div>
+            <div class="button"><a href="{{ project.permalink }}">Mehr lesen</a></div>
+
+        </div>
+    </div>
+</div>
+
+{% endmacro %}
+
+
+
+
+{% macro cards(pages) %}
+<div class="cards-list">
+    {% set pages = pages | reverse %}
+    {% for page in pages %}
+
+    <div class="card ">
+        <h3 class="card-title"><a href="{{ page.permalink }}" class="">{{ page.title }}</a></h3>
+
+        <div class="type">
+            {{content::list_taxonomy_terms_spec(page=page,tax="type")}}
+        </div>
+        <div class="tag">
+            {{content::list_taxonomy_terms_spec(page=page,tax="tag")}}
+        </div>
+        <div class="date">
+            {% if page.extra.event_date %}
+
+            <span><time datetime="{{ page.extra.event_date }}">{{ page.extra.event_date
+
+                    }}</time></span>
+            {% endif %}
+        </div>
+
+    </div>
+</div>
+
+{% endfor %}
+</div>
+{% endmacro %}
+
+{% macro list_taxonomy_terms(page,i18n, i18n_user)%}
+{% if page.taxonomies | length > 0 %}
+{% for taxonomy, elements in page.taxonomies %}
+<div class=""> <span class="label">{{ taxonomy }}</span>
+    <div class="">
+        {% for element in elements %}
+        <span class="">
+
+            <a href="{{ get_taxonomy_url(kind=taxonomy, name=element, lang=lang) }}">{{
+                content::translate(value=element, i18n=i18n, i18n_user=i18n_user) }}</a>
+        </span>
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}
+{% endif %}
+{% endmacro %}
+{% macro list_taxonomy_terms_spec(page,tax,i18n, i18n_user, label=false, sort="")%}
+{% if page.taxonomies %}
+{% if page.taxonomies[tax] %}
+{% if page.taxonomies[tax] | length > 0 %}
+{% if (sort == "sort") %}
+{% set items = page.taxonomies[tax] | sort %}
+{% elif (sort == "reverse")%}
+{% set items = page.taxonomies[tax] | reverse %}
+{%else %}
+{% set items = page.taxonomies[tax] %}
+{%endif%}
+<div class="taxonomy">
+    {% if label %}
+    <span class="label">{{ tax }}</span>
+    {% endif %}
+    <div class="terms">
+
+        {% for element in items %}
+        <span class="tax-btn">
+
+            <a href="{{ get_taxonomy_url(kind=tax, name=element, lang=lang) }}">{{
+                content::translate(value=element, i18n=i18n, i18n_user=i18n_user) }}</a>
+        </span>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+{% endif %}
+{%endif%}
+{% endmacro %}
+
+
+{% macro term(term, show_count=true, icon_id="tag", i18n, i18n_user, icons) %}
+<span class="flex items-center whitespace-nowrap">
+    {{ content::icon(id=icon_id, icons=icons) }}<a
+        href="{{ content::base_path() }}{{term.path | trim_start_matches(pat=" /") }}"
+        class="no-underline hover:underline">{{ content::translate(value=term.name, i18n=i18n, i18n_user=i18n_user)
+        }}</a>{% if show_count %}<sup class="ml-1">{{ term.pages | length }}</sup>{% endif %}
+</span>
+{% endmacro %}
+{% macro social_links(i18n, icons) %}
+{% endmacro %}
+
+{% macro filter_by(tax,label) %}
+{% set posts = get_taxonomy(kind=tax) %}
+<div>
+    <span>{{label}}</span>
+    <ul>
+        {% for item in posts.items %}
+
+
+        <li><a href="{{item.permalink}}">{{ item.name }}</a><small> [ {{ item.pages | length }} ] </small></li>
+
+        {% endfor %}
+    </ul>
+</div>
+{% endmacro filter_by%}
+
+{# Optionally translates a value, if it exists in the translation file for the current language. If it does not #}
+{# exist, then just the given value is printed without translating. For being able to load the translation from the #}
+{# language file, the given value is slugified (lowercase, no spaces etc.), but with all dashes being underscores. #}
+{# This is needed, to match the variable format of the language files, which are defined in the TOML language. #}
+{% macro translate(value, i18n, i18n_user) %}
+{%- set identifier = value | slugify | replace(from="-", to="_") -%}
+{%- if i18n_user[identifier] -%}
+{{ i18n_user[identifier] | safe }}
+{%- else -%}
+{{ i18n[identifier] | default(value=value) | safe }}
+{%- endif -%}
+{% endmacro %}
+
+
+{% macro image_set(img, widths) -%}
+image-set(
+{#- Render multiple widths -#}
+{%- for w in widths -%}
+{%- set image = resize_image(path=img, width=w, op='fit_width') -%}
+url('{{ image.url }}') 1x{#{{ w }}w Absolute sizes aren't supported yet #}
+{%- if not loop.last %}, {% endif -%}
+{%- endfor -%}
+){#- -#}
+{%- endmacro imageset %}
+
+{% macro picture_fill_square(img, widths, class="", attrs="") %}
+<img {# Render multiple widths #} srcset="{% for w in widths -%}
+      {%- set image = resize_image(path=img, width=w, height=w, op='fill') -%}{{ image.url }} {{ w }}w
+      {%- if not loop.last %}, {% endif -%}
+      {%- endfor %}" {# Render largest size as fallback #} {%- set image=resize_image(path=img, width=widths | last,    height=widths | last, op='fill' ) -%} src="{{ image.url }}" {% if class !="" %}class="{{ class | safe }}" {% endif
+    %} {% if attrs !="" %}{{ attrs | safe }}{% endif %}>
+{% endmacro picture %}
+
+{% macro picture_fill(img, widths, heights, class="", attrs="") %}
+<img {# Render multiple widths #} srcset="{% for w in widths -%}
+      {%- set image = resize_image(path=img, width=w, height=heights[loop.index0], op='fill') -%}{{ image.url }} {{ w }}w
+      {%- if not loop.last %}, {% endif -%}
+      {%- endfor %}" {# Render largest size as fallback #} {%- set image=resize_image(path=img, width=widths | last,
+    height=heights | last, op='fill' ) -%} src="{{ image.url }}" {% if class !="" %}class="{{ class | safe }}" {% endif
+    %} {% if attrs !="" %}{{ attrs | safe }}{% endif %}>
+{%endmacro %}
+
+{% macro picture_width(img, widths, class="", attrs="") %}
+<img decoding="async" loading="lazy" {# Render multiple widths #} srcset="{% for w in widths -%}
+      {%- set image = resize_image(path=img, width=w, height=w, op='fit_width') -%}{{ image.url }} {{ w }}w
+      {%- if not loop.last %}, {% endif -%}
+      {%- endfor %}" {# Render largest size as fallback #} {%- set image=resize_image(path=img, width=widths | last,
+    op='fit_width' ) -%} src="{{ image.url }}" {% if class !="" %}class="{{ class | safe }}" {% endif %} {% if attrs
+    !="" %}{{ attrs | safe }}{% endif %}>
+{% endmacro picture %}
+{% macro picture_width_src(img, widths, class="", attrs="") %}
+
+{% set meta = get_image_metadata(path=img) %}
+
+
+<img width='{{meta.width * 2 }}' height='{{meta.height * 2}}' decoding="async" loading="lazy" {# Render multiple widths
+    #} data-srcset="{% for w in widths -%}
+      {%- set image = resize_image(path=img, width=w, height=w, op='fit_width') -%}{{ image.url }} {{ w }}w
+      {%- if not loop.last %}, {% endif -%}
+      {%- endfor %}" {# Render largest size as fallback #} {%- set image=resize_image(path=img, width=widths | last,
+    op='fit_width' ) -%} data-src="{{ image.url }}" {% if class !="" %}class="{{ class | safe }}" {% endif %} {% if
+    attrs !="" %}{{ attrs | safe }}{% endif %}>
+{% endmacro picture %}
+
+
+
+{% macro picture_fit_src(img, widths, heights, class="", attrs="") %}
+{% set meta = get_image_metadata(path=img) %}
+
+
+<img  decoding="async" loading="lazy" {# Render multiple widths
+    #} data-srcset="{% for w in widths -%}
+      {%- set image = resize_image(path=img, width=w, height=heights[loop.index0]) -%}{{ image.url }} {{ w }}w
+      {%- if not loop.last %}, {% endif -%}
+      {%- endfor %}" {# Render largest size as fallback #} {%- set image=resize_image(path=img, width=widths | last, height=heights | last,
+
+    op='fit' ) -%} data-src="{{ image.url }}" {% if class !="" %}class="{{ class | safe }}" {% endif %} {% if
+    attrs !="" %}{{ attrs | safe }}{% endif %}>
+{% endmacro picture %}
+
+
+{% macro content_image(img, widths, class="", attrs="") %}
+
+{% set meta = get_image_metadata(path=img) %}
+
+
+<img width='{{meta.width * 2 }}' height='{{meta.height * 2}}' decoding="async" loading="lazy" {# Render multiple widths
+    #} data-srcset="{% for w in widths -%}
+      {%- set image = resize_image(path=img, width=w, height=w, op='fit_width') -%}{{ image.url }} {{ w }}w
+      {%- if not loop.last %}, {% endif -%}
+      {%- endfor %}" {# Render largest size as fallback #} {%- set image=resize_image(path=img, width=widths | last,
+    op='fit_width' ) -%} data-src="{{ image.url }}" {% if class !=""
+    %}class="{{ class | safe }}{% if meta.width> meta.height%} landscape {%endif %}" {% endif %} {% if attrs !="" %}{{
+    attrs | safe }}{% endif %}>
+{% endmacro picture %}

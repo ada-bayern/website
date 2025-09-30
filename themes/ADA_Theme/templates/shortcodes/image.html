@@ -1,0 +1,15 @@
+{% import "macros/content.html" as content %}
+<div class="image-container">
+{%if round%}
+    {% if round==true%}
+{% set round = " round" %}
+{%else%}
+{%set round=""%}
+{%endif%}
+{%else%}
+{%set round=""%}
+{%endif%}
+{{content::content_image(img=path, widths=[360,600,960],class="lazy "~round)}}
+{% if caption %}<p class="image-caption">{{ caption }}</p>{% endif %}
+
+</div>

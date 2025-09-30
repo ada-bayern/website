@@ -1,0 +1,32 @@
+{% import "macros/content.html" as content %}
+{% set data = load_data(path=data_path) %}
+
+<div class="initiators container">
+    <h1 class="huge">
+        Initiatoren
+    </h1>
+    <h4>Partner</h4>
+    <div class="partners">
+        
+        {%- for partner in data.partner %}
+        <div class="partner">
+            <a href="{{ partner.url }}" target="_blank">
+                <img src="{{ content::base_path() }}{{ partner.logo }}" alt="{{ partner.name }}">
+            </a>
+
+        </div>
+
+        {% endfor -%}
+    </div>
+    <div class="divider2"><div class="line"></div></div>
+    <h4>Klienten</h4>
+    <div class="clients">
+        {%- for client in data.client %}
+        <div class="client">
+            <a href="{{ client.url }}" target="_blank">
+                <img src="{{ content::base_path() }}{{ client.logo }}" alt="{{ client.name }}">
+            </a>
+        </div>
+        {% endfor -%}
+    </div>
+</div>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding Cards Demo</title>
+    <link rel="stylesheet" href="css/sliding-cards.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+        
+        .demo-content {
+            height: 500px;
+            background: #e0e0e0;
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: #666;
+        }
+        
+        .cards {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e0e0e0;
+        }
+        
+        .card h3 {
+            margin: 0 0 16px 0;
+            color: #333;
+            font-size: 20px;
+        }
+        
+        .card p {
+            margin: 0;
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .card ul {
+            margin: 12px 0 0 0;
+            padding-left: 20px;
+        }
+        
+        .card li {
+            margin: 6px 0;
+            color: #666;
+        }
+        
+        .more-content {
+            height: 800px;
+            background: #d0d0d0;
+            margin: 40px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-content">
+        <h1>Scroll down to see the sliding cards effect</h1>
+    </div>
+    
+    <div class="cards">
+        <div class="card">
+            <h3>Workshop Module 1</h3>
+            <p>In this module, participants will learn the fundamentals of data analysis and cloud computing technologies. We'll cover basic concepts and practical applications.</p>
+            <ul>
+                <li>Introduction to cloud computing</li>
+             Organisatorische Vorbereitung
+In der Vorbereitungsphase koordinieren wir Termine, klären Datenschutz- und rechtliche Themen und ermitteln den Kreis der Interessierten, wobei auch Studierende einbezogen werden können. 
+Bei Bedarf fragen wir Expert:innen an, um spezifische Fragestellungen abzudecken.
+
+
+
+
+Inhaltliche Vorbereitung
+Die Vorbereitung umfasst vor allem das Verständnis des Problems durch einen Expert:innenblick auf die Fragestellung und die Analyse relevanter Aspekte wie Infrastruktur, Prozesse und vorhandene Daten. Wir diskutieren mögliche Lösungsansätze und identifizieren die benötigte Expertise, sowohl intern aus dem ADA-Team als auch extern aus unserem Netzwerk. Anschließend konzipieren wir den Workshop, definieren die Ziele der Projektarbeit, bereiten Materialien und die notwendige Infrastruktur vor und legen das Format fest.
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h3>Workshop Module 2</h3>
+            <p>Advanced techniques for remote sensing data processing and automated image analysis using artificial intelligence and machine learning algorithms.</p>
+            <ul>
+                <li>Remote sensing data processing</li>
+                <li>AI and machine learning</li>
+                <li>Automated image analysis</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h3>Workshop Module 3</h3>
+            <p>Infrastructure and IT challenges in utilizing remote sensing data. Participants will develop conceptual approaches for scalable cloud solutions.</p>
+            <ul>
+                <li>Infrastructure planning</li>
+                <li>Scalable cloud solutions</li>
+                <li>Technical requirements</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h3>Workshop Module 4</h3>
+            <p>Practical implementation of tree recognition systems and forest management using satellite and aerial imagery data for environmental monitoring.</p>
+            <ul>
+                <li>Tree recognition systems</li>
+                <li>Forest management</li>
+                <li>Environmental monitoring</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h3>Workshop Module 5</h3>
+            <p>Final project presentations and discussion of future collaborations between different agencies working on similar challenges.</p>
+            <ul>
+                <li>Project presentations</li>
+                <li>Agency collaboration</li>
+                <li>Future planning</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="more-content">
+        <h2>More content below the cards</h2>
+    </div>
+    
+    <div class="demo-content">
+        <p>This content shows that scrolling continues normally after the cards section</p>
+    </div>
+    
+    <script src="js/sliding-cards.js"></script>
+</body>
+</html>

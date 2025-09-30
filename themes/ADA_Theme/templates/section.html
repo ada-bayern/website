@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block hero %}
+
+<div class="top-tabs list bg-dark">
+    <div class="tab active">
+        Aktuelle Projekte
+    </div>
+    <div class="tab">
+        Abgeschlossene Projekte
+    </div>
+</div>
+
+{%endblock hero%}
+{% block content %}
+
+<div class>
+
+    <div class="container project-list">
+    {% set projects = section.subsections %}
+
+        {% for project in projects %}
+        {% set sec = get_section(path = project) %}
+
+
+        <div class="project-item">
+            <a href="{{ sec.permalink }}" class="project-link">
+                <h2>{{ sec.title }}</h2>
+                {{ sec.pages.0.content | safe }}
+                <p>{{ sec.description }}</p>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock content %}

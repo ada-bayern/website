@@ -1,0 +1,16 @@
+
+<div class="container side-title-block {% if bg %}bg-{{ bg }}{% endif %} {% if compressed %}compress{% endif %}">
+    <div class="container-wrapper">
+
+        {% if title %}
+        <h1 class="side-title {% if size %}{{ size }}{% endif %}">{{ title }}</h1>
+        {% endif %}
+        {%if body %}<div class="markdown">{{ body | markdown | safe }}</div>
+        {% endif %}
+       {%if button_url%}
+        <div class="button">
+            <a href="{{ button_url }}">{{ button_text }}</a>
+        </div>
+        {% endif %}
+    </div>
+</div>

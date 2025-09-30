@@ -1,0 +1,320 @@
+{% import "macros/content.html" as content %}
+
+<div class="my-hero bg-dark container">
+    <div class="pin">
+        <div class="pill-slider-container">
+
+            <div class="pill-track reverse ball-purple">
+                <div class="pill-inner green"><span>Digitale</span></div>
+                <div class="pill-inner salmon"><span>Entscheidungen</span></div>
+            </div>
+            <div class="pill-breaker-small"></div>
+            <div id="filler1" class="pill-filler lilac square grow">
+            </div>
+            <div class="pill-track ball-purple">
+                <div class="pill-inner salmon"><span></span></div>
+                <div class="pill-inner green"><span>mit</span></div>
+                <div class="pill-inner lilac"><span>auf</span></div>
+            </div>
+            <div class="pill-breaker "></div>
+                <div class="pill-breaker-small"></div>
+            <div class="slide">
+                <div class="fixed"><span> </span></div>
+                <div class="movable"><span>         </span></div>
+               
+            </div>
+            {# <div id="filler2" class="pill-filler salmon square"></div> #}
+
+            {# <div id="filler4" class="pill-filler  purple grow"></div>
+            <div id="filler3" class="pill-filler salmon"></div> #}
+            <div class="pill-filler white rotate"></div>
+            <div class="pill-breaker-small"></div>
+            <div class="pill-track ball-green">
+                <div class="pill-inner lilac"><span>Verwaltung</span></div>
+                <div class="pill-inner white"><span>Daten</span></div>
+            </div>
+            <div class="pill-breaker"></div>
+            <div id="filler6" class="pill-filler white"></div>
+            <div class="pill-breaker-small"></div>
+            <div id="filler7" class="pill-filler square      green grow"></div>
+            <div class="pill-track ball-green  reverse">
+                <div class="pill-inner white"><span>stärken</span></div>
+                <div class="pill-inner lilac expand"><span>unterstützen</span></div>
+                {# <div class="pill-inner green"><span>stützen</span></div> #}
+            </div>
+            <div class="pill-breaker-small"></div>
+            <div id="filler5" class="pill-filler purple grow hide-small"></div>
+            <div id="filler8" class="pill-filler salmon hide-small"></div>
+        </div>
+    </div>
+</div>
+
+<style>
+
+</style>
+<script>
+    function adjustPillWidths() {
+        document.querySelectorAll('.pill-track').forEach(pill => {
+            // remove any previously applied min-width so we measure real content size
+            pill.style.minWidth = '';
+            // force reflow to ensure sizes update
+            void pill.offsetWidth;
+
+            const inners = pill.querySelectorAll('.pill-inner');
+            if (!inners.length) return;
+
+            // measure widest inner (ensure any forced widths on inners don't interfere)
+            let maxInner = 0;
+            inners.forEach(inner => {
+                inner.style.width = ''; // allow natural width for measurement
+                const w = inner.offsetWidth;
+                if (w > maxInner) maxInner = w;
+            });
+
+            // include horizontal padding so min-width fits content
+            const cs = getComputedStyle(pill);
+            const padLeft = parseFloat(cs.paddingLeft) || 0;
+            const padRight = parseFloat(cs.paddingRight) || 0;
+
+            const minW = Math.ceil(maxInner + padLeft + padRight);
+            pill.style.minWidth = minW + 'px';
+        });
+    }
+
+
+    const pillSlider = document.querySelector('.pill-slider-container');
+    if (pillSlider) {
+        const ACTION_DELAY = 800; // ms minimum time between transitions
+        let actionTimer = null;
+        let interTimer = null; // timer for intermediate 'action1' step
+        let lastTransition = 0; // timestamp of last applied transition
+
+        function applyState(target) {
+            if (target === 'action1') {
+                pillSlider.classList.add('action1');
+                pillSlider.classList.remove('action2');
+            } else if (target === 'action2') {
+                // action2 also needs action1
+                pillSlider.classList.add('action1');
+                pillSlider.classList.add('action2');
+            } else {
+                pillSlider.classList.remove('action1');
+                pillSlider.classList.remove('action2');
+            }
+            lastTransition = Date.now();
+        }
+
+        // cancel any pending timers
+        function clearActionTimers() {
+            if (actionTimer) { clearTimeout(actionTimer); actionTimer = null; }
+            if (interTimer) { clearTimeout(interTimer); interTimer = null; }
+        }
+
+        function scheduleApply(target) {
+            // compute current state
+            const hasA1 = pillSlider.classList.contains('action1');
+            const hasA2 = pillSlider.classList.contains('action2');
+            const current = hasA2 ? 'action2' : (hasA1 ? 'action1' : 'none');
+
+            // no-op if already in desired state
+            if (current === target) {
+                clearActionTimers();
+                return;
+            }
+
+            clearActionTimers();
+
+            const now = Date.now();
+            const elapsed = lastTransition ? (now - lastTransition) : Infinity;
+            const wait = Math.max(0, ACTION_DELAY - elapsed);
+
+            // special path: going from action2 -> none must pass through action1 first
+            /* if (current === 'action2' && target === 'none') {
+                // schedule intermediate 'action1' after the remaining wait
+                interTimer = setTimeout(() => {
+                    applyState('action1');
+                    interTimer = null;
+                }, wait);
+
+                // schedule final 'none' after wait + ACTION_DELAY (ensure minimum gap after intermediate)
+                actionTimer = setTimeout(() => {
+                    applyState('none');
+                    actionTimer = null;
+                }, wait + ACTION_DELAY);
+                return;
+            } */
+
+            // otherwise apply target after computed wait (respecting minimum time since lastTransition)
+            actionTimer = setTimeout(() => {
+                applyState(target);
+                actionTimer = null;
+            }, wait);
+        }
+
+        function onScrollToggle() {
+            let target = 'none';
+            if (window.scrollY > 0 && window.scrollY <= 350) target = 'action1';
+            else if (window.scrollY > 350) target = 'action2';
+            scheduleApply(target);
+        }
+        
+        window.addEventListener('scroll', onScrollToggle, { passive: true });
+        window.addEventListener('resize', onScrollToggle);
+    
+        // call once to set initial state (will be applied after ACTION_DELAY)
+        onScrollToggle();
+    
+    }
+
+    function debounce(fn, wait) {
+        let t;
+        return function (...args) {
+            clearTimeout(t);
+            t = setTimeout(() => fn.apply(this, args), wait);
+        };
+    }
+    function init() {
+        adjustPillWidths();
+        onScrollToggle();
+        document.querySelector(".pill-slider-container").classList.add('loaded');
+        
+
+    }
+    function rotateIndicator() {
+        document.querySelectorAll('.rotate').forEach(inner => {
+            const st = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
+            const wh = window.innerHeight || document.documentElement.clientHeight;
+            const hh = document.querySelector(".pill-slider-container").clientHeight;
+         
+            if (st<= (wh-hh)){
+            
+            const angle = (   st/ (wh-hh)  ) *360;
+            const translateY = (1 - (st / (wh - hh))) * 100 + 20 ;
+
+            }else{
+             //   inner.style.transform = `rotate(360deg)`;
+            }
+            
+        });
+         document.querySelectorAll('.slide .movable').forEach(inner => {
+            const st = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
+            const wh = window.innerHeight || document.documentElement.clientHeight;
+            const hh = document.querySelector(".pill-slider-container").clientHeight;
+            
+            if (st <= (wh - hh)) {
+
+              //  const angle = (st / (wh - hh)) * 360;
+                const translateX = ((st / (wh - hh - 20 ))) * 100  ;
+                //rotate(${angle}deg)
+             //   inner.style.transform = ` translateX(${translateX}%)`;
+                inner.style.left = ` ${translateX}%`;
+                inner.classList.remove('end');
+              //  inner.style.borderRadius = `10px`;
+            } else {
+                 inner.style.left = ` calc(100% +  var(--hero-gap))`;
+                  inner.classList.add('end');
+                  //inner.style.transform = ` translateX(0%)`;
+                  //inner.style.borderRadius = `100px`;
+              
+            }
+
+        });
+    }
+    window.addEventListener('scroll', rotateIndicator);
+    window.addEventListener('resize', rotateIndicator);
+    window.addEventListener('load', rotateIndicator);
+    // call on resize (debounced)
+    window.addEventListener('resize', debounce(adjustPillWidths, 120));
+    window.addEventListener('load', init);
+    document.querySelectorAll('.pill-unfold').forEach(pill => {
+        let inner = pill.querySelector('.pill-inner');
+        let back = pill.querySelector('.pill-back');
+
+        let innerWidth = inner.offsetWidth;
+        let backWidth = back.offsetWidth;
+
+        if (inner.offsetWidth < back.offsetWidth) {
+            inner.style.width = backWidth + 'px';
+        }
+        else {
+            inner.style.width = innerWidth + 20 + 'px';
+        }
+
+        back.style.width = innerWidth + backWidth - 20 + 'px';
+
+        pill.addEventListener('mouseenter', () => {
+            pill.classList.add('hover');
+            inner.style.right = backWidth + 40 + 'px';
+        });
+        pill.addEventListener('mouseleave', () => {
+            pill.classList.remove('hover');
+            inner.style.right = 0;
+        });
+    });
+
+         (function () {
+                const hero = document.querySelector('.my-hero');
+                const indicatorInners = Array.from(document.querySelectorAll('.pill-track.indicator .pill-inner'));
+                let maxScroll = 1;
+                let ticking = false;
+
+                function clamp(v, a = 0, b = 1) { return Math.max(a, Math.min(b, v)); }
+
+                function computeRanges() {
+                    // compute available travel for each inner (container width - inner width)
+                    indicatorInners.forEach(inner => {
+                        const container = inner.closest('.pill-track');
+                        if (!container) {
+                            inner.dataset.maxShift = '0';
+                            return;
+                        }
+                        // reset any transform/width that may affect measurements
+                        inner.style.transform = '';
+                        inner.style.willChange = 'transform';
+                        const maxShift = Math.max(0, container.clientWidth - inner.clientWidth);
+                        inner.dataset.maxShift = String(maxShift);
+                    });
+
+                    // compute scroll range: from 0 -> (windowHeight - heroHeight)
+                    const wh = window.innerHeight || document.documentElement.clientHeight;
+                    const hh = hero ? hero.offsetHeight : 0;
+                    maxScroll = Math.max(1, wh - hh); // >=1 to avoid division by zero
+                }
+
+                function updatePositions() {
+                    ticking = false;
+                    const st = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
+                    const t = clamp(st / maxScroll, 0, 1);
+
+                    indicatorInners.forEach(inner => {
+                        const maxShift = Number(inner.dataset.maxShift || 0);
+                        const shift = Math.round(t * maxShift);
+                        inner.style.transform = `translateX(${shift}px)`;
+                    });
+                }
+
+                function onScroll() {
+                
+                    if (!ticking) {
+                        requestAnimationFrame(updatePositions);
+                        ticking = true;
+                    }
+                }
+
+                // init and hooks
+                computeRanges();
+                updatePositions();
+
+                window.addEventListener('scroll', onScroll, { passive: true });
+                window.addEventListener('resize', function () {
+                    computeRanges();
+                    updatePositions();
+                });
+                // also recalc on load (in case resources changed sizes)
+                window.addEventListener('load', function () {
+                    computeRanges();
+                    updatePositions();
+                });
+            })(); 
+
+</script>

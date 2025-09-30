@@ -1,0 +1,57 @@
++++
+template="project.html"
+sort_by="weight"
+weight=3
+title="Digitalisierte Präferenzerfassung von Referendar:innen"
+
+description="Wir erarbeiten gemeinsam eine digitalisierte Präferenzerfassung der Schul- und Ortswünsche der (zukünftigen) Einsatzschulreferendar:innen sowie der neu einzustellenden Lehrkräfte an staatlichen Gymnasien und Kollegs in Bayern."
+extra.current=true 
+extra.logo=""
+extra.start_date="2025-6-1"
+extra.serie_name="Workshop series"
+
+extra.type=["Workshop"]
+extra.tags=["Sector group 5","Sectorgroup8"] 
+
+
+
+
+extra.cards=[
+  { title = "Zeitplan", content = "1. Workshop-Tag 1 (20.03.2025, 10:00-15:00 Uhr): Input Präferenzerfassung <br>2.  Workshop-Tag 2 (03.04.2025, 9:45-14:45 Uhr): Erster Blick auf einen Prototyp und Feedback<br>3.  Workshop-Tag 3 (08.04.2025, 9:45-14:45 Uhr): Implementation und nächste Schritte" },
+  { title = "Fact", content = "Most of the attendies are having a wonderful time." },
+]
+
+ 
+extra.related_projects=[
+  { path="projekte/daten-basierte-archivierung-von-gerichtsakten/_index.md"}
+]
+
++++
+
+### Inhalt
+
+Wir erarbeiten gemeinsam eine digitalisierte Präferenzerfassung der Schul- und Ortswünsche der (zukünftigen) Einsatzschulreferendar:innen sowie der neu einzustellenden Lehrkräfte an staatlichen Gymnasien und Kollegs in Bayern.
+
+Unser Ziel ist es, ein System zu entwickeln, das die Präferenzen der Referendar:innen und Lehrkräfte vollständig und interpretationsfrei erfasst. Dies soll durch eine einfache und effiziente Eingabemöglichkeit erreicht werden. Darüber hinaus sollen die erfassten Daten so aufbereitet werden, dass sie auch für automatisierte Setzungen verwendet werden können, um den Zuweisungsprozess zu optimieren.
+
+
+{{image(path="projekte/stmuk/image-test.jpg",caption="People looking at things")}}
+
+
+Diese digitalisierte Präferenzerfassung soll folgende Aspekte einschließen:
+
+
+1.  Vollständige und interpretationsfreie Erfassung der Wünsche: Alle Präferenzen der Referendar:innen und Lehrkräfte werden detailliert und ohne Interpretationsspielraum erfasst, um eine faire und transparente Zuweisung zu gewährleisten.
+2.  Komfortable und effiziente Eingabemöglichkeit: Die Eingabe der Präferenzen soll benutzerfreundlich und zeitsparend gestaltet sein, sodass die Nutzer:innen ihre Wünsche schnell und einfach angeben können.
+3.  Verwendbarkeit der Daten auch für automatisierte Setzungen: Die erfassten Daten sollen so strukturiert und aufbereitet werden, dass sie problemlos für automatisierte Zuweisungsprozesse genutzt werden können, um den Verwaltungsaufwand zu reduzieren und die Effizienz zu steigern.
+
+{{image(path="projekte/stmuk/image-test.jpg",caption="People looking at things",round=true)}}
+
+
+{%card(title='Zeitplan', color="lilac", icon="search")%}
+
+1.  Workshop-Tag 1 (20.03.2025, 10:00-15:00 Uhr): Input Präferenzerfassung
+2.  Workshop-Tag 2 (03.04.2025, 9:45-14:45 Uhr): Erster Blick auf einen Prototyp und Feedback
+3.  Workshop-Tag 3 (08.04.2025, 9:45-14:45 Uhr): Implementation und nächste Schritte
+   
+{%end%}

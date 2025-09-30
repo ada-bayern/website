@@ -1,0 +1,13 @@
+{% import "macros/content.html" as content %}
+{% set data = load_data(path=data_path) %}
+
+
+
+<div class="sticky-cards container">
+{% for card in data.card%}
+    {{content::card(title=card.title, content=card.content, type=card.type, color=card.color)}}
+{% endfor %}
+</div>
+<script
+    src="{{ content::base_path() }}js/sticky-cards.js"
+></script>

@@ -1,0 +1,116 @@
+project:
+  type: website
+
+website:
+  title: "ADA"
+  image: "icons/ADA_G_SecondaryLogo_FullColor_Positive.png"
+  favicon: "icons/ADA_Favicon.png"
+  navbar:
+    background: "#cfff63"
+    foreground: "#1c1c1c"
+    left:
+      - text: "Über uns"
+        href: about.qmd
+      - text: "Aktuelle Projekte"
+        menu:
+        - text: "Digitalisierte Präferenzerfassung von Referendar:innen"
+          href: projects/stmuk.qmd
+        - text: "Digitalisierung und Automatisierung von gleichstellungsbezogenen Daten"
+          href: projects/stmas.qmd
+      - text: "Abgeschlossene Projekte"
+        menu: 
+        - text: "Einzelbaumerkennung"
+          href: projects/einzelbaum.qmd
+        - text: "Daten-basierte Archivierung von Gerichtsakten"
+          href: projects/archive.qmd
+        # - text: "Workshop-Serie 3: Daten-basierte Archivierung von Gerichtsakten"
+        #   href: projects/archive/ws3/WS3.qmd
+        # - text: "Workshop-Serie 2: Daten-basierte Archivierung von Gerichtsakten (Implementation)"
+        #   href: projects/archive/ws2/WS2.qmd
+        # - text: "Workshop-Serie 1: Daten-basierte Archivierung von Gerichtsakten"
+        #   href: projects/archive/ws1/WS1.qmd
+    tools:
+      - icon: github
+        href: https://github.com/ada-bayern/
+
+  page-footer:
+    background: "#fffbf3"
+    foreground: "#1c1c1c"
+    left: |
+      ![](/icons/Logo_BERD-NFDI.png){fig-alt="BERD@NFDI" height="80px"}
+      .
+      ![](/icons/Logo_LMU.svg){fig-alt="LMU München" height="80px"}
+      <!-- .
+      ![](/icons/SODA_Logo_RGB_mitUZ_RGB_LMU-green.svg){fig-alt="SODA@LMU" height="80px"} -->
+    center:
+      - text: "Team"
+        href: team.qmd
+      - text: "Kontakt"
+        href: kontakt.qmd
+      - text: "Impressum & Datenschutz"
+        href: impressum.qmd
+    right: |
+      ![](/icons/stmd_logo.png){fig-alt="Gefördert durch StMD" height="80px"}
+
+  sidebar:
+  - title: "Abgeschlossene Projekte"
+    style: "docked"
+    background: "#fffbf3"
+    foreground: "#1c1c1c"
+    collapse-level: 1
+    contents:
+      - section: "Einzelbaumerkennung"
+        href: projects/einzelbaum.qmd
+        contents:
+        - projects/einzelbaum/Modul_1.qmd
+        - projects/einzelbaum/Modul_2.qmd
+        - projects/einzelbaum/Modul_3.qmd
+      - section: "Daten-basierte Archivierung von Gerichtsakten"
+        href: projects/archive.qmd
+        contents:
+        - section: "Workshop-Serie 3"
+          href: projects/archive/ws3/WS3.qmd
+          contents:
+          - projects/archive/ws3/WS3_Modul_1.qmd
+          - projects/archive/ws3/WS3_Modul_2.qmd
+          - projects/archive/ws3/WS3_Modul_3.qmd
+        - section: "Workshop-Serie 2"
+          href: projects/archive/ws2/WS2.qmd
+          contents:
+          - projects/archive/ws2/WS2_Modul_1.qmd
+          - projects/archive/ws2/WS2_Modul_2.qmd
+          - projects/archive/ws2/WS2_Modul_3.qmd
+          - projects/archive/ws2/WS2_Modul_4.qmd
+        - section: "Workshop-Serie 1"
+          href: projects/archive/ws1/WS1.qmd
+          contents:
+          - projects/archive/ws1/WS1_Modul_1.qmd
+          - projects/archive/ws1/WS1_Modul_2.qmd
+          - projects/archive/ws1/WS1_Modul_3.qmd
+          - projects/archive/ws1/WS1_Modul_4.qmd
+
+  - title: "Aktuelle Projekte"
+    contents:
+    - text: "Digitalisierte Präferenzerfassung von Referendar:innen"
+      href: projects/stmuk.qmd
+    - text: "Digitalisierung und Automatisierung von gleichstellungsbezogenen Daten"
+      href: projects/stmas.qmd
+  - title: "Über uns"
+    contents:
+    - text: "Angebot"
+      href: about.qmd
+    - text: "Team"
+      href: team.qmd
+    - text: "Kontakt"
+      href: kontakt.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    backgroundcolor: "#fffbf3"
+    fontcolor: "#1c1c1c"
+    #mainfont: Open Sans
+    toc: false

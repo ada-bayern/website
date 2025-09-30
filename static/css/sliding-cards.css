@@ -1,0 +1,45 @@
+/**
+ * Sliding Cards CSS
+ * Styles for the sliding cards sticky behavior
+ */
+
+.sliding-card {
+    transition: transform 300ms ease-out, box-shadow 300ms ease-out;
+    z-index: 1000; /* Default z-index for non-sticky cards */
+    position: relative;
+}
+
+.sliding-card.sticky {
+    position: fixed;
+    z-index: 500; /* Base z-index for sticky cards */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    transition: top 300ms ease-out, transform 300ms ease-out, box-shadow 300ms ease-out;
+    box-sizing: border-box; /* Ensure consistent box model */
+}
+
+.sliding-card.final-stacked {
+    position: absolute;
+    z-index: 500; /* Base z-index for final stacked cards */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    transition: bottom 300ms ease-out, transform 300ms ease-out, box-shadow 300ms ease-out;
+    box-sizing: border-box;
+}
+
+.sliding-card.stacked {
+    transform: translateY(var(--stack-offset, 0px));
+}
+
+.cards-container {
+    position: relative;
+}
+
+.cards {
+    position: relative;
+}
+
+.cards-spacer {
+    height: 0;
+    width: 100%;
+    visibility: hidden;
+    transition: height 300ms ease-out;
+}

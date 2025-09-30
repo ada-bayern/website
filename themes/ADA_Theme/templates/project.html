@@ -1,0 +1,194 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% if page %}
+{%set section=page%}
+{%endif%}
+
+{% if section.ancestors.2 %}
+{% set main_project=false %}{% set project = get_section(path=section.ancestors.2) %}
+{% else %}
+{% set main_project=true %}{% set project=section %}
+{% endif %}
+
+<div class="hero bg-dark">
+    <div class="container ">
+        <div class="container-wrapper">
+            <div class="project-header">
+
+                <div class="back-to-projects">
+                    <a
+                        href="{% set ancestor=get_section(path=section.ancestors.1) %}{% if ancestor %}{{ ancestor.permalink }}{% endif %}">
+                        <span>
+                            < Zurück zu allen Projekten</span>
+                    </a>
+
+                </div>
+                <div class="tags">
+                    {% if project.extra.type %}
+                    {% for type in project.extra.type %}
+                    <span class="type">{{ type }}</span>
+                    {% endfor %}
+                    {% endif %}
+
+                    {% if project.extra.tags %}
+                    {% for tag in project.extra.tags %}
+                    <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+                <div class="project-date">
+                    <span class="start-date">{{ project.extra.start_date |date(format="%B %Y", locale="de_DE") }}</span>
+                    {% if project.extra.end_date %}<span class="start-date"> - {{ project.extra.end_date
+                        |date(format="%B
+                        %Y",
+                        locale="de_DE")
+                        }}</span>{% endif %}
+                </div>
+                {% if project.title %}<h1 class="project-title">{{ project.title }}</h1>{% endif %}
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content {% if project.subsections | length > 0 %}has-subsections{% endif %}">
+    <div id="start"></div>
+    <div class="top-tabs ">
+        <div class="tab {% if main_project %}active{% endif %}">
+            <a href="{{ project.permalink }}">
+                Projektübersicht
+            </a>
+        </div>
+        {% if project.subsections | length > 0 %}
+        <div class="tab {% if not main_project %}active{% endif %}">
+            {% set serie=get_section(path=project.subsections.0) %}
+
+            <a href="{{ serie.permalink }}">
+
+                {{project.extra.serie_name}}
+            </a>
+        </div>
+        {% endif %}
+    </div>
+
+
+
+
+    {% if page %}
+    {%set section=page%}
+    {%set is_page=true%}
+    {%endif%}
+    <div class="container ">
+        <div class="container-wrapper">
+            <div class="project-content">
+                <div class="left">
+                    <div class="cards">
+                    {% set_global resources_url = "" %}
+                        {% if section.ancestors.2 %}
+
+                            {% set series = get_section(path=section.ancestors.2) %}
+
+                            {% for serie in series.subsections %}
+                                {% set sec = get_section(path=serie) %}
+                                {% if sec.permalink in section.permalink %}
+                                    {% set active = "active" %}
+                                    {% set_global resources_url = sec.permalink %}
+                                {% else %}
+                                    {% set active = "" %}
+                                  
+                                {% endif %}
+                            <div class="card serie {{ active }}">
+
+                                <div class="card-title">
+                                    <a href="{{ sec.permalink }}" class="project-link">
+                                        {{ sec.extra.sidebar_title }}
+                                    </a>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <a href="{{ sec.permalink }}"
+                                        class="project-link {% if sec.permalink == section.permalink %}active{% endif %}">
+                                        {{ sec.title }}
+                                    </a>
+
+                                    {% for mod in sec.pages %}
+                                    <a href="{{ mod.permalink }}"
+                                        class="project-link {% if mod.permalink == section.permalink %}active{% endif %}">{{
+                                        mod.title
+                                        }}</a>
+                                    {% endfor %}
+                                </div>
+
+                            </div>
+                            {% endfor %}
+
+                        {% endif %}
+
+
+                        {% if section.extra.cards %}
+
+                        {% for card in section.extra.cards %}
+                        {{ content::card(title=card.title, content=card.content) }}
+                        {% endfor %}
+
+                        {% endif %}
+
+                        {% if section.extra.resources %}
+                        <div class="card resources">
+                            <div class="card-title">Ressourcen:</div>
+                            <div class="card-content">
+                                {% for resource in section.extra.resources %}
+                                <div><a href="{{ resources_url }}{{ resource.url }}" target="_blank">{{ resource.title }}</a></div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="right">
+                    {% if section.content %}{{ section.content | safe }}{% endif %}
+                </div>
+                <div class="bottom">
+                    {% if section.extra.related_projects %}
+                    <h3>Verwandte Projekte</h3>
+                    <div class="related-projects">
+                        {% for rel_project in section.extra.related_projects %}
+                        <div class="related-project">
+                            {% set rel_project = get_section(path=rel_project.path) %}
+                           
+                           
+                            <div class="tags">
+                            {% for type in rel_project.extra.type %}
+                                <span class="type">{{ type }}</span>
+                            {% endfor %}
+                            {% for tag in rel_project.extra.tags %}
+                            <span class="tag">{{ tag }}</span>
+                            {% endfor %}
+                            </div>
+                            <a class="title" href="{{ rel_project.permalink }}">{{ rel_project.title }}</a>
+                            <div class="related-project-date">
+                                <span class="start-date">{{ rel_project.extra.start_date |date(format="%B %Y",
+                                    locale="de_DE")
+                                    }}</span>
+                                {% if rel_project.extra.end_date %}<span class="start-date"> - {{
+                                    rel_project.extra.end_date
+                                    |date(format="%B %Y", locale="de_DE")
+                                    }}</span>{% endif %}
+                            </div>
+                            <div class="rel-project-link">
+                                <a href="{{ rel_project.permalink }}"></a>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div> 
+        </div>
+     
+        <script src="{{ content::base_path() }}js/goto-scrollpos.js"></script>{% endblock %}
+
+    

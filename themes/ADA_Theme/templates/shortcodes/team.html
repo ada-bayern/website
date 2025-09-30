@@ -1,0 +1,81 @@
+{% import "macros/content.html" as content %}
+{% set data = load_data(path=data_path) %}
+
+<div  class="container bg-light">
+    <div class="container-wrapper">
+        <div class="team">
+    {%- for member in data.member %}
+    <div class="member to-init">
+
+        {% if member.image -%}
+        {{-
+       
+        content::picture_fit_src(
+        img= member.image,
+        widths=[320, 640],
+        heights=[378, 755],
+        class="member-image lazy",
+  
+        )
+        -}}
+          {%- endif %}
+         {# <img width="100%"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX-3fHwHfTzFBOnb3uEH3Tj4klzmxgvLvahGGUts7R-dRPVI68TVElWbCWGmAuZe_ummY&usqp=CAU"
+            alt=""> #}
+        <div class="name-wrapper"> 
+            <div class="name">
+                {{ member.name }}
+            </div>
+            <div class="open-fold">
+
+            </div>
+        </div>
+        <div class="fold-wrapper">
+            <div class="fold">
+
+                <div class="description">
+                    {{ member.description | safe }}
+                </div>
+                <div class="members-social">
+                    {%- for social in member.social %}
+                    <a href="{{social.url}}">{{social.title}}</a>
+                    {% endfor %}
+                    <a href="mailto:{{member.email}}">Email</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    {% endfor -%}
+    </div>
+    </div>  
+</div>
+ 
+<script>
+    function openFoldInit() {
+        const members = document.querySelectorAll('.member');
+     members.forEach(member => {
+            member.classList.add('init');
+            const nameWrapper = member.querySelector('.name-wrapper');
+            const img = member.querySelector('img');
+            const toggleFold = () => {
+                member.classList.remove('to-init');
+                const fold = member.querySelector('.fold');
+                const foldWrapper = member.querySelector('.fold-wrapper');
+                if (member.classList.contains('open')) {
+                    foldWrapper.style.height = "0px";
+                } else {
+                    foldWrapper.style.height = fold.offsetHeight + 'px';
+                }
+                member.classList.toggle('open');
+                updateScrollIndicator && updateScrollIndicator();
+            };
+            nameWrapper.addEventListener('click', toggleFold);
+            if (img) img.addEventListener('click', toggleFold);
+        });
+    }
+    document.addEventListener('DOMContentLoaded', function () {
+        openFoldInit();
+    });
+</script>

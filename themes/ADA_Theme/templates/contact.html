@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block hero %}
+{% if page.title %}<div class="container">
+    <h1>{{ page.title}}</h1>
+</div>{% endif %}
+{% endblock %}
+{% block content %}
+<div class="container impressum">
+    <div class="container-wrapper">
+        <div class="project-content">
+            <div class="left">
+                <h2>Kontakt</h2>
+
+                {{page.extra.contact_name}}<br>
+                {{page.extra.contact_institution}}<br>
+                {{page.extra.contact_address}}<br>
+                <br>
+
+                Telefon:{{page.extra.contact_phone}}<br>
+                E-mail:<a href="mailto:{{page.extra.contact_email}}">{{page.extra.contact_email}}</a>
+            </div>
+            <div class="right">
+                {% if page.content %}{{ page.content | safe }}{% endif %}
+            </div>
+        </div>
+    </div>
+
+    {% endblock %}

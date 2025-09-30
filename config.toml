@@ -1,0 +1,59 @@
+# The URL the site will be built for
+base_url = "https://ada-oeffentliche-verwaltung.de/"
+
+
+
+theme = "ADA_Theme"
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+search.index_format = "elasticlunr_json"
+default_language = "de"
+
+taxonomies = [
+    {name = "type", feed = true},
+    {name = "tag", feed = true},
+]
+
+
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+lazy_async_image = true
+
+
+
+[extra]
+# Put all your custom variables here
+
+
+[extra.navbar]
+links = [
+    { url = "projekte", title = "Projekte" },
+    { url = "was-wir-bieten", title = "Was Wir Bieten" },
+    { url = "wer-wir-sind", title = "Wer wir sind" },
+    { url = "#search", title = "Suche" , class="search"},
+    
+] 
+
+[extra.footer]
+links = [
+    { url = "impressum", title = "Impressum & Datenschutz" },
+    { url = "impressum", title = "Kontakt" },
+    { url = "https://github.com/ada-bayern/", title = "Github" },
+    
+]
+copyright = "Angewandte Datenanalyse für die Öffentliche Verwaltung"
+
+social= [
+    { url = "instagram.com", title = "Instagram" ,icon = "images/instagram.svg"},
+    { url = "https://www.linkedin.com/company/ada-bayern/", title = "LinkedIn" ,icon = "images/linkedin.svg"},
+    
+]
+
+
+

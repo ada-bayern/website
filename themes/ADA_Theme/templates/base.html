@@ -1,0 +1,176 @@
+{%- import "macros/content.html" as content -%}
+
+<!doctype html>
+<html lang="de-de">
+
+<head>
+    <title>{% block title %}{% if page.title %}{{ page.title }} | {% endif %}{{ config.title }}{% endblock title %}
+    </title>
+
+    <!-- meta data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="{% if page.description %}{{ page.description }}{% else %}{{ config.description }}{% endif %}">
+
+    <!-- stylesheets, fonts, feeds -->
+    {{ content::include_stylesheet(file="custom.css") }}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body
+    class="{%if page.relative_path%}{{ content::clean_path(path=page.relative_path) }}{% endif %} {% if page.extra.class %}{{ page.extra.class }}{% endif %}">
+    <header class="">
+
+        <div class="logo">
+            <a href="{{ content::base_path() }}">
+                <img src="{{ content::base_path() }}images/logo.svg" alt="Logo" class="logo-image">
+                <img src="{{ content::base_path() }}images/logo1.svg" alt="Logo" class="logo-text">
+                <img src="{{ content::base_path() }}images/logo2.svg" alt="Logo" class="logo-text hide-small">
+            </a>
+        </div>
+        <div class="tabs-wrapper">
+            <ul class="tabs">
+                {% if config.extra.navbar.links -%}
+                {% for link in config.extra.navbar.links %}
+                {% set class="" %}
+                {% if link.class %}
+                {% set class=link.class %}
+                {% endif %}
+                {{ content::navbar_tab(url=link.url, text=link.title, text_class="link", class=class) }}
+                {% endfor %}
+                {% endif %}
+
+
+            </ul>
+
+
+        </div>
+
+
+        <div class="open-menu"></div>
+        <div class="scroll-indicator">
+            <div class="scroll-indicator-bar"></div>
+        </div>
+        {% if config.build_search_index %}
+
+
+    </header>
+    <div class="search-area">
+        <div class="search-area-wrapper">
+            <div class="search-input"> <input id="search" placeholder="Wonach suchst du?"><span
+                    class="clear-search"></span>
+            </div>
+            <div class="close-search"></div>
+            <div class="search-results">
+
+
+
+                <div class="search-results__items"></div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    <!-- search results shown between header and content -->
+
+    {% block side %}
+    {% endblock side %}
+    {% if page.extra.sliding_footer or section.extra.sliding_footer %}
+    <div class="fixed-replacement main"></div>
+    <main id="main" class="to-fix">
+        {% else %}
+        <main id="main">
+            {% endif %}
+
+            {% block hero %}
+            {% endblock hero %}
+
+            {% block content %}
+            {% endblock content %}
+
+     
+
+        </main>
+
+        {% if paginator and paginator.number_pagers > 1 %}
+        <!-- pagination -->
+        <div class="join mx-auto w-full justify-center mt-4 mb-4">
+            {% for pager in range(start=1, end=paginator.number_pagers+1) %}
+            <a href="{% if pager == 1 %}{{ paginator.first }}{% else %}{{ paginator.base_url }}{{ pager }}{% endif %}"
+                class="join-item btn {% if paginator.current_index == pager %}btn-active btn-secondary{% endif %}"
+                aria-label="{{ pager }}">
+                {{ pager }}
+            </a>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if page.extra.highlight_project %}
+
+        {{ content::highlight_project(path=page.extra.highlight_project) }}
+        {% endif %}
+        {% if section.extra.highlight_project %}
+
+        {{ content::highlight_project(path=section.extra.highlight_project) }}
+        {% endif %}
+
+        <div class="container green contact-container">
+            <div class="container-wrapper">
+                <div class="contact">
+                    <span> Haben Sie ein Problem, das Sie mit uns gemeinsam lösen möchten?</span>
+                    <div class="button"><a href="mailto:">Kontaktieren Sie uns</a></div>
+                </div>
+            </div>
+        </div>
+
+        {%if page.extra.display_newsletter or section.extra.display_newsletter%}
+
+        {% include "shortcodes/mailchimp_form.html" %}
+        {% endif %}
+        <footer class="footer">
+            {% if config.extra.footer.links %}
+            <nav class="links">
+                {% for link in config.extra.footer.links %}
+                <a class="link link-hover" href="{{ content::base_path() }}{{ link.url}}">{{
+                    link.title }}</a>
+                {% endfor %}
+            </nav>
+            {% endif %}
+            {% if config.extra.footer.social %}
+
+
+            <nav class="social">
+                {% for link in config.extra.footer.social %}
+                <a href="{{link.url}}"> <img src="{{ content::base_path() }}{{ link.icon }}" alt="{{ link.title }}"
+                        class="social-icon"></a>
+                {% endfor %}
+            </nav>
+            {% endif %}
+            <div class="copyright">
+                © Copyright {{ now() | date(format="%Y") }} {{ config.extra.footer.copyright| safe }}
+            </div>
+
+        </footer>
+
+
+
+        </div>
+
+
+        {% if config.build_search_index and config.search.index_format == "elasticlunr_json" -%}
+        {{ content::include_script(file="js/search.js", additional_tags='lang="' ~ lang ~ '"') }}
+
+
+
+        {{ content::include_script(file="elasticlunr.min.js") }}
+        {{ content::include_script(file="js/lunr.stemmer.support.js", additional_tags='lang="' ~ lang ~ '"') }}
+        {{ content::include_script(file="js/lunr.de.js") }}
+
+        {% endif %}
+        {{ content::include_script(file="js/main.js", additional_tags='lang="' ~ lang ~ '"') }}
+        {%- block extra_javascript -%}{%- endblock extra_javascript -%}
+</body>

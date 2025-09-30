@@ -1,0 +1,22 @@
+<div class="folder-section project-header">
+<div class="tab">{{tab_text}}</div>
+    <div class="container bg-dark">
+        <h2>Folder Section</h2>
+    </div>
+    {% set project=get_section(path=project_path) %}
+    <div class="tags">
+        <span class="type">Workshop</span>
+        <span class="tag">sector 1</span>
+        <span class="tag">sectorsectorsector</span>
+    </div>
+    <div class="project-date">
+        <span class="start-date">{{ project.extra.start_date |date(format="%B %Y", locale="de_DE") }}</span>
+        {% if project.extra.end_date %}<span class="start-date"> - {{ project.extra.end_date |date(format="%B %Y",
+            locale="de_DE")
+            }}</span>{% endif %}
+    </div>
+    {% if project.title %}<h1 class="">{{ project.title }}</h1>{% endif %}
+    {% if project.description %}<div class="project-description">{{ project.description }}</div>{% endif %}
+    <div class="button"><a href="{{ project.permalink }}">Mehr lesen</a></div>
+</div>
+</div>

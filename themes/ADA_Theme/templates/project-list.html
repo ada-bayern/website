@@ -1,0 +1,229 @@
+{% extends "base.html" %}
+{% block hero %}
+
+
+{%endblock hero%}
+{% block content %}
+<div class="bg-dark filler"></div>
+
+<div class="top-tabs list bg-dark">
+    <div class="tab active">
+        Aktuelle Projekte
+    </div>
+    <div class="tab">
+        Abgeschlossene Projekte
+    </div>
+</div>
+<div class>
+    <div class="container">
+        <div class="container-wrapper">
+            <div class="project-list">
+                {% set projects = section.subsections | reverse %}
+
+                {% for project in projects %}
+                {% set sec = get_section(path = project) %}
+
+                <div class="project {%if sec.extra.current%}{%if sec.extra.current==true%}current{% endif %}{%endif%}">
+                    <a href="{{ sec.permalink }}" class="project-link">
+                        <div class="front">
+                            <div class="tags">
+                                {% if sec.extra.type %}
+                                {% for type in sec.extra.type %}
+                                <span class="type">{{ type }}</span>
+                                {% endfor %}
+                                {% endif %}
+
+                                {% if sec.extra.tags %}
+                                {% for tag in sec.extra.tags %}
+                                <span class="tag">{{ tag }}</span>
+                                {% endfor %}
+                                {% endif %}
+                            </div>
+                            <h3>{{ sec.title }}</h3>
+
+
+                            <div class="project-date">
+                                {% if sec.extra.start_date %}
+                                <span class="start-date">{{ sec.extra.start_date | date(format="%B %Y", locale="de_DE")
+                                    }}</span>
+                                {% endif %}
+                                {% if sec.extra.end_date %}
+                                <span class="end-date"> - {{ sec.extra.end_date | date(format="%B %Y", locale="de_DE")
+                                    }}</span>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="project-description">
+                                <p>{{ sec.description }}</p>
+                            </div>
+                            {%if sec.extra.logo %}
+                            <div class="project-logo">
+                                <img src="{{ sec.permalink ~ sec.extra.logo }}" alt="Logo">
+                            </div>
+                            {% endif %}
+                        </div>
+
+
+                    </a>
+                </div>
+
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function rotateProjectCards() {
+        document.querySelectorAll('.pointer .project').forEach(card => {
+            let scaleAnim = null;
+
+            function getCurrentScale(el) {
+                const m = getComputedStyle(el).transform.match(/matrix.*\((.+)\)/);
+                return m ? parseFloat(m[1].split(',')[0]) : 1;
+            }
+
+            function animateScale(values) {
+                if (scaleAnim) scaleAnim.cancel();
+                scaleAnim = card.animate([
+                    { transform: `scale(${values[0]})` },
+                    { transform: `scale(${values[1]})`, offset: 0.5 },
+                    { transform: `scale(${values[2]})` }
+                ], {
+                    duration: 800,
+                    easing: 'cubic-bezier(0.4,0.2,0.2,1)',
+                    fill: 'forwards'
+                });
+                scaleAnim.onfinish = () => {
+                    card.style.transform = `scale(${values[2]})`;
+                    scaleAnim = null;
+                };
+            }
+            card.addEventListener('mouseenter', () => {
+                animateScale([parseFloat(getComputedStyle(card).transform.match(/matrix.*\((.+)\)/)?.[1]?.split(',')[0]) || 1, 0.8, 1]);
+            });
+            card.addEventListener('mouseleave', () => {
+                animateScale([parseFloat(getComputedStyle(card).transform.match(/matrix.*\((.+)\)/)?.[1]?.split(',')[0]) || 1, 0.8, 1]);
+            });
+             
+        });
+       
+    }
+    function adjustProjectHeights() {
+        // Get all projects
+        const projects = Array.from(document.querySelectorAll('.pointer .project'));
+        if (projects.length === 0) return;
+
+        // Reset heights first
+        projects.forEach(card => card.style.height = '');
+
+        // Get computed style for margin/gap
+        const gap = parseInt(getComputedStyle(projects[0].parentElement).gap || 0, 10);
+
+        // Group projects by top offset (i.e., by row)
+        let rows = [];
+        projects.forEach(card => {
+            const top = card.getBoundingClientRect().top;
+            let row = rows.find(r => Math.abs(r.top - top) < 2); // allow for subpixel differences
+            if (!row) {
+                row = { top, cards: [] };
+                rows.push(row);
+            }
+            row.cards.push(card);
+        });
+
+        // For each row, set all cards to the max height of .front/.back
+        rows.forEach(row => {
+            let max = 0;
+            row.cards.forEach(card => {
+                const front = card.querySelector('.front');
+                const back = card.querySelector('.back');
+                // Temporarily set height to 'auto' to measure
+                front.style.height = back.style.height = 'auto';
+                max = Math.max(max, front.offsetHeight, back.offsetHeight);
+            });
+            row.cards.forEach(card => {
+                card.style.height = max + 'px';
+                card.querySelector('.front').style.height = max + 'px';
+                card.querySelector('.back').style.height = max + 'px';
+            });
+        });
+    }
+
+
+    // Run on load and resize
+    window.addEventListener('DOMContentLoaded', rotateProjectCards);
+    window.addEventListener('resize', adjustProjectHeights);
+
+    // Optional: re-adjust after images load (for project logos)
+    window.addEventListener('load', adjustProjectHeights);
+
+    // Check URL hash and handle tab switching
+    function checkURLHash() {
+        if (window.location.hash === '#abgeschlossene') {
+            document.body.classList.add('previous');
+            // Update tab active states
+            document.querySelectorAll('.top-tabs .tab').forEach((tab, index) => {
+                if (index === 1) {
+                    tab.classList.add('active');
+                } else {
+                    tab.classList.remove('active');
+                }
+            });
+        } else {
+            document.body.classList.remove('previous');
+            // Update tab active states
+            document.querySelectorAll('.top-tabs .tab').forEach((tab, index) => {
+                if (index === 0) {
+                    tab.classList.add('active');
+                } else {
+                    tab.classList.remove('active');
+                }
+            });
+        }
+        // Recalculate heights after visibility change
+        setTimeout(adjustProjectHeights, 50);
+    }
+
+    // Add click events to tabs
+    document.addEventListener('DOMContentLoaded', function () {
+        const tabs = document.querySelectorAll('.top-tabs .tab');
+
+        tabs.forEach((tab, index) => {
+            tab.addEventListener('click', function () {
+                // Only toggle if tab was not already active
+                if (!tab.classList.contains('active')) {
+                    // Remove active class from all tabs
+                    tabs.forEach(t => t.classList.remove('active'));
+                    // Add active class to clicked tab
+                    tab.classList.add('active');
+
+                    if (index === 0) {
+                        // First tab - remove .previous class
+                        document.body.classList.remove('previous');
+                        // Update URL hash
+                        if (window.location.hash === '#abgeschlossene') {
+                            history.pushState('', document.title, window.location.pathname);
+                        }
+                        // Recalculate heights after visibility change
+                        setTimeout(adjustProjectHeights, 50);
+                    } else if (index === 1) {
+                        // Second tab - add .previous class
+                        document.body.classList.add('previous');
+                        // Update URL hash
+                        window.location.hash = '#abgeschlossene';
+                        // Recalculate heights after visibility change
+                        setTimeout(adjustProjectHeights, 50);
+                    }
+                }
+            });
+        });
+
+        // Check hash on page load
+        checkURLHash();
+    });
+
+    // Listen for hash changes (back/forward browser buttons)
+    window.addEventListener('hashchange', checkURLHash);
+</script>
+{% endblock content %}

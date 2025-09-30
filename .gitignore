@@ -1,11 +1,3 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-.Rprofile
-
-/.quarto/
-
-/_site
+zola
 
 .DS_Store

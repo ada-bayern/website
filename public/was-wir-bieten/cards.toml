@@ -1,0 +1,24 @@
+[[card]]
+title = "Vorbereitung"
+content = "<h3>Organisatorische Vorbereitung</h3><br> In der Vorbereitungsphase koordinieren wir Termine, klären Datenschutz- und rechtliche Themen und ermitteln den Kreis der Interessierten, wobei auch Studierende einbezogen werden können. Bei Bedarf fragen wir Expert:innen an, um spezifische Fragestellungen abzudecken.<br><br><br><h3>Inhaltliche Vorbereitung</h3><br> Die Vorbereitung umfasst vor allem das Verständnis des Problems durch einen Expert:innenblick auf die Fragestellung und die Analyse relevanter Aspekte wie Infrastruktur, Prozesse und vorhandene Daten. Wir diskutieren mögliche Lösungsansätze und identifizieren die benötigte Expertise, sowohl intern aus dem ADA-Team als auch extern aus unserem Netzwerk. Anschließend konzipieren wir den Workshop, definieren die Ziele der Projektarbeit, bereiten Materialien und die notwendige Infrastruktur vor und legen das Format fest."
+type = "numbered"
+color = "salmon"
+
+
+[[card]]
+title = "Workshop"
+content = "Während des Workshops vermitteln wir gezielt Wissen und fördern den Wissensaustausch. Wir vernetzen relevante Stakeholder und bieten Hilfe zur Selbsthilfe bei Datenfragen. Die Teilnehmer:innen tauschen sich über technische und organisatorische Umsetzungsmöglichkeiten im Behördenkontext aus und recherchieren hierzu in ihren eigenen Einrichtungen. In der Projektarbeit erarbeiten wir gemeinsam das Problem und einen Lösungsweg und entwickeln einen Prototypen der Lösung."
+type = "numbered"
+color = "lilac"
+
+[[card]]
+title = "Nachbereitung"
+content = "In der Nachbereitung klären wir, wer die weitere Koordination des Projektes übernimmt und definieren die nächsten Schritte. Dazu gehören sowohl die Dokumentation der Ergebnisse, als auch die Ansprache zukünftiger Finanzierungsmöglichkeiten. Mögliche Optionen für weitere Schritte sind zum Beispiel aber nicht ausschließlich: <br><ul><li>Studentische Projekte über den Lehrstuhl für Statistik und Data Science in Sozial- und Geisteswissenschaften,</li><li> ADA-Folgeprojekte, wie Forschungsprojekte oder weitere Workshop-Serien,</li><li>Eigene Weiterentwicklungen ohne ADA, sondern mit hauseigenen Mitteln einer Behörde,</li><li> Ausschreibungen für externe Dienstleister.</li></ul><br>Die Ergebnisse des Workshops werden schlussendlich an den Partner übergeben, der die nächsten Schritte umsetzen soll."
+type = "numbered"
+color = "green"
+
+[[card]]
+title = "Zeit nach ADA"
+content = "Nach Abschluss des Workshops unterstützen wir bei Bedarf die praktische Implementierung der Lösung. Dies umfasst Beratung bei IT-Herausforderungen und beim Aufsetzen von Cloud-Lösungen, die Vermittlung und Betreuung von Studierenden für Consulting-Projekte oder Abschlussarbeiten sowie die Durchführung wissenschaftlicher Begleitforschung."
+type = "numbered"
+color = "purple"

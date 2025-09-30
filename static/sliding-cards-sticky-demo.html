@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Cards - Equal Heights</title>
+    <style>
+        :root {
+            --threshold: 60px;
+            --card-increment: 20px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f4f4f4;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .intro {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 100vh; /* Space to test scrolling */
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            z-index: 1000;
+            transition: all 0.3s ease;
+            border: 2px solid #e1e1e1;
+        }
+
+        /* Equal heights will be set by JavaScript */
+        .card.equal-height {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .card.equal-height .card-content {
+            flex-grow: 1;
+            overflow: hidden;
+        }
+
+        /* Progressive sticky positioning and z-index */
+        .card:nth-child(1) {
+            top: calc(var(--threshold));
+            z-index: 1001;
+            transform: scale(0.95);
+        }
+
+        .card:nth-child(2) {
+            top: calc(var(--threshold) + var(--card-increment));
+            z-index: 1002;
+            transform: scale(0.96);
+        }
+
+        .card:nth-child(3) {
+            top: calc(var(--threshold) + var(--card-increment) * 2);
+            z-index: 1003;
+            transform: scale(0.97);
+        }
+
+        .card:nth-child(4) {
+            top: calc(var(--threshold) + var(--card-increment) * 3);
+            z-index: 1004;
+            transform: scale(0.98);
+        }
+
+        .card:nth-child(5) {
+            top: calc(var(--threshold) + var(--card-increment) * 4);
+            z-index: 1005;
+            transform: scale(0.99);
+        }
+
+        .card:nth-child(6) {
+            top: calc(var(--threshold) + var(--card-increment) * 5);
+            z-index: 1006;
+            transform: scale(1.0);
+        }
+
+        /* Enhanced shadows when sticky */
+        .card.sticky-active {
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            border-color: #3498db;
+        }
+
+        .card h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        .card p {
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .card ul {
+            margin-left: 20px;
+            color: #666;
+        }
+
+        .controls {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 10000;
+            min-width: 250px;
+        }
+
+        .control-group {
+            margin-bottom: 15px;
+        }
+
+        .control-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .control-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .control-group button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 5px;
+            margin-top: 5px;
+        }
+
+        .control-group button:hover {
+            background: #2980b9;
+        }
+
+        /* Different card heights for testing */
+        .card:nth-child(1) .card-content { min-height: 150px; }
+        .card:nth-child(2) .card-content { min-height: 250px; }
+        .card:nth-child(3) .card-content { min-height: 180px; }
+        .card:nth-child(4) .card-content { min-height: 320px; } /* Tallest */
+        .card:nth-child(5) .card-content { min-height: 200px; }
+        .card:nth-child(6) .card-content { min-height: 160px; }
+    </style>
+</head>
+<body>
+    <div class="intro">
+        <div>
+            <h1>CSS Sticky Cards - Equal Heights</h1>
+            <p>Scroll down to see the sticky cards effect with uniform heights</p>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="cards">
+            <div class="card">
+                <div class="card-content">
+                    <h3>Card 1 - Short Content</h3>
+                    <p>This card has minimal content but will be resized to match the tallest card.</p>
+                    <ul>
+                        <li>Equal height enforced</li>
+                        <li>Flex layout for content distribution</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <h3>Card 2 - Medium Content</h3>
+                    <p>This card has more content than the first one, but still not the tallest.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <ul>
+                        <li>Medium amount of content</li>
+                        <li>Will be resized to max height</li>
+                        <li>Maintains aspect ratio</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <h3>Card 3 - Standard Content</h3>
+                    <p>This card represents typical content length in your application.</p>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <ul>
+                        <li>Standard content size</li>
+                        <li>Balanced information</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <h3>Card 4 - Tallest Content (Reference)</h3>
+                    <p>This is the tallest card and will determine the height for all other cards.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <ul>
+                        <li>This is the reference height</li>
+                        <li>All cards will match this height</li>
+                        <li>Maximum content capacity</li>
+                        <li>Defines the standard</li>
+                        <li>Ensures visual consistency</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <h3>Card 5 - Variable Content</h3>
+                    <p>This card has different content but will match the tallest card's height.</p>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <ul>
+                        <li>Variable content length</li>
+                        <li>Consistent height maintained</li>
+                        <li>Professional appearance</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <h3>Card 6 - Final Card</h3>
+                    <p>The last card in the sequence, also resized to match the maximum height.</p>
+                    <p>This ensures all cards have a uniform, professional appearance.</p>
+                    <ul>
+                        <li>Final card in sequence</li>
+                        <li>Uniform appearance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <h4>Sticky Controls</h4>
+            
+            <div class="control-group">
+                <label>Threshold (px):</label>
+                <input type="range" id="threshold" min="20" max="200" value="60">
+                <span id="threshold-value">60px</span>
+            </div>
+            
+            <div class="control-group">
+                <label>Card Increment (px):</label>
+                <input type="range" id="increment" min="0" max="50" value="20">
+                <span id="increment-value">20px</span>
+            </div>
+            
+            <div class="control-group">
+                <button onclick="toggleEqualHeight()">Toggle Equal Heights</button>
+                <button onclick="resetCards()">Reset Cards</button>
+            </div>
+
+            <div class="control-group">
+                <small>Height Status: <span id="height-status">Equal Heights Active</span></small>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class StickyCardsEqualHeight {
+            constructor() {
+                this.cards = document.querySelectorAll('.card');
+                this.equalHeightEnabled = true;
+                this.maxHeight = 0;
+                
+                this.init();
+                this.setupControls();
+                this.setupIntersectionObserver();
+            }
+            
+            init() {
+                this.calculateMaxHeight();
+                this.applyEqualHeights();
+            }
+            
+            calculateMaxHeight() {
+                // Temporarily remove equal heights to get natural heights
+                this.cards.forEach(card => {
+                    card.style.height = '';
+                    card.classList.remove('equal-height');
+                });
+                
+                // Find the maximum height
+                this.maxHeight = 0;
+                this.cards.forEach(card => {
+                    const height = card.offsetHeight;
+                    if (height > this.maxHeight) {
+                        this.maxHeight = height;
+                    }
+                });
+                
+                console.log(`Maximum card height found: ${this.maxHeight}px`);
+            }
+            
+            applyEqualHeights() {
+                if (!this.equalHeightEnabled) return;
+                
+                this.cards.forEach((card, index) => {
+                    card.style.height = this.maxHeight + 'px';
+                    card.classList.add('equal-height');
+                    console.log(`Card ${index + 1}: Set to height = ${this.maxHeight}px`);
+                });
+                
+                document.getElementById('height-status').textContent = 'Equal Heights Active';
+            }
+            
+            removeEqualHeights() {
+                this.cards.forEach(card => {
+                    card.style.height = '';
+                    card.classList.remove('equal-height');
+                });
+                
+                document.getElementById('height-status').textContent = 'Natural Heights';
+            }
+            
+            setupControls() {
+                const thresholdSlider = document.getElementById('threshold');
+                const incrementSlider = document.getElementById('increment');
+                const thresholdValue = document.getElementById('threshold-value');
+                const incrementValue = document.getElementById('increment-value');
+                
+                thresholdSlider.addEventListener('input', (e) => {
+                    const value = e.target.value;
+                    document.documentElement.style.setProperty('--threshold', value + 'px');
+                    thresholdValue.textContent = value + 'px';
+                });
+                
+                incrementSlider.addEventListener('input', (e) => {
+                    const value = e.target.value;
+                    document.documentElement.style.setProperty('--card-increment', value + 'px');
+                    incrementValue.textContent = value + 'px';
+                });
+            }
+            
+            setupIntersectionObserver() {
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('sticky-active');
+                        } else {
+                            entry.target.classList.remove('sticky-active');
+                        }
+                    });
+                }, {
+                    threshold: 0.1,
+                    rootMargin: '-60px 0px'
+                });
+                
+                this.cards.forEach(card => observer.observe(card));
+            }
+            
+            toggleEqualHeight() {
+                this.equalHeightEnabled = !this.equalHeightEnabled;
+                
+                if (this.equalHeightEnabled) {
+                    this.calculateMaxHeight();
+                    this.applyEqualHeights();
+                } else {
+                    this.removeEqualHeights();
+                }
+            }
+            
+            reset() {
+                // Reset to default values
+                document.documentElement.style.setProperty('--threshold', '60px');
+                document.documentElement.style.setProperty('--card-increment', '20px');
+                document.getElementById('threshold').value = 60;
+                document.getElementById('increment').value = 20;
+                document.getElementById('threshold-value').textContent = '60px';
+                document.getElementById('increment-value').textContent = '20px';
+                
+                // Recalculate heights
+                this.calculateMaxHeight();
+                if (this.equalHeightEnabled) {
+                    this.applyEqualHeights();
+                }
+            }
+        }
+        
+        // Global functions for buttons
+        function toggleEqualHeight() {
+            window.stickyCards.toggleEqualHeight();
+        }
+        
+        function resetCards() {
+            window.stickyCards.reset();
+        }
+        
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            window.stickyCards = new StickyCardsEqualHeight();
+        });
+        
+        // Handle window resize
+        window.addEventListener('resize', function() {
+            if (window.stickyCards) {
+                window.stickyCards.calculateMaxHeight();
+                if (window.stickyCards.equalHeightEnabled) {
+                    window.stickyCards.applyEqualHeights();
+                }
+            }
+        });
+    </script>
+</body>
+</html>
