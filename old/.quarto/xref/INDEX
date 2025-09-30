@@ -1,0 +1,131 @@
+{
+  "projects/einzelbaum/WS.qmd": {
+    "WS.html": "43865c0b"
+  },
+  "projects/einzelbaum/Modul_1.qmd": {
+    "Modul_1.html": "b83c95b4"
+  },
+  "projects/einzelbaum/Modul_2.qmd": {
+    "Modul_2.html": "3c0f4411"
+  },
+  "projects/einzelbaum/Modul_3.qmd": {
+    "Modul_3.html": "103a6078"
+  },
+  "projects/stmas.qmd": {
+    "stmas.html": "76008737"
+  },
+  "projects/archive/ws2/WS2.qmd": {
+    "WS2.html": "2b98a1d8"
+  },
+  "projects/archive/ws2/WS2_Modul_3.qmd": {
+    "WS2_Modul_3.html": "5605c4bd"
+  },
+  "projects/archive/ws2/WS2_Modul_2.qmd": {
+    "WS2_Modul_2.html": "6b06069f"
+  },
+  "projects/archive/ws2/WS2_Modul_1.qmd": {
+    "WS2_Modul_1.html": "0b4b9d52"
+  },
+  "projects/archive/ws2/WS2_Modul_4.qmd": {
+    "WS2_Modul_4.html": "97bfac4e"
+  },
+  "projects/archive/ws3/WS3_Modul_1.qmd": {
+    "WS3_Modul_1.html": "58cad901"
+  },
+  "projects/archive/ws3/WS3_Modul_2.qmd": {
+    "WS3_Modul_2.html": "cfdc3c49"
+  },
+  "projects/archive/ws3/WS3.qmd": {
+    "WS3.html": "31b703d6"
+  },
+  "projects/archive/ws3/WS3_Modul_3.qmd": {
+    "WS3_Modul_3.html": "2a53ea57"
+  },
+  "projects/archive/ws1/WS1.qmd": {
+    "WS1.html": "eb1754a2"
+  },
+  "projects/archive/ws1/WS1_Modul_4.qmd": {
+    "WS1_Modul_4.html": "c710a1ca"
+  },
+  "projects/archive/ws1/WS1_Modul_1.qmd": {
+    "WS1_Modul_1.html": "40234177"
+  },
+  "projects/archive/ws1/notebooks/ADA_Modul_2_2_Einfache_Zufallsstichprobe_anonymisiert.qmd": {
+    "ADA_Modul_2_2_Einfache_Zufallsstichprobe_anonymisiert.html": "8a9e20ff"
+  },
+  "projects/archive/ws1/notebooks/ADA_Modul_3_Best_of_Stichprobenziehung_anonymisiert.qmd": {
+    "ADA_Modul_3_Best_of_Stichprobenziehung_anonymisiert.html": "25ecf686"
+  },
+  "projects/archive/ws1/notebooks/ADA_Modul_2_1_Erste-Analysen_anonymisiert.qmd": {
+    "ADA_Modul_2_1_Erste-Analysen_anonymisiert.html": "3f78f09d"
+  },
+  "projects/archive/ws1/notebooks/ADA_Modul_2_3_Stratifizierte_Stichprobenziehung_anonymisiert.qmd": {
+    "ADA_Modul_2_3_Stratifizierte_Stichprobenziehung_anonymisiert.html": "fc4ec384"
+  },
+  "projects/archive/ws1/WS1_Modul_2.qmd": {
+    "WS1_Modul_2.html": "d3c9476c"
+  },
+  "projects/archive/ws1/WS1_Modul_3.qmd": {
+    "WS1_Modul_3.html": "d1003e2e"
+  },
+  "projects/archive.qmd": {
+    "archive.html": "b1996130"
+  },
+  "projects/einzelbaum.qmd": {
+    "einzelbaum.html": "faeee0cb"
+  },
+  "projects/stmuk.qmd": {
+    "stmuk.html": "12cab96d"
+  },
+  "kontakt.qmd": {
+    "kontakt.html": "be10a745"
+  },
+  "team.qmd": {
+    "team.html": "bf793c3e"
+  },
+  "index.qmd": {
+    "index.html": "f1640915"
+  },
+  "about.qmd": {
+    "about.html": "27af7786"
+  },
+  "impressum.qmd": {
+    "impressum.html": "90e979bb"
+  },
+  "projects/archive/ws1/notebooks/ADA_Modul_2_2_Einfache_Zufallsstichprobe_anonymisiert.Rmd": {
+    "ADA_Modul_2_2_Einfache_Zufallsstichprobe_anonymisiert.html": "1ac493af"
+  },
+  "projects/archive/ws1/notebooks/ADA_Modul_3_Best_of_Stichprobenziehung_anonymisiert.Rmd": {
+    "ADA_Modul_3_Best_of_Stichprobenziehung_anonymisiert.html": "85f28dc0"
+  },
+  "projects/archive/ws1/notebooks/ADA_Modul_2_1_Erste-Analysen_anonymisiert.Rmd": {
+    "ADA_Modul_2_1_Erste-Analysen_anonymisiert.html": "dbdd6f60"
+  },
+  "projects/archive/ws1/notebooks/ADA_Modul_2_3_Stratifizierte_Stichprobenziehung_anonymisiert.Rmd": {
+    "ADA_Modul_2_3_Stratifizierte_Stichprobenziehung_anonymisiert.html": "960bd8cc"
+  },
+  "static/notebooks/ADA_Modul_2_2_Einfache_Zufallsstichprobe_anonymisiert.qmd": {
+    "ADA_Modul_2_2_Einfache_Zufallsstichprobe_anonymisiert.html": "6b8d6bc9"
+  },
+  "static/notebooks/ADA_Modul_3_Best_of_Stichprobenziehung_anonymisiert.qmd": {
+    "ADA_Modul_3_Best_of_Stichprobenziehung_anonymisiert.html": "cceb0805"
+  },
+  "static/notebooks/ADA_Modul_2_1_Erste-Analysen_anonymisiert.qmd": {
+    "ADA_Modul_2_1_Erste-Analysen_anonymisiert.html": "ccf26100"
+  },
+  "static/notebooks/ADA_Modul_2_3_Stratifizierte_Stichprobenziehung_anonymisiert.qmd": {
+    "ADA_Modul_2_3_Stratifizierte_Stichprobenziehung_anonymisiert.html": "401059da"
+  },
+  "static/notebooks/ADA_Modul_2_2_Einfache_Zufallsstichprobe_anonymisiert.Rmd": {
+    "ADA_Modul_2_2_Einfache_Zufallsstichprobe_anonymisiert.html": "315c7b0d"
+  },
+  "static/notebooks/ADA_Modul_3_Best_of_Stichprobenziehung_anonymisiert.Rmd": {
+    "ADA_Modul_3_Best_of_Stichprobenziehung_anonymisiert.html": "6444f25d"
+  },
+  "static/notebooks/ADA_Modul_2_1_Erste-Analysen_anonymisiert.Rmd": {
+    "ADA_Modul_2_1_Erste-Analysen_anonymisiert.html": "f02bcd20"
+  },
+  "static/notebooks/ADA_Modul_2_3_Stratifizierte_Stichprobenziehung_anonymisiert.Rmd": {
+    "ADA_Modul_2_3_Stratifizierte_Stichprobenziehung_anonymisiert.html": "33932517"
+  }
+}

@@ -1,0 +1,407 @@
+[
+  {
+    "objectID": "impressum.html",
+    "href": "impressum.html",
+    "title": "Impressum",
+    "section": "",
+    "text": "Angaben gemäß § 5 TMG"
+  },
+  {
+    "objectID": "impressum.html#kontakt",
+    "href": "impressum.html#kontakt",
+    "title": "Impressum",
+    "section": "Kontakt",
+    "text": "Kontakt\nFrauke Kreuter  Institut für Statistik Ludwigstr. 33 80539 München\nTelefon: +49 89 2180 2814 E-Mail: data-analytics@stat.uni-muenchen.de"
+  },
+  {
+    "objectID": "impressum.html#haftungsausschluss",
+    "href": "impressum.html#haftungsausschluss",
+    "title": "Impressum",
+    "section": "Haftungsausschluss",
+    "text": "Haftungsausschluss\n\nHaftung für Links\nUnser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.\n\n\nUrheberrecht\nDie durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.\n\n\nDatenschutz\nDie Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.\nWebsite Impressum erstellt durch impressum-generator.de von der Kanzlei Hasselbach"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ADA",
+    "section": "",
+    "text": "Daten bieten uns die Möglichkeit, bessere Entscheidungen zu treffen. Vorgänge und Prozesse können automatisiert und vereinfacht werden. Daten helfen, die Wirklichkeit zu reflektieren und so passgenaue Lösungen evidenzbasiert zu entwickeln. Jedoch fehlt in der öffentlichen Verwaltung oft das Know-How, die benötigten Daten zu erheben, zu verstehen und optimal zu nutzen.\nIn maßgeschneiderten Projekten bringen wir Verwaltung und wissenschaftliche Datenexpertise an einen Tisch, um Probleme zu verstehen und pragmatische Lösungen dafür zu finden. Dabei befähigen wir Sie, als Mitarbeitende der öffentlichen Verwaltung, zu einem effizienten und verantwortungsbewussten Umgang mit Ihren Daten. Denn Data Science ist ein Teamsport, der nicht ohne Sie als ExpertInnen für Ihre Daten funktioniert!"
+  },
+  {
+    "objectID": "index.html#unser-ziel",
+    "href": "index.html#unser-ziel",
+    "title": "ADA",
+    "section": "Unser Ziel",
+    "text": "Unser Ziel\nIn der Praxis müssen von der Idee bis zur Umsetzung von Datenprojekten viele Hürden genommen werden. Unser Ziel ist, dass Daten in der öffentlichen Verwaltung effektiver genutzt werden. Wir wollen\n\nBeschäftigte im öffentlichen Sektor zum (besseren) Umgang mit Daten befähigen\nEchte Probleme verstehen und danach gemeinsam pragmatisch lösen.\nExpertise aus verschiedenen Bereichen zusammenbringen.\n\nAnhand von konkreten Beispielen aus der Verwaltungspraxis möchten wir Digitalisierung greifbar und interaktiv erlebbar machen.\nHaben Sie ein Problem, das Sie mit uns gemeinsam lösen möchten? Kontaktieren Sie uns!"
+  },
+  {
+    "objectID": "index.html#was-wir-bieten",
+    "href": "index.html#was-wir-bieten",
+    "title": "Angewandte Datenanalyse für die öffentliche Verwaltung",
+    "section": "Was wir bieten",
+    "text": "Was wir bieten\nIm Kern des ADA-Angebots stehen mehrtägige Data Science-Workshops für öffentliche Einrichtungen, die auf die Bedürfnisse der Anwender zugeschnitten sind. Wir begreifen Data Science als Teamsport, der einen intensiven Austausch zwischen Fachexpert:innen, Informatiker:innen, Statistiker:innen/Datenwissenschaftler:innen und ggf. weiteren Personenkreisen erfordert. Ausgehend vom vorab definierten Projektziel lernen die Teilnehmer die verfügbaren Daten kennen, interpretieren sie kontextabhängig und erarbeiten in Kleingruppen Data Science-Lösungen und Einsatzstrategien für den Verwaltungsalltag. ADA strukturiert und moderiert die Diskussion, stellt wichtige Grundlagen in Vorträgen bereit und bindet spezialisiertes Expertenwissen ein. So gelingt Digitalisierung.\nDarüber hinaus und basierend auf den Ergebnissen des Workshops kann ADA bei Bedarf bei der praktischen Implementierung unterstützen, z.B.:\n\nBeratung bei IT-Herausforderungen sowie beim beim Aufsetzen von Cloud-Lösungen\nVermittlung (und Betreuung) von Studierenden für Consulting-Projekte oder für Abschlussarbeiten\nDurchführung von wissenschaftlicher Begleitforschung\n\nMehr"
+  },
+  {
+    "objectID": "kontakt.html",
+    "href": "kontakt.html",
+    "title": "Kontakt",
+    "section": "",
+    "text": "Sie erreichen uns unter data-analytics@stat.uni-muenchen.de.\nGerne sprechen wir mit Ihnen auch über zukünftige Projekte.",
+    "crumbs": [
+      "Über uns",
+      "Kontakt"
+    ]
+  },
+  {
+    "objectID": "projects/einzelbaum.html",
+    "href": "projects/einzelbaum.html",
+    "title": "Einzelbaumerkennung",
+    "section": "",
+    "text": "Oktober 2024 - Januar 2025\n\nInhalt\nIm Oktober 2024 führten wir eine Workshop-Serie zum Thema Einzelbaumerkennung und Baum- und Waldmanagement mit Fernerkundungsdaten durch. Die Workshop-Serie bestand aus zwei Teilen und richtete sich an verschiedene Zielgruppen, darunter Stadtplaner:innen, staatliche Forstmitarbeitende und andere Verwaltungsmitarbeitende.\nDer erste Teil des Workshops, der am 15. und 16. Oktober stattfand, beleuchtete das Thema “Baum- und Waldmanagement mit Fernerkundungsdaten” umfassend. Die Teilnehmer:innen tauschten sich darüber aus, welche Arten von Luft- und Satellitendaten für verschiedene Zwecke nutzbar sind und wie Technologien aus dem Bereich des Cloud-Computing und der Künstlichen Intelligenz zur automatisierten Auswertung dieser Bilder eingesetzt werden können. Ziel war es, den Mehrwert solcher Datenprodukte für das Baum- und Forstmanagement aufzuzeigen und mögliche Verbesserungen zu diskutieren.\nDer zweite Teil des Workshops fokussierte auf die Infrastruktur- und IT-Herausforderungen bei der Nutzung von Fernerkundungsdaten. Die Teilnehmer:innen entwickelten konzeptionelle Ansätze für eine skalierbare Cloud-Lösung zur Verarbeitung großer Bilddatensätze und diskutierten die technischen Anforderungen. Aufbauend auf den Ergebnissen der Diskussionen wurde im Nachgang ein einsatzbereiter Prototyp in der Cloud geplant.\nDie Workshop-Serie brachte relevante Stakeholder zusammen und ermöglichte praxisnahe Diskussionen zu zentralen Fragen wie der Identifikation und Eigenschaften von Bäumen, der Nutzung von Datenquellen und den technischen Anforderungen für eine effektive Datenverarbeitung.\n\n\nWorkshops\nHier geht es zur Seite der Workshop-Serie.\n\n\nErgebnis\nDie Workshop-Serie zur Einzelbaumerkennung und zum Baum- und Waldmanagement mit Fernerkundungsdaten führte zu mehreren bedeutenden Ergebnissen:\n\nDie Teilnehmer:innen konnten ihre Kompetenzen im Bereich Cloud-Computing erheblich erweitern und praktische Ansätze zur automatisierten Auswertung großer Bilddatensätze entwickeln.\nDer Wissensaustausch und die Vernetzung verschiedener Behörden, die mit ähnlichen Herausforderungen konfrontiert sind, wurden gefördert, was zu einer stärkeren Zusammenarbeit und gemeinsamen Lösungsansätzen führte.\nAktuell wird vom Nationalpark Bayerischer Wald ein Pilotprojekt für die Cloud-basierte Speicherung und Verarbeitung von Geodaten umgesetzt. Dieses Projekt soll die praktische Anwendbarkeit der erarbeiteten Konzepte demonstrieren und einen Grundstein für zukünftige, skalierbare Lösungen im Bereich der Fernerkundung und Datenanalyse legen.",
+    "crumbs": [
+      "Einzelbaumerkennung"
+    ]
+  },
+  {
+    "objectID": "projects/archive/ws1/WS1_Modul_3.html",
+    "href": "projects/archive/ws1/WS1_Modul_3.html",
+    "title": "Modul 3: Visualisierung und Reporting",
+    "section": "",
+    "text": "02.10.2023, 10:00 - 15:00 Uhr\n\nThemen\nIn Modul 3 werden die Guidelines für nachvollziehbares Reporting und gute Visualisierungen besprochen. Es werden keine Vorkenntnisse in der Datenanalyse erwartet. Sie können sich auf folgende Themen freuen:\n\nVisualisierung der vorliegenden Daten\nVisualisierung der Analyse (Stichprobenziehung)\nBest practices für Visualisierungen\nÜberblick über Reporting und Dashboards für Datenanalyse-Projekte\n\n\n\n\n\nAnzahl der Fälle pro Amtsgerichtbezirk\n\n\n\n\n\n\n\n\n\nLernziele\n\n\n\nAm Ende dieses Moduls können Sie…\nGrafische Datenanalyse\n\n… Ergebnisse über Grafiken kommunizieren (Balkendiagramme, Karten und co.).\n… gute Beispiele für Datenvisualisierungen erkennen.\n\nErgebnisse kommunizieren\n\n… Notebooks für Reporting verwenden.\n… einschätzen, wann Dashboards nützlich sind für die Kommunikation von Datenanalysen.\n\n\n\n\n\nMaterial\n\nSlides\nNotebook",
+    "crumbs": [
+      "Workshop-Serie 1",
+      "Modul 3: Visualisierung und Reporting"
+    ]
+  },
+  {
+    "objectID": "projects/archive/ws1/WS1_Modul_1.html",
+    "href": "projects/archive/ws1/WS1_Modul_1.html",
+    "title": "Modul 1: Problemerfassung und Daten als Lösung",
+    "section": "",
+    "text": "18.09.2023, 10:00 - 15:00 Uhr\n\nThemen\nIn Modul 1 setzen wir den Rahmen, um Probleme zu erfassen und vorliegende Daten zu verstehen. Es werden keine Vorkenntnisse in der Datenanalyse erwartet. Sie können sich auf folgende Themen freuen:\n\nEinführung in die Workshop-Serie\nDatenarbeit als Teamarbeit\nEvidenzbasierte Verwaltung\nBeantwortung von Fragen mit Daten\nDaten: Was ist das eigentlich?\nDatenquellen und Entstehung von Daten\nSicher mit Daten arbeiten: Cloud-Computing als Möglichkeit\n\n \n\n\n\n\n\n\nLernziele\n\n\n\nAm Ende dieses Moduls können Sie…\n\n… beschreiben, was Evidenzbasierte Verwaltung ist.\n… einschätzen, wann Evidenzbasierte Verwaltung genutzt werden kann.\n… einige Fragen benennen, die man mit Daten beantworten kann.\n… Probleme schildern, die in Ihrem Umfeld mit Daten gelöst werden könnten\n\n\n\n\n\nMaterial\n\nSlides",
+    "crumbs": [
+      "Workshop-Serie 1",
+      "Modul 1: Problemerfassung und Daten als Lösung"
+    ]
+  },
+  {
+    "objectID": "projects/archive/ws1/WS1.html",
+    "href": "projects/archive/ws1/WS1.html",
+    "title": "Daten-basierte Archivierung von Gerichtsakten",
+    "section": "",
+    "text": "19.09. - 13.10.2023\n\nAblauf\nIn dieser Workshop-Serie betrachten wir alle Bestandteile eines klassischen Daten-Analyse-Projekts. Dabei geht es vor allem darum, Berührungsängste abzubauen und Kompetenzen aufzubauen, um als Team solche Projekte anzugehen. Denn Datenarbeit ist Teamarbeit und diverse Expertisen sind gefragt.\n\n\n\n\n\n\n\n\n\n\n\nLernziele\n\n\n\nAm Ende dieser Workshop-Serie, können Sie…\n\n… einschätzen, welche Fragen in Ihrem Umfeld mit Daten beanwortet werden können.\n… in Projekten mit Daten ihre Fachexpertise einbringen, ohne Berührungsängste zu haben.\n… mit Data Scientists und IT-Personal über Cloud-Computing und Datenanalysen sprechen.",
+    "crumbs": [
+      "Workshop-Serie 1"
+    ]
+  },
+  {
+    "objectID": "projects/archive/ws3/WS3.html",
+    "href": "projects/archive/ws3/WS3.html",
+    "title": "Daten-basierte Archivierung von Gerichtsakten",
+    "section": "",
+    "text": "21.03. - 30.04.2024\n\nAblauf\n\n\n\nVeranstaltung\nDatum\nZeit\nOrt\n\n\n\n\nKick-Off 1*\n21.03.\n14:30 - 16:00\nOnline (Zoom)\n\n\nKick-Off 2*\n08.04.\n15:00 - 16:30\nOnline (Zoom)\n\n\nModul 1\n09.04.\n10:00 - 15:30\nLMU\n\n\nModul 2\n10.04.\n10:00 - 15:30\nLMU\n\n\nModul 3\n11.04.\n10:00 - 15:30\nLMU\n\n\nGruppenarbeit 1\n17.04.\n12:00 - 13:30\nOnline (Zoom)\n\n\nGruppenarbeit 2\n24.04.\n12:00 - 13:30\nOnline (Zoom)\n\n\nAbschluss-Vorbereitung\n30.04.\n10:00 - 12:00\nLMU\n\n\nAbschlusstermin\n30.04.\n13:30 - 15:30\nLMU / Hybrid (Zoom)\n\n\n\n*Kick-Off: es muss nur ein Kick-Off-Termin besucht werden.\n\n\n\nInhalte\nIn dieser Workshop-Serie betrachten wir alle Bestandteile eines klassischen Daten-Analyse-Projekts. Dabei geht es vor allem darum, Berührungsängste abzubauen und Kompetenzen aufzubauen, um als Team solche Projekte anzugehen. Denn Datenarbeit ist Teamarbeit und diverse Expertisen sind gefragt.\nDiese Workshop-Serie ist eine inhaltliche Wiederholung der Workshop-Serie 1.\n\n\n\n\n\n\nLernziele\n\n\n\nAm Ende dieser Workshop-Serie, können Sie…\n\n… einschätzen, welche Fragen in Ihrem Umfeld mit Daten beanwortet werden können.\n… in Projekten mit Daten ihre Fachexpertise einbringen, ohne Berührungsängste zu haben.\n… mit Data Scientists und IT-Personal über Cloud-Computing und Datenanalysen sprechen.\n\n\n\n\nKick-Off\n\n\n\n\n\n\nKick-Off\n\n\n\nAm Ende des Kick-Offs können Sie…\n\n… das Thema der Workshop-Serie beschreiben.\n… den Kontext des Projekts erklären.\n… auf die Cloud-Plattform zugreifen.\n\nSlides",
+    "crumbs": [
+      "Daten-basierte Archivierung von Gerichtsakten",
+      "Workshop-Serie 3"
+    ]
+  },
+  {
+    "objectID": "projects/archive/ws3/WS3_Modul_1.html",
+    "href": "projects/archive/ws3/WS3_Modul_1.html",
+    "title": "Modul 1: Problemerfassung und Daten als Lösung",
+    "section": "",
+    "text": "Themen\nIn Modul 1 setzen wir den Rahmen, um Probleme zu erfassen und vorliegende Daten zu verstehen. Es werden keine Vorkenntnisse in der Datenanalyse erwartet. Sie können sich auf folgende Themen freuen:\n\nEinführung in die Workshop-Serie\nDatenarbeit als Teamarbeit\nEvidenzbasierte Verwaltung\nBeantwortung von Fragen mit Daten\nDaten: Was ist das eigentlich?\nDatenquellen und Entstehung von Daten\nSicher mit Daten arbeiten: Cloud-Computing als Möglichkeit\n\n \n\n\n\n\n\n\nLernziele\n\n\n\nAm Ende dieses Moduls können Sie…\n\n… beschreiben, was Evidenzbasierte Verwaltung ist.\n… einschätzen, wann Evidenzbasierte Verwaltung genutzt werden kann.\n… einige Fragen benennen, die man mit Daten beantworten kann.\n… Probleme schildern, die in Ihrem Umfeld mit Daten gelöst werden könnten\n\n\n\n\n\nMaterial\nSlides",
+    "crumbs": [
+      "Daten-basierte Archivierung von Gerichtsakten",
+      "Workshop-Serie 3",
+      "Modul 1: Problemerfassung und Daten als Lösung"
+    ]
+  },
+  {
+    "objectID": "projects/archive/ws2/WS2_Modul_1.html",
+    "href": "projects/archive/ws2/WS2_Modul_1.html",
+    "title": "Modul 1: Einführung, Problemerfassung und Arbeitsabläufe",
+    "section": "",
+    "text": "Lernziele\n\n\n\nAm Ende dieses Moduls können Sie…\n\n… Kontext und Vorarbeiten des Projekts nennen.\n… verstehen, was das Ziel dieses Projekts ist.\n… die Datenanalyse als Teil eines größeren Kontexts beschreiben.\n… die einzelnen Schritte von der Vereinbarung der Datenübertragung bis hin zur Archivierung der einzelnen Akten beschreiben.\n… mit den relevanten Personen in Kontakt treten und einen reibungsarmen Ablauf ermöglichen.",
+    "crumbs": [
+      "Workshop-Serie 2",
+      "Modul 1: Einführung, Problemerfassung und Arbeitsabläufe"
+    ]
+  },
+  {
+    "objectID": "projects/archive/ws2/WS2_Modul_1.html#material",
+    "href": "projects/archive/ws2/WS2_Modul_1.html#material",
+    "title": "Modul 1: Einführung, Problemerfassung und Arbeitsabläufe",
+    "section": "Material",
+    "text": "Material\n\nSlides",
+    "crumbs": [
+      "Workshop-Serie 2",
+      "Modul 1: Einführung, Problemerfassung und Arbeitsabläufe"
+    ]
+  },
+  {
+    "objectID": "projects/archive/ws2/WS2_Modul_3.html",
+    "href": "projects/archive/ws2/WS2_Modul_3.html",
+    "title": "Modul 3: Implementierung der Stichprobenziehung im Kontext des Gesamtablaufs",
+    "section": "",
+    "text": "Lernziele\n\n\n\nAm Ende dieses Moduls können Sie…\n\n… die gewählte Strategie für Datensätze aus verschiedenen Jahren umsetzen.\n… Lücken erkennen, die im Projekt zu schließen sind, um die Analysen in das Tagesgeschäft aufzunehmen.\n… die Datenanalysen dokumentieren.\n\n\n\n\nMaterial\n\nSlides",
+    "crumbs": [
+      "Workshop-Serie 2",
+      "Modul 3: Implementierung der Stichprobenziehung im Kontext des Gesamtablaufs"
+    ]
+  },
+  {
+    "objectID": "projects/stmas.html",
+    "href": "projects/stmas.html",
+    "title": "Digitalisierung und Automatisierung von gleichstellungsbezogenen Daten",
+    "section": "",
+    "text": "April 2025\n\nInhalt\nBayerische Dienststellen, d.h. staatlichen Stellen, Kommune, Landkreise, kreisfreie Städte und Bezirke, sind ab einer bestimmten Anzahl Beschäftigter gesetzlich dazu verpflichtet, alle fünf Jahre Gleichstellungskonzepte zu erstellen. Grundlage der Gleichstellungskonzepte ist die Beschreibung der Situation der weiblichen Beschäftigten im Vergleich zu den männlichen Beschäftigten, z.B. in Bezug auf Führungspositionen oder Teilzeitbeschäftigung. Aus diesen Datenübersichten werden Initiativen und strukturelle Maßnahmen zur Sicherung von Chancengleichheit von Frauen und Männern und der Vereinbarkeit von Familie und Beruf in den Dienststellen abgeleitet und in die Konzepte aufgenommen.\nDie Erstellung der Gleichstellungskonzepte ist aktuell ein sehr aufwändiger, in weiten Teilen manueller Prozess, der in den Dienststellen viele Ressourcen bindet. Vor dem Hintergrund ist es dem StMAS ein Anliegen, die Erstellung von Datenübersichten und Gleichstellungskonzepten zu vereinfachen, in dem zum Beispiel vorhandene Datenquellen herangezogen, Analysen automatisiert und die Konzepterstellung möglichst digitalisiert wird. In dieser Workshopserie gehen wir oben beschriebene Fragestellungen an, in dem wir gemeinsam mit den Teilnehmenden praxisnahe Pilotlösungen erarbeiten. Begleitet wird die Projektarbeit von gezielter Wissensvermittlung durch die ADA Experten.",
+    "crumbs": [
+      "Digitalisierung und Automatisierung von gleichstellungsbezogenen Daten"
+    ]
+  },
+  {
+    "objectID": "projects/einzelbaum/Modul_2.html",
+    "href": "projects/einzelbaum/Modul_2.html",
+    "title": "Modul 2: Konzeption eines Datenprodukts, Infrastruktur und Software",
+    "section": "",
+    "text": "Themen\nIn Modul 2 gehen wir auf Infrastrukturbedürfnisse und -möglichkeiten ein und diskutieren dabei insbesondere die Nutzung von Cloud-Anbietern. Sie können sich auf folgende Themen freuen:\n\nEinführung in Cloud-Computing und Cloud-Anbieter\nErfahrungen von ADA Bayern im Cloud-Bereich\nInfrastrukturanforderungen von Einzelbaumerkennungsdaten und -systemen\nAllgemeine aktuelle Herausforderungen der IT-Infrastruktur\nMögliche Anwendungen/Produkte\n\n\n\nMaterial\nSlides",
+    "crumbs": [
+      "Workshop-Serie",
+      "Modul 2: Konzeption eines Datenprodukts, Infrastruktur und Software"
+    ]
+  },
+  {
+    "objectID": "projects/einzelbaum/WS.html",
+    "href": "projects/einzelbaum/WS.html",
+    "title": "Einzelbaumerkennung",
+    "section": "",
+    "text": "11.10. - 08.11.2024\nIn dieser Workshop-Serie beschäftigen wir uns mit dem Thema Einzelbaumerkennung und insbesondere mit der Frage, wie Infrastruktur für die Datenanalyse aussehen könnte.\n\n\nAblauf\n\n\n\n\n\n\n\n\n\n\nVeranstaltung\nDatum\nZeit\nOrt\nBeschreibung\n\n\n\n\nKick-Off\n11.10.\n10:30-12:00\nonline\nWillkommen und Einführung\n\n\nTeil 1, Tag 1\n15.10.\n13:00-16:30\nLMU\n(1) Einführung(2) Problemerfassung und Daten: Nutzung von Fernerkundungsdaten für das Baum- und Forstmanagement\n\n\nTeil 1, Tag 2\n16.10.\n09:30-15:30\nLMU\n(1) Funktionsweisen von Algorithmen zur Nutzung von Fernerkundungsdaten(2) Herausforderungen an die IT-Infrastruktur(3) Brainstorming zu möglichen Anwendungen & Datenprodukten(4) Welche Möglichkeiten bietet die Cloud?(optional: Parkspaziergang im Anschluss)\n\n\nTeil 2\n17.10.\n09:30-15:30\nLMU\nNur für IT-Interessierte: (1) Konzeption einer Cloud-Umgebung (Prototyp) zur vereinfachten Arbeit mit Fernerkundungsdaten (2) Feststellung technischer Anforderungen (3) Fortführung der Diskussion vom Vormittag (4) Arbeitsabläufe und nächste Schritte\n\n\nFollow-Up 1\n23.10.\n12:30-14:00\nonline\n\n\n\nFollow-Up 2\n30.10.\n12:30-14:00\nonline\n\n\n\nAbschluss\n08.11.\n13:00-15:00\nhybrid\nZwischenstand und Ausblick (in Abhängigkeit von den Ergebnissen des Workshops)\n\n\n\nDer Workshop vor Ort besteht aus zwei Teilen.\nDer erste Teil findet am 15.10. und am 16.10. statt. Dabei soll das Thema “Baum- und Waldmanagement mit Fernerkundungsdaten” in einer Gesamtschau ausgeleuchtet werden, insbesondere in Hinblick auf Anwendungen in der öffentlichen Verwaltung. Ziel des ersten Teiles ist es, anwenderorientiert und allgemeinverständlich zu besprechen, welche Art von Luft- und Satellitenbildern für welche Zwecke nutzbar sind, mithilfe welcher Technologien aus dem Bereich des Cloud-Computing und der Künstlichen Intelligenz diese Bilder automatisch ausgewertet werden können und welchen Mehrwert das Baum- und Forstmanagement bereits aus der Nutzung solcher Datenprodukte zieht und mögliche Verbesserungen in diesem Rahmen.\nDer zweite Teil findet am 17.10. statt. Er richtet sich an alle, die sich intensiv und tiefergehend mit Infrastruktur- und IT-Herausforderungen bei der Nutzung von Fernerkundungsdaten beschäftigen wollen. Wesentliche Anwendungsfälle sind bislang nur schwer realisierbar, weil die bestehende technische Infrastruktur an ihre Grenzen stößt, insbesondere wenn mehrere Terabyte an Bilddaten vorliegen. Ziel des zweiten Teiles ist es, eine skalierbare und für unterschiedliche Anwendungsfälle nutzbare Cloud-Lösung konzeptionell zu durchdenken und technische Anforderungen zu besprechen. Aufbauend auf den Ergebnissen aus der Diskussion soll im Idealfall im Nachgang ein einsatzbereiter Prototyp in der Cloud umgesetzt werden.\nFür die Teilnahme am zweiten Teil (17.10.) wird die Teilnahme am ersten Teil (15.10. - 16.10.) vorausgesetzt. Bitte melden Sie sich explizit für die einzelnen Tage an.\n\n\nInhalte\n\nHintergrund\nDas Thema Einzelbaumerkennung inklusive Baumeigenschaften (Art, Maße, Totholz ja/nein, Borkenkäferbefall-Status, etc.) ist für viele Behörden, öffentliche Einrichtungen, Kommunen, etc. relevant. Bild-Daten von Drohnen, Flugzeugen und Satelliten (Sentinel) werden gesammelt oder bereits genutzt, um die Einzelbaumerkennung (z.B. mit Hilfe vortrainerter Modelle) durchzuführen. Für bestimmte Flächen werden weitere Daten - wie Laserscanner-Messungen oder “manuelle” Messungen von Koordinaten, Höhe, Art usw. - erhoben, die für das Training von Einzelbaumerkennungs-Modellen genutzt werden können (z.B. für Deep Learning Modelle).\nDie Nutzungsmöglichkeiten von Einzelbaumerkennung sind vielfältig und umfassen neben verschiedenen Forschungsansätzen und der statistischen Baumerfassung für Naturschutz- und Wald-Politik auch die Möglichkeit, jedem Baum eine E-Mail-Adresse zu geben, damit Bürger:innen ihnen schreiben können ;). Nach derzeitigem Planungsstand sollen aber Stadtplaner:innen, staatliche Forstmitarbeitende und andere Verwaltungsmitarbeitende die von mehr Wissen über Standort, Art, und Eigenschaften der Bäume profitieren können, im Mittelpunkt unseres Workshops stehen. Entsprechend sollen praxisnahe Zielsetzungen wie Waldmanagement, Baumpflege oder die Mortalität von Stadtbäumen genauer beleuchtet werden.\n\n\nWorkshop-Serie zum Thema Baum- und Waldmanagement mit Fernerkundungsdaten\nIn dieser ersten Workshop-Serie zum Thema Baum- und Waldmanagement möchten wir relevante Stakeholder zusammenbringen und zentrale Fragen wie “Welche Bäume gibt es wo?”, “Wie viele Bäume gibt es im Gebiet XY?”, “Wie groß ist die Biomasse?”, “Welche Eigenschaften hat jeder Baum (z.B. Baumgesundheit)?”, “Kann man die auf einer Karte (ggf. mit Pop-Ups für Eigenschaften) anzeigen?”, und insbesondere “Welche Infrastruktur und Daten werden benötigt, um dies umzusetzen?”, usw. gemeinsam angehen.",
+    "crumbs": [
+      "Workshop-Serie"
+    ]
+  },
+  {
+    "objectID": "projects/einzelbaum/Modul_1.html",
+    "href": "projects/einzelbaum/Modul_1.html",
+    "title": "Modul 1: Einführung, Problemerfassung und Daten",
+    "section": "",
+    "text": "Themen\nIn Modul 1 setzen wir den Rahmen, um Probleme zu erfassen und vorliegende Daten und Arbeitsabläufe zu verstehen. Sie können sich auf folgende Themen freuen:\n\nEinführung in die Workshop-Serie\nVorstellung der Problemstellung einzelner Behörden\nTypische Arbeitsabläufe im Kontext fernerkundungsdatengetriebener Waldinventur\n\n\n\nMaterial\nSlides",
+    "crumbs": [
+      "Workshop-Serie",
+      "Modul 1: Einführung, Problemerfassung und Daten"
+    ]
+  },
+  {
+    "objectID": "projects/einzelbaum/Modul_3.html",
+    "href": "projects/einzelbaum/Modul_3.html",
+    "title": "Modul 3: Konzeption einer skalierbaren Cloud-Lösung",
+    "section": "",
+    "text": "Themen\nIn Modul 3 setzen wir den Rahmen, um Probleme zu erfassen und vorliegende Daten und Arbeitsabläufe zu verstehen. Sie können sich auf folgende Themen freuen:\n\nErarbeiten einer sinnvollen Infrastrukturlösung\nSammlung relevanter Stakeholder und ihrer Bedürfnisse\nSammlung und Priorisierung von Requirements und Features einer Lösung\nSammlung von möglichen Risiken\nVorbereitung der nächsten Schritte im Nachgang des Workshops\n\n\n\nMaterial\nSlides",
+    "crumbs": [
+      "Workshop-Serie",
+      "Modul 3: Konzeption einer skalierbaren Cloud-Lösung"
+    ]
+  },
+  {
+    "objectID": "projects/archive/ws2/WS2.html",
+    "href": "projects/archive/ws2/WS2.html",
+    "title": "Implementation Daten-basierter Archivierung von Gerichtsakten",
+    "section": "",
+    "text": "08.02. - 13.03.2024\n\nAblauf\n\n\n\nVeranstaltung\nDatum\nZeit\nOrt\n\n\n\n\nKick-Off\n08.02.\n11:00 - 13:00\nOnline (Zoom)\n\n\nModul 1\n20.02.\n10:00 - 15:30\nLMU\n\n\nModul 2\n21.02.\n10:00 - 15:30\nLMU\n\n\nModul 3\n22.02.\n10:00 - 15:30\nLMU\n\n\nModul 4\n23.02.\n10:00 - 15:30\nLMU\n\n\nGruppenarbeit 1\n28.02.\n12:00 - 13:30\nOnline (Zoom)\n\n\nGruppenarbeit 2\n06.03.\n12:00 - 13:30\nOnline (Zoom)\n\n\nGruppenarbeit 3\n13.03.\n10:00 - 12:00\nLMU\n\n\nAbschlussvorstellungen\n13.03.\n12:00 - 15:30\nLMU\n\n\n\n\n\n\nInhalte\nIn dieser Workshop-Serie bauen wir auf die Inhalte der Workshop-Serie 1 auf und setzen das gelernte in die Praxis um. Gemeinsam erarbeiten wir Arbeitsabläufe, die sowohl aus Datenanlyseperspektive als auch aus Perspektive der Staatsarchive und der Justiz IT Sinn ergeben. Denn Datenarbeit ist Teamarbeit und diverse Expertisen sind gefragt.\n\n\n\n\n\n\nLernziele\n\n\n\nAm Ende dieser Workshop-Serie, können Sie…\n\n… Stichprobenziehung für die Archivierung von Gerichtsakten dürchführen.\n… Die Cloud-Infrastruktur für die jährliche Stichprobenziehung nutzen.\n… Die Datenanalyse-Aufgaben für die Archivierung von Gerichtsakten auf neue Daten anpassen.\n\n\n\n\nKick-Off\n\n\n\n\n\n\nKick-Off\n\n\n\nAm Ende des Kick-Offs können Sie…\n\n… das Thema der Workshop-Serie beschreiben.\n… den Kontext des Projekts erklären.\n… auf die Cloud-Plattform zugreifen.\n\n\n\nKick-Off Slides",
+    "crumbs": [
+      "Workshop-Serie 2"
+    ]
+  },
+  {
+    "objectID": "projects/archive/ws2/WS2_Modul_2.html",
+    "href": "projects/archive/ws2/WS2_Modul_2.html",
+    "title": "Modul 2: Implementierung der Stichprobenziehung",
+    "section": "",
+    "text": "Lernziele\n\n\n\nAm Ende dieses Moduls können Sie…\n\n… eine Entscheidung über eine gute Strategie für die Stichprobenziehung fällen.\n… die Stichprobe analysieren und visuell darstellen.\n… Schwächen der Strategie einschätzen und verteidigen.\n\n\n\n\nMaterial\n\nSlides",
+    "crumbs": [
+      "Workshop-Serie 2",
+      "Modul 2: Implementierung der Stichprobenziehung"
+    ]
+  },
+  {
+    "objectID": "projects/archive/ws2/WS2_Modul_4.html",
+    "href": "projects/archive/ws2/WS2_Modul_4.html",
+    "title": "Modul 4: Nachhaltige Implementierung, Wissensweitergabe und Infrastrukturerhalt",
+    "section": "",
+    "text": "Lernziele\n\n\n\nAm Ende dieses Moduls können Sie…\n\n… einen nachhaltigen Prozess etablieren, wie die Daten übertragen, die Analysen durchgeführt und Archivierungsentscheidungen dokumentiert werden.\n… ihr Wissen an andere weitergeben.\n… einschätzen, wie die benötigte Infrastruktur erhalten werden kann.\n\n\n\n\nMaterial\n\nSlides",
+    "crumbs": [
+      "Workshop-Serie 2",
+      "Modul 4: Nachhaltige Implementierung, Wissensweitergabe und Infrastrukturerhalt"
+    ]
+  },
+  {
+    "objectID": "projects/archive/ws3/WS3_Modul_2.html",
+    "href": "projects/archive/ws3/WS3_Modul_2.html",
+    "title": "Modul 2: Cloud-Computing und Datenanalyse",
+    "section": "",
+    "text": "Themen\nIn Modul 2 beginnen wir mit der Einführung in die benötigte Software und Arbeitsumgebung. Es werden keine Vorkenntnisse in der Datenanalyse erwartet. Sie können sich auf folgende Themen freuen:\n\nErste Schritte im Cloud-Computing\nÜberblick über die vorliegenden Daten\nErste Analysen mit der Software R\nUmgang mit Daten(problemen)\nStichprobenziehung als Strategie\n\n\n\n\n\nVisualisierung einer Zufallsstichprobe\n\n\n\n\n\n\n\n\n\nLernziele\n\n\n\nAm Ende dieses Moduls können Sie…\nPotentiale erkennen\n\n… Cloud-Computing als Möglichkeit für sichere Datenanalyse einschätzen.\n… in der Cloud-Arbeitsumgebung arbeiten.\n\nDie Daten analysieren (I)\n\n… die Daten vorbereiten und verstehen.\n… erste Datenanalysen durchführung und die Ergebnisse interpretieren.\n… eine Entscheidung über eine gute Strategie für die Stichprobenziehung fällen.\n\n\n\n\n\nMaterial\nSlides",
+    "crumbs": [
+      "Workshop-Serie 3",
+      "Modul 2: Cloud-Computing und Datenanalyse"
+    ]
+  },
+  {
+    "objectID": "projects/archive/ws3/WS3_Modul_3.html",
+    "href": "projects/archive/ws3/WS3_Modul_3.html",
+    "title": "Modul 3: Visualisierung und Reporting",
+    "section": "",
+    "text": "Themen\nIn Modul 3 werden die Guidelines für nachvollziehbares Reporting und gute Visualisierungen besprochen. Es werden keine Vorkenntnisse in der Datenanalyse erwartet. Sie können sich auf folgende Themen freuen:\n\nVisualisierung der vorliegenden Daten\nVisualisierung der Analyse (Stichprobenziehung)\nBest practices für Visualisierungen\nÜberblick über Reporting und Dashboards für Datenanalyse-Projekte\n\n\n\n\n\nAnzahl der Fälle pro Amtsgerichtbezirk\n\n\n\n\n\n\n\n\n\nLernziele\n\n\n\nAm Ende dieses Moduls können Sie…\nGrafische Datenanalyse\n\n… Ergebnisse über Grafiken kommunizieren (Balkendiagramme, Karten und co.).\n… gute Beispiele für Datenvisualisierungen erkennen.\n\nErgebnisse kommunizieren\n\n… Notebooks für Reporting verwenden.\n… einschätzen, wann Dashboards nützlich sind für die Kommunikation von Datenanalysen.\n\n\n\n\n\nMaterial\nSlides",
+    "crumbs": [
+      "Workshop-Serie 3",
+      "Modul 3: Visualisierung und Reporting"
+    ]
+  },
+  {
+    "objectID": "projects/archive/ws1/WS1_Modul_4.html",
+    "href": "projects/archive/ws1/WS1_Modul_4.html",
+    "title": "Modul 4: Ergebnispräsentation und Umsetzung",
+    "section": "",
+    "text": "13.10.2023, 13:00 - 17:00 Uhr\n\nThemen\nIn Modul 4 besprechen wir Möglichkeiten, wie Ergebnisse in bestehende Prozesse eingebaut werden können. Sie können sich auf folgende Themen freuen:\n\nFallstudie: Identifikation von bekannten Persönlichkeiten\nMachine Learning: Können wir lernen “Was wird vermutlich in Zukunft von Interesse sein?”\nEinblick in den rechtlichen Rahmen von Datenanalyseprojekten\n\n\n\n\n\n\nDes weiteren präsentieren die Teams ihre Ergebnisse und Zukunftsvisionen.\n\n\n\n\n\n\nProjektvorstellung\n\n\n\nJedes Team präsentiert drei Folien:\n\nDie Ergebnisse der Datenanalyse\nEin Plan für die Umsetzung der vorgeschlagenen Analyse in die Praxis.\nEine Zukunftsvision: Was bräuchte man noch für das “perfekte” Archivierungs-System?\n\n\n\n\n\n\n\n\n\n\nLernziele\n\n\n\nAm Ende dieses Moduls können Sie…\n\n… externe Datenquellen hinsichtlich ihres Nutzens beurteilen.\n… die Möglichkeiten und Grenzen der Record Linkage Methode einschätzen.\n… Datenprojekte präsentieren und deren Nutzen einordnen.\n… einschätzen, was rechtlich in einem solchen Projekt beachtet werden muss.\n\n\n\n\n\nMaterial\n\nSlides",
+    "crumbs": [
+      "Workshop-Serie 1",
+      "Modul 4: Ergebnispräsentation und Umsetzung"
+    ]
+  },
+  {
+    "objectID": "projects/archive/ws1/WS1_Modul_2.html",
+    "href": "projects/archive/ws1/WS1_Modul_2.html",
+    "title": "Modul 2: Cloud-Computing und Datenanalyse",
+    "section": "",
+    "text": "19.09.2023, 10:00 - 15:00 Uhr\n\nThemen\nIn Modul 2 beginnen wir mit der Einführung in die benötigte Software und Arbeitsumgebung. Es werden keine Vorkenntnisse in der Datenanalyse erwartet. Sie können sich auf folgende Themen freuen:\n\nErste Schritte im Cloud-Computing\nÜberblick über die vorliegenden Daten\nErste Analysen mit der Software R\nUmgang mit Daten(problemen)\nStichprobenziehung als Strategie\n\n\n\n\n\nVisualisierung einer Zufallsstichprobe\n\n\n\n\n\n\n\n\n\nLernziele\n\n\n\nAm Ende dieses Moduls können Sie…\nPotentiale erkennen\n\n… Cloud-Computing als Möglichkeit für sichere Datenanalyse einschätzen.\n… in der Cloud-Arbeitsumgebung arbeiten.\n\nDie Daten analysieren (I)\n\n… die Daten vorbereiten und verstehen.\n… erste Datenanalysen durchführung und die Ergebnisse interpretieren.\n… eine Entscheidung über eine gute Strategie für die Stichprobenziehung fällen.\n\n\n\n\n\nMaterial\n\nSlides\nNotebooks \n\n\n\n\n\n\n\n\nAnleitung Cloud-Umgebung\n\n\n\n\n\n\nLogin\n\nNavigation zu https://adrf.okta.com\nUsername (endet auf @adrf.net) und Passwort eingeben, Sign In klicken\nSend me the code klicken und dann den Code eingeben, Verify klicken\nADA Bayern auswählen\nDesktop auswählen\nPasswort eingeben, Sign in klicken\nEine Windows-Oberfläche öffnet sich mit einem Pop-Up Fenster. Dort I Acknowledge auswählen und die Quizfrage beantworten. Dann Submit klicken.\nDas offene Browserfenster kann geschlossen werden.\n\n\n\nErste Nutzung\nVor der ersten Nutzung müssen wir die Notebooks in Ihren persönlichen Arbeitsordner kopieren.\n\nFile Explorer öffnen.\nZu projects-Laufwerk (P:) navigieren, darin liegt ein Ordner pr-ada-bayern\nOrdner pr-ada-bayern öffnen, darin liegt eine zip-Datei notebooks_utf8_vx.zip\nzip-Datei notebooks_utf8_vx.zip kopieren (z.B. Recktsklick -&gt; Copy)\nZu users-Laufwerk (U:) navigieren, darin liegt ein Ordner mit ihrem Namen (vorname.nachname.id, dies ist ihr Arbeitsordner)\nOrdner mit ihrem Namen (vorname.nachname.id) öffnen und dort die zip-Datei einfügen (z.B. Rechtsklick -&gt; Paste)\nDoppelklick auf die zip-Datei öffnet ein Programm zum ent-zippen\nExtract To auswählen und im sich öffnenden Fenster OK\n\nNun ist ein Ordner in Ihrem Arbeitstsordner der die Notebooks enthält.\n\n\nNotebooks öffnen\n\nFile Explorer öffnen.\nZu users-Laufwerk (U:) navigieren, darin liegt ein Ordner mit ihrem Namen (vorname.nachname.id, dies ist ihr Arbeitsordner)\nOrdner mit ihrem Namen (vorname.nachname.id) öffnen und den Ordner darin (notebooks_utf8_vx, siehe oben) öffnen\nDoppelklick auf Notebooks.Rproj öffnet die Notebooks in RStudio\n\n\n\nArbeit mit den Notebooks\n\nWählen Sie das gewünschte Notebook über die Tabs in RStudio aus\nSie können beliebig Text sowie R-Code ändern\nCode können Sie über den grünen Pfeil am Code-Block ausführen\n\n\nSollte etwas nicht funktionieren, wenden Sie sich bitte an data-analytics@stat.uni-muenchen.de.",
+    "crumbs": [
+      "Workshop-Serie 1",
+      "Modul 2: Cloud-Computing und Datenanalyse"
+    ]
+  },
+  {
+    "objectID": "projects/archive.html",
+    "href": "projects/archive.html",
+    "title": "Daten-basierte Archivierung von Gerichtsakten",
+    "section": "",
+    "text": "September 2023 - Dezember 2024\n\nInhalt\nIm Herbst 2023 und Frühjahr 2024 führten wir eine umfassende Workshop-Serie zur datenbasierten Archivierung von Gerichtsakten durch. Ziel dieser Serie war es, die Teilnehmer:innen in die Lage zu versetzen, datenbasierte Projekte ohne Berührungsängste anzugehen und ihre Fachexpertise effektiv einzubringen. Die Workshops umfassten alle Bestandteile eines klassischen Daten-Analyse-Projekts und legten besonderen Wert auf Teamarbeit und die Integration verschiedener Expertisen. Die Teilnehmer:innen lernten, welche Fragen in ihrem Umfeld mit Daten beantwortet werden können, wie sie mit Data Scientists und IT-Personal über Cloud-Computing und Datenanalysen kommunizieren und wie sie die Cloud-Infrastruktur für die jährliche Stichprobenziehung nutzen können. Die Serie beinhaltete praxisnahe Pilotlösungen und gezielte Wissensvermittlung durch ADA-Expert:innen, um die Kompetenzen der Teilnehmer:innen zu stärken und den Umgang mit datenbasierten Projekten zu erleichtern.\nIn diesem Projekt wurden gemeinsam mit Mitarbeitenden der Staatlichen Archive Bayerns die Grundlagen und praktischen Anwendungen von Datenanalyseprojekten im Kontext der Archivierung von Gerichtsakten erarbeitet. Ziel dieser Serie war es, die Teilnehmer:innen in die Lage zu versetzen, datenbasierte Projekte ohne Berührungsängste anzugehen und ihre Fachexpertise effektiv einzubringen.\nDie Workshops umfassten alle Bestandteile eines klassischen Daten-Analyse-Projekts und legten besonderen Wert auf Teamarbeit und die Integration verschiedener Expertisen. Die Teilnehmer:innen lernten, welche Fragen in ihrem Umfeld mit Daten beantwortet werden können, wie sie mit Data Scientists und IT-Personal über Cloud-Computing und Datenanalysen kommunizieren und wie sie die Cloud-Infrastruktur für die jährliche Stichprobenziehung nutzen können. Die Serie beinhaltete praxisnahe Pilotlösungen und gezielte Wissensvermittlung durch ADA-Experten, um die Kompetenzen der Teilnehmer:innen zu stärken und den Umgang mit datenbasierten Projekten zu erleichtern.\n\n\nWorkshops\nHier geht es zu den Seiten der Workshop-Serien:\n\nWorkshop-Serie 1\nWorkshop-Serie 2\nWorkshop-Serie 3\n\n\n\nErgebnis\nDie Workshop-Serie zur datenbasierten Archivierung von Gerichtsakten wurde erfolgreich beendet und führte zu folgenden Ergebnissen:\n\nEin zentrales Resultat war die Stärkung der Datenkompetenz der Teilnehmer:innen, die nun in der Lage sind, datenbasierte Projekte selbstbewusst und effektiv anzugehen.\nIm Nachgang der Workshops wurde ein studentisches Projekt initiiert, in dessen Rahmen eine Shiny-App für die jährliche Stichprobenziehung entwickelt wurde. Diese App ist mittlerweile erfolgreich im laufenden Betrieb und unterstützt die Staatlichen Archive Bayerns bei der effizienten und automatisierten Verarbeitung von Gerichtsakten. Der Code ist auf frei auf GitHub verfügbar.\nDas Pilotprojekt und die Methodik, die aus der Workshopserie hervorgingen werden in diesem Artikel ausführlich beschrieben",
+    "crumbs": [
+      "Daten-basierte Archivierung von Gerichtsakten"
+    ]
+  },
+  {
+    "objectID": "projects/stmuk.html",
+    "href": "projects/stmuk.html",
+    "title": "Digitalisierte Präferenzerfassung von Referendar:innen",
+    "section": "",
+    "text": "Frühjahr 2025\n\nInhalt\nWir erarbeiten gemeinsam eine digitalisierte Präferenzerfassung der Schul- und Ortswünsche der (zukünftigen) Einsatzschulreferendar:innen sowie der neu einzustellenden Lehrkräfte an staatlichen Gymnasien und Kollegs in Bayern.\nUnser Ziel ist es, ein System zu entwickeln, das die Präferenzen der Referendar:innen und Lehrkräfte vollständig und interpretationsfrei erfasst. Dies soll durch eine einfache und effiziente Eingabemöglichkeit erreicht werden. Darüber hinaus sollen die erfassten Daten so aufbereitet werden, dass sie auch für automatisierte Setzungen verwendet werden können, um den Zuweisungsprozess zu optimieren.\nDiese digitalisierte Präferenzerfassung soll folgende Aspekte einschließen:\n\nVollständige und interpretationsfreie Erfassung der Wünsche: Alle Präferenzen der Referendar:innen und Lehrkräfte werden detailliert und ohne Interpretationsspielraum erfasst, um eine faire und transparente Zuweisung zu gewährleisten.\nKomfortable und effiziente Eingabemöglichkeit: Die Eingabe der Präferenzen soll benutzerfreundlich und zeitsparend gestaltet sein, sodass die Nutzer:innen ihre Wünsche schnell und einfach angeben können.\nVerwendbarkeit der Daten auch für automatisierte Setzungen: Die erfassten Daten sollen so strukturiert und aufbereitet werden, dass sie problemlos für automatisierte Zuweisungsprozesse genutzt werden können, um den Verwaltungsaufwand zu reduzieren und die Effizienz zu steigern.\n\n\n\n\nZeitplan\n\nWorkshop-Tag 1 (20.03.2025, 10:00-15:00 Uhr): Input Präferenzerfassung\nWorkshop-Tag 2 (03.04.2025, 9:45-14:45 Uhr): Erster Blick auf einen Prototyp und Feedback\nWorkshop-Tag 3 (08.04.2025, 9:45-14:45 Uhr): Implementation und nächste Schritte",
+    "crumbs": [
+      "Digitalisierte Präferenzerfassung von Referendar:innen"
+    ]
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Team",
+    "section": "",
+    "text": "Wir sind ein Team aus Data Scientists und Statistiker:innen. Unser Ziel ist es, dazu beizutragen, dass Daten in der öffentlichen Verwaltung effektiver genutzt werden.\nWir wollen Beschäftigte im öffentlichen Sektor zum (besseren) Umgang mit Daten befähigen, die Datenkompetenz stärken, und so zur verstärkten Umsetzung von Datenprojekten beitragen. Anhand von konkreten Beispielen aus der Verwaltungspraxis möchten wir Digitalisierung greifbar und interaktiv erlebbar machen.",
+    "crumbs": [
+      "Über uns",
+      "Team"
+    ]
+  },
+  {
+    "objectID": "team.html#prof.-dr.-frauke-kreuter",
+    "href": "team.html#prof.-dr.-frauke-kreuter",
+    "title": "Team",
+    "section": "Prof. Dr. Frauke Kreuter",
+    "text": "Prof. Dr. Frauke Kreuter\n\n\n\nFrauke Kreuter ist Inhaberin des Social Data Science and AI Lab an der LMU München, und an der University of Maryland, USA, ist sie Co-Direktorin des Social Data Science Center (SoDa) und Fakultätsmitglied im Joint Program in Survey Methodology (JPSM). Sie ist eine gewählte Fellow der American Statistical Association und erhielt 2020 den Warren Mitofsky Innovators Award der American Association for Public Opinion Research. Neben ihrer akademischen Arbeit ist Frauke Kreuter Gründerin des International Program for Survey and Data Science (IPSDS), das als Reaktion auf die steigende Nachfrage von Forscher:innen und Parktiker:innen nach geeigneten Methoden und Instrumenten für ein sich veränderndes Datenumfeld entwickelt wurde. Sie ist außerdem Mitbegründerin der Coleridge Initiative, deren Ziel es ist, datengestützte Forschung und Politik rund um den Menschen und seine Interaktionen für Programmmanagement, Politikentwicklung und wissenschaftliche Zwecke zu beschleunigen, indem ein effizienter, effektiver und sicherer Zugang zu sensiblen Daten über Gesellschaft und Wirtschaft ermöglicht wird; und Mitbegründerin des deutschsprachigen Podcasts Dig Deep.",
+    "crumbs": [
+      "Über uns",
+      "Team"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Über uns",
+    "section": "",
+    "text": "Im Kern des ADA-Angebots stehen mehrtägige Data Science-Workshops für öffentliche Einrichtungen, die auf die Bedürfnisse der Anwender zugeschnitten sind. Wir begreifen Data Science als Teamsport, der einen intensiven Austausch zwischen Fachexpert:innen, Informatiker:innen, Statistiker:innen/Datenwissenschaftler:innen und ggf. weiteren Personenkreisen erfordert. Ausgehend vom vorab definierten Projektziel lernen die Teilnehmer die verfügbaren Daten kennen, interpretieren sie kontextabhängig und erarbeiten in Kleingruppen Data Science-Lösungen und Einsatzstrategien für den Verwaltungsalltag. ADA strukturiert und moderiert die Diskussion, stellt wichtige Grundlagen in Vorträgen bereit und bindet spezialisiertes Expertenwissen ein. So gelingt Digitalisierung.\nDarüber hinaus und basierend auf den Ergebnissen des Workshops kann ADA bei Bedarf bei der praktischen Implementierung unterstützen, z.B.:\n\nBeratung bei IT-Herausforderungen sowie beim beim Aufsetzen von Cloud-Lösungen\nVermittlung (und Betreuung) von Studierenden für Consulting-Projekte oder für Abschlussarbeiten\nDurchführung von wissenschaftlicher Begleitforschung",
+    "crumbs": [
+      "Über uns",
+      "Angebot"
+    ]
+  },
+  {
+    "objectID": "about.html#was-wir-bieten",
+    "href": "about.html#was-wir-bieten",
+    "title": "Über uns",
+    "section": "",
+    "text": "Im Kern des ADA-Angebots stehen mehrtägige Data Science-Workshops für öffentliche Einrichtungen, die auf die Bedürfnisse der Anwender zugeschnitten sind. Wir begreifen Data Science als Teamsport, der einen intensiven Austausch zwischen Fachexpert:innen, Informatiker:innen, Statistiker:innen/Datenwissenschaftler:innen und ggf. weiteren Personenkreisen erfordert. Ausgehend vom vorab definierten Projektziel lernen die Teilnehmer die verfügbaren Daten kennen, interpretieren sie kontextabhängig und erarbeiten in Kleingruppen Data Science-Lösungen und Einsatzstrategien für den Verwaltungsalltag. ADA strukturiert und moderiert die Diskussion, stellt wichtige Grundlagen in Vorträgen bereit und bindet spezialisiertes Expertenwissen ein. So gelingt Digitalisierung.\nDarüber hinaus und basierend auf den Ergebnissen des Workshops kann ADA bei Bedarf bei der praktischen Implementierung unterstützen, z.B.:\n\nBeratung bei IT-Herausforderungen sowie beim beim Aufsetzen von Cloud-Lösungen\nVermittlung (und Betreuung) von Studierenden für Consulting-Projekte oder für Abschlussarbeiten\nDurchführung von wissenschaftlicher Begleitforschung",
+    "crumbs": [
+      "Über uns",
+      "Angebot"
+    ]
+  },
+  {
+    "objectID": "about.html#was-uns-ausmacht",
+    "href": "about.html#was-uns-ausmacht",
+    "title": "Über uns",
+    "section": "Was uns ausmacht",
+    "text": "Was uns ausmacht\n\nProjektbezogenes Arbeiten\nIn jedem Projekt entwerfen wir einen maßgeschneiderten Workshop, der sich genau auf Ihre Fragestellung bezieht. Ziel unserer Arbeit ist es, Ihrer Organisation mit unserer Expertise zu helfen, sinnvolle Lösungen für Datenfragen zu finden und Ihre Kompetenz im Umgang mit Daten aller Art zu stärken.\n\n\nForschungsnähe\nEin großer Teil unseres Teams ist am Institut für Statistik der LMU angesiedelt und arbeitet täglich an datenbezogenen Forschungsfragen. Uns treibt das Bedürfnis an, unser erworbenes Wissen in die Praxis umzusetzen.\n\n\nSichere Infrastruktur\nZum gemeinsamen Entwerfen und Testen von Lösungsprototypen bieten wir eine sichere und datenschutzgerechte Cloudumgebung an.\n\n\nBehördengerechter Datenschutz\nIn unserer bisherigen Arbeit mit öffentlichen Behörden, haben wir Erfahrung mit verschiedensten Arten von sensiblen und personenbezogenen Daten gesammelt. Kommen Sie auf uns zu, um die Art und Auflagen Ihrer Daten zu besprechen.",
+    "crumbs": [
+      "Über uns",
+      "Angebot"
+    ]
+  },
+  {
+    "objectID": "about.html#wer-wir-sind",
+    "href": "about.html#wer-wir-sind",
+    "title": "Über uns",
+    "section": "Wer wir sind",
+    "text": "Wer wir sind\nWir sind ein Team mit einem breiten Erfahrungschatz an statistische/datenwissenschaftlichen Methoden, welches großteils am Lehrstuhl fur Statistik und Data Science für die Sozial- und Geisteswissenschaften an der Ludwig-Maximilians-Universität München angesiedelt ist. Lernen Sie uns kennen",
+    "crumbs": [
+      "Über uns",
+      "Angebot"
+    ]
+  },
+  {
+    "objectID": "about.html#wie-wir-arbeiten-ein-ada-projekt-in-4-phasen",
+    "href": "about.html#wie-wir-arbeiten-ein-ada-projekt-in-4-phasen",
+    "title": "Über uns",
+    "section": "Wie wir arbeiten (Ein ADA-Projekt in 4 Phasen)",
+    "text": "Wie wir arbeiten (Ein ADA-Projekt in 4 Phasen)\n\n\nVorbereitung\n\nOrganisatorische Vorbereitung\nIn der Vorbereitungsphase koordinieren wir Termine, klären Datenschutz- und rechtliche Themen und ermitteln den Kreis der Interessierten, wobei auch Studierende einbezogen werden können. Bei Bedarf fragen wir Expert:innen an, um spezifische Fragestellungen abzudecken.\n\n\nInhaltliche Vorbereitung\nDie Vorbereitung umfasst vor allem das Verständnis des Problems durch einen Expert:innenblick auf die Fragestellung und die Analyse relevanter Aspekte wie Infrastruktur, Prozesse und vorhandene Daten. Wir diskutieren mögliche Lösungsansätze und identifizieren die benötigte Expertise, sowohl intern aus dem ADA-Team als auch extern aus unserem Netzwerk. Anschließend konzipieren wir den Workshop, definieren die Ziele der Projektarbeit, bereiten Materialien und die notwendige Infrastruktur vor und legen das Format fest.\n\n\n\nWorkshop\nWährend des Workshops vermitteln wir gezielt Wissen und fördern den Wissensaustausch. Wir vernetzen relevante Stakeholder und bieten Hilfe zur Selbsthilfe bei Datenfragen. Die Teilnehmer:innen tauschen sich über technische und organisatorische Umsetzungsmöglichkeiten im Behördenkontext aus und recherchieren hierzu in ihren eigenen Einrichtungen. In der Projektarbeit erarbeiten wir gemeinsam das Problem und einen Lösungsweg und entwickeln einen Prototypen der Lösung.\n\n\nNachbereitung\nIn der Nachbereitung klären wir, wer die weitere Koordination des Projektes übernimmt und definieren die nächsten Schritte. Dazu gehören sowohl die Dokumentation der Ergebnisse, als auch die Ansprache zukünftiger Finanzierungsmöglichkeiten. Mögliche Optionen für weitere Schritte sind zum Beispiel aber nicht ausschließlich:\n\nStudentische Projekte über den Lehrstuhl für Statistik und Data Science in Sozial- und Geisteswissenschaften,\nADA-Folgeprojekte, wie Forschungsprojekte oder weitere Workshop-Serien,\nEigene Weiterentwicklungen ohne ADA, sondern mit hauseigenen Mitteln einer Behörde,\nAusschreibungen für externe Dienstleister.\n\nDie Ergebnisse des Workshops werden schlussendlich an den Partner übergeben, der die nächsten Schritte umsetzen soll.\n\n\nZeit nach ADA\nNach Abschluss des Workshops unterstützen wir bei Bedarf die praktische Implementierung der Lösung. Dies umfasst Beratung bei IT-Herausforderungen und beim Aufsetzen von Cloud-Lösungen, die Vermittlung und Betreuung von Studierenden für Consulting-Projekte oder Abschlussarbeiten sowie die Durchführung wissenschaftlicher Begleitforschung",
+    "crumbs": [
+      "Über uns",
+      "Angebot"
+    ]
+  },
+  {
+    "objectID": "index.html#probleme-mit-daten-lösen",
+    "href": "index.html#probleme-mit-daten-lösen",
+    "title": "ADA",
+    "section": "Probleme mit Daten lösen",
+    "text": "Probleme mit Daten lösen"
+  },
+  {
+    "objectID": "index.html#in-interdisziplinären-teams-mit-data-scientists-und-it-zusammenarbeiten",
+    "href": "index.html#in-interdisziplinären-teams-mit-data-scientists-und-it-zusammenarbeiten",
+    "title": "ADA",
+    "section": "In interdisziplinären Teams mit Data Scientists und IT zusammenarbeiten",
+    "text": "In interdisziplinären Teams mit Data Scientists und IT zusammenarbeiten"
+  },
+  {
+    "objectID": "index.html#gemeinsam-lernen",
+    "href": "index.html#gemeinsam-lernen",
+    "title": "ADA",
+    "section": "Gemeinsam lernen",
+    "text": "Gemeinsam lernen"
+  },
+  {
+    "objectID": "index.html#berührungsängste-mit-cloud-computing-abbauen",
+    "href": "index.html#berührungsängste-mit-cloud-computing-abbauen",
+    "title": "ADA",
+    "section": "Berührungsängste mit Cloud-Computing abbauen",
+    "text": "Berührungsängste mit Cloud-Computing abbauen"
+  }
+]
