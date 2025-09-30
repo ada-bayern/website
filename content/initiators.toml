@@ -16,22 +16,27 @@ url = "https://berd.nfdi.de"
 [[partner]]
 name = "Bayerische Staatsministerium für Digitales"
 logo = "images/initiators/Logo_StMD.png"
-url = "https://www.stmd.bayern.de/ministerium/organisation/"
+url = "https://www.stmd.bayern.de"
 
 
 
 [[client]]
-name = "BERD@NFDI"
-logo = "images/initiators/Logo_BERD-NFDI.png"
-url = "https://berd.nfdi.de"
+name = "Staatliche Archive Bayerns"
+logo = "images/initiators/Logo_GDA.gif"
+url = "https://www.gda.bayern.de"
 
 
 [[client]]
-name = "Bayerische Staatsministerium für Digitales"
-logo = "images/initiators/Logo_StMD.png"
-url = "https://www.stmd.bayern.de/ministerium/organisation/"
+name = "Bayerisches Staatsministerium für Unterricht und Kultus"
+logo = "images/initiators/Logo_StMUK.png"
+url = "https://www.km.bayern.de"
 
 [[client]]
-name = "LMU Munich"
-logo = "images/initiators/Logo_LMU.svg"
-url = "https://www.lmu.de"
+name = "Bayerisches Staatsministerium für Familie, Arbeit und Soziales"
+logo = "images/initiators/Logo_StMAS.png"
+url = "https://www.stmas.bayern.de"
+
+[[client]]
+name = "Nationalpark Baerischer Wald"
+logo = "images/initiators/Logo_Nationalpark.png"
+url = "https://www.stmas.bayern.de"

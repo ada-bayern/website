@@ -3,7 +3,7 @@ template="contact.html"
  title="Impressum"
  extra.contact_name="Frauke Kreuter"
  extra.contact_institution="Institut für Statistik"
- extra.contact_address="Ludwigstr. 3380539 München"
+ extra.contact_address="Ludwigstr. 33 | 80539 München"
 
 
  extra.contact_phone="+(49) 89 2180 2814"
@@ -26,4 +26,4 @@ Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unt
 
 Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
 
-Website Impressum erstellt durch impressum-generator.de von der Kanzlei Hasselbach
+*Website Impressum erstellt durch impressum-generator.de von der Kanzlei Hasselbach*

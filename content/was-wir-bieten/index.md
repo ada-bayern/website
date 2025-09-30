@@ -13,7 +13,7 @@ Im Kern des ADA-Angebots stehen mehrtägige Data Science-Workshops für öffentl
 {{image(path="was-wir-bieten/replace-later.jpg",round=true)}}
 
 
-{{side_text_block(title="Wie wir arbeiten (Ein ADA-Projekt in 4 Phasen)",size="big", compressed="true")}}
+{{side_text_block(title="Wie wir arbeiten",size="big", compressed="true")}}
  
 
 {{sliding_cards(data_path="was-wir-bieten/cards.toml")}}

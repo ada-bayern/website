@@ -6,7 +6,7 @@ title="Digitalisierte Präferenzerfassung von Referendar:innen"
 
 description="Wir erarbeiten gemeinsam eine digitalisierte Präferenzerfassung der Schul- und Ortswünsche der (zukünftigen) Einsatzschulreferendar:innen sowie der neu einzustellenden Lehrkräfte an staatlichen Gymnasien und Kollegs in Bayern."
 extra.current=true 
-extra.logo=""
+extra.logo="Logo_StMUK.png"
 extra.start_date="2025-6-1"
 extra.serie_name="Workshop series"
 
@@ -23,7 +23,7 @@ extra.cards=[
 
  
 extra.related_projects=[
-  { path="projekte/daten-basierte-archivierung-von-gerichtsakten/_index.md"}
+  { path="projekte/gda/_index.md"}
 ]
 
 +++

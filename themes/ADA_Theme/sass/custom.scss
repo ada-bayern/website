@@ -999,6 +999,11 @@ main>br {
             margin-right: auto;
         }
 
+        &:nth-child(4) {
+            padding: 10px 60px;
+            max-width: 700px;
+        }
+
         @media all and (min-width: $tablet) {
             position: relative;
             top: auto;
@@ -1014,6 +1019,13 @@ main>br {
                 margin-top: -167px;
                 padding: 143px 46px;
                 max-width: 386px;
+                transform: translateX(-106px);
+            }
+
+            &:nth-child(4) {
+                margin-top: -90px;
+                padding: 90px 46px;
+                max-width: 500px;
                 transform: translateX(-106px);
             }
         }
