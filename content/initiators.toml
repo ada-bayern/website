@@ -1,8 +1,7 @@
 [[partner]]
-name = "BERD@NFDI"
-logo = "images/initiators/Logo_BERD-NFDI.png"
-url = "https://berd.nfdi.de"
-
+name = "SODA Lab"
+logo = "images/initiators/Logo_SODA.png"
+url = "https://www.stat.lmu.de/soda"
 
 [[partner]]
 name = "LMU Munich"
@@ -10,14 +9,15 @@ logo = "images/initiators/Logo_LMU.svg"
 url = "https://www.lmu.de"
 
 [[partner]]
-name = "Bayerische Staatsministerium für Digitales"
-logo = "images/initiators/logo_staatsregierung.png"
-url = "https://www.stmd.bayern.de/ministerium/organisation/"
+name = "BERD@NFDI"
+logo = "images/initiators/Logo_BERD-NFDI.png"
+url = "https://berd.nfdi.de"
 
 [[partner]]
-name = "BERD@NFDI"
-logo = "images/initiators/Logo_BERD-NFDI.png"
-url = "https://berd.nfdi.de"
+name = "Bayerische Staatsministerium für Digitales"
+logo = "images/initiators/Logo_StMD.png"
+url = "https://www.stmd.bayern.de/ministerium/organisation/"
+
 
 
 [[client]]
@@ -28,7 +28,7 @@ url = "https://berd.nfdi.de"
 
 [[client]]
 name = "Bayerische Staatsministerium für Digitales"
-logo = "images/initiators/logo_staatsregierung.png"
+logo = "images/initiators/Logo_StMD.png"
 url = "https://www.stmd.bayern.de/ministerium/organisation/"
 
 [[client]]

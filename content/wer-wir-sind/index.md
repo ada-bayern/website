@@ -8,11 +8,13 @@ title="Wer wir sind"
 
 {%side_text_block(title="Wer wir sind",size="big",bg="dark")%}
 
-Wir sind ein Team aus Data Scientists und Statistiker:innen. Unser Ziel ist es, dazu beizutragen, dass Daten in der öffentlichen Verwaltung effektiver genutzt werden. 
+ADA ist eine Initiative des Social Data Science and AI Labs der Ludwigs-Maximilians-Universität München. Mit unserer wissenschaftlichen Expertise und unserem Netzwerk fühlen wir uns der Vision einer evidenzbasierten, effizienten, digitalen Verwaltung verpflichtet.
 
-Wir wollen Beschäftigte im öffentlichen Sektor zum (besseren) Umgang mit 
+Wir sind ein Team aus Data Scientists und StatistikerInnen. Unser Ziel ist es, dazu beizutragen, dass Daten in der öffentlichen Verwaltung effektiver genutzt werden. 
+
+<!-- Wir wollen Beschäftigte im öffentlichen Sektor zum (besseren) Umgang mit 
 Daten befähigen, die Datenkompetenz stärken, und so zur verstärkten Umsetzung von Datenprojekten beitragen. Anhand von konkreten Beispielen 
-aus der Verwaltungspraxis möchten wir Digitalisierung greifbar und interaktiv erlebbar machen.
+aus der Verwaltungspraxis möchten wir Digitalisierung greifbar und interaktiv erlebbar machen. -->
 {% end%}  
 
 
@@ -22,9 +24,7 @@ aus der Verwaltungspraxis möchten wir Digitalisierung greifbar und interaktiv e
 
 {%side_text_block(title="Team",size="big", bg="light", compressed="true")%}
 
-Wir sind ein Team aus Data Scientists und Statistiker:innen. Unser Ziel ist es, dazu beizutragen, dass Daten in der öffentlichen Verwaltung effektiver genutzt werden.
-
-Wir wollen Beschäftigte im öffentlichen Sektor zum (besseren) Umgang mit Daten befähigen, die Datenkompetenz stärken, und so zur verstärkten Umsetzung von Datenprojekten beitragen. Anhand von konkreten Beispielen aus der Verwaltungspraxis möchten wir Digitalisierung greifbar und interaktiv erlebbar machen.
+Hochmotiviert und bestens qualifiziert, das sind wir:
 {% end%}  
 
 
