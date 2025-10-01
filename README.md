@@ -17,3 +17,5 @@ In order to build the website without a local server, use
 ```{bash}
 ./zola build
 ```
+
+# Changeable Variables

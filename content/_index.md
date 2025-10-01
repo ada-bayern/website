@@ -17,7 +17,7 @@ Daten bieten uns die Möglichkeit, bessere Entscheidungen zu treffen. Vorgänge 
 
 <!-- Dafür entwickeln wir maßgeschneiderte Workshop-Serien, bei denen wir in Teamarbeit voneinander lernen und Lösungen entwickeln. Denn Data Science ist ein Teamsport, der nicht ohne Sie als Inhaltsexpert:innen funktioniert. Wir stellen eine sichere Cloud-Umgebung bereit, damit wir gemeinsam und effektiv mit den Daten arbeiten können. Dazu nutzen wir Open Source Software und stellen die entstandenen Produkte und Materialien unter offenen Lizenzen zur Verfügung. -->
 In maßgeschneiderten Projekten bringen wir Verwaltung und wissenschaftliche Datenexpertise an einen Tisch, um Probleme zu verstehen und pragmatische Lösungen dafür zu finden. Dabei befähigen wir Sie, als Mitarbeitende der öffentlichen Verwaltung, zu einem effizienten und verantwortungsbewussten Umgang mit Ihren Daten.
-Denn Data Science ist ein Teamsport, der nicht ohne Sie als ExpertInnen für Ihre Daten funktioniert!
+Denn Data Science ist ein Teamsport, der nicht ohne Sie als Expert:innen für Ihre Daten funktioniert!
 
 {%end%}  
 

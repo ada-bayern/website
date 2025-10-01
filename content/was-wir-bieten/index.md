@@ -1,6 +1,6 @@
 +++
 title="Was Wir Bieten"
-extra.display_newsletter=true
+extra.display_newsletter=false
 +++
 
 {%side_text_block(title="Was Wir Bieten", bg="dark", size="big")%}

@@ -33,6 +33,6 @@ Am Ende dieses Moduls können Sie...
 
 
 ### Material
-* [Slides](slides/ADA_Modul_1.pdf)
+* [Slides](ADA_GDA_WS1_Modul_1.pdf)
 
 <!-- (https://drive.google.com/file/d/1-1aiS7UinFX32LJ_iHj99rRrj3ajpMPS/view?usp=sharing) -->

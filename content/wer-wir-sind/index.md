@@ -10,7 +10,7 @@ title="Wer wir sind"
 
 ADA ist eine Initiative des Social Data Science and AI Labs der Ludwigs-Maximilians-Universität München. Mit unserer wissenschaftlichen Expertise und unserem Netzwerk fühlen wir uns der Vision einer evidenzbasierten, effizienten, digitalen Verwaltung verpflichtet.
 
-Wir sind ein Team aus Data Scientists und StatistikerInnen. Unser Ziel ist es, dazu beizutragen, dass Daten in der öffentlichen Verwaltung effektiver genutzt werden. 
+Wir sind ein Team aus Data Scientists und Statistiker:innen. Unser Ziel ist es, dazu beizutragen, dass Daten in der öffentlichen Verwaltung effektiver genutzt werden. 
 
 <!-- Wir wollen Beschäftigte im öffentlichen Sektor zum (besseren) Umgang mit 
 Daten befähigen, die Datenkompetenz stärken, und so zur verstärkten Umsetzung von Datenprojekten beitragen. Anhand von konkreten Beispielen 

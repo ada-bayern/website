@@ -11,21 +11,13 @@ extra.start_date="2024-10-1"
 extra.end_date=""
 extra.serie_name="Workshop serie"
 
-extra.type=["Presentation"]
-extra.tags=["Sectorgroup2","Otherlongwordtoaddfortesting"] 
-
-
-extra.cards=[
-  { title = "Project-highlight", content = "Das Pilotprojekt und die Methodik, die aus der Workshopserie hervorgingen werden in [diesem Artikel](https://www.nomos-elibrary.de/de/10.5771/2699-1284-2024-2-106/bewertung-von-zivilprozessakten-bayerischer-amtsgerichte-werkstattbericht-aus-einem-pilotprojekt-zur-angewandten-datenanalyse-am-beispiel-des-fachverfahrens-forumstar-jahrgang-5-2024-heft-2?page=1) ausführlich beschrieben." },
-  { title = "Fact", content = "Most of the attendies had a great time." },
-]
-
+extra.type=["Workshop"]
+extra.tags=["Dateninfrastruktur"] 
  
-extra.related_projects=[
-  { path="projekte/gda/_index.md"},
-  { path="projekte/stmuk/_index.md"}
-]
-
+# extra.related_projects=[
+#  { path="projekte/gda/_index.md"},
+#  { path="projekte/stmuk/_index.md"}
+# ]
 
 +++
 
@@ -40,6 +32,7 @@ Der zweite Teil des Workshops fokussierte auf die Infrastruktur- und IT-Herausfo
 
 Die Workshop-Serie brachte relevante Stakeholder zusammen und ermöglichte praxisnahe Diskussionen zu zentralen Fragen wie der Identifikation und Eigenschaften von Bäumen, der Nutzung von Datenquellen und den technischen Anforderungen für eine effektive Datenverarbeitung.
 
+
 ### Ergebnis
 
 Die Workshop-Serie zur Einzelbaumerkennung und zum Baum- und Waldmanagement mit Fernerkundungsdaten führte zu mehreren bedeutenden Ergebnissen:
@@ -49,6 +42,9 @@ Die Workshop-Serie zur Einzelbaumerkennung und zum Baum- und Waldmanagement mit 
 - Aktuell wird vom Nationalpark Bayerischer Wald ein Pilotprojekt für die Cloud-basierte Speicherung und Verarbeitung von Geodaten umgesetzt. Dieses Projekt soll die praktische Anwendbarkeit der erarbeiteten Konzepte demonstrieren und einen Grundstein für zukünftige, skalierbare Lösungen im Bereich der Fernerkundung und Datenanalyse legen.
 
 
-{%card(title="another experiment",color="salmon")%}
-Inside of the salmon card is a big pile of caviar
+{%card(title="Kurz und Knapp",color="salmon")%}
+#### Projektergebnisse
+- Erweiterung der Kompetenzen im Bereich Cloud-Computing und Bilddatensätze
+- Wissensaustausch und die Vernetzung verschiedener Behörden
+- Pilotprojekt für Cloud-basierte Speicherung und Verarbeitung von Geodaten
 {%end%}

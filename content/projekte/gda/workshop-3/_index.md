@@ -1,0 +1,58 @@
++++
+template="project.html"
+title="Daten-basierte Archivierung von Gerichtsakten"
+extra.sidebar_title="Workshop 3"
+weight=3
+sort_by="weight"
++++
+
+**21.03. - 30.04.2024**
+
+### Ablauf
+
+| Veranstaltung      | Datum  | Zeit        | Ort |
+|--------------------|--------|-------------|-------------|
+| Kick-Off 1*          | 21.03. | 14:30 - 16:00| Online (Zoom) |
+| Kick-Off 2*          | 08.04. | 15:00 - 16:30| Online (Zoom) |
+| Modul 1            | 09.04. | 10:00 - 15:30| LMU |
+| Modul 2            | 10.04. | 10:00 - 15:30| LMU |
+| Modul 3            | 11.04. | 10:00 - 15:30| LMU |
+| Gruppenarbeit 1    | 17.04. | 12:00 - 13:30| Online (Zoom) |
+| Gruppenarbeit 2    | 24.04. | 12:00 - 13:30| Online (Zoom) |
+| Abschluss-Vorbereitung    | 30.04. | 10:00 - 12:00| LMU |
+| Abschlusstermin    | 30.04. | 13:30 - 15:30| LMU / Hybrid (Zoom) |
+*Kick-Off: es muss nur ein Kick-Off-Termin besucht werden.
+
+<!-- ### Orte
+
+- **Zoom**: Der Zoom-Link wird den Teilnehmenden per Mail mitgeteilt. Sollten Sie keine E-Mail erhalten haben, melden Sie sich bitte bei us (siehe [Kontakt](kontakt.html)).
+- **LMU**: Institut für Statistik der LMU München, Ludwigstr. 33, 4. Stock -->
+
+### Inhalte
+
+In dieser Workshop-Serie betrachten wir alle Bestandteile eines klassischen 
+Daten-Analyse-Projekts. Dabei geht es vor allem darum, Berührungsängste abzubauen
+und Kompetenzen aufzubauen, um als Team solche Projekte anzugehen. Denn 
+**Datenarbeit ist Teamarbeit** und diverse Expertisen sind gefragt.
+
+Diese Workshop-Serie ist eine inhaltliche Wiederholung der Workshop-Serie 1.
+
+
+{%card(title='Lernziele', color="lilac")%}
+Am Ende dieses Workshops, können Sie...
+
+* ... einschätzen, welche Fragen in Ihrem Umfeld mit Daten beanwortet werden können.
+* ... in Projekten mit Daten ihre Fachexpertise einbringen, ohne Berührungsängste zu haben.
+* ... mit Data Scientists und IT-Personal über Cloud-Computing und Datenanalysen sprechen.
+{%end%}
+
+
+<!-- 
+
+## Anmeldung
+
+Bitte melden Sie sich über [Pretix](https://pretix.eu/berd/adabayern-3/) an.
+
+Fragen gerne an [data-analytics@stat.uni-muenchen.de](mailto:data-analytics@stat.uni-muenchen.de). 
+
+![](../../icons/Logos.png) -->
