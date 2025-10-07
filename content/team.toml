@@ -28,13 +28,13 @@ social = [
 
 [[member]]
 name = "Dr. Heidi Seibold"
-email = "heidi.seibold@stat.uni-muenchen.de"
+email = "heidi.seibold@digiresacademy.org"
 image = "/images/team/heidi.jpg"
-description = "Heidi Seibold ist Trainerin und Beraterin für Open and Reproducible Research und unabhängige Wissenschaftlerin bei IGDORE. Sie ist eine Co-Gründerin von Open Science Freelancers. Ihre Forschung liegt in der Schnittmenge von Datenwissenschaft, Reproduzierbarkeit und Medizin. Heidi Seibold hat Statistik studiert und in Biostatistik mit einem Schwerpunkt auf maschinellem Lernen promoviert. In ihrem Podcast “reboot academia” und ihrem beliebten Newsletter spricht sie über Open Science, gute Wissenschaft und die Zukunft der Forschung."
+description = "Heidi Seibold ist Gründerin der Digital Research Academy. Sie ist promovierte Statistikerin und beschäftigt sich heute vorrangig mit der Verbessung der Qualität in Wissenschaft und Forschung. In ihrem beliebten Newsletter spricht sie über Open Science, gute Wissenschaft und die Zukunft der Forschung."
 social = [
   { title = "Website", url = "https://heidiseibold.com/" },
-  { title = "LinkedIn", url = "https://www.linkedin.com/in/heidiseibold/" },
-  { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/heidi-seibold-825909f7.html" }
+  { title = "LinkedIn", url = "https://www.linkedin.com/in/dr-heidi-seibold/" },
+  { title = "Newsletter", url = "https://digiresacademy.kit.com/" }
 ]
 
 [[member]]
