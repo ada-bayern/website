@@ -159,6 +159,3 @@ Contains previous iteration of the website:
 - **`_quarto.yml`** - Previous build configuration
 - **Legacy styling and content** - Project materials
 - **`icons/` & `projects/`** - Previous assets and project documentation
-
-
-# Changeable Variables
