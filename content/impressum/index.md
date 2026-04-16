@@ -41,7 +41,7 @@ Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Date
 
 #### Gestaltung und technische Umsetzung der Website
 
-Web Design: [Sara Silva Santos](https://sarasworkplace.pt/), [Allie Heesh](https://www.allieheesh.com/)<br>
+Web Design: [<span style="color: blue; text-decoration: underline;">Sara Silva Santos</span>](https://sarasworkplace.pt/), [<span style="color: blue; text-decoration: underline;">Allie Heesh</span>](https://www.allieheesh.com/)<br>
 Implementierung: João Verissimo
 
 <!-- *Website Impressum erstellt durch impressum-generator.de von der Kanzlei Hasselbach* -->
