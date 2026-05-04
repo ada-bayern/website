@@ -12,7 +12,7 @@
         <li class="partner">
             <a href="{{ partner.url }}" target="_blank" rel="noopener noreferrer"
                 aria-label="{{ partner.name }} (öffnet in neuem Tab)">
-                <img src="{{ content::base_path() }}{{ partner.logo }}" alt="">
+                <img src="{{ content::base_path() }}{{ partner.logo }}" alt="{{ partner.name }} Logo">
             </a>
 
         </li>
@@ -27,7 +27,7 @@
         <li class="client">
             <a href="{{ client.url }}" target="_blank" rel="noopener noreferrer"
                 aria-label="{{ client.name }} (öffnet in neuem Tab)">
-                <img src="{{ content::base_path() }}{{ client.logo }}" alt="">
+                <img src="{{ content::base_path() }}{{ client.logo }}" alt="{{ client.name }} Logo">
             </a>
         </li>
         {% endfor -%}

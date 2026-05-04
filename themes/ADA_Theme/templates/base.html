@@ -153,7 +153,7 @@
             <nav class="social" aria-label="Soziale Netzwerke">
                 {% for link in config.extra.footer.social %}
                 <a href="{{link.url}}" aria-label="{{ link.title }} (öffnet in neuem Tab)" target="_blank"
-                    rel="noopener noreferrer"> <img src="{{ content::base_path() }}{{ link.icon }}" alt=""
+                    rel="noopener noreferrer"> <img src="{{ content::base_path() }}{{ link.icon }}" alt="Soziales Netzwerk Icon"
                         class="social-icon"></a>
                 {% endfor %}
             </nav>
