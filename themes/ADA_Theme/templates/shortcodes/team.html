@@ -15,6 +15,7 @@
         widths=[320, 640],
         heights=[378, 755],
         class="member-image lazy",
+        alt=member.name
   
         )
         -}}
@@ -75,6 +76,8 @@
 
             const nameWrapper = member.querySelector('.name-wrapper');
             const img = member.querySelector('img');
+            const name = member.querySelector('.name').textContent.trim();
+            if (img) img.alt = name;
 
             const toggleFold = () => {
                 member.classList.remove('to-init');

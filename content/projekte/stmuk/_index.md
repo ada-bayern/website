@@ -5,9 +5,10 @@ weight=3
 title="Digitalisierte Präferenzerfassung von Referendar:innen"
 
 description="Wir erarbeiten gemeinsam eine digitalisierte Präferenzerfassung der Schul- und Ortswünsche der (zukünftigen) Einsatzschulreferendar:innen sowie der neu einzustellenden Lehrkräfte an staatlichen Gymnasien und Kollegs in Bayern."
-extra.current=true 
+extra.current=false 
 extra.logo="Logo_StMUK.png"
 extra.start_date="2025-6-1"
+extra.end_date="2026-01-1"
 extra.serie_name="Workshop series"
 
 extra.type=["Workshop"]
