@@ -3,7 +3,7 @@
     <div id="subscribe">
     <div class="newsletter_form">
         <div class="newsletter_text">
-            <h2>Möchten Sie mehr erfahren? Melden Sie sich für unseren Newsletter an</h2>
+            <h2 id="newsletter-heading">Möchten Sie mehr erfahren? Melden Sie sich für unseren Newsletter an</h2>
         </div>
         <div id="mc_embed_signup">
              {# <form action={%if action
@@ -42,13 +42,18 @@
                     <form
                         action="https://lmu.us4.list-manage.com/subscribe/post?u=cae59c27abd6af88c49bc37db&amp;id=62aadac294&amp;f_id=00a209e3f0"
                         method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                        target="_blank">
+                        target="_blank" aria-labelledby="newsletter-heading">
                         <div id="mc_embed_signup_scroll">
-                            <div class="mc-field-group email"><input type="email" name="EMAIL" class="required email"
-                                    id="mce-EMAIL" required="" value="" placeholder="Geben Sie Ihre E-Mail-Adresse ein"></div>
+                            <div class="mc-field-group email">
+                                <label for="mce-EMAIL" class="visually-hidden">E-Mail-Adresse</label>
+                                <input type="email" name="EMAIL" class="required email"
+                                    id="mce-EMAIL" required="" value="" aria-required="true"
+                                    placeholder="Geben Sie Ihre E-Mail-Adresse ein"
+                                    aria-describedby="mce-error-response mce-success-response">
+                            </div>
                             <div id="mce-responses" class="clear foot">
-                                <div class="response" id="mce-error-response" style="display: none;"></div>
-                                <div class="response" id="mce-success-response" style="display: none;"></div>
+                                <div class="response" id="mce-error-response" role="alert" aria-live="assertive" style="display: none;"></div>
+                                <div class="response" id="mce-success-response" role="status" aria-live="polite" style="display: none;"></div>
                             </div>
                             <div aria-hidden="true" style="position: absolute; left: -5000px;">
                                 /* real people should not fill this in and expect good things - do not remove this or risk form bot
@@ -59,7 +64,7 @@
                                 <div class="clear foot">
                                     <input type="submit" name="subscribe" id="mc-embedded-subscribe" class=""
                                         value="Einreichen">
-                                   
+
                                 </div>
                             </div>
                         </div>
@@ -73,7 +78,7 @@
         </div>
    
     </div>
-    <img src="{{ content::base_path() }}images/envelopes1.svg" alt="Umschläge" class="envelopes">
+    <img src="{{ content::base_path() }}images/envelopes1.svg" alt="" aria-hidden="true" class="envelopes">
     </div>
     </div>
 </div>

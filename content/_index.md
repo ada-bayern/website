@@ -23,7 +23,7 @@ Denn Data Science ist ein Teamsport, der nicht ohne Sie als Expert:innen für Ih
 
 {%side_text_block(title="Unser Ziel",size="big", compressed="true" bg="light")%}
 
-In der Praxis müssen von der Idee bis zur Umsetzung von Datenprojekten viele Hürden genommen werden. Unser Ziel ist, dass Daten in der öffentlichen Verwaltung effektiver genutzt werden.
+In der Praxis müssen von der Idee bis zur Umsetzung von Datenprojekten viele Hürden genommen werden. Unser Ziel ist, dass Daten in der öffentlichen Verwaltung effektiver genutzt werden.
 
 {% end%}  
 {{inline_cards(data_path="cards.toml")}}

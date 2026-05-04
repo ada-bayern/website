@@ -1,35 +1,38 @@
 {% extends "base.html" %}
 {% block hero %}
 
-<div class="top-tabs list bg-dark">
-    <div class="tab active">
+<div class="top-tabs list bg-dark" role="tablist" aria-label="Projektstatus">
+    <button type="button" class="tab active" role="tab" id="section-tab-aktuelle"
+        aria-selected="true" aria-controls="section-panel-projects" tabindex="0">
         Aktuelle Projekte
-    </div>
-    <div class="tab">
+    </button>
+    <button type="button" class="tab" role="tab" id="section-tab-abgeschlossene"
+        aria-selected="false" aria-controls="section-panel-projects" tabindex="-1">
         Abgeschlossene Projekte
-    </div>
+    </button>
 </div>
 
 {%endblock hero%}
 {% block content %}
 
-<div class>
+<div>
 
-    <div class="container project-list">
+    <ul class="container project-list" id="section-panel-projects" role="tabpanel"
+        aria-labelledby="section-tab-aktuelle section-tab-abgeschlossene">
     {% set projects = section.subsections %}
 
         {% for project in projects %}
         {% set sec = get_section(path = project) %}
 
 
-        <div class="project-item">
+        <li class="project-item">
             <a href="{{ sec.permalink }}" class="project-link">
                 <h2>{{ sec.title }}</h2>
                 {{ sec.pages.0.content | safe }}
                 <p>{{ sec.description }}</p>
             </a>
-        </div>
+        </li>
         {% endfor %}
-    </div>
+    </ul>
 </div>
 {% endblock content %}

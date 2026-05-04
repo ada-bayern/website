@@ -6,27 +6,31 @@
 {% block content %}
 <div class="bg-dark filler"></div>
 
-<div class="top-tabs list bg-dark">
-    <div class="tab active">
+<div class="top-tabs list bg-dark" role="tablist" aria-label="Projektstatus">
+    <button type="button" class="tab active" role="tab" id="tab-aktuelle"
+        aria-selected="true" aria-controls="panel-projects" tabindex="0">
         Aktuelle Projekte
-    </div>
-    <div class="tab">
+    </button>
+    <button type="button" class="tab" role="tab" id="tab-abgeschlossene"
+        aria-selected="false" aria-controls="panel-projects" tabindex="-1">
         Abgeschlossene Projekte
-    </div>
+    </button>
 </div>
-<div class>
+<div>
     <div class="container">
         <div class="container-wrapper">
-            <div class="project-list">
+            <ul class="project-list" id="panel-projects" role="tabpanel"
+                aria-labelledby="tab-aktuelle tab-abgeschlossene">
                 {% set projects = section.subsections | reverse %}
 
                 {% for project in projects %}
                 {% set sec = get_section(path = project) %}
 
-                <div class="project {%if sec.extra.current%}{%if sec.extra.current==true%}current{% endif %}{%endif%}">
+                <li class="project {%if sec.extra.current%}{%if sec.extra.current==true%}current{% endif %}{%endif%}">
                     <a href="{{ sec.permalink }}" class="project-link">
                         <div class="front">
                             <div class="tags">
+                                <span class="visually-hidden">Kategorien:</span>
                                 {% if sec.extra.type %}
                                 {% for type in sec.extra.type %}
                                 <span class="type">{{ type }}</span>
@@ -59,17 +63,17 @@
                             </div>
                             {%if sec.extra.logo %}
                             <div class="project-logo">
-                                <img src="{{ sec.permalink ~ sec.extra.logo }}" alt="Logo">
+                                <img src="{{ sec.permalink ~ sec.extra.logo }}" alt="">
                             </div>
                             {% endif %}
                         </div>
 
 
                     </a>
-                </div>
+                </li>
 
                 {% endfor %}
-            </div>
+            </ul>
         </div>
     </div>
 </div>
@@ -158,28 +162,24 @@
     // Optional: re-adjust after images load (for project logos)
     window.addEventListener('load', adjustProjectHeights);
 
+    function setActiveTab(activeIndex) {
+        const tabs = document.querySelectorAll('.top-tabs .tab');
+        tabs.forEach((tab, i) => {
+            const isActive = i === activeIndex;
+            tab.classList.toggle('active', isActive);
+            tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
+            tab.setAttribute('tabindex', isActive ? '0' : '-1');
+        });
+    }
+
     // Check URL hash and handle tab switching
     function checkURLHash() {
         if (window.location.hash === '#abgeschlossene') {
             document.body.classList.add('previous');
-            // Update tab active states
-            document.querySelectorAll('.top-tabs .tab').forEach((tab, index) => {
-                if (index === 1) {
-                    tab.classList.add('active');
-                } else {
-                    tab.classList.remove('active');
-                }
-            });
+            setActiveTab(1);
         } else {
             document.body.classList.remove('previous');
-            // Update tab active states
-            document.querySelectorAll('.top-tabs .tab').forEach((tab, index) => {
-                if (index === 0) {
-                    tab.classList.add('active');
-                } else {
-                    tab.classList.remove('active');
-                }
-            });
+            setActiveTab(0);
         }
         // Recalculate heights after visibility change
         setTimeout(adjustProjectHeights, 50);
@@ -187,34 +187,41 @@
 
     // Add click events to tabs
     document.addEventListener('DOMContentLoaded', function () {
-        const tabs = document.querySelectorAll('.top-tabs .tab');
+        const tabs = Array.from(document.querySelectorAll('.top-tabs .tab'));
 
         tabs.forEach((tab, index) => {
             tab.addEventListener('click', function () {
-                // Only toggle if tab was not already active
                 if (!tab.classList.contains('active')) {
-                    // Remove active class from all tabs
-                    tabs.forEach(t => t.classList.remove('active'));
-                    // Add active class to clicked tab
-                    tab.classList.add('active');
+                    setActiveTab(index);
 
                     if (index === 0) {
-                        // First tab - remove .previous class
                         document.body.classList.remove('previous');
-                        // Update URL hash
                         if (window.location.hash === '#abgeschlossene') {
                             history.pushState('', document.title, window.location.pathname);
                         }
-                        // Recalculate heights after visibility change
-                        setTimeout(adjustProjectHeights, 50);
                     } else if (index === 1) {
-                        // Second tab - add .previous class
                         document.body.classList.add('previous');
-                        // Update URL hash
                         window.location.hash = '#abgeschlossene';
-                        // Recalculate heights after visibility change
-                        setTimeout(adjustProjectHeights, 50);
                     }
+                    setTimeout(adjustProjectHeights, 50);
+                }
+            });
+
+            tab.addEventListener('keydown', function (e) {
+                let nextIndex = null;
+                if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+                    nextIndex = (index + 1) % tabs.length;
+                } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                    nextIndex = (index - 1 + tabs.length) % tabs.length;
+                } else if (e.key === 'Home') {
+                    nextIndex = 0;
+                } else if (e.key === 'End') {
+                    nextIndex = tabs.length - 1;
+                }
+                if (nextIndex !== null) {
+                    e.preventDefault();
+                    tabs[nextIndex].focus();
+                    tabs[nextIndex].click();
                 }
             });
         });

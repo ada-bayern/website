@@ -1,10 +1,8 @@
-<div class="folder-section project-header">
+<section class="folder-section project-header" aria-labelledby="folder-section-title">
 <div class="tab">{{tab_text}}</div>
-    <div class="container bg-dark">
-        <h2>Folder Section</h2>
-    </div>
     {% set project=get_section(path=project_path) %}
     <div class="tags">
+        <span class="visually-hidden">Kategorien:</span>
         <span class="type">Workshop</span>
         <span class="tag">sector 1</span>
         <span class="tag">sectorsectorsector</span>
@@ -15,8 +13,7 @@
             locale="de_DE")
             }}</span>{% endif %}
     </div>
-    {% if project.title %}<h1 class="">{{ project.title }}</h1>{% endif %}
+    {% if project.title %}<h2 id="folder-section-title">{{ project.title }}</h2>{% endif %}
     {% if project.description %}<div class="project-description">{{ project.description }}</div>{% endif %}
-    <div class="button"><a href="{{ project.permalink }}">Mehr lesen</a></div>
-</div>
-</div>
+    <div class="button"><a href="{{ project.permalink }}" aria-label="Mehr über {{ project.title }} lesen">Mehr lesen</a></div>
+</section>

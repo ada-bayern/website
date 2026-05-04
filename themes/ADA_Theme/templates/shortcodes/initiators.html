@@ -1,33 +1,35 @@
 {% import "macros/content.html" as content %}
 {% set data = load_data(path=data_path) %}
 
-<div class="initiators container">
+<section class="initiators container" aria-labelledby="initiators-partner-heading">
     <!-- <h1 class="huge">
         Netzwerk
     </h1> -->
-    <h2>Partner</h2>
-    <div class="partners">
-        
+    <h2 id="initiators-partner-heading">Partner</h2>
+    <ul class="partners">
+
         {%- for partner in data.partner %}
-        <div class="partner">
-            <a href="{{ partner.url }}" target="_blank">
-                <img src="{{ content::base_path() }}{{ partner.logo }}" alt="{{ partner.name }}">
+        <li class="partner">
+            <a href="{{ partner.url }}" target="_blank" rel="noopener noreferrer"
+                aria-label="{{ partner.name }} (öffnet in neuem Tab)">
+                <img src="{{ content::base_path() }}{{ partner.logo }}" alt="">
             </a>
 
-        </div>
+        </li>
 
         {% endfor -%}
-    </div>
-    <div class="divider2"><div class="line"></div></div>
-    
-    <h2>Kunden</h2>
-    <div class="clients">
+    </ul>
+    <div class="divider2" aria-hidden="true"><div class="line"></div></div>
+
+    <h2 id="initiators-clients-heading">Kunden</h2>
+    <ul class="clients" aria-labelledby="initiators-clients-heading">
         {%- for client in data.client %}
-        <div class="client">
-            <a href="{{ client.url }}" target="_blank">
-                <img src="{{ content::base_path() }}{{ client.logo }}" alt="{{ client.name }}">
+        <li class="client">
+            <a href="{{ client.url }}" target="_blank" rel="noopener noreferrer"
+                aria-label="{{ client.name }} (öffnet in neuem Tab)">
+                <img src="{{ content::base_path() }}{{ client.logo }}" alt="">
             </a>
-        </div>
+        </li>
         {% endfor -%}
-    </div>
-</div>
+    </ul>
+</section>

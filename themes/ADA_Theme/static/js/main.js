@@ -82,20 +82,55 @@ document.addEventListener('DOMContentLoaded', function () {
     const menuToggle = document.querySelector('.open-menu');
     if (menuToggle) {
         menuToggle.addEventListener('click', function () {
-            document.body.classList.toggle('menu-opened');
+            const opened = document.body.classList.toggle('menu-opened');
+            menuToggle.setAttribute('aria-expanded', opened ? 'true' : 'false');
+            menuToggle.setAttribute('aria-label', opened ? 'Menü schließen' : 'Menü öffnen');
         });
     }
 
-    document.querySelector(".search").addEventListener('click', function (e) {
-        e.preventDefault();
-       
-        document.body.classList.toggle('search-open');
-    });
-    document.querySelector(".close-search").addEventListener('click', function (e) {
-        e.preventDefault();
+    const searchTrigger = document.querySelector(".search");
+    const searchInput = document.getElementById('search');
+    if (searchTrigger) {
+        searchTrigger.setAttribute('aria-haspopup', 'dialog');
+        searchTrigger.setAttribute('aria-expanded', 'false');
+        searchTrigger.setAttribute('aria-controls', 'search-results');
+        searchTrigger.addEventListener('click', function (e) {
+            e.preventDefault();
+            const opened = document.body.classList.toggle('search-open');
+            searchTrigger.setAttribute('aria-expanded', opened ? 'true' : 'false');
+            if (opened && searchInput) {
+                // move focus into the search field when overlay opens
+                setTimeout(() => searchInput.focus(), 0);
+            }
+        });
+    }
+    const closeSearch = document.querySelector(".close-search");
+    if (closeSearch) {
+        closeSearch.addEventListener('click', function (e) {
+            e.preventDefault();
 
-        document.body.classList.remove('search-open');
-        document.body.classList.remove('menu-opened');
+            document.body.classList.remove('search-open');
+            document.body.classList.remove('menu-opened');
+            if (searchTrigger) searchTrigger.setAttribute('aria-expanded', 'false');
+            if (menuToggle) {
+                menuToggle.setAttribute('aria-expanded', 'false');
+                menuToggle.setAttribute('aria-label', 'Menü öffnen');
+            }
+            if (searchTrigger && typeof searchTrigger.focus === 'function') {
+                searchTrigger.focus();
+            }
+        });
+    }
+
+    // Allow Escape to close the search overlay
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && document.body.classList.contains('search-open')) {
+            document.body.classList.remove('search-open');
+            if (searchTrigger) {
+                searchTrigger.setAttribute('aria-expanded', 'false');
+                searchTrigger.focus();
+            }
+        }
     });
 
     // Prepare tables inside .right for stacked mobile layout
@@ -279,6 +314,13 @@ document.addEventListener('DOMContentLoaded', function () {
                     if (!card.classList.contains('retracted')) card.classList.add('retracted');
                 } else {
                     if (card.classList.contains('retracted')) card.classList.remove('retracted');
+                }
+                const cardContent = card.querySelector('.card-content');
+                if (cardContent) {
+                    const isRetracted = card.classList.contains('retracted');
+                    cardContent.setAttribute('aria-hidden', isRetracted ? 'true' : 'false');
+                    if (isRetracted) cardContent.setAttribute('inert', '');
+                    else cardContent.removeAttribute('inert');
                 }
 
                 const originalTop = Number(card.dataset.originalTop || 0);

@@ -190,6 +190,12 @@ function initSearch() {
       var results = (await initIndex()).search(term, options);
       if (results.length === 0) {
         if ($searchResults) $searchResults.classList.add("no-results");
+        if ($searchResultsItems) {
+          var empty = document.createElement("li");
+          empty.setAttribute("role", "status");
+          empty.textContent = "Keine Ergebnisse für „" + term + "“";
+          $searchResultsItems.appendChild(empty);
+        }
         return;
       }
 

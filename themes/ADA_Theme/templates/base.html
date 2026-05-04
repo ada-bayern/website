@@ -24,17 +24,18 @@
 
 <body
     class="{%if page.relative_path%}{{ content::clean_path(path=page.relative_path) }}{% endif %} {% if page.extra.class %}{{ page.extra.class }}{% endif %}">
+    <a class="skip-link" href="#main">Zum Hauptinhalt springen</a>
     <header class="">
 
         <div class="logo">
-            <a href="{{ content::base_path() }}">
-                <img src="{{ content::base_path() }}images/logo.svg" alt="Logo" class="logo-image">
-                <img src="{{ content::base_path() }}images/logo1.svg" alt="Logo" class="logo-text">
-                <img src="{{ content::base_path() }}images/logo2.svg" alt="Logo" class="logo-text hide-small">
+            <a href="{{ content::base_path() }}" aria-label="ADA – zur Startseite">
+                <img src="{{ content::base_path() }}images/logo.svg" alt="" class="logo-image">
+                <img src="{{ content::base_path() }}images/logo1.svg" alt="" class="logo-text">
+                <img src="{{ content::base_path() }}images/logo2.svg" alt="" class="logo-text hide-small">
             </a>
         </div>
-        <div class="tabs-wrapper">
-            <ul class="tabs">
+        <nav class="tabs-wrapper" aria-label="Hauptnavigation">
+            <ul class="tabs" id="primary-nav">
                 {% if config.extra.navbar.links -%}
                 {% for link in config.extra.navbar.links %}
                 {% set class="" %}
@@ -49,28 +50,33 @@
             </ul>
 
 
-        </div>
+        </nav>
 
 
-        <div class="open-menu"></div>
-        <div class="scroll-indicator">
+        <button type="button" class="open-menu" aria-label="Menü öffnen" aria-expanded="false"
+            aria-controls="primary-nav"></button>
+        <div class="scroll-indicator" aria-hidden="true">
             <div class="scroll-indicator-bar"></div>
         </div>
         {% if config.build_search_index %}
 
 
     </header>
-    <div class="search-area">
+    <div class="search-area" role="search" aria-label="Volltextsuche">
         <div class="search-area-wrapper">
-            <div class="search-input"> <input id="search" placeholder="Wonach suchst du?"><span
-                    class="clear-search"></span>
+            <div class="search-input">
+                <label for="search" class="visually-hidden">Suche</label>
+                <input id="search" type="search" placeholder="Wonach suchst du?"
+                    aria-controls="search-results">
+                <button type="button" class="clear-search" aria-label="Sucheingabe leeren"></button>
             </div>
-            <div class="close-search"></div>
-            <div class="search-results">
+            <button type="button" class="close-search" aria-label="Suche schließen"></button>
+            <div class="search-results" id="search-results" role="region" aria-live="polite"
+                aria-label="Suchergebnisse">
 
 
 
-                <div class="search-results__items"></div>
+                <ul class="search-results__items"></ul>
             </div>
         </div>
     </div>
@@ -98,15 +104,16 @@
 
         {% if paginator and paginator.number_pagers > 1 %}
         <!-- pagination -->
-        <div class="join mx-auto w-full justify-center mt-4 mb-4">
+        <nav class="join mx-auto w-full justify-center mt-4 mb-4" aria-label="Seitennavigation">
             {% for pager in range(start=1, end=paginator.number_pagers+1) %}
             <a href="{% if pager == 1 %}{{ paginator.first }}{% else %}{{ paginator.base_url }}{{ pager }}{% endif %}"
                 class="join-item btn {% if paginator.current_index == pager %}btn-active btn-secondary{% endif %}"
-                aria-label="{{ pager }}">
+                aria-label="Seite {{ pager }}"
+                {% if paginator.current_index == pager %}aria-current="page"{% endif %}>
                 {{ pager }}
             </a>
             {% endfor %}
-        </div>
+        </nav>
         {% endif %}
 
         {% if page.extra.highlight_project %}
@@ -118,14 +125,14 @@
         {{ content::highlight_project(path=section.extra.highlight_project) }}
         {% endif %}
 
-        <div class="container green contact-container">
+        <aside class="container green contact-container" aria-label="Kontaktaufruf">
             <div class="container-wrapper">
                 <div class="contact">
                     <span> Haben Sie ein Problem, das Sie mit uns gemeinsam lösen möchten?</span>
                     <div class="button"><a href="mailto:data-analytics@stat.uni-muenchen.de">Kontaktieren Sie uns</a></div>
                 </div>
             </div>
-        </div>
+        </aside>
 
         {%if page.extra.display_newsletter or section.extra.display_newsletter%}
 
@@ -133,7 +140,7 @@
         {% endif %}
         <footer class="footer">
             {% if config.extra.footer.links %}
-            <nav class="links">
+            <nav class="links" aria-label="Footernavigation">
                 {% for link in config.extra.footer.links %}
                 <a class="link link-hover" href="{{ link.url}}">{{
                     link.title }}</a>
@@ -143,9 +150,10 @@
             {% if config.extra.footer.social %}
 
 
-            <nav class="social">
+            <nav class="social" aria-label="Soziale Netzwerke">
                 {% for link in config.extra.footer.social %}
-                <a href="{{link.url}}"> <img src="{{ content::base_path() }}{{ link.icon }}" alt="{{ link.title }}"
+                <a href="{{link.url}}" aria-label="{{ link.title }} (öffnet in neuem Tab)" target="_blank"
+                    rel="noopener noreferrer"> <img src="{{ content::base_path() }}{{ link.icon }}" alt=""
                         class="social-icon"></a>
                 {% endfor %}
             </nav>

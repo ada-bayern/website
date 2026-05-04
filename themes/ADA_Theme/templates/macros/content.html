@@ -47,10 +47,10 @@
 {% endmacro %}
 
 {% macro navbar_tab(url, text, text_class,class="") %}
-<li {% if current_path and ((url !="" and url in current_path) or (url=="" and current_path | trim_end_matches(pat=lang
-    ~'/') | trim_end_matches(pat='/' )=="" )) %} class="tab active" {# Highlight button, if button URL is part of the
+{%- set is_active = current_path and ((url != "" and url in current_path) or (url == "" and current_path | trim_end_matches(pat=lang ~ '/') | trim_end_matches(pat='/') == "")) -%}
+<li {% if is_active %} class="tab active" {# Highlight button, if button URL is part of the
     current path. #} {% else %} class="tab {% if class %}{{ class }}{% endif %}" {% endif %}>
-    <a href="{{ content::base_path() }}{{ url }}">
+    <a href="{{ content::base_path() }}{{ url }}"{% if is_active %} aria-current="page"{% endif %}>
         <span class="{{ text_class }}">{{ text }}</span>
     </a>
 </li>
@@ -71,13 +71,14 @@
 {%macro highlight_project(path)%}
 {%set project = get_section(path=path) %}
 
-<div class="container bg-dark highlight-project">
-    <div class="tab-alt">Erfolgsprojekt</div>
+<section class="container bg-dark highlight-project" aria-labelledby="highlight-project-title">
+    <div class="tab-alt" aria-hidden="true">Erfolgsprojekt</div>
     <div class="container-wrapper">
         <div class="project-header">
 
-          
+
             <div class="tags">
+                <span class="visually-hidden">Kategorien:</span>
                 {% if project.extra.type %}
                 {% for type in project.extra.type %}
                 <span class="type">{{ type }}</span>
@@ -98,13 +99,13 @@
                     locale="de_DE")
                     }}</span>{% endif %}
             </div>
-            {% if project.title %}<h1 class="project-title">{{ project.title }}</h1>{% endif %}
+            {% if project.title %}<h2 id="highlight-project-title" class="project-title">{{ project.title }}</h2>{% endif %}
             <div class="markdown">{{project.description | safe }}</div>
-            <div class="button"><a href="{{ project.permalink }}">Mehr lesen</a></div>
+            <div class="button"><a href="{{ project.permalink }}" aria-label="Mehr über {{ project.title }} lesen">Mehr lesen</a></div>
 
         </div>
     </div>
-</div>
+</section>
 
 {% endmacro %}
 
@@ -241,16 +242,16 @@ url('{{ image.url }}') 1x{#{{ w }}w Absolute sizes aren't supported yet #}
 ){#- -#}
 {%- endmacro imageset %}
 
-{% macro picture_fill_square(img, widths, class="", attrs="") %}
-<img {# Render multiple widths #} srcset="{% for w in widths -%}
+{% macro picture_fill_square(img, widths, class="", attrs="", alt="") %}
+<img alt="{{ alt }}" {# Render multiple widths #} srcset="{% for w in widths -%}
       {%- set image = resize_image(path=img, width=w, height=w, op='fill') -%}{{ image.url }} {{ w }}w
       {%- if not loop.last %}, {% endif -%}
       {%- endfor %}" {# Render largest size as fallback #} {%- set image=resize_image(path=img, width=widths | last,    height=widths | last, op='fill' ) -%} src="{{ image.url }}" {% if class !="" %}class="{{ class | safe }}" {% endif
     %} {% if attrs !="" %}{{ attrs | safe }}{% endif %}>
 {% endmacro picture %}
 
-{% macro picture_fill(img, widths, heights, class="", attrs="") %}
-<img {# Render multiple widths #} srcset="{% for w in widths -%}
+{% macro picture_fill(img, widths, heights, class="", attrs="", alt="") %}
+<img alt="{{ alt }}" {# Render multiple widths #} srcset="{% for w in widths -%}
       {%- set image = resize_image(path=img, width=w, height=heights[loop.index0], op='fill') -%}{{ image.url }} {{ w }}w
       {%- if not loop.last %}, {% endif -%}
       {%- endfor %}" {# Render largest size as fallback #} {%- set image=resize_image(path=img, width=widths | last,
@@ -258,20 +259,20 @@ url('{{ image.url }}') 1x{#{{ w }}w Absolute sizes aren't supported yet #}
     %} {% if attrs !="" %}{{ attrs | safe }}{% endif %}>
 {%endmacro %}
 
-{% macro picture_width(img, widths, class="", attrs="") %}
-<img decoding="async" loading="lazy" {# Render multiple widths #} srcset="{% for w in widths -%}
+{% macro picture_width(img, widths, class="", attrs="", alt="") %}
+<img alt="{{ alt }}" decoding="async" loading="lazy" {# Render multiple widths #} srcset="{% for w in widths -%}
       {%- set image = resize_image(path=img, width=w, height=w, op='fit_width') -%}{{ image.url }} {{ w }}w
       {%- if not loop.last %}, {% endif -%}
       {%- endfor %}" {# Render largest size as fallback #} {%- set image=resize_image(path=img, width=widths | last,
     op='fit_width' ) -%} src="{{ image.url }}" {% if class !="" %}class="{{ class | safe }}" {% endif %} {% if attrs
     !="" %}{{ attrs | safe }}{% endif %}>
 {% endmacro picture %}
-{% macro picture_width_src(img, widths, class="", attrs="") %}
+{% macro picture_width_src(img, widths, class="", attrs="", alt="") %}
 
 {% set meta = get_image_metadata(path=img) %}
 
 
-<img width='{{meta.width * 2 }}' height='{{meta.height * 2}}' decoding="async" loading="lazy" {# Render multiple widths
+<img alt="{{ alt }}" width='{{meta.width * 2 }}' height='{{meta.height * 2}}' decoding="async" loading="lazy" {# Render multiple widths
     #} data-srcset="{% for w in widths -%}
       {%- set image = resize_image(path=img, width=w, height=w, op='fit_width') -%}{{ image.url }} {{ w }}w
       {%- if not loop.last %}, {% endif -%}
@@ -282,11 +283,11 @@ url('{{ image.url }}') 1x{#{{ w }}w Absolute sizes aren't supported yet #}
 
 
 
-{% macro picture_fit_src(img, widths, heights, class="", attrs="") %}
+{% macro picture_fit_src(img, widths, heights, class="", attrs="", alt="") %}
 {% set meta = get_image_metadata(path=img) %}
 
 
-<img  decoding="async" loading="lazy" {# Render multiple widths
+<img alt="{{ alt }}" decoding="async" loading="lazy" {# Render multiple widths
     #} data-srcset="{% for w in widths -%}
       {%- set image = resize_image(path=img, width=w, height=heights[loop.index0]) -%}{{ image.url }} {{ w }}w
       {%- if not loop.last %}, {% endif -%}
@@ -297,12 +298,12 @@ url('{{ image.url }}') 1x{#{{ w }}w Absolute sizes aren't supported yet #}
 {% endmacro picture %}
 
 
-{% macro content_image(img, widths, class="", attrs="") %}
+{% macro content_image(img, widths, class="", attrs="", alt="") %}
 
 {% set meta = get_image_metadata(path=img) %}
 
 
-<img width='{{meta.width * 2 }}' height='{{meta.height * 2}}' decoding="async" loading="lazy" {# Render multiple widths
+<img alt="{{ alt }}" width='{{meta.width * 2 }}' height='{{meta.height * 2}}' decoding="async" loading="lazy" {# Render multiple widths
     #} data-srcset="{% for w in widths -%}
       {%- set image = resize_image(path=img, width=w, height=w, op='fit_width') -%}{{ image.url }} {{ w }}w
       {%- if not loop.last %}, {% endif -%}

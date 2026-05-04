@@ -18,13 +18,14 @@
 
                 <div class="back-to-projects">
                     <a
-                        href="{% set ancestor=get_section(path=section.ancestors.1) %}{% if ancestor %}{{ ancestor.permalink }}{% endif %}">
-                        <span>
-                            < Zurück zu allen Projekten</span>
+                        href="{% set ancestor=get_section(path=section.ancestors.1) %}{% if ancestor %}{{ ancestor.permalink }}{% endif %}"
+                        aria-label="Zurück zu allen Projekten">
+                        <span aria-hidden="true">&lt; </span><span>Zurück zu allen Projekten</span>
                     </a>
 
                 </div>
                 <div class="tags">
+                    <span class="visually-hidden">Kategorien:</span>
                     {% if project.extra.type %}
                     {% for type in project.extra.type %}
                     <span class="type">{{ type }}</span>
@@ -54,9 +55,9 @@
 
 <div class="content {% if project.subsections | length > 0 %}has-subsections{% endif %}">
     <div id="start"></div>
-    <div class="top-tabs ">
+    <nav class="top-tabs " aria-label="Projektabschnitte">
         <div class="tab {% if main_project %}active{% endif %}">
-            <a href="{{ project.permalink }}">
+            <a href="{{ project.permalink }}"{% if main_project %} aria-current="page"{% endif %}>
                 Projektübersicht
             </a>
         </div>
@@ -64,13 +65,13 @@
         <div class="tab {% if not main_project %}active{% endif %}">
             {% set serie=get_section(path=project.subsections.0) %}
 
-            <a href="{{ serie.permalink }}">
+            <a href="{{ serie.permalink }}"{% if not main_project %} aria-current="page"{% endif %}>
 
                 {{project.extra.serie_name}}
             </a>
         </div>
         {% endif %}
-    </div>
+    </nav>
 
 
 
@@ -150,16 +151,17 @@
                 <div class="right">
                     {% if section.content %}{{ section.content | safe }}{% endif %}
                 </div>
-                <div class="bottom">
+                <aside class="bottom" aria-labelledby="related-heading">
                     {% if section.extra.related_projects %}
-                    <h3>Verwandte Projekte</h3>
-                    <div class="related-projects">
+                    <h3 id="related-heading">Verwandte Projekte</h3>
+                    <ul class="related-projects">
                         {% for rel_project in section.extra.related_projects %}
-                        <div class="related-project">
-                            {% set rel_project = get_section(path=rel_project.path) %}
-                           
-                           
+                        {% set rel_project = get_section(path=rel_project.path) %}
+                        <li class="related-project">
+
+
                             <div class="tags">
+                                <span class="visually-hidden">Kategorien:</span>
                             {% for type in rel_project.extra.type %}
                                 <span class="type">{{ type }}</span>
                             {% endfor %}
@@ -177,14 +179,14 @@
                                     |date(format="%B %Y", locale="de_DE")
                                     }}</span>{% endif %}
                             </div>
-                            <div class="rel-project-link">
-                                <a href="{{ rel_project.permalink }}"></a>
+                            <div class="rel-project-link" aria-hidden="true">
+                                <a href="{{ rel_project.permalink }}" tabindex="-1" aria-hidden="true"></a>
                             </div>
-                        </div>
+                        </li>
                         {% endfor %}
-                    </div>
+                    </ul>
                     {% endif %}
-                </div>
+                </aside>
             </div>
         </div> 
         </div>
