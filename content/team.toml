@@ -48,10 +48,12 @@ social = [
 
 [[member]]
 name = "Leonhard Kestel"
-email = "leonhard.kestel@lmu.de"
+email = "leo.kestel@lmu.de"
 image = "/images/team/leokestel_1_1_format_m.jpg"
 description = "Leonhard Kestel ist Doktorand am Social Data Science and AI (SODA) Lab an der Ludwig-Maximilians-Universität München. Dort beschäftigt er sich mit der Anwendung von Machine Learning Methoden in Sozial-, Geistes- und Geowissenschaften. Spezifisch interessiert er sich für eine faire und interpretierbare Nutzung von KI."
 social = [
+  { title = "Website", url = "https://kestelnadomu.github.io" },
+  { title = "GitHub", url = "https://github.com/kestelnadomu" },
   { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/leo-kestel-548f9bb2.html" }
 ]
 
@@ -73,7 +75,7 @@ image = "/images/team/felix_henninger_1_1_format_m.jpg"
 description = "Felix Henninger ist wissenschaftlicher Mitarbeiter und Softwareentwickler am Social Data Science and AI (SODA) Lab an der Ludwig-Maximilians-Universität München. Sein Ziel ist es, fortgeschrittene Methoden der Datenerfassung und -analyse für Forscher:innen und Praktiker:innen zugänglich zu machen."
 social = [
   { title = "Website", url = "https://felixhenninger.com/" },
-  { title = "GitHub", url = "https://github.com/henninger" },
+  { title = "GitHub", url = "https://github.com/felixhenninger" },
   { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/felix-henninger-4823f52e.html" }
 ]
 
