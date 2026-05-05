@@ -16,16 +16,30 @@ extra.type=["Workshop"]
 extra.tags=["Protoyp"]
 
 extra.cards=[
-  { title = "Musterkonzept", content = "Hier kann man den Protypen für das Musterkonzept herunterladen [Prototyp](Musterkonzept.zip)." },
+  { title = "Bedarfsträger", content = "[Bayerisches Staatsministerium für Familie, Arbeit, Soziales](https://www.stmas.bayern.de/)" }
+]
+
+extra.resources=[
+  { title = "Prototyp", url = "Musterkonzept.zip" }
 ]
 
 +++
 
-### Inhalt
+### Kontext
 
 Bayerische Dienststellen, d.h. staatlichen Stellen, Kommune, Landkreise, kreisfreie Städte und Bezirke, sind ab einer bestimmten Anzahl Beschäftigter gesetzlich dazu verpflichtet, alle fünf Jahre Gleichstellungskonzepte zu erstellen. Grundlage der Gleichstellungskonzepte ist die Beschreibung der Situation der weiblichen Beschäftigten im Vergleich zu den männlichen Beschäftigten, z.B. in Bezug auf Führungspositionen oder Teilzeitbeschäftigung. Aus diesen Datenübersichten werden Initiativen und strukturelle Maßnahmen zur Sicherung von Chancengleichheit von Frauen und Männern und der Vereinbarkeit von Familie und Beruf in den Dienststellen abgeleitet und in die Konzepte aufgenommen.
 
+### Zielsetzung
+
 Die Erstellung der Gleichstellungskonzepte ist aktuell ein sehr aufwändiger, in weiten Teilen manueller Prozess, der in den Dienststellen viele Ressourcen bindet. Vor dem Hintergrund ist es dem StMAS ein Anliegen, die Erstellung von Datenübersichten und Gleichstellungskonzepten zu vereinfachen, in dem zum Beispiel vorhandene Datenquellen herangezogen, Analysen automatisiert und die Konzepterstellung möglichst digitalisiert wird. In dieser Workshopserie gehen wir oben beschriebene Fragestellungen an, in dem wir gemeinsam mit den Teilnehmenden praxisnahe Pilotlösungen erarbeiten. Begleitet wird die Projektarbeit von gezielter Wissensvermittlung durch die ADA Experten.
 
+<!-- ### Ergebnisse
+* Erarbeitung eines Musterdokuments für Gleichstellungskonzepte im Freistaat Bayern
+* Enwicklung eines Prototypen zur automatisierten einheitlichen Datenauswertung für diese Gleichstellungskonzepte -->
 
 
+{%card(title='Kurz und Knapp', color="lilac")%}
+#### Projektergebnisse
+* Erarbeitung eines Musterdokuments für Gleichstellungskonzepte im Freistaat Bayern
+* Enwicklung eines Prototypen zur automatisierten einheitlichen Datenauswertung für diese Gleichstellungskonzepte
+{%end%}

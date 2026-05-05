@@ -18,23 +18,22 @@ extra.tags=["Data Science Support"]
 
 
 extra.cards=[
-  { title = "Zeitplan", content = "Workshop-Tag 1 (20.03.2025, 10:00-15:00 Uhr): Input Präferenzerfassung<hr>Workshop-Tag 2 (03.04.2025, 9:45-14:45 Uhr): Erster Blick auf einen Prototyp und Feedback<hr>Workshop-Tag 3 (08.04.2025, 9:45-14:45 Uhr): Implementation und nächste Schritte" },
+
+  { title = "Bedarfsträger", content = "[Bayerisches Staatsministerium für Unterricht und Kultus](https://www.km.bayern.de/)" }
 ]
 
 +++
 
-### Inhalt
 
-Wir erarbeiten gemeinsam eine digitalisierte Präferenzerfassung der Schul- und Ortswünsche der (zukünftigen) Einsatzschulreferendar:innen sowie der neu einzustellenden Lehrkräfte an staatlichen Gymnasien und Kollegs in Bayern.
+### Kontext
+Die angemessene Präferenzerfassung für die Ortswahl von Referendar:innen und Lehrkräften stellt eine zeitaufwändiges wiederkehrendes Problem für das Kultusministerium dar.
 
-Unser Ziel ist es, ein System zu entwickeln, das die Präferenzen der Referendar:innen und Lehrkräfte vollständig und interpretationsfrei erfasst. Dies soll durch eine einfache und effiziente Eingabemöglichkeit erreicht werden. Darüber hinaus sollen die erfassten Daten so aufbereitet werden, dass sie auch für automatisierte Setzungen verwendet werden können, um den Zuweisungsprozess zu optimieren.
+### Aufgabenstellung
+Das Ziel ist es, ein System zu entwickeln, das die Präferenzen der Referendar:innen und Lehrkräfte vollständig und interpretationsfrei erfasst. Dies soll durch eine einfache und effiziente Eingabemöglichkeit erreicht werden. Darüber hinaus sollen die erfassten Daten so aufbereitet werden, dass sie auch für automatisierte Setzungen verwendet werden können, um den Zuweisungsprozess zu optimieren.
 
+### Workshops
 
-<!-- {{image(path="projekte/stmuk/image-test.jpg",caption="People looking at things")}} -->
-
-
-Diese digitalisierte Präferenzerfassung soll folgende Aspekte einschließen:
-
+In einer Workshopreihe im März und April 2025 wurde ein Prototyp erarbeitet der folgende Aspekte einschließt:
 
 1.  Vollständige und interpretationsfreie Erfassung der Wünsche: Alle Präferenzen der Referendar:innen und Lehrkräfte werden detailliert und ohne Interpretationsspielraum erfasst, um eine faire und transparente Zuweisung zu gewährleisten.
 2.  Komfortable und effiziente Eingabemöglichkeit: Die Eingabe der Präferenzen soll benutzerfreundlich und zeitsparend gestaltet sein, sodass die Nutzer:innen ihre Wünsche schnell und einfach angeben können.

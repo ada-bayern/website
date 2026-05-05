@@ -13,6 +13,10 @@ extra.serie_name="Workshop-Serie"
 
 extra.type=["Workshop"]
 extra.tags=["Dateninfrastruktur"] 
+
+extra.cards=[
+  { title = "Bedarfsträger", content = "[Nationalpark Bayerischer Wald](https://www.nationalpark-bayerischer-wald.bayern.de/)" }
+]
  
 # extra.related_projects=[
 #  { path="projekte/gda/_index.md"},
@@ -22,7 +26,10 @@ extra.tags=["Dateninfrastruktur"]
 +++
 
 
-### Inhalt
+### Kontext und Zielsetzung
+Im Zentrum des Projekts stand ein Austausch zum Mehrwerts von Datenprodukten wie Luft- und Satellitendaten für das Baum- und Forstmanagement und der Einsatzmöglichkeiten von Technologien aus dem Bereich Cloud Computing und KI.
+
+### Workshop
 
 Im Oktober 2024 führten wir eine Workshop-Serie zum Thema Einzelbaumerkennung und Baum- und Waldmanagement mit Fernerkundungsdaten durch. Die Workshop-Serie bestand aus zwei Teilen und richtete sich an verschiedene Zielgruppen, darunter Stadtplaner:innen, staatliche Forstmitarbeitende und andere Verwaltungsmitarbeitende.
 
@@ -33,7 +40,7 @@ Der zweite Teil des Workshops fokussierte auf die Infrastruktur- und IT-Herausfo
 Die Workshop-Serie brachte relevante Stakeholder zusammen und ermöglichte praxisnahe Diskussionen zu zentralen Fragen wie der Identifikation und Eigenschaften von Bäumen, der Nutzung von Datenquellen und den technischen Anforderungen für eine effektive Datenverarbeitung.
 
 
-### Ergebnis
+### Ergebnisse
 
 Die Workshop-Serie zur Einzelbaumerkennung und zum Baum- und Waldmanagement mit Fernerkundungsdaten führte zu mehreren bedeutenden Ergebnissen:
 
