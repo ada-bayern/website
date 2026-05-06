@@ -24,7 +24,12 @@ extra.cards=[
 # ]
 
 +++
-
+{%card(title="Kurz und Knapp",color="salmon")%}
+### Projektergebnisse
+- Erweiterung der Kompetenzen im Bereich Cloud-Computing und Bilddatensätze
+- Wissensaustausch und die Vernetzung verschiedener Behörden
+- Pilotprojekt für Cloud-basierte Speicherung und Verarbeitung von Geodaten
+{%end%}
 
 ### Kontext und Zielsetzung
 Im Zentrum des Projekts stand ein Austausch zum Mehrwerts von Datenprodukten wie Luft- und Satellitendaten für das Baum- und Forstmanagement und der Einsatzmöglichkeiten von Technologien aus dem Bereich Cloud Computing und KI.
@@ -47,11 +52,3 @@ Die Workshop-Serie zur Einzelbaumerkennung und zum Baum- und Waldmanagement mit 
 - Die Teilnehmer:innen konnten ihre Kompetenzen im Bereich Cloud-Computing erheblich erweitern und praktische Ansätze zur automatisierten Auswertung großer Bilddatensätze entwickeln.
 - Der Wissensaustausch und die Vernetzung verschiedener Behörden, die mit ähnlichen Herausforderungen konfrontiert sind, wurden gefördert, was zu einer stärkeren Zusammenarbeit und gemeinsamen Lösungsansätzen führte.
 - Aktuell wird vom Nationalpark Bayerischer Wald ein Pilotprojekt für die Cloud-basierte Speicherung und Verarbeitung von Geodaten umgesetzt. Dieses Projekt soll die praktische Anwendbarkeit der erarbeiteten Konzepte demonstrieren und einen Grundstein für zukünftige, skalierbare Lösungen im Bereich der Fernerkundung und Datenanalyse legen.
-
-
-{%card(title="Kurz und Knapp",color="salmon")%}
-#### Projektergebnisse
-- Erweiterung der Kompetenzen im Bereich Cloud-Computing und Bilddatensätze
-- Wissensaustausch und die Vernetzung verschiedener Behörden
-- Pilotprojekt für Cloud-basierte Speicherung und Verarbeitung von Geodaten
-{%end%}

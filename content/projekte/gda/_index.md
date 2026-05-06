@@ -23,6 +23,12 @@ extra.cards=[
 
 +++
 
+{%card(title='Kurz und Knapp', color="lilac")%}
+#### Projektergebnisse
+- Stärkung der Datenkompetenz
+- Entwicklung einer Methodik für die Ziehung von Aktenstichproben
+- Entwicklung einer Applikation zur Umsetzung dieser Methodik
+{%end%}
 
 ### Kontext
 Die Staatlichen Archive sind verpflichtet eine represäntativ ausgewählte Gerichtsakten zu archivieren. Diese Auswahl war ein aufwendiger manueller Prozess und geprägt von subjektiven Einschätzungen.
@@ -42,12 +48,3 @@ In diesem Projekt wurden gemeinsam mit Mitarbeitenden der Staatlichen Archive Ba
 * Programmierung einer Applikation für die Stichprobenziehung. Diese App ist mittlerweile erfolgreich im laufenden Betrieb und unterstützt die Staatlichen Archive Bayerns bei der effizienten und automatisierten Verarbeitung von Gerichtsakten. Der Code ist auf frei auf GitHub verfügbar.
 * Wissensvermittlung und Sensibilisierung / Enablement von Prozessbeteiligten
 <!-- * Das Pilotprojekt und die Methodik, die aus der Workshopserie hervorgingen werden in [diesem Artikel](https://www.inlibra.com/de/document/view/pdf/uuid/ec6258fa-adcb-3967-bcc6-87d8017f1b80) ausführlich beschrieben -->
-
-
-
-{%card(title='Kurz und Knapp', color="lilac")%}
-#### Projektergebnisse
-- Stärkung der Datenkompetenz
-- Entwicklung einer Methodik für die Ziehung von Aktenstichproben
-- Entwicklung einer Applikation zur Umsetzung dieser Methodik
-{%end%}

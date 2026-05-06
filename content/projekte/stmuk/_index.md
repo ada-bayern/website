@@ -18,12 +18,16 @@ extra.tags=["Data Science Support"]
 
 
 extra.cards=[
-
   { title = "Bedarfsträger", content = "[Bayerisches Staatsministerium für Unterricht und Kultus](https://www.km.bayern.de/)" }
 ]
 
 +++
 
+{%card(title="Kurz und Knapp",color="salmon")%}
+### Projektergebnisse
+* Gemeinsame Entwicklung von Lösungsansätzen auf Basis von Kontext, Anforderungen, bisherigen Abläufen und vorhandenen Tools
+* Entwicklung einer prototypischen Lösung
+{%end%}
 
 ### Kontext
 Die angemessene Präferenzerfassung für die Ortswahl von Referendar:innen und Lehrkräften stellt eine zeitaufwändiges wiederkehrendes Problem für das Kultusministerium dar.
@@ -38,6 +42,10 @@ In einer Workshopreihe im März und April 2025 wurde ein Prototyp erarbeitet der
 1.  Vollständige und interpretationsfreie Erfassung der Wünsche: Alle Präferenzen der Referendar:innen und Lehrkräfte werden detailliert und ohne Interpretationsspielraum erfasst, um eine faire und transparente Zuweisung zu gewährleisten.
 2.  Komfortable und effiziente Eingabemöglichkeit: Die Eingabe der Präferenzen soll benutzerfreundlich und zeitsparend gestaltet sein, sodass die Nutzer:innen ihre Wünsche schnell und einfach angeben können.
 3.  Verwendbarkeit der Daten auch für automatisierte Setzungen: Die erfassten Daten sollen so strukturiert und aufbereitet werden, dass sie problemlos für automatisierte Zuweisungsprozesse genutzt werden können, um den Verwaltungsaufwand zu reduzieren und die Effizienz zu steigern.
+
+### Ergebnisse
+Es wurde gemeinsam an Lösungsansätzen auf Basis von Kontext, Anforderungen, bisherigen Abläufen und vorhandenen Tools gearbeitet. Dabei wurde eine prototypischen Lösung entwickelt.
+
 
 <!-- {{image(path="projekte/stmuk/image-test.jpg",caption="People looking at things",round=true)}} -->
 
