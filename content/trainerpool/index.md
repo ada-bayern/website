@@ -67,8 +67,8 @@ Interessierte Firmen und Selbstständige werden gebeten, ihr Interesse an der Ab
 
 <br>
 
-<a href="https://ada-oeffentliche-verwaltung.de/static/eigenerklaerung.pdf" class="button-link">DOWNLOAD EIGENERKLÄRUNG</a>
-<a href="https://ada-oeffentliche-verwaltung.de/static/datenschutz.pdf" class="button-link">DOWNLOAD FORMBLATT DSGVO</a>
+<a href="https://ada-oeffentliche-verwaltung.de/eigenerklaerung.pdf" class="button-link">DOWNLOAD EIGENERKLÄRUNG</a>
+<a href="https://ada-oeffentliche-verwaltung.de/datenschutz.pdf" class="button-link">DOWNLOAD FORMBLATT DSGVO</a>
 
 <br>
 
