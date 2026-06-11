@@ -595,7 +595,7 @@ header {
                 font-size: 16px;
                 border-radius: 8px 8px 0 0;
                 margin-bottom: 0;
-                margin: 0 0.5rem;
+                margin: 0 0.25rem;
 
                 a {
                     padding: 6px 20px 9px;
@@ -3002,7 +3002,7 @@ tr {
     max-width: 100%;
 
     @media all and (min-width: $laptop-small) {
-        width: 60%;
+        width: 95%;
 
     }
 
@@ -3023,7 +3023,7 @@ tr {
 .align-left {
     .markdown {
         margin-left: 0%;
-        width: 60%;
+        width: 100%;
     }
 }
 
@@ -3072,6 +3072,20 @@ tr {
             color: var(--text-color);
         }
     }
+}
+
+.button-link {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 14px 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    border-radius: 8px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    margin-right: 16px;
+    margin-bottom: 16px;
 }
 
 #subscribe {
