@@ -40,7 +40,7 @@ social = [
 [[member]]
 name = "Dr. Jacob Beck"
 email = "info@jacobbeck.de"
-image = "/images/team/Jacob_Beck.jpg"
+image = "/images/team/Jacob_Beck.JPG"
 description = "Jacob Beck promovierte bis Herbst 2025 am Social Data Science and AI Lab (SODA) der LMU. Seine Forschung konzentrierte sich auf Datenqualität in der Entwicklung von KI-Modellen, auf effektive Mensch-KI-Kollaboration sowie auf das Brückenbauen zwischen Sozialwissenschaft und Künstlicher Intelligenz. Nachdem er 2021 selbst Stipendiat an der University of Warwick war, gründete und leitete er 2023 und 2024 das Data Science for Social Good-Programm am Munich Center for Machine Learning mit. Dort betreute er Projekte von Stipendiat:innen, die gemeinsam mit gemeinnützigen und öffentlichen Organisationen an datenbasierten Lösungen für die konkreten Herausforderungen dieser Partner arbeiteten. Auch bei ADA liegt sein Fokus auf der Übersetzungsarbeit zwischen technischer und fachlicher Perspektive, und darauf, Problemstellungen und Lösungsansätze gemeinsam klar zu definieren."
 social = [
   { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/jacob-beck-c1c60091.html" }
