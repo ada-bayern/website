@@ -62,7 +62,7 @@ Interessierte Firmen und Selbstständige werden gebeten, ihr Interesse an der Ab
 <ul>
 <li>Eigenerklärung des Bieters zur Eignung (gesetzlich und fachlich) mit mind. drei Referenzen (ausgefülltes Formblatt)</li>
 <li>Unterschriebenes Formblatt „Informationen zur Umsetzung der datenschutz-rechtlichen Vorgaben nach der Datenschutzgrundverordnung (DSGVO) bei der Vergabe öffentlicher Aufträge“</li>
-<li>Kurzprofil und Lebenslauf (bei Firmen die Lebensläufe der angebotenen Trainer)</li>
+<li>Kurzprofil und Lebenslauf (bei Firmen die Lebensläufe der angebotenen Trainerinnen und Trainer)</li>
 </ul>
 
 <br>

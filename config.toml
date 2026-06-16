@@ -36,6 +36,7 @@ links = [
     { url = "projekte", title = "Projekte" },
     { url = "was-wir-bieten", title = "Was wir Bieten" },
     { url = "wer-wir-sind", title = "Wer wir sind" },
+     { url = "trainerpool", title = "Trainerpool" },
     { url = "#search", title = "Suche" , class="search"},
     
 ] 
