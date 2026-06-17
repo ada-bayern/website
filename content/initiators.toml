@@ -1,7 +1,7 @@
 [[partner]]
 name = "SODA Lab"
-logo = "images/initiators/Logo_SODA.png"
-url = "https://www.stat.lmu.de/soda"
+logo = "images/initiators/soda_sub.png"
+url = "https://www.stat.lmu.de/soda/en/home.html"
 
 [[partner]]
 name = "LMU Munich"
@@ -11,7 +11,7 @@ url = "https://www.lmu.de"
 [[partner]]
 name = "BERD@NFDI"
 logo = "images/initiators/Logo_BERD-NFDI.png"
-url = "https://berd.nfdi.de"
+url = "https://www.berd-nfdi.de/"
 
 [[partner]]
 name = "byte"
