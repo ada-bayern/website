@@ -1,7 +1,7 @@
 [[member]]
 name = "Dr. Malte Schierholz"
 email = "malte.schierholz@stat.uni-muenchen.de"
-image = "/images/team/Malte_contrast.JPG"
+image = "/images/team/Malte_contrast.jpg"
 description = "Malte Schierholz ist Postdoktorand am Social Data Science and AI (SODA) Lab an der Ludwig-Maximilians-Universität München. Er ist Teil des nationalen Forschungsdateninfrastruktur Projekts BERD@NFDI, wo er Schulungen für Sozialwissenschaftler:innen entwirft, die unstrukturierte (große) Daten wie Bilder und Textdaten für ihre Analysen nutzen wollen. Ein übergreifendes Thema von Malte Schierholz’ Arbeit ist, dass er gerne darüber nachdenkt, wie Sozialwissenschaftler:innen die Versprechen und Vorteile des maschinellen Lernens am besten nutzen können."
 social = [
   { title = "LMU-Profil", url = "https://www.stat.lmu.de/soda/en/team/contact-page/malte-schierholz-a5b9ab8a.html" }
@@ -49,7 +49,7 @@ social = [
 [[member]]
 name = "Leonhard Kestel"
 email = "leo.kestel@lmu.de"
-image = "/images/team/Leo_contrast.jpg"
+image = "/images/team/Leo_contrast.JPG"
 description = "Leonhard Kestel ist Doktorand am Social Data Science and AI (SODA) Lab an der Ludwig-Maximilians-Universität München. Dort beschäftigt er sich mit der Anwendung von Machine Learning Methoden in Sozial-, Geistes- und Geowissenschaften. Spezifisch interessiert er sich für eine faire und interpretierbare Nutzung von KI."
 social = [
   { title = "Website", url = "https://kestelnadomu.github.io" },
