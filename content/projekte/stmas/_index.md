@@ -13,7 +13,7 @@ extra.serie_name="Workshop series"
 
 
 extra.type=["Workshop"]
-extra.tags=["Protoyp"]
+extra.tags=["Prototyp"]
 
 extra.cards=[
   { title = "Bedarfsträger", content = "[Bayerisches Staatsministerium für Familie, Arbeit, Soziales](https://www.stmas.bayern.de/)" }

@@ -1,0 +1,35 @@
+{% import "macros/content.html" as content %}
+{% set data = load_data(path=data_path) %}
+
+<section class="initiators1 container" aria-labelledby="initiators-partner-heading">
+    <!-- <h1 class="huge">
+        Netzwerk
+    </h1> -->
+    <ul class="partners3">
+
+        {%- for partner3 in data.partner3 %}
+        <li class="partner">
+            <a href="{{ partner3.url }}" target="_blank" rel="noopener noreferrer"
+                aria-label="{{ partner3.name }} (öffnet in neuem Tab)">
+                <img src="{{ content::base_path() }}{{ partner3.logo }}" alt="{{ partner3.name }} Logo">
+            </a>
+
+        </li>
+
+        {% endfor -%}
+    </ul>
+
+    <ul class="partners2">
+
+        {%- for partner2 in data.partner2 %}
+        <li class="partner2">
+            <a href="{{ partner2.url }}" target="_blank" rel="noopener noreferrer"
+                aria-label="{{ partner2.name }} (öffnet in neuem Tab)">
+                <img src="{{ content::base_path() }}{{ partner2.logo }}" alt="{{ partner2.name }} Logo">
+            </a>
+
+        </li>
+
+        {% endfor -%}
+    </ul>
+</section>

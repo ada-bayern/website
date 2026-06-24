@@ -3,7 +3,7 @@
     <div class="container-wrapper">
 
         {% if title %}
-        <h1 class="side-title {% if size %}{{ size }}{% endif %}">{{ title }}</h1>
+        <h1 class="side-title {% if size %}{{ size }}{% endif %}">{{ title | safe }}</h1>
         {% endif %}
         {%if body %}<div class="markdown">{{ body | markdown | safe }}</div>
         {% endif %}

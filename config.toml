@@ -36,7 +36,8 @@ links = [
     { url = "projekte", title = "Projekte" },
     { url = "was-wir-bieten", title = "Was wir Bieten" },
     { url = "wer-wir-sind", title = "Wer wir sind" },
-     { url = "trainerpool", title = "Trainerpool" },
+    { url = "oekosystem", title = "Ökosystem" },
+    { url = "trainerpool", title = "Trainerpool" },
     { url = "#search", title = "Suche" , class="search"},
     
 ] 
@@ -44,7 +45,7 @@ links = [
 [extra.footer]
 links = [
     { url = "https://ada-oeffentliche-verwaltung.de/impressum", title = "Impressum" },
-    { url = "https://github.com/ada-bayern/", title = "Github" },
+    { url = "https://github.com/ada-bayern/", title = "GitHub" },
     
 ]
 copyright = "Angewandte Datenanalyse für die Öffentliche Verwaltung"

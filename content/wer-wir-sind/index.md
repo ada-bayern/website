@@ -9,19 +9,19 @@ extra.sliding_footer=true
 
 {%side_text_block(title="Wer wir sind",size="big",bg="dark")%}
 
-ADA ist eine Initiative des Social Data Science and AI Labs der Ludwigs-Maximilians-Universität München. Mit unserer wissenschaftlichen Expertise und unserem Netzwerk fühlen wir uns der Vision einer evidenzbasierten, effizienten, digitalen Verwaltung verpflichtet.
+ADA entstand auf Initiative des Social Data Science and AI Labs der Ludwigs-Maximilians-Universität München. Vorbild ist die US-amerikanische Coleridge Initiative, die Prof. Dr. Frauke Kreuter mit aufgebaut hat. Mit unserer wissenschaftlichen Expertise und unserem Netzwerk fühlen wir uns der Vision einer evidenzbasierten, effizienten, digitalen Verwaltung verpflichtet.
 
-Wir sind ein Team aus Data Scientists und Statistiker:innen. Unser Ziel ist es, dazu beizutragen, dass Daten in der öffentlichen Verwaltung effektiver genutzt werden. 
-
-<!-- Wir wollen Beschäftigte im öffentlichen Sektor zum (besseren) Umgang mit 
-Daten befähigen, die Datenkompetenz stärken, und so zur verstärkten Umsetzung von Datenprojekten beitragen. Anhand von konkreten Beispielen 
-aus der Verwaltungspraxis möchten wir Digitalisierung greifbar und interaktiv erlebbar machen. -->
+In Bayern haben wir mit dem Bayerischen Staatsministerium für Digitales einen starken Kooperationspartner gefunden, der unsere Vision teilt und ihre Umsetzung unterstützt.
 {% end%}  
 
+{%side_text_block(size="big", compressed="true" bg="dark")%}
+<div style="margin-top: -250px;"></div>
 
-
-{{special()}}
-
+<div class="button">
+            <a href="oekosystem">ERFAHREN SIE MEHR ÜBER DAS ADA-ÖKOSYSTEM</a>
+        </div>
+<div style="margin-top: -50px;"></div>
+{% end%} 
 
 {{side_text_block(title="Was uns ausmacht", size="big", bg="light", compressed="true", text_align="left")}}
 
@@ -32,9 +32,3 @@ aus der Verwaltungspraxis möchten wir Digitalisierung greifbar und interaktiv e
 
 
 {{team(data_path='team.toml')}}
-
-{%side_text_block(title="Netzwerk",size="big", bg="light", compressed="true", text_align="left" )%}
-Wir arbeiten eng mit Partnern aus Wissenschaft, Verwaltung und Wirtschaft zusammen und bringen Erfahrung aus Projekten mit diversen Kunden mit.
-{% end%}
-
-{{initiators(data_path='initiators.toml')}}

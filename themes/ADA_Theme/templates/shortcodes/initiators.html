@@ -19,6 +19,21 @@
 
         {% endfor -%}
     </ul>
+    
+    <ul class="partners1">
+
+        {%- for partner1 in data.partner1 %}
+        <li class="partner1">
+            <a href="{{ partner1.url }}" target="_blank" rel="noopener noreferrer"
+                aria-label="{{ partner1.name }} (öffnet in neuem Tab)">
+                <img src="{{ content::base_path() }}{{ partner1.logo }}" alt="{{ partner1.name }} Logo">
+            </a>
+
+        </li>
+
+        {% endfor -%}
+    </ul>
+
     <div class="divider2" aria-hidden="true"><div class="line"></div></div>
 
     <h2 id="initiators-clients-heading">Kunden</h2>

@@ -8,12 +8,12 @@ name = "LMU Munich"
 logo = "images/initiators/Logo_LMU.svg"
 url = "https://www.lmu.de"
 
-[[partner]]
+[[partner1]]
 name = "BERD@NFDI"
 logo = "images/initiators/Logo_BERD-NFDI.png"
 url = "https://www.berd-nfdi.de/"
 
-[[partner]]
+[[partner1]]
 name = "byte"
 logo = "images/initiators/Logo_byte.png"
 url = "https://www.byte.bayern"
@@ -27,7 +27,7 @@ url = "https://www.stmd.bayern.de"
 
 [[client]]
 name = "Staatliche Archive Bayerns"
-logo = "images/initiators/Logo_GDA.gif"
+logo = "images/initiators/archive.png"
 url = "https://www.gda.bayern.de"
 
 
@@ -45,3 +45,8 @@ url = "https://www.stmas.bayern.de"
 name = "Nationalpark Baerischer Wald"
 logo = "images/initiators/Logo_Nationalpark.png"
 url = "https://www.stmas.bayern.de"
+
+[[client]]
+name = "Stiftung Bildungspakt Bayern"
+logo = "images/initiators/sbb.png"
+url = "https://www.bildungspakt-bayern.de/"

@@ -4,7 +4,7 @@ extra.sliding_footer=true
 
 +++
 
-{%side_text_block(title="Ausschreibung für den Aufbau eines ADA-Trainerpools",size="big",bg="dark")%}
+{%side_text_block(title="Ausschreibung für den Aufbau <br> eines ADA-Trainerpools",size="big",bg="dark")%}
 
 Gegenstand der Ausschreibung ist der Abschluss von Rahmenverträgen mit freien Mitarbeitenden, die das ADA Team bei der Vorbereitung, Durchführung und Nachbereitung von Data-Science-Projekten mit der öffentlichen Verwaltung unterstützen.
 
