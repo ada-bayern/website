@@ -2,7 +2,7 @@
 title="Startseite"
 extra.display_newsletter=false
 extra.highlight_project="projekte/gda/_index.md"
-extra.sliding_footer=true
+extra.sliding_footer=false
 
 
 +++
@@ -32,22 +32,10 @@ ADA entstand auf Initiative des Social Data Science and AI Labs der Ludwigs-Maxi
 
 Um die Vision von ADA umzusetzen, arbeiten viele Akteure Hand in Hand. In Bayern haben wir mit dem Bayerischen Staatsministerium für Digitales einen starken Kooperationspartner gefunden, der unsere Vision teilt und ihre Umsetzung unterstützt.
 
+<a href="oekosystem" class="button">Mehr über das ADA-Ökosystem</a>
+<a href="wer-wir-sind" class="button">Mehr zu unserem Team</a>
 {% end%} 
-<div style="margin-top: -50px;"></div>
+
 {{initiators1(data_path='initiators1.toml')}}
 
-{%side_text_block(size="big", compressed="true" bg="light")%}
-<div style="margin-top: -230px;"></div>
-
-<div class="button-group">
-    <div class="button">
-        <a href="oekosystem">ERFAHREN SIE MEHR ÜBER DAS ADA-ÖKOSYSTEM</a>
-    </div>
-
-<div style="margin-top: -100px;"></div>
-
-<div class="button">
-    <a href="wer-wir-sind">LERNEN SIE DAS TEAM KENNEN</a>
-    </div>
-</div>
-{% end%} 
+<div style="margin-top: 100px;"></div>

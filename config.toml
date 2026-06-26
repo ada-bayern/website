@@ -44,7 +44,7 @@ links = [
 
 [extra.footer]
 links = [
-    { url = "https://ada-oeffentliche-verwaltung.de/impressum", title = "Impressum" },
+    { url = "/impressum", title = "Impressum" },
     { url = "https://github.com/ada-bayern/", title = "GitHub" },
     
 ]
