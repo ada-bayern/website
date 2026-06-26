@@ -100,14 +100,14 @@ h5 {
 
 h1 {
     font-weight: 300;
-    font-size: 38px;
-    line-height: 42px;
+    font-size: 48px;
+    line-height: 56px;
     margin-bottom: 56px;
 
     @media all and (min-width: $laptop-small) {
         font-weight: 300;
-        font-size: 56px;
-        line-height: 60px;
+        font-size: 80px;
+        line-height: 90px;
         margin-bottom: 145px;
     }
 
