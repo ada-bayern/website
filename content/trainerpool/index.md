@@ -67,8 +67,8 @@ Interessierte Firmen und Selbstständige werden gebeten, ihr Interesse an der Ab
 * Unterschriebenes Formblatt „Informationen zur Umsetzung der datenschutz-rechtlichen Vorgaben nach der Datenschutzgrundverordnung (DSGVO) bei der Vergabe öffentlicher Aufträge“
 * Kurzprofil und Lebenslauf (bei Firmen die Lebensläufe der angebotenen Trainerinnen und Trainer)
 
-<a href="eigenerklaerung.pdf" class="button">Download Eigenerklärung</a>
-<a href="datenschutz.pdf" class="button">Download Formblatt DSGVO</a>
+<a href="/eigenerklaerung.pdf" class="button">Download Eigenerklärung</a>
+<a href="/datenschutz.pdf" class="button">Download Formblatt DSGVO</a>
 
 <hr><br>
 
