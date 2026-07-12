@@ -100,14 +100,14 @@ h5 {
 
 h1 {
     font-weight: 300;
-    font-size: 38px;
-    line-height: 42px;
+    font-size: 48px;
+    line-height: 56px;
     margin-bottom: 56px;
 
     @media all and (min-width: $laptop-small) {
         font-weight: 300;
-        font-size: 56px;
-        line-height: 60px;
+        font-size: 80px;
+        line-height: 90px;
         margin-bottom: 145px;
     }
 
@@ -805,12 +805,12 @@ main>br {
 
 .home-symbols {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 40px 30px;
     margin-top: 0px;
 
     /* Ab Desktop-Größe (z.B. 992px oder deine entsprechende Variable): Alle 4 nebeneinander */
-    @media all and (min-width: 992px) {
+    @media all and (min-width: $tablet) {
         grid-template-columns: repeat(4, 1fr);
     }
 
@@ -1163,24 +1163,19 @@ main>br {
     list-style: none;
 }
 
-.partners2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
-    align-items: right;
-    //max-width: 960px;
-    margin: auto;
-    list-style: none;
-}
-
+.partners2,
 .partners3 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: right;
+    justify-content: flex-start;
     align-items: right;
     //max-width: 960px;
     margin: auto;
     list-style: none;
+
+    @media all and (min-width: $tablet) {
+        margin-left: 40%; 
+    }
 }
 
 .partner,
@@ -1315,9 +1310,18 @@ main>br {
 .team-lead-text {
     margin-top: -20px;
     text-align: left;
-    margin-left: 300px;
+    margin-left: 50px;
     margin-bottom: 50px;
     font-size: 21px;
+
+    @media all and (min-width: $tablet) {
+        margin-top: -20px;
+        text-align: left;
+        margin-left: 300px;
+        margin-bottom: 50px;
+        font-size: 21px;
+    }
+
 }
 
 #start {
@@ -1596,16 +1600,19 @@ main>br {
 }
 
 .button-group {
-    display: inline;
-    padding-inline: 1000px;
-    flex-direction: row;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
     width: max-content;
-    // margin-left: auto;      
+    margin-left: auto;
+    
+    @media all and (min-width: $tablet) {
+        margin-left: 45%; 
+    }
     
     .button {
-        margin-left: 1rem;
-        text-align: center;
+        width: 100%;         
+        text-align: center;  
     }
 }
 
