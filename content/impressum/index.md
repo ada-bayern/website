@@ -15,13 +15,14 @@ template="contact.html"
 
 Die ondatix Datenwerkstatt GmbH ist eine Gesellschaft mit beschränkter Haftung mit dem Geschäftsgegenstand der Entwicklung, Betrieb, Vertrieb von Software sowie Erbringung von IT-, Beratungs- und Weiterbildungsdienstleistungen zu Digitalisierung und Data Science.
 
-VAT-Identifikationsnummer (gemäß § 27a Umsatzsteuergesetz): *folgt*
-Handelsregister: HRB 311520
+VAT-Identifikationsnummer (gemäß § 27a Umsatzsteuergesetz): DE463239556
+Handelsregister: HRB 311520 (Amtsgericht München)
+Gerichtsstand ist München.
 
 ### Verantwortung für den Inhalt gemäß § 18 Abs. 2 MStV
 ondatix Datenwerkstatt GmbH<br>
 Geschäftsführung:<br>
-Julia von Bartenwerffer & Jacob Beck<br>
+Julia von Bartenwerffer & Dr. Jacob Beck<br>
 Email: [info@ondatix.org](mailto:info@ondatix.org)
 
 

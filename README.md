@@ -1,7 +1,7 @@
 # ondatix Website Documentation
 
 ## TODO
-- [ ] VAT ins Impressum
+- [x] VAT ins Impressum
 - [ ] Texte ersetzen
 - [x] Hero Bar
 - [x] Entscheidung für GitHub-Link im Footer
