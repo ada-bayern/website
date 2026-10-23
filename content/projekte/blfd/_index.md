@@ -19,6 +19,8 @@ extra.cards=[
   { title = "Bedarfsträger", content = "[Bayerisches Landesamt für Denkmalpflege](https://www.blfd.bayern.de/)" }
 ]
 
+draft=true
+
 +++
 
 <!-- In diesem Projekt erfassen wir Basiskompetenzen von Schüler:innen an Berufsschulen in Deutsch und Mathematik. 

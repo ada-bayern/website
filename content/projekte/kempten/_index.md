@@ -1,9 +1,9 @@
 +++
 template="project.html"
 sort_by="weight"
-title="Arbeitstitel: Sauebere Auslandsmobilitätsdaten (Hochschule Kempten)"
+title="Hochschule Kempten: Zugängliche Auslandsmobilitätsdaten"
 
-description="Arbeitstitel: Sauebere Auslandsmobilitätsdaten (Hochschule Kem[ten])"
+description="Informationen zu Auslandsaufenthalten liegen an Hochschulen in mehreren Systemen vor. In einem Workshop befähigen wir das International Office, den eigenen Datenbedarf klar zu formulieren, und erarbeiten gemeinsam mit den beteiligten Stellen der Verwaltung, welche Daten wo verfügbar sind."
 
 extra.current=true
 extra.start_date="2026-11-1"
@@ -21,10 +21,8 @@ extra.cards=[
 
 +++
 
-<!-- In diesem Projekt erfassen wir Basiskompetenzen von Schüler:innen an Berufsschulen in Deutsch und Mathematik. 
+Informationen zu Auslandsaufenthalten liegen an Hochschulen in mehreren Systemen vor, etwa in Mobility Online, im Campus-Management-System und im Controlling. Jedes System arbeitet mit eigenen Stichtagen und Definitionen, sodass Zahlen oft nicht übereinstimmen. In einem Workshop befähigen wir das International Office, den eigenen Datenbedarf klar zu formulieren, und zeigen gemeinsam mit den beteiligten Stellen der Verwaltung, welche Daten wo verfügbar sind.
 
-Wir nutzen Informationen aus verschiedenen Datenquellen und visualisieren die Kompetenzentwicklung der Schüler:innen. 
+Dazu gehen wir in drei Schritten vor: Wir klären, welche Fragen das International Office beantworten möchte und wozu, ermitteln dann gemeinsam mit den verschiedenen Abteilungen, wo die dazu benötigten Daten liegen, und erarbeiten, wie sie zusammengeführt werden können. 
 
-Gemeinsam mit den Lehrkräften bestimmen wir welche Informationen einfließen sollen und wie diese kombiniert und dargestellt werden können, um gezielte Maßnahmen für die jeweiligen Schüler:innen ableiten zu können.
-
-Das Projekt findet im Rahmen des Schulversuchs „Evidenzbasierte Schule” der Stiftung Bildungspakt Bayern statt. -->
+Im Fokus stehen dabei die Erleichterung der Kommunikation über Daten zwischen den Stellen und die Stärkung der Datakompetenz. Gemeinsam schaffen wir ein einheitliches Verständnis der Datenflüsse, sodass das International Office der Hochschule Kempten Daten sicher einordnen und seine Bedarfe gegenüber der Verwaltung fundiert vertreten kann.
