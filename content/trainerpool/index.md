@@ -1,6 +1,7 @@
 +++
 title="Trainerpool"
 extra.sliding_footer=false
+draft=true
 
 +++
 
