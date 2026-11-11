@@ -1,4 +1,3 @@
-{% import "macros/content.html" as content %}
 {% if color %}{%else%}{% set color="" %}{%endif%}
 {% if icon %}{%else%}{% set icon="" %}{%endif%}
-{{content::card(title=title,content=body, type='inline' ,color=color, icon=icon)}}
+{{ <card title={title} content={body} type="inline" color={color} icon={icon} /> }}

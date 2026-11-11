@@ -1,4 +1,4 @@
-{% import "macros/content.html" as content %}
+{% component special(config) %}
 <div class="fixed-replacement special-fix"></div>
 <div id="special-fix" class="container bg-dark to-fix ">
     <div class="container-wrapper">
@@ -6,29 +6,28 @@
             <h1 class="big">Was unsere Arbeit ausmacht</h1>
             <div class="specials">
                 <div class="special-card">
-                    <!-- <img src="{{ content::base_path() }}images/github-yellow.svg" /> -->
-                    <h2>Souveränität über Daten und Funktion</h3>
+                    <!-- <img src="{{ <base_path config={config} /> }}images/github-yellow.svg" /> -->
+                    <h2>Souveränität über Daten und Funktion</h2>
                     <div class="text">
                         Unsere Kunden behalten die Hoheit über den Code und ihre Daten.
-                        
                     </div>
                 </div>
                 <div class="special-card">
-                    <!-- <img src="{{ content::base_path() }}images/check.svg" /> -->
-                    <h2>Kein Lock-In</h3>
+                    <!-- <img src="{{ <base_path config={config} /> }}images/check.svg" /> -->
+                    <h2>Kein Lock-In</h2>
                     <div class="text">
                         Wir bieten Ihnen genau das an, was Sie brauchen: Entwicklung, Hosting, Support, Wartung. Und alles, was Sie selbst regeln wollen, regeln Sie selbst.
                     </div>
                 </div>
                 <div class="special-card">
-                    <!-- <img src="{{ content::base_path() }}images/connect.svg" /> -->
+                    <!-- <img src="{{ <base_path config={config} /> }}images/connect.svg" /> -->
                     <h2>Data Science als Teamsport</h2>
                     <div class="text">
                         Sie haben das fachliche Know-How und kennen Ihre Daten, wir bringen die methodische und technische Expertise mit. Gemeinsam finden wir eine passende Lösung.
                     </div>
                 </div>
                 <div class="special-card">
-                    <!-- <img src="{{ content::base_path() }}images/sliders.svg" /> -->
+                    <!-- <img src="{{ <base_path config={config} /> }}images/sliders.svg" /> -->
                     <h2>Passender Einsatz von Technologie</h2>
                     <div class="text">
                         Wir sind Data Scientists und wissen was passt und was nicht passt. Daher wählen wir nicht die auffälligste, sondern die passende Lösung. Ob KI oder ein kleines, gezielt entwickeltes Tool – entscheidend ist, was Ihr Problem nachhaltig löst.
@@ -37,4 +36,5 @@
             </div>
         </div>
     </div>
-    </div>
+</div>
+{% endcomponent %}

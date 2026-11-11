@@ -1,4 +1,4 @@
-{% import "macros/content.html" as content %}
+{% component image(path, round=false, caption="") %}
 <div class="image-container">
 {%if round%}
     {% if round==true%}
@@ -9,7 +9,8 @@
 {%else%}
 {%set round=""%}
 {%endif%}
-{{content::content_image(img=path, widths=[360,600,960],class="lazy "~round)}}
+{{ <content_image img={path} widths={[360,600,960]} class={"lazy "~round} /> }}
 {% if caption %}<p class="image-caption">{{ caption }}</p>{% endif %}
 
 </div>
+{% endcomponent %}

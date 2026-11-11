@@ -6,7 +6,7 @@ title="Digitalisierung und Automatisierung von gleichstellungsbezogenen Daten"
 description="Wir entwickeln eine Webapp zur Auswertung von Daten für Gleichstellungskonzepte. Aufgrund dieser werden Initiativen und strukturelle Maßnahmen zur Sicherung von Chancengleichheit von Frauen und Männern und der Vereinbarkeit von Familie und Beruf in den Dienststellen abgeleitet und in die Konzepte aufgenommen."
 extra.current=true
 
-extra.start_date="2026-6-1"
+extra.start_date="2026-06-01"
 extra.logo="Logo_StMAS.png"
 extra.serie_name="Workshop series"
 

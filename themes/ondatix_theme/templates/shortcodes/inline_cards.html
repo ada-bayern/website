@@ -1,4 +1,4 @@
-{% import "macros/content.html" as content %}
+{% component inline_cards(data_path) %}
 {% set data = load_data(path=data_path) %}
 
 
@@ -6,9 +6,10 @@
 <div class="container bg-light">
     <div class="container-wrapper">
         <div class="inline-cards">
-            {% for card in data.card%}
-            {{content::card(title=card.title, content=card.content, type=card.type, color=card.color, link=card.link)}}
-            {% endfor %}
+            {%- for card in data.card%}
+            {{ <card title={card.title} content={card.content} type={card.type} color={card.color} link={card.link} /> }}
+            {%- endfor %}
         </div>
     </div>
 </div>
+{% endcomponent %}

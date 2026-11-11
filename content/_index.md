@@ -7,9 +7,9 @@ extra.sliding_footer=true
 
 +++
 
-{{ logo_hero() }}
+{{ <logo_hero /> }}
 
-{%side_text_block(title="Open-Source-Lösungen, die Daten nutzbar machen, Kosten senken und digitale Souveränität ermöglichen",bg="dark", button_url="angebot" button_text="Mehr lesen") %}
+{% <side_text_block title="Open-Source-Lösungen, die Daten nutzbar machen, Kosten senken und digitale Souveränität ermöglichen" bg="dark" button_url="angebot" button_text="Mehr lesen"> %}
 
 Daten ermöglichen bessere Entscheidungen und automatisierte Verwaltungsprozesse. Sie sind das Rückgrat der modernen Verwaltung. 
 
@@ -20,9 +20,9 @@ Unsere Überzeugung: Die öffentliche Verwaltung verdient Tools, denen sie vertr
 Dafür entwickeln wir Open-Source-Software und befähigen Behörden zur souveränen und zielführenden Nutzung ihrer Daten.
 
 
-{%end%}  
+{% </side_text_block> %}  
 
-{{side_text_block(title="Unser Ziel",size="big", compressed="true" bg="light")}}  
-{{inline_cards(data_path="cards.toml")}}
-<!-- {{divider()}} -->
-<!-- {{home_symbols()}} -->
+{{ <side_text_block title="Unser Ziel" size="big" compressed="true" bg="light" /> }}  
+{{ <inline_cards data_path="cards.toml" /> }}
+<!-- {{ <divider /> }} -->
+<!-- {{ <home_symbols config={config} /> }} -->

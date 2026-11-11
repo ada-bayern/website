@@ -1,5 +1,4 @@
-{% import "macros/content.html" as content %}
-
+{% component logo_hero() %}
 {#
   Scroll-driven logo hero.
   Two phrases appear one after another while the five brand shapes drift; the
@@ -11,7 +10,6 @@
 <section class="logo-hero bg-dark">
     <div class="lh-pin">
         <div class="lh-stage">
-
             <svg class="lh-logo-svg" viewBox="0 0 958 348" role="img" aria-label="ondatix"
                 xmlns="http://www.w3.org/2000/svg">
                 <g transform="translate(-199 -853)">
@@ -37,7 +35,6 @@
                     </g>
                 </g>
             </svg>
-
             <div class="lh-phrases">
                 <h2 class="lh-phrase" data-phrase="1">Datenbasierte Verwaltung</h2>
                 <h2 class="lh-phrase" data-phrase="2">mit Open Source Software</h2>
@@ -45,7 +42,6 @@
         </div>
     </div>
 </section>
-
 <style>
     .logo-hero {
         /* scroll runway: how far you scroll to play the whole sequence */
@@ -53,7 +49,6 @@
         padding: 0;
         position: relative;
     }
-
     .lh-pin {
         position: sticky;
         top: var(--header-height);
@@ -64,7 +59,6 @@
         align-items: center;
         justify-content: center;
     }
-
     .lh-stage {
         position: relative;
         width: 100%;
@@ -73,7 +67,6 @@
         align-items: center;
         justify-content: center;
     }
-
     /* --- the logo (mark + wordmark) ------------------------------------- */
     .lh-logo-svg {
         position: absolute;
@@ -86,23 +79,19 @@
         z-index: 2;
         will-change: transform;
     }
-
     .lh-mark .lh-p {
         transform-box: fill-box;
         transform-origin: center;
         will-change: transform;
     }
-
     .lh-word {
         opacity: 0;
         will-change: opacity;
     }
-
     /* Before JS: show the finished logo so it never looks broken */
     .logo-hero:not(.lh-ready) .lh-word {
         opacity: 1;
     }
-
     /* --- phrases -------------------------------------------------------- */
     .lh-phrases {
         position: absolute;
@@ -115,7 +104,6 @@
         z-index: 3;
         pointer-events: none;
     }
-
     .lh-phrase {
         position: absolute;
         margin: 0;
@@ -127,47 +115,37 @@
         opacity: 0;
         will-change: opacity, transform;
     }
-
     .logo-hero:not(.lh-ready) .lh-phrase[data-phrase="1"] {
         opacity: 1;
     }
-
     @media (prefers-reduced-motion: reduce) {
         .logo-hero {
             height: auto;
         }
-
         .lh-pin {
             position: static;
             height: calc(100vh - var(--header-height));
         }
-
         .lh-phrases {
             display: none;
         }
-
         .lh-word {
             opacity: 1;
         }
     }
 </style>
-
 <script>
     (function () {
         const section = document.querySelector('.logo-hero');
         if (!section) return;
-
         if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-
         const pin = section.querySelector('.lh-pin');
         const svg = section.querySelector('.lh-logo-svg');
         const markGroup = section.querySelector('.lh-mark');
         const wordGroup = section.querySelector('.lh-word');
         const pathEls = Array.from(section.querySelectorAll('.lh-p'));
         const phraseEls = Array.from(section.querySelectorAll('.lh-phrase'));
-
         section.classList.add('lh-ready');
-
         // --- helpers --------------------------------------------------------
         const clamp = (v, a = 0, b = 1) => Math.max(a, Math.min(b, v));
         const lerp = (a, b, t) => a + (b - a) * t;
@@ -175,7 +153,6 @@
             const u = clamp((t - a) / (b - a));
             return u * u * (3 - 2 * u);
         }
-
         // Scatter layouts per shape, in SVG user units (translate) + degrees.
         // kf[0] = phrase 1 scatter, kf[1] = phrase 2 scatter.
         // The home/assembled state is the identity transform (the real Bildmarke).
@@ -186,13 +163,11 @@
             'purple-long':  [{ x: -140, y: -320, r: -28 }, { x: 220, y: 200, r: 30 }],
             'purple-short': [{ x: 360, y: 300, r: 32 }, { x: -80, y: 340, r: -42 }],
         };
-
         // --- geometry: where the mark sits inside the 958x348 logo ----------
         // viewBox is 0..958 x 0..348; the inner <g> is translated by (-199,-853),
         // so a path coord (px,py) renders at (px-199, py-853).
         let markCx = 287, markCy = 174, scale = 1, shiftX = 0, shiftY = 0;
         const VB_W = 958, VB_H = 348;
-
         function measure() {
             const box = markGroup.getBBox();           // in path-coordinate space
             markCx = box.x + box.width / 2 - 199;       // -> viewBox space
@@ -202,18 +177,15 @@
             shiftX = (VB_W / 2 - markCx) * scale;
             shiftY = (VB_H / 2 - markCy) * scale;
         }
-
         // --- render loop ----------------------------------------------------
         let maxScroll = 1;
         function computeRange() {
             maxScroll = Math.max(1, section.offsetHeight - pin.offsetHeight);
         }
-
         function render() {
             ticking = false;
             const rect = section.getBoundingClientRect();
             const t = clamp(-rect.top / maxScroll);
-
             // shapes: scatter1 -> scatter2 -> home (identity)
             const assemble = smooth(0.40, 0.85, t);
             pathEls.forEach(el => {
@@ -232,14 +204,12 @@
                 el.style.transform =
                     `translate(${x.toFixed(1)}px, ${y.toFixed(1)}px) rotate(${r.toFixed(1)}deg)`;
             });
-
             // final scroll: wordmark fades in, logo slides from mark-centred to
             // full-logo-centred so the finished composition sits in the middle.
             const c = smooth(0.82, 1.0, t);
             wordGroup.style.opacity = c.toFixed(3);
             svg.style.transform =
                 `translate(-50%, -50%) translate(${lerp(shiftX, 0, c).toFixed(1)}px, ${lerp(shiftY, 0, c).toFixed(1)}px)`;
-
             // phrases, one after another with gentle crossfades
             const p1 = 1 - smooth(0.20, 0.30, t);
             const p2 = smooth(0.32, 0.42, t) * (1 - smooth(0.58, 0.66, t));
@@ -249,7 +219,6 @@
                 el.style.transform = `translateY(${((1 - ops[i]) * 18).toFixed(1)}px)`;
             });
         }
-
         let ticking = false;
         function onScroll() {
             if (!ticking) {
@@ -257,17 +226,14 @@
                 ticking = true;
             }
         }
-
         function onResize() {
             measure();
             computeRange();
             render();
         }
-
         measure();
         computeRange();
         render();
-
         window.addEventListener('scroll', onScroll, { passive: true });
         window.addEventListener('resize', onResize);
         window.addEventListener('load', onResize);
@@ -276,3 +242,4 @@
         }
     })();
 </script>
+{% endcomponent %}

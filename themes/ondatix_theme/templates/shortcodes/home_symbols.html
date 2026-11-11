@@ -1,5 +1,4 @@
-{% import "macros/content.html" as content %}
-
+{% component home_symbols(config) %}
 <div class=" container bg-light">
   <div class="container-wrapper">
     <div class="home-symbols">
@@ -9,7 +8,7 @@
       </div>
 
       <div class="element el2">
-        <img src="{{content::base_path()}}images/cloud.svg" alt="Symbol 1">
+        <img src="{{ <base_path config={config} /> }}images/cloud.svg" alt="Symbol 1">
       </div>
 
       <div class="element el3">
@@ -17,7 +16,7 @@
       </div>
 
       <div class="element el4">
-        <img src="{{content::base_path()}}images/frage.svg" alt="Symbol 1">
+        <img src="{{ <base_path config={config} /> }}images/frage.svg" alt="Symbol 1">
       </div>
 
       <div class="element el5">
@@ -25,11 +24,11 @@
       </div>
 
       <div class="element el6">
-        <img src="{{content::base_path()}}images/wheel.svg" alt="Symbol 1">
+        <img src="{{ <base_path config={config} /> }}images/wheel.svg" alt="Symbol 1">
       </div>
 
       <div class="element el8">
-        <img src="{{content::base_path()}}images/arrows-up.svg">
+        <img src="{{ <base_path config={config} /> }}images/arrows-up.svg">
       </div>
 
       <div class="element el7">
@@ -40,5 +39,4 @@
   </div>
 </div>
 
-
-
+{% endcomponent %}

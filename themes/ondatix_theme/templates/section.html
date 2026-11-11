@@ -25,7 +25,7 @@
         <div class="project-item">
             <a href="{{ sec.permalink }}" class="project-link">
                 <h2>{{ sec.title }}</h2>
-                {{ sec.pages.0.content | safe }}
+                {{ sec.pages[0].content | safe }}
                 <p>{{ sec.description }}</p>
             </a>
         </div>

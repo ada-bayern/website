@@ -10,8 +10,8 @@
         <span class="tag">sectorsectorsector</span>
     </div>
     <div class="project-date">
-        <span class="start-date">{{ project.extra.start_date |date(format="%B %Y", locale="de_DE") }}</span>
-        {% if project.extra.end_date %}<span class="start-date"> - {{ project.extra.end_date |date(format="%B %Y",
+        <span class="start-date">{{ project.extra.start_date |date(format="MMMM yyyy", locale="de_DE") }}</span>
+        {% if project.extra.end_date %}<span class="start-date"> - {{ project.extra.end_date |date(format="MMMM yyyy",
             locale="de_DE")
             }}</span>{% endif %}
     </div>
