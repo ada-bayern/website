@@ -1,4 +1,4 @@
-{% component image(path, round=false, caption="") %}
+{% component image(path, alt="", round=false, caption="") %}
 {#- Strip blank lines and indentation: content is parsed as Markdown after templating, so they would turn HTML into code blocks -#}
 {% set html %}
 <div class="image-container">
@@ -11,7 +11,7 @@
 {%else%}
 {%set round=""%}
 {%endif%}
-{{ <content.content_image img={path} widths={[360,600,960]} class={"lazy " ~ round} /> }}
+{{ <content.content_image img={path} widths={[360,600,960]} class={"lazy " ~ round} alt={alt} /> }}
 {% if caption %}<p class="image-caption">{{ caption }}</p>{% endif %}
 
 </div>

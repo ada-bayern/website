@@ -3886,3 +3886,98 @@ button.clear-search {
     appearance: none;
     -webkit-appearance: none;
 }
+// Quote with portrait (component: templates/shortcodes/quote.html)
+.quote-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    @media all and (min-width: $laptop-small) {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+}
+
+.quote-block {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .quote-photo {
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: 50% 15%;
+        width: 240px;
+        height: 240px;
+        flex-shrink: 0;
+    }
+
+    blockquote {
+        margin: 0;
+        font-size: 28px;
+        line-height: 36px;
+        font-weight: 300;
+
+        p { margin: 0; }
+
+        @media all and (min-width: $laptop-small) {
+            font-size: 36px;
+            line-height: 46px;
+        }
+    }
+
+    figcaption {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 6px 16px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .quote-who { display: flex; flex-direction: column; }
+    .quote-author { font-weight: 700; }
+    .quote-role { color: var(--light-gray); }
+    .quote-avatar-img { display: none; }
+}
+
+// Photo left, quote right
+.quote-side {
+    @media all and (min-width: $tablet) {
+        flex-direction: row;
+        align-items: center;
+        gap: 60px;
+
+        .quote-photo {
+            width: 32%;
+            max-width: 400px;
+            height: auto;
+            aspect-ratio: 1;
+        }
+    }
+}
+
+// Photo centred above the quote
+.quote-stacked {
+    align-items: center;
+    text-align: center;
+
+    figcaption { justify-content: center; }
+}
+
+// Small photo beside the attribution, quote takes the full width
+.quote-avatar {
+    > .quote-photo { display: none; }
+
+    .quote-avatar-img {
+        display: block;
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: 50% 15%;
+    }
+
+    figcaption { flex-wrap: nowrap; }
+}
