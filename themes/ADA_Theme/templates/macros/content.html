@@ -8,16 +8,8 @@
 
 
 {%- component content.clean_path(path) -%}
-
-{%- set temp = path | split(pat="/") -%}
-{%- set out = "" -%}
-{%- for section in temp %}
-{{- section -}}
-{%- set section1 = section | slugify -%}
-{%- set out= out ~ section1 ~ "/" -%}
-
-{%- endfor -%}
-{{- out -}}
+{%- set parts = path | trim_end(pat=".md") | split(pat="/") -%}
+{{- [part | slugify for part in parts if part != "index" and part != "_index"] | join(sep="-") -}}
 {%- endcomponent content.clean_path -%}
 
 

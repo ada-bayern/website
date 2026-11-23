@@ -15,14 +15,14 @@ Informationen zum Umfang der Leistung sowie zu den für die Interessensbekundung
 
 {% </side_text_block> %}
 
-<!-- {% <side_text_block size="big" bg="light" text_align="left"> %}
+{# <side_text_block size="big" bg="light" text_align="left">
 <div style="margin-top: -150px;"></div>
 <!-- <span style='font-size: 29px; font-weight: bold'>Öffentliche Aufforderung zur Interessensbekundung für die Abgabe von Angeboten:<br> Rahmenvereinbarung für Trainer und Trainerinnen in Data-Science-Projekten mit der<br>öffentlichen Verwaltung</span> -->
 
 <!-- ### Öffentliche Aufforderung zur Interessensbekundung für die Abgabe von Angeboten: -->
 <!-- <div style="margin-bottom: -20px"></div> -->
 
-<!-- {% </side_text_block> %} -->
+</side_text_block> #}
 
 
 

@@ -3,9 +3,8 @@
     {% set project=get_section(path=project_path) %}
     <div class="tags">
         <span class="visually-hidden">Kategorien:</span>
-        <span class="type">Workshop</span>
-        <span class="tag">sector 1</span>
-        <span class="tag">sectorsectorsector</span>
+        {% for type in project.extra.type %}<span class="type">{{ type }}</span>{% endfor %}
+        {% for tag in project.extra.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
     </div>
     <div class="project-date">
         <span class="start-date">{{ project.extra.start_date |date(format="MMMM y", locale="de_DE") }}</span>

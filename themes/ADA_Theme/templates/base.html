@@ -57,10 +57,8 @@
         <div class="scroll-indicator" aria-hidden="true">
             <div class="scroll-indicator-bar"></div>
         </div>
-        {% if config.build_search_index %}
-
-
     </header>
+    {% if config.build_search_index %}
     <div class="search-area" role="search" aria-label="Volltextsuche">
         <div class="search-area-wrapper">
             <div class="search-input">
@@ -164,10 +162,6 @@
         </footer>
 
 
-
-        </div>
-
-
         {% if config.build_search_index and config.search.index_format == "elasticlunr_json" -%}
         {{ <content.include_script file="js/search.js" additional_tags={'lang="' ~ lang ~ '"'} /> }}
 
@@ -181,3 +175,5 @@
         {{ <content.include_script file="js/main.js" additional_tags={'lang="' ~ lang ~ '"'} /> }}
         {%- block extra_javascript -%}{%- endblock extra_javascript -%}
 </body>
+
+</html>
