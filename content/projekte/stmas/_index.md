@@ -1,6 +1,7 @@
 +++
 template="project.html"
 sort_by="weight"
+weight=3
 title="Digitalisierung und Automatisierung von gleichstellungsbezogenen Daten"
 
 description="Wir erarbeiten ein einheitliches Konzept zur Erhebung und Auswertung von Daten für Gleichstellungskonzepte. Aufgrund dieser werden Initiativen und strukturelle Maßnahmen zur Sicherung von Chancengleichheit von Frauen und Männern und der Vereinbarkeit von Familie und Beruf in den Dienststellen abgeleitet und in die Konzepte aufgenommen."

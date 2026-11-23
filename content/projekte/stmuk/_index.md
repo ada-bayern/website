@@ -1,7 +1,7 @@
 +++
 template="project.html"
 sort_by="weight"
-weight=3
+weight=6
 title="Digitalisierte Präferenzerfassung von Referendar:innen"
 
 description="Wir erarbeiten gemeinsam eine digitalisierte Präferenzerfassung der Schul- und Ortswünsche der (zukünftigen) Einsatzschulreferendar:innen sowie der neu einzustellenden Lehrkräfte an staatlichen Gymnasien und Kollegs in Bayern."

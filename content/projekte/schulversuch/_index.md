@@ -1,6 +1,7 @@
 +++
 template="project.html"
 sort_by="weight"
+weight=1
 title="Schulversuch „Evidenzbasierte Schule“: Testen und Fördern im Bereich der Basiskompetenzen"
 
 description="Schulversuch „Evidenzbasierte Schule“: Testen und Fördern im Bereich der Basiskompetenzen"

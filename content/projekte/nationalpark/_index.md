@@ -1,7 +1,7 @@
 +++
 template="project.html"
 sort_by="weight"
-weight=1
+weight=5
 title="Einzelbaumerkennung"
 
 description="Im Oktober 2024 führten wir eine Workshop-Serie zum Thema Einzelbaumerkennung und Baum- und Waldmanagement mit Fernerkundungsdaten durch. Die Workshop-Serie bestand aus zwei Teilen und richtete sich an verschiedene Zielgruppen, darunter Stadtplaner:innen, staatliche Forstmitarbeitende und andere Verwaltungsmitarbeitende"

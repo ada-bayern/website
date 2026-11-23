@@ -1,6 +1,7 @@
 +++
 template="project.html"
 sort_by="weight"
+weight=2
 title="Daten-basierte Archivierung von Gerichtsakten"
 
 description="In diesem Projekt wurden gemeinsam mit Mitarbeitenden der Staatlichen Archive Bayerns die Grundlagen und praktischen Anwendungen von Datenanalyseprojekten im Kontext der Archivierung von Gerichtsakten erarbeitet. Ziel dieser Serie war es, die Teilnehmer:innen in die Lage zu versetzen, datenbasierte Projekte ohne Berührungsängste anzugehen und ihre Fachexpertise effektiv einzubringen."

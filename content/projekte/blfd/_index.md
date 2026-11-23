@@ -1,6 +1,7 @@
 +++
 template="project.html"
 sort_by="weight"
+weight=7
 title="Arbeitstitel: Teilautomatisiertes Screening von Bauanträgen"
 
 description="Arbeitstitel: Teilautomatisiertes Screening von Bauanträgen"
