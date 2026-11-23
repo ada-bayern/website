@@ -9,13 +9,21 @@ extra.sliding_footer=false
 
 {{ <hero /> }}
 
+
+{% <side_text_block title="Hier entstehen neue Arbeitsweisen, die unsere Verwaltung schneller, effizienter und zukunftsfester machen" bg="dark" > %}
+
+{{ <image path="images/minister.webp" round={true} /> }}
+*,,Daten sind der ungehobene Schatz unserer Zeit. Wer ihn klug nutzt, macht den Staat leistungsfähiger. Genau das ist der Kern von ADA-ÖV. Hier entstehen neue Arbeitsweisen, die unsere Verwaltung schneller, effizienter und zukunftsfester machen''*
+
+{% </side_text_block> %}  
+
 {% <side_text_block title="Wir helfen der öffentlichen Verwaltung bei der besseren Nutzung ihrer Daten und machen sie fit für die (KI-)Zukunft" bg="dark" button_url="was-wir-bieten" button_text="Mehr lesen"> %}
 
 Daten bieten uns die Möglichkeit, bessere Entscheidungen zu treffen. Vorgänge und Prozesse können automatisiert und vereinfacht werden. Daten helfen, die Wirklichkeit zu reflektieren und so passgenaue Lösungen evidenzbasiert zu entwickeln. Und je besser die Datenbasis, desto sinnvoller können moderne Technologien und KI eingesetzt werden. 
 
 Jedoch fehlt in der öffentlichen Verwaltung oft das Know-How, die benötigten Daten zu erheben, zu verstehen und optimal zu nutzen.
 
-In maßgeschneiderten Projekten bringen wir Verwaltung und wissenschaftliche Datenexpertise an einen Tisch, um Probleme zu verstehen und pragmatische Lösungen dafür zu finden. Dabei befähigen wir Sie, als Mitarbeitende der öffentlichen Verwaltung, zu einem effizienten und verantwortungsbewussten Umgang mit Ihren Daten. 
+In maßgeschneiderten Projekten bringen wir Verwaltung und wissenschaftliche Datenexpertise an einen Tisch, um Probleme zu verstehen und pragmatische Lösungen dafür zu finden. Dabei befähigen wir Sie, als Mitarbeitende der öffentlichen Verwaltung, zu einem effizienten und verantwortungsbewussten Umgang mit Ihren Daten.
 
 {% </side_text_block> %}  
 
