@@ -52,7 +52,7 @@ copyright = "Angewandte Datenanalyse für die Öffentliche Verwaltung"
 
 social= [
     #{ url = "instagram.com", title = "Instagram" ,icon = "images/instagram.svg"},
-    #{ url = "https://www.linkedin.com/company/ada-bayern/", title = "LinkedIn" ,icon = "images/linkedin.svg"},
+    { url = "https://www.linkedin.com/company/ada-oeffentliche-verwaltung/", title = "LinkedIn" ,icon = "images/linkedin.svg"},
 
 ]
 
