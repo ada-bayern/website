@@ -1,4 +1,6 @@
-{% import "macros/content.html" as content %}
+{% component team(data_path) %}
+{#- Strip blank lines and indentation: content is parsed as Markdown after templating, so they would turn HTML into code blocks -#}
+{% set html %}
 {% set data = load_data(path=data_path) %}
 
 <section class="container bg-light" aria-label="Team">
@@ -13,14 +15,13 @@
 
         {% if member.image -%}
         {{-
-
-        content::picture_fit_src(
-        img= member.image,
-        widths=[320, 640],
-        heights=[378, 755],
-        class="member-image lazy",
-        alt=member.name
-        )
+        <content.picture_fit_src
+        img={member.image}
+        widths={[320, 640]}
+        heights={[378, 755]}
+        class="member-image lazy"
+        alt={member.name}
+        />
         -}}
           {%- endif %}
          {# <img width="100%"
@@ -108,3 +109,5 @@
         openFoldInit();     // 👈 then attach behavior
     });
 </script>
+{% endset %}{{ html | regex_replace(pattern="(?m)^[[:space:]]+", rep="") | safe }}
+{% endcomponent team %}

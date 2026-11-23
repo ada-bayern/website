@@ -7,7 +7,7 @@ title="Einzelbaumerkennung"
 description="Im Oktober 2024 führten wir eine Workshop-Serie zum Thema Einzelbaumerkennung und Baum- und Waldmanagement mit Fernerkundungsdaten durch. Die Workshop-Serie bestand aus zwei Teilen und richtete sich an verschiedene Zielgruppen, darunter Stadtplaner:innen, staatliche Forstmitarbeitende und andere Verwaltungsmitarbeitende"
 extra.current=false
 extra.logo="Logo_Nationalpark.png"
-extra.start_date="2024-10-1"
+extra.start_date="2024-10-01"
 extra.end_date=""
 extra.serie_name="Workshop-Serie"
 
@@ -24,12 +24,12 @@ extra.cards=[
 # ]
 
 +++
-{%card(title="Kurz und Knapp",color="salmon")%}
+{% <card title="Kurz und Knapp" color="salmon"> %}
 ### Projektergebnisse
 - Erweiterung der Kompetenzen im Bereich Cloud-Computing und Bilddatensätze
 - Wissensaustausch und die Vernetzung verschiedener Behörden
 - Pilotprojekt für Cloud-basierte Speicherung und Verarbeitung von Geodaten
-{%end%}
+{% </card> %}
 
 ### Kontext und Zielsetzung
 Im Zentrum des Projekts stand ein Austausch zum Mehrwerts von Datenprodukten wie Luft- und Satellitendaten für das Baum- und Forstmanagement und der Einsatzmöglichkeiten von Technologien aus dem Bereich Cloud Computing und KI.

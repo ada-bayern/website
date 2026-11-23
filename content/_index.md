@@ -7,9 +7,9 @@ extra.sliding_footer=false
 
 +++
 
-{{ hero() }}
+{{ <hero /> }}
 
-{%side_text_block(title="Wir helfen der öffentlichen Verwaltung bei der besseren Nutzung ihrer Daten und machen sie fit für die (KI-)Zukunft",bg="dark", button_url="was-wir-bieten" button_text="Mehr lesen") %}
+{% <side_text_block title="Wir helfen der öffentlichen Verwaltung bei der besseren Nutzung ihrer Daten und machen sie fit für die (KI-)Zukunft" bg="dark" button_url="was-wir-bieten" button_text="Mehr lesen"> %}
 
 Daten bieten uns die Möglichkeit, bessere Entscheidungen zu treffen. Vorgänge und Prozesse können automatisiert und vereinfacht werden. Daten helfen, die Wirklichkeit zu reflektieren und so passgenaue Lösungen evidenzbasiert zu entwickeln. Und je besser die Datenbasis, desto sinnvoller können moderne Technologien und KI eingesetzt werden. 
 
@@ -17,25 +17,25 @@ Jedoch fehlt in der öffentlichen Verwaltung oft das Know-How, die benötigten D
 
 In maßgeschneiderten Projekten bringen wir Verwaltung und wissenschaftliche Datenexpertise an einen Tisch, um Probleme zu verstehen und pragmatische Lösungen dafür zu finden. Dabei befähigen wir Sie, als Mitarbeitende der öffentlichen Verwaltung, zu einem effizienten und verantwortungsbewussten Umgang mit Ihren Daten. 
 
-{%end%}  
+{% </side_text_block> %}  
 
-{%side_text_block(title="Unser Ziel",size="big", compressed="true" bg="light")%}
+{% <side_text_block title="Unser Ziel" size="big" compressed="true" bg="light"> %}
 
 Wir lösen Data Science Fragestellungen gemeinsam mit und für die öffentliche Verwaltung
 
-{% end%} 
-{{home_symbols()}}
+{% </side_text_block> %} 
+{{ <home_symbols /> }}
 
-{%side_text_block(title="Über uns",size="big", compressed="true" bg="light")%}
+{% <side_text_block title="Über uns" size="big" compressed="true" bg="light"> %}
 
-ADA entstand auf Initiative des Social Data Science and AI Labs der Ludwigs-Maximilians-Universität München. Mit unserer wissenschaftlichen Expertise und unserem Netzwerk fühlen wir uns der Vision einer evidenzbasierten, effizienten, digitalen Verwaltung verpflichtet.
+ADA entstand auf Initiative des Social Data Science and AI Labs der Ludwig-Maximilians-Universität München. Mit unserer wissenschaftlichen Expertise und unserem Netzwerk fühlen wir uns der Vision einer evidenzbasierten, effizienten, digitalen Verwaltung verpflichtet.
 
 Um die Vision von ADA umzusetzen, arbeiten viele Akteure Hand in Hand. In Bayern haben wir mit dem Bayerischen Staatsministerium für Digitales einen starken Kooperationspartner gefunden, der unsere Vision teilt und ihre Umsetzung unterstützt.
 
-{% end%} 
+{% </side_text_block> %} 
 
-{{initiators1(data_path='initiators1.toml')}}
+{{ <initiators1 data_path="initiators1.toml" /> }}
 
-{{start_buttons()}}
+{{ <start_buttons /> }}
 
 <div style="margin-top: 200px;"></div>

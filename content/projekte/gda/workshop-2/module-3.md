@@ -8,10 +8,10 @@ extra.resources=[
 ]
 +++
 
-{%card(title='Lernziele', color="lilac")%}
+{% <card title="Lernziele" color="lilac"> %}
 Am Ende dieses Moduls können Sie...
 
 * ... die gewählte Strategie für Datensätze aus verschiedenen Jahren umsetzen.
 * ... Lücken erkennen, die im Projekt zu schließen sind, um die Analysen in das Tagesgeschäft aufzunehmen.
 * ... die Datenanalysen dokumentieren.
-{%end%}
+{% </card> %}

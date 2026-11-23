@@ -6,8 +6,8 @@ title="Schulversuch „Evidenzbasierte Schule“: Testen und Fördern im Bereich
 description="Schulversuch „Evidenzbasierte Schule“: Testen und Fördern im Bereich der Basiskompetenzen"
 
 extra.current=true
-extra.start_date="2026-5-2"
-extra.end_date="2026-08-1"
+extra.start_date="2026-05-02"
+extra.end_date="2026-08-01"
 extra.logo="logo_sbb.png"
 extra.serie_name="Workshop series"
 

@@ -1,4 +1,6 @@
-{% import "macros/content.html" as content %}
-{% if color %}{%else%}{% set color="" %}{%endif%}
-{% if icon %}{%else%}{% set icon="" %}{%endif%}
-{{content::card(title=title,content=body, type='inline' ,color=color, icon=icon)}}
+{% component card(title, color="", icon="") %}
+{#- Strip blank lines and indentation: content is parsed as Markdown after templating, so they would turn HTML into code blocks -#}
+{% set html %}
+{{ <content.card title={title} content={body} type="inline" color={color} icon={icon} /> }}
+{% endset %}{{ html | regex_replace(pattern="(?m)^[[:space:]]+", rep="") | safe }}
+{% endcomponent card %}

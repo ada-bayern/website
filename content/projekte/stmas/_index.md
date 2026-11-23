@@ -6,8 +6,8 @@ title="Digitalisierung und Automatisierung von gleichstellungsbezogenen Daten"
 description="Wir erarbeiten ein einheitliches Konzept zur Erhebung und Auswertung von Daten für Gleichstellungskonzepte. Aufgrund dieser werden Initiativen und strukturelle Maßnahmen zur Sicherung von Chancengleichheit von Frauen und Männern und der Vereinbarkeit von Familie und Beruf in den Dienststellen abgeleitet und in die Konzepte aufgenommen."
 extra.current=false
 
-extra.start_date="2025-4-2"
-extra.end_date="2026-01-1"
+extra.start_date="2025-04-02"
+extra.end_date="2026-01-01"
 extra.logo="Logo_StMAS.png"
 extra.serie_name="Workshop series"
 
@@ -26,11 +26,11 @@ extra.resources=[
 +++
 
 
-{%card(title='Kurz und Knapp', color="lilac")%}
+{% <card title="Kurz und Knapp" color="lilac"> %}
 ### Projektergebnisse
 * Erarbeitung eines Musterdokuments für Gleichstellungskonzepte im Freistaat Bayern
 * Enwicklung eines Prototypen zur automatisierten einheitlichen Datenauswertung für diese Gleichstellungskonzepte
-{%end%}
+{% </card> %}
 
 ### Kontext
 

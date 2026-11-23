@@ -17,9 +17,9 @@ In **Modul 2** beginnen wir mit der Einführung in die benötigte Software und A
 * Umgang mit Daten(problemen)
 * Stichprobenziehung als Strategie
 
-{{image(path="projekte/gda/workshop-1/Stichprobe.jpg",round=true)}}
+{{ <image path="projekte/gda/workshop-1/Stichprobe.jpg" round={true} /> }}
 
-{%card(title='Lernziele', color="lilac")%}
+{% <card title="Lernziele" color="lilac"> %}
 
 Am Ende dieses Moduls können Sie…
 - Potentiale erkennen
@@ -29,4 +29,4 @@ Am Ende dieses Moduls können Sie…
   - ... die Daten vorbereiten und verstehen.
   - ... erste Datenanalysen durchführung und die Ergebnisse interpretieren.
   - ... eine Entscheidung über eine gute Strategie für die Stichprobenziehung fällen.
-{%end%}
+{% </card> %}

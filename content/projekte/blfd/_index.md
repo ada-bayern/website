@@ -6,8 +6,8 @@ title="Arbeitstitel: Teilautomatisiertes Screening von Bauanträgen"
 description="Arbeitstitel: Teilautomatisiertes Screening von Bauanträgen"
 
 extra.current=true
-extra.start_date="2026-11-1"
-extra.end_date="2027-01-1"
+extra.start_date="2026-11-01"
+extra.end_date="2027-01-01"
 extra.logo="Logo_BLfD.jpg"
 extra.serie_name="Workshop series"
 

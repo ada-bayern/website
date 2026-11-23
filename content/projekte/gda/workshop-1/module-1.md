@@ -22,14 +22,14 @@ In **Modul 1** setzen wir den Rahmen, um Probleme zu erfassen und vorliegende Da
 <!-- ![FAIR prinicples](/icons/Daten-Fragen.jpg){width=47% fig-alt="F=findable, A=accessible, I=interoperable, R=reusable"} 
 ![FAIR prinicples](fair.jpg){width=47% fig-alt="F=findable, A=accessible, I=interoperable, R=reusable"} -->
 
-{{image(path="projekte/gda/workshop-1/fair.jpg",round=false)}}
+{{ <image path="projekte/gda/workshop-1/fair.jpg" round={false} /> }}
 
 
-{%card(title='Lernziele', color="lilac")%}
+{% <card title="Lernziele" color="lilac"> %}
 Am Ende dieses Moduls können Sie...
 
 * ... beschreiben, was Evidenzbasierte Verwaltung ist.
 * ... einschätzen, wann Evidenzbasierte Verwaltung genutzt werden kann.
 * ... einige Fragen benennen, die man mit Daten beantworten kann.
 * ... Probleme schildern, die in Ihrem Umfeld mit Daten gelöst werden könnten
-{%end%}
+{% </card> %}

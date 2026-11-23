@@ -1,4 +1,6 @@
-{% import "macros/content.html" as content %}
+{% component initiators(data_path) %}
+{#- Strip blank lines and indentation: content is parsed as Markdown after templating, so they would turn HTML into code blocks -#}
+{% set html %}
 {% set data = load_data(path=data_path) %}
 
 <section class="initiators container" aria-labelledby="initiators-partner-heading">
@@ -12,7 +14,7 @@
         <li class="partner">
             <a href="{{ partner.url }}" target="_blank" rel="noopener noreferrer"
                 aria-label="{{ partner.name }} (öffnet in neuem Tab)">
-                <img src="{{ content::base_path() }}{{ partner.logo }}" alt="{{ partner.name }} Logo">
+                <img src="{{ <content.base_path /> }}{{ partner.logo }}" alt="{{ partner.name }} Logo">
             </a>
 
         </li>
@@ -26,7 +28,7 @@
         <li class="partner1">
             <a href="{{ partner1.url }}" target="_blank" rel="noopener noreferrer"
                 aria-label="{{ partner1.name }} (öffnet in neuem Tab)">
-                <img src="{{ content::base_path() }}{{ partner1.logo }}" alt="{{ partner1.name }} Logo">
+                <img src="{{ <content.base_path /> }}{{ partner1.logo }}" alt="{{ partner1.name }} Logo">
             </a>
 
         </li>
@@ -42,9 +44,11 @@
         <li class="client">
             <a href="{{ client.url }}" target="_blank" rel="noopener noreferrer"
                 aria-label="{{ client.name }} (öffnet in neuem Tab)">
-                <img src="{{ content::base_path() }}{{ client.logo }}" alt="{{ client.name }} Logo">
+                <img src="{{ <content.base_path /> }}{{ client.logo }}" alt="{{ client.name }} Logo">
             </a>
         </li>
         {% endfor -%}
     </ul>
 </section>
+{% endset %}{{ html | regex_replace(pattern="(?m)^[[:space:]]+", rep="") | safe }}
+{% endcomponent initiators %}

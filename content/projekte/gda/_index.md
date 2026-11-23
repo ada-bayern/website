@@ -6,8 +6,8 @@ title="Daten-basierte Archivierung von Gerichtsakten"
 description="In diesem Projekt wurden gemeinsam mit Mitarbeitenden der Staatlichen Archive Bayerns die Grundlagen und praktischen Anwendungen von Datenanalyseprojekten im Kontext der Archivierung von Gerichtsakten erarbeitet. Ziel dieser Serie war es, die Teilnehmer:innen in die Lage zu versetzen, datenbasierte Projekte ohne Berührungsängste anzugehen und ihre Fachexpertise effektiv einzubringen."
 extra.current=false
 extra.logo="Logo_GDA.gif"
-extra.start_date="2023-10-2"
-extra.end_date="2024-04-1"
+extra.start_date="2023-10-02"
+extra.end_date="2024-04-01"
 extra.serie_name="Workshops"
 
 
@@ -23,15 +23,15 @@ extra.cards=[
 
 +++
 
-{%card(title='Kurz und Knapp', color="lilac")%}
+{% <card title="Kurz und Knapp" color="lilac"> %}
 #### Projektergebnisse
 - Stärkung der Datenkompetenz
 - Entwicklung einer Methodik für die Ziehung von Aktenstichproben
 - Entwicklung einer Applikation zur Umsetzung dieser Methodik
-{%end%}
+{% </card> %}
 
 ### Kontext
-Die Staatlichen Archive sind verpflichtet eine represäntativ ausgewählte Gerichtsakten zu archivieren. Diese Auswahl war ein aufwendiger manueller Prozess und geprägt von subjektiven Einschätzungen.
+Die Staatlichen Archive sind verpflichtet eine repräsentativ ausgewählte Gerichtsakten zu archivieren. Diese Auswahl war ein aufwendiger manueller Prozess und geprägt von subjektiven Einschätzungen.
 
 ### Zielsetzung
 Entscheidungen zur Aktenauswahl sollten durch die systematische Nutzung vorhandener Daten effizienter und transparenter getroffen werden.

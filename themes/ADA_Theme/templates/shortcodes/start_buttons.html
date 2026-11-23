@@ -1,3 +1,6 @@
+{% component start_buttons() %}
+{#- Strip blank lines and indentation: content is parsed as Markdown after templating, so they would turn HTML into code blocks -#}
+{% set html %}
 <div class="button-group">
     <div class="button">
         <a href="oekosystem">ERFAHREN SIE MEHR ÜBER DAS ADA-ÖKOSYSTEM</a>
@@ -9,3 +12,5 @@
     <a href="wer-wir-sind">LERNEN SIE DAS TEAM KENNEN</a>
     </div>
 </div>
+{% endset %}{{ html | regex_replace(pattern="(?m)^[[:space:]]+", rep="") | safe }}
+{% endcomponent start_buttons %}

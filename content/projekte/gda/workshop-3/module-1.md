@@ -20,15 +20,15 @@ In **Modul 1** setzen wir den Rahmen, um Probleme zu erfassen und vorliegende Da
 * Datenquellen und Entstehung von Daten
 * Sicher mit Daten arbeiten: Cloud-Computing als Möglichkeit
 
-{{image(path="projekte/gda/workshop-1/fair.jpg",round=false)}}
+{{ <image path="projekte/gda/workshop-1/fair.jpg" round={false} /> }}
 
 
 
-{%card(title='Lernziele', color="lilac")%}
+{% <card title="Lernziele" color="lilac"> %}
 Am Ende dieses Moduls können Sie...
 
 * ... beschreiben, was Evidenzbasierte Verwaltung ist.
 * ... einschätzen, wann Evidenzbasierte Verwaltung genutzt werden kann.
 * ... einige Fragen benennen, die man mit Daten beantworten kann.
 * ... Probleme schildern, die in Ihrem Umfeld mit Daten gelöst werden könnten
-{%end%}
+{% </card> %}

@@ -8,10 +8,10 @@ extra.resources=[
 ]
 +++
 
-{%card(title='Lernziele', color="lilac")%}
+{% <card title="Lernziele" color="lilac"> %}
 Am Ende dieses Moduls können Sie...
 
 * ... einen nachhaltigen Prozess etablieren, wie die Daten übertragen, die Analysen durchgeführt und Archivierungsentscheidungen dokumentiert werden.
 * ... ihr Wissen an andere weitergeben.
 * ... einschätzen, wie die benötigte Infrastruktur erhalten werden kann.
-{%end%}
+{% </card> %}

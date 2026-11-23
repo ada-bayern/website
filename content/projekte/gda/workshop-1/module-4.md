@@ -17,12 +17,12 @@ Sie können sich auf folgende Themen freuen:
 * Einblick in den rechtlichen Rahmen von Datenanalyseprojekten
 
 
-{%card(title='Lernziele', color="lilac")%}
+{% <card title="Lernziele" color="lilac"> %}
 
 Am Ende dieses Moduls können Sie...
 * ... externe Datenquellen hinsichtlich ihres Nutzens beurteilen.
 * ... die Möglichkeiten und Grenzen der Record Linkage Methode einschätzen.
 * ... Datenprojekte präsentieren und deren Nutzen einordnen.
 * ... einschätzen, was rechtlich in einem solchen Projekt beachtet werden muss.
-{%end%}
+{% </card> %}
 

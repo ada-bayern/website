@@ -11,7 +11,7 @@ A specialized data science consultancy that provides workshops, training, and te
 
 - **Static Site Generator**: Zola 
 - **Styling**: SCSS/Sass with custom components
-- **Templates**: Custom HTML templates with Zola shortcodes
+- **Templates**: Custom HTML templates with Tera components (Zola 0.23+)
 - **Search**: ElasticLunr JSON search index
 - **Interactive Components**: Custom sliding cards, responsive design
 - **Configuration**: TOML files for content management

@@ -1,4 +1,6 @@
-{% import "macros/content.html" as content %}
+{% component hero() %}
+{#- Strip blank lines and indentation: content is parsed as Markdown after templating, so they would turn HTML into code blocks -#}
+{% set html %}
 
 <section class="my-hero bg-dark container" aria-label="Animierter Einstieg">
     <h1 class="visually-hidden">Digitale Entscheidungen mit Daten unterstützen – Verwaltung stärken</h1>
@@ -319,3 +321,5 @@
             })(); 
 
 </script>
+{% endset %}{{ html | regex_replace(pattern="(?m)^[[:space:]]+", rep="") | safe }}
+{% endcomponent hero %}

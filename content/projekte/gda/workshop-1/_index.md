@@ -14,17 +14,17 @@ Daten-Analyse-Projekts. Dabei geht es vor allem darum, Berührungsängste abzuba
 und Kompetenzen aufzubauen, um als Team solche Projekte anzugehen. Denn 
 **Datenarbeit ist Teamarbeit** und diverse Expertisen sind gefragt.
 
-{{image(path="projekte/gda/workshop-1/Group_39615.png",round=false)}}
+{{ <image path="projekte/gda/workshop-1/Group_39615.png" round={false} /> }}
 
 
-{%card(title='Lernziele', color="lilac")%}
+{% <card title="Lernziele" color="lilac"> %}
 
 Am Ende dieser Workshop-Serie, können Sie...
 
 * ... einschätzen, welche Fragen in Ihrem Umfeld mit Daten beanwortet werden können.
 * ... in Projekten mit Daten ihre Fachexpertise einbringen, ohne Berührungsängste zu haben.
 * ... mit Data Scientists und IT-Personal über Cloud-Computing und Datenanalysen sprechen.
-{%end%}
+{% </card> %}
 
 
 <!--### Anmeldung

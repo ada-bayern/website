@@ -34,10 +34,10 @@ sort_by="weight"
 In diesem Workshop bauen wir auf die Inhalte aus Workshop 1 auf und setzen das gelernte in die Praxis um. Gemeinsam erarbeiten wir Arbeitsabläufe, die sowohl aus Datenanlyseperspektive als auch aus Perspektive der Staatsarchive und der Justiz IT Sinn ergeben. 
 Denn **Datenarbeit ist Teamarbeit** und diverse Expertisen sind gefragt.
 
-{%card(title='Lernziele', color="lilac")%}
+{% <card title="Lernziele" color="lilac"> %}
 Am Ende dieses Workshops, können Sie...
 
 * ... Stichprobenziehung für die Archivierung von Gerichtsakten dürchführen.
 * ... Die Cloud-Infrastruktur für die jährliche Stichprobenziehung nutzen.
 * ... Die Datenanalyse-Aufgaben für die Archivierung von Gerichtsakten auf neue Daten anpassen.
-{%end%}
+{% </card> %}

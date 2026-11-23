@@ -38,13 +38,13 @@ und Kompetenzen aufzubauen, um als Team solche Projekte anzugehen. Denn
 Diese Workshop-Serie ist eine inhaltliche Wiederholung der Workshop-Serie 1.
 
 
-{%card(title='Lernziele', color="lilac")%}
+{% <card title="Lernziele" color="lilac"> %}
 Am Ende dieses Workshops, können Sie...
 
 * ... einschätzen, welche Fragen in Ihrem Umfeld mit Daten beanwortet werden können.
 * ... in Projekten mit Daten ihre Fachexpertise einbringen, ohne Berührungsängste zu haben.
 * ... mit Data Scientists und IT-Personal über Cloud-Computing und Datenanalysen sprechen.
-{%end%}
+{% </card> %}
 
 
 <!-- 

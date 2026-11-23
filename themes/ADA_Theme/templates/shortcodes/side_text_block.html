@@ -1,3 +1,6 @@
+{% component side_text_block(title="", bg="", size="", compressed="", text_align="", button_url="", button_text="") %}
+{#- Strip blank lines and indentation: content is parsed as Markdown after templating, so they would turn HTML into code blocks -#}
+{% set html %}
 
 <div class="container side-title-block {% if bg %}bg-{{ bg }}{% endif %} {% if compressed %}compress{% endif %}{% if text_align %} align-{{text_align}}{% endif %} ">
     <div class="container-wrapper">
@@ -14,3 +17,5 @@
         {% endif %}
     </div>
 </div>
+{% endset %}{{ html | regex_replace(pattern="(?m)^[[:space:]]+", rep="") | safe }}
+{% endcomponent side_text_block %}

@@ -8,10 +8,10 @@ extra.resources=[
 ]
 +++
 
-{%card(title='Lernziele', color="lilac")%}
+{% <card title="Lernziele" color="lilac"> %}
 Am Ende dieses Moduls können Sie...
 
 * ... eine Entscheidung über eine gute Strategie für die Stichprobenziehung fällen.
 * ... die Stichprobe analysieren und visuell darstellen.
 * ... Schwächen der Strategie einschätzen und verteidigen.
-{%end%}
+{% </card> %}

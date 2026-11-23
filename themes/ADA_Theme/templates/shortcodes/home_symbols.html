@@ -1,4 +1,6 @@
-{% import "macros/content.html" as content %}
+{% component home_symbols() %}
+{#- Strip blank lines and indentation: content is parsed as Markdown after templating, so they would turn HTML into code blocks -#}
+{% set html %}
 
 <div class="container bg-light">
   <div class="container-wrapper">
@@ -6,7 +8,7 @@
 
       <div class="symbol-item">
         <div class="symbol-image">
-          <img src="{{content::base_path()}}images/frage.svg" alt="Fragezeichen" aria-hidden="true">
+          <img src="{{<content.base_path />}}images/frage.svg" alt="Fragezeichen" aria-hidden="true">
         </div>
         <div class="symbol-text">
           <h2><span>Probleme mit Daten lösen</span></h2>
@@ -15,7 +17,7 @@
 
       <div class="symbol-item">
         <div class="symbol-image">
-          <img src="{{content::base_path()}}images/wheel.svg" alt="Rad mit bunten Kreisen, die sich auf die Mitte hinzu bewegen." aria-hidden="true">
+          <img src="{{<content.base_path />}}images/wheel.svg" alt="Rad mit bunten Kreisen, die sich auf die Mitte hinzu bewegen." aria-hidden="true">
         </div>
         <div class="symbol-text">
           <h2><span>In interdisziplinären Teams mit Data Scientists und Fachleuten zusammenarbeiten</span></h2>
@@ -24,7 +26,7 @@
 
       <div class="symbol-item">
         <div class="symbol-image">
-          <img src="{{content::base_path()}}images/arrows-up.svg" alt="Pfeile nach oben / Personen" aria-hidden="true">
+          <img src="{{<content.base_path />}}images/arrows-up.svg" alt="Pfeile nach oben / Personen" aria-hidden="true">
         </div>
         <div class="symbol-text">
           <h2><span>Gemeinsam Lernen</span></h2>
@@ -33,7 +35,7 @@
 
       <div class="symbol-item">
         <div class="symbol-image">
-          <img src="{{content::base_path()}}images/cloud.svg" alt="Haus aus verbundenen Elementen" aria-hidden="true">
+          <img src="{{<content.base_path />}}images/cloud.svg" alt="Haus aus verbundenen Elementen" aria-hidden="true">
         </div>
         <div class="symbol-text">
           <h2><span>Berührungsängste mit Cloud-Computing abbauen</span></h2>
@@ -43,4 +45,5 @@
     </div>
   </div>
 </div>
-
+{% endset %}{{ html | regex_replace(pattern="(?m)^[[:space:]]+", rep="") | safe }}
+{% endcomponent home_symbols %}

@@ -16,9 +16,9 @@ In **Modul 3** werden die Guidelines für nachvollziehbares Reporting und gute V
 * Best practices für Visualisierungen
 * Überblick über Reporting und Dashboards für Datenanalyse-Projekte
 
-{{image(path="projekte/gda/workshop-1/akten_karte.png",round=true)}}
+{{ <image path="projekte/gda/workshop-1/akten_karte.png" round={true} /> }}
 
-{%card(title='Lernziele', color="lilac")%}
+{% <card title="Lernziele" color="lilac"> %}
 
 Am Ende dieses Moduls können Sie…
 - Grafische Datenanalyse** 
@@ -27,4 +27,4 @@ Am Ende dieses Moduls können Sie…
 - Ergebnisse kommunizieren**
   - ... Notebooks für Reporting verwenden.
   - ... einschätzen, wann Dashboards nützlich sind für die Kommunikation von Datenanalysen.
-{%end%}
+{% </card> %}

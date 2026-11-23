@@ -1,3 +1,6 @@
+{% component round_popups() %}
+{#- Strip blank lines and indentation: content is parsed as Markdown after templating, so they would turn HTML into code blocks -#}
+{% set html %}
 
 <section id="pop-ups" class="container bg-dark pops-up" aria-labelledby="round-popups-side-text">
     <div class="container-wrapper">
@@ -30,3 +33,5 @@
         </ul>
     </div>
 </section>
+{% endset %}{{ html | regex_replace(pattern="(?m)^[[:space:]]+", rep="") | safe }}
+{% endcomponent round_popups %}

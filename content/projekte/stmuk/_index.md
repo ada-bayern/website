@@ -7,8 +7,8 @@ title="Digitalisierte Präferenzerfassung von Referendar:innen"
 description="Wir erarbeiten gemeinsam eine digitalisierte Präferenzerfassung der Schul- und Ortswünsche der (zukünftigen) Einsatzschulreferendar:innen sowie der neu einzustellenden Lehrkräfte an staatlichen Gymnasien und Kollegs in Bayern."
 extra.current=false 
 extra.logo="Logo_StMUK.png"
-extra.start_date="2025-6-1"
-extra.end_date="2026-01-1"
+extra.start_date="2025-06-01"
+extra.end_date="2026-01-01"
 extra.serie_name="Workshop series"
 
 extra.type=["Workshop"]
@@ -23,11 +23,11 @@ extra.cards=[
 
 +++
 
-{%card(title="Kurz und Knapp",color="salmon")%}
+{% <card title="Kurz und Knapp" color="salmon"> %}
 ### Projektergebnisse
 * Gemeinsame Entwicklung von Lösungsansätzen auf Basis von Kontext, Anforderungen, bisherigen Abläufen und vorhandenen Tools
 * Entwicklung einer prototypischen Lösung
-{%end%}
+{% </card> %}
 
 ### Kontext
 Die angemessene Präferenzerfassung für die Ortswahl von Referendar:innen und Lehrkräften stellt eine zeitaufwändiges wiederkehrendes Problem für das Kultusministerium dar.
@@ -47,13 +47,13 @@ In einer Workshopreihe im März und April 2025 wurde ein Prototyp erarbeitet der
 Es wurde gemeinsam an Lösungsansätzen auf Basis von Kontext, Anforderungen, bisherigen Abläufen und vorhandenen Tools gearbeitet. Dabei wurde eine prototypischen Lösung entwickelt.
 
 
-<!-- {{image(path="projekte/stmuk/image-test.jpg",caption="People looking at things",round=true)}} -->
+<!-- {{ <image path="projekte/stmuk/image-test.jpg" caption="People looking at things" round={true} /> }} -->
 
 
-<!-- {%card(title='Zeitplan', color="lilac", icon="search")%}
+<!-- {% <card title="Zeitplan" color="lilac" icon="search"> %}
 
 1.  Workshop-Tag 1 (20.03.2025, 10:00-15:00 Uhr): Input Präferenzerfassung
 2.  Workshop-Tag 2 (03.04.2025, 9:45-14:45 Uhr): Erster Blick auf einen Prototyp und Feedback
 3.  Workshop-Tag 3 (08.04.2025, 9:45-14:45 Uhr): Implementation und nächste Schritte
    
-{%end%} -->
+{% </card> %} -->

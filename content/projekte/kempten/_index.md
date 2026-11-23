@@ -6,8 +6,8 @@ title="Hochschule Kempten: Zugängliche Auslandsmobilitätsdaten"
 description="Informationen zu Auslandsaufenthalten liegen an Hochschulen in mehreren Systemen vor. In einem Workshop befähigen wir das International Office, den eigenen Datenbedarf klar zu formulieren, und erarbeiten gemeinsam mit den beteiligten Stellen der Verwaltung, welche Daten wo verfügbar sind."
 
 extra.current=true
-extra.start_date="2026-11-1"
-extra.end_date="2026-12-1"
+extra.start_date="2026-11-01"
+extra.end_date="2026-12-01"
 extra.logo="Logo_Hochschule_Kempten.png"
 extra.serie_name="Workshop series"
 
