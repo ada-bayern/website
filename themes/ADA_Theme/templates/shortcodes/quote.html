@@ -1,0 +1,25 @@
+{#- Quote with a portrait. layout: "side" (photo left, quote right), "stacked" (photo above quote), "avatar" (small photo next to the attribution) -#}
+{% component quote(image, alt, author="", role="", layout="side", bg="dark") %}
+{#- Strip blank lines and indentation: content is parsed as Markdown after templating, so they would turn HTML into code blocks -#}
+{% set html %}
+{% set size = 96 if layout == "avatar" else 480 %}
+{#- Keep the full photo; CSS crops it to a circle anchored near the top, so portraits keep the face -#}
+{% set photo = resize_image(path=image, width=size * 2, op="fit_width") %}
+<section class="container quote-container{% if bg %} bg-{{ bg }}{% endif %}">
+<div class="container-wrapper">
+<figure class="quote-block quote-{{ layout }}">
+    <img class="quote-photo" src="{{ photo.url }}" width="{{ size }}" height="{{ size }}" alt="{{ alt }}" loading="lazy" decoding="async">
+    <div class="quote-text">
+        <blockquote>{{ body | markdown | safe }}</blockquote>
+        {% if author %}
+        <figcaption>
+            {% if layout == "avatar" %}<img class="quote-avatar-img" src="{{ photo.url }}" width="{{ size }}" height="{{ size }}" alt="" aria-hidden="true">{% endif %}
+            <span class="quote-who"><span class="quote-author">{{ author }}</span>{% if role %}<span class="quote-role">{{ role }}</span>{% endif %}</span>
+        </figcaption>
+        {% endif %}
+    </div>
+</figure>
+</div>
+</section>
+{% endset %}{{ html | regex_replace(pattern="(?m)^[[:space:]]+", rep="") | safe }}
+{% endcomponent quote %}

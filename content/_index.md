@@ -9,15 +9,12 @@ extra.sliding_footer=false
 
 {{ <hero /> }}
 
+{% <quote image="images/minister.webp" alt="Porträt von Dr. Fabian Mehring, MdL" author="Dr. Fabian Mehring, MdL" role="Bayerischer Staatsminister für Digitales" layout="side"> %}
+„Daten sind der ungehobene Schatz unserer Zeit. Wer ihn klug nutzt, macht den Staat leistungsfähiger. Genau das ist der Kern von ADA-ÖV. Hier entstehen neue Arbeitsweisen, die unsere Verwaltung schneller, effizienter und zukunftsfester machen.“
+{% </quote> %}
 
-{% <side_text_block title="Hier entstehen neue Arbeitsweisen, die unsere Verwaltung schneller, effizienter und zukunftsfester machen" bg="dark" > %}
 
-{{ <image path="images/minister.webp" round={true} /> }}
-*,,Daten sind der ungehobene Schatz unserer Zeit. Wer ihn klug nutzt, macht den Staat leistungsfähiger. Genau das ist der Kern von ADA-ÖV. Hier entstehen neue Arbeitsweisen, die unsere Verwaltung schneller, effizienter und zukunftsfester machen''*
-
-{% </side_text_block> %}  
-
-{% <side_text_block title="Wir helfen der öffentlichen Verwaltung bei der besseren Nutzung ihrer Daten und machen sie fit für die (KI-)Zukunft" bg="dark" button_url="was-wir-bieten" button_text="Mehr lesen"> %}
+{% <side_text_block title="Wir machen die Verwaltung fit für die (KI-)Zukunft" bg="dark" button_url="was-wir-bieten" button_text="Mehr lesen"> %}
 
 Daten bieten uns die Möglichkeit, bessere Entscheidungen zu treffen. Vorgänge und Prozesse können automatisiert und vereinfacht werden. Daten helfen, die Wirklichkeit zu reflektieren und so passgenaue Lösungen evidenzbasiert zu entwickeln. Und je besser die Datenbasis, desto sinnvoller können moderne Technologien und KI eingesetzt werden. 
 
